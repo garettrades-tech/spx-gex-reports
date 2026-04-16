@@ -1,0 +1,65 @@
+```json
+{
+  "report_type": "SPX_0DTE_GEX",
+  "snapshot_label": "2026-04-16 16:02 ET",
+  "ticker": "SPX",
+  "model": "0dte",
+  "expiration": "2026-04-16",
+  "spot": 7038.63,
+  "atm_iv_pct": 4.64,
+  "net_gex_b": 43.13,
+  "gamma_notional_b": 56.0,
+  "regime": "POSITIVE",
+  "bias_line": "Mean-reversion / sell wings",
+  "levels": {
+    "call_wall": 7100.0,
+    "put_wall": 6750.0,
+    "plus_gex": 7100.0,
+    "minus_gex": 6750.0,
+    "gex_flip": 6750.0,
+    "pos_trans": 7100.0,
+    "neg_trans": 6750.0,
+    "charm_pin": 7100.0,
+    "bull_trigger": 7200.0,
+    "bear_trigger": 6750.0,
+    "cotmc": 7200.0,
+    "cotmp": 6650.0,
+    "hard_cap": null,
+    "put_floor": null
+  },
+  "top_call_flow": [
+    {"strike": 7050.0, "volume": 152375, "oi": 4368, "gex_m": 4165},
+    {"strike": 7040.0, "volume": 148243, "oi": 1924, "gex_m": 5455},
+    {"strike": 7045.0, "volume": 113793, "oi": 2045, "gex_m": 3915},
+    {"strike": 7035.0, "volume": 107403, "oi": 5862, "gex_m": 14213},
+    {"strike": 7060.0, "volume": 100312, "oi": 4686, "gex_m": 1057},
+    {"strike": 7030.0, "volume": 90114, "oi": 6940, "gex_m": 9277}
+  ],
+  "top_put_flow": [
+    {"strike": 7020.0, "volume": 124543, "oi": 1335, "gex_m": 355},
+    {"strike": 7000.0, "volume": 105718, "oi": 3685, "gex_m": 324},
+    {"strike": 7030.0, "volume": 94312, "oi": 423, "gex_m": 528},
+    {"strike": 7025.0, "volume": 92265, "oi": 735, "gex_m": 383},
+    {"strike": 7010.0, "volume": 87198, "oi": 5558, "gex_m": 772},
+    {"strike": 7015.0, "volume": 84460, "oi": 5613, "gex_m": 1044}
+  ],
+  "distance_from_spot": {
+    "call_wall": 61.4,
+    "put_wall": -288.6,
+    "gex_flip": -288.6,
+    "charm_pin": 61.4,
+    "bull_trigger": 161.4,
+    "bear_trigger": -288.6
+  },
+  "session_windows": [
+    "Open Noise",
+    "Early Read",
+    "Mid Consolidation",
+    "Charm Window Opens",
+    "Prime Entry",
+    "Close Decay",
+    "Final 30"
+  ],
+  "commentary": "At the 2026-04-16 16:02 ET snapshot, SPX spot stands at 7038.63 with an ATM implied volatility of 4.64%. The net gamma exposure (GEX) is moderately positive at 43.13 billion with an overall positive regime, indicating a current mean-reversion environment where selling wings is favored. The call wall and plus GEX levels cluster at 7100, while the put wall and minus GEX sit significantly lower at 6750, well south of the spot price. This suggests asymmetric option positioning with stronger call hedging interest near 7100 and substantial put interest further out near 6750. Key GEX transition points mirror these levels, reinforcing their importance as potential support and resistance zones. Top call option flow is concentrated just above the spot, spanning strikes 7030 to 7060, with heavy volume and open interest especially at 7050 and 7030 strikes, driving meaningful positive gamma notional. Puts show notable activity just below spot at strikes 7000 to 7030, but with relatively lighter gamma contribution. Distance metrics highlight the call wall roughly 61 points above spot, while the put wall and GEX flip sit nearly 289 points below, emphasizing skewed risk distribution under the current market conditions. The overall bias remains towards mean-reversion with selling wings, anticipating price action contained between the 6750 put wall and 7100 call wall levels, while key triggers at 7200 (bull) and 6750 (bear) await if these boundaries are breached. The unfolding session proceeds through phases from Open Noise to Final 30, with a Charm Window now open signaling potential pinning behavior near these option walls."
+}
+```

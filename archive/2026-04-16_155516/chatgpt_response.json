@@ -1,0 +1,62 @@
+{
+  "regime_badge_text": "Positive Gamma \u2014 Contained, Mean-Reverting",
+  "regime_paragraph_1": "The SPX 0DTE market exhibits a positive gamma regime as of 16:55 ET with net positive dealer gamma of approximately 12 million and a substantial gamma notional of 24.8 million. Spot at 7040.75 remains inside the nearby active control zone between 7020 and 7060, well beneath the 7100 call wall, underscoring a regime defined by contained volatility and mean-reversion dynamics. Dealer hedging activity concentrates within this zone, dampening spikes and accelerating premium decay as dealers sell wings.",
+  "regime_paragraph_2": "Since spot is comfortably above the gamma flip at 6750, the current positive gamma environment supports dampened intraday swings and a tendency for spot to gravitate back into the core control zone upon excursions. Late day charm effects favor a mild drift and continued containment rather than aggressive pinning, as price remains well below the 7100 charm pin level. Vanna influence is minimal given subdued volatility (ATM IV 1.87%) and does not materially affect the structural regime.",
+  "regime_paragraph_3": "Maintaining acceptance within the 7020\u20137060 control zone is the key to preserving contained behavior. A decisive break and held move above 7100 would suggest a regime shift toward upside premium compression and potential for reduced gamma support, while failure below 6750 flip threatens fragility and potential negative gamma dynamics. For now, the structure is intact with low path dependence risks.",
+  "primary_setup_title": "Iron Condors and Put Credit Spreads Near Support",
+  "primary_setup_body": "The positive gamma, mean-reverting regime favors iron condor structures centered within the control zone (7020\u20137060), benefiting from decaying premium and dampened spot moves. Put credit spreads near the lower boundary of the control zone offer defined-risk means to capitalize on expected spot containment and volatility compression.",
+  "secondary_setup_title": "Call Credit Spreads on Failed Upside Extension",
+  "secondary_setup_body": "Given the presence of a robust call wall at 7100, call credit spreads just below this level can harvest premium from spot\u2019s inability to break and sustain above this resistance. These trades align with dealer hedging flows and the anticipated decay in call wing premium under containment.",
+  "avoid_title": "Avoid Directional Debit Spreads Favoring Breakouts",
+  "avoid_body": "This contained positive gamma regime discourages directional debit spreads that rely on sustained spot breaks outside the control zone. Until spot demonstrates acceptance above 7100 or below 6750, momentum plays carry elevated execution and gamma risk.",
+  "wildcard_title": "Monitor Late-Day Charm for Drift Dynamics",
+  "wildcard_body": "Charm currently suggests mild drift and containment pressure late in the session, though it is not strongly pinning given spot\u2019s distance from the 7100 charm pin. Should spot approach nearer to 7100 late day, charm could firm up pinning behavior and compress realized ranges further.",
+  "options_trade_ideas": [
+    {
+      "name": "Iron Condor Centered in Control Zone",
+      "thesis": "Benefit from positive gamma and premium decay with spot consolidating between 7020 and 7060.",
+      "structure": "Sell OTM calls near 7060, sell OTM puts near 7020, buy further wings for defined risk.",
+      "when_valid": "Valid as long as spot remains inside 7020\u20137060 control zone and below 7100 call wall.",
+      "risk_note": "Risk arises if spot accepts above 7100 or falls significantly below 7020, increasing directional gamma exposure."
+    },
+    {
+      "name": "Put Credit Spread Near 7020 Support",
+      "thesis": "Trade anticipated spot support and mean-reversion in positive gamma regime.",
+      "structure": "Sell 7020 puts, buy 7000 puts for limited downside risk.",
+      "when_valid": "Effective if spot holds above control zone low around 7020 with gamma support intact.",
+      "risk_note": "If spot breaks and accepts below 6750 gamma flip, downside acceleration risk increases."
+    },
+    {
+      "name": "Call Credit Spread Below 7100 Call Wall",
+      "thesis": "Harvest premium given call wall acting as a ceiling and containment level.",
+      "structure": "Sell 7090 calls, buy 7110 calls for protection.",
+      "when_valid": "Valid while spot fails to sustain above 7100 and call wall pressure endures.",
+      "risk_note": "Acceptance above 7100 reduces premium decay and may invert gamma profile."
+    }
+  ],
+  "timing_notes": [
+    {
+      "window": "Charm Window Opens",
+      "note": "Charm impact on drift and pinning begins to subtly influence spot behavior near control zone edges."
+    },
+    {
+      "window": "Prime Entry",
+      "note": "Late-day positioning favors defined-risk spreads capitalizing on premium decay and containment."
+    },
+    {
+      "window": "Close Decay",
+      "note": "Decay accelerates; monitor for any spot acceptance outside 7020\u20137060 that invalidates regime."
+    },
+    {
+      "window": "Final 30",
+      "note": "Charm may firm pin in final stretch if spot nears 7100, otherwise expect gradual settlement within control zone."
+    }
+  ],
+  "summary_cards": {
+    "bias": "Contained with mean-reversion bias inside 7020\u20137060 control zone",
+    "pin_zone": "Not near pin; charm supports mild drift and containment",
+    "bull_trigger": "Acceptance and sustained trade above 7100 call wall invalidates current regime",
+    "bear_trigger": "Drop and hold below 6750 gamma flip triggers fragility and negative gamma risk",
+    "wildcard": "Late-day charm could become pinning if spot approaches 7100, tightening ranges"
+  }
+}

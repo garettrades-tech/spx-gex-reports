@@ -1,0 +1,40 @@
+{
+  "regime_badge_text": "POSITIVE GAMMA \u2014 PINNING / MEAN-REVERSION",
+  "regime_paragraph_1": "Net GEX is firmly positive at +28.07B, which supports a pinning and mean-reversion backdrop into the close. With spot at 7033.04 sitting just under the 7035 call wall and charm pin, the market is trading near the most important upside control point rather than far away from it.",
+  "regime_paragraph_2": "The key downside pivot remains 7015, which is acting as the put wall, bear trigger, and GEX flip. As long as price holds above that level, the base case is volatility compression, two-way trade, and repeated reversion back toward 7035 rather than sustained expansion.",
+  "regime_paragraph_3": "Top call flow is concentrated from 7030 to 7060, while top put flow is concentrated from 7000 to 7025 with notable size at 7010 and 7015. That creates a short-dated balance zone where failed pushes can mean-revert quickly, but a clean loss of 7015 would be the invalidation line for the pinning thesis.",
+  "primary_setup_title": "Pin-and-Fade Around 7035",
+  "primary_setup_body": "Primary idea is to treat 7035 as the session magnet and work mean-reversion around it. If price trades slightly above or below the pin and fails to extend, the higher-probability path is a rotation back into 7035. The idea weakens materially on a clean break and acceptance below 7015.",
+  "secondary_setup_title": "Support Test at 7015",
+  "secondary_setup_body": "A test of 7015 is the main downside decision point. In a positive gamma tape, first-touch support behavior can still produce bounce setups and reversion back toward the pin zone. The setup is only valid if 7015 holds; repeated acceptance below it shifts conditions away from a passive premium-selling environment.",
+  "avoid_title": "Avoid Chasing Late Breakdown Below 7015 Without Acceptance",
+  "avoid_body": "Because the regime is still positive gamma, impulsive downside moves can snap back if there is no real acceptance below the 7015 flip. Avoid forcing momentum trades on the first break unless price can hold below the level.",
+  "wildcard_title": "Late-Day Drift Into 7035",
+  "wildcard_body": "With charm pin and call wall aligned at 7035, the wildcard is a slow late-day grind back into that level even after intraday deviations.",
+  "options_trade_ideas": [
+    {
+      "name": "Iron Condor Centered Near 7035",
+      "thesis": "Positive gamma and a nearby charm pin favor range-bound trade.",
+      "structure": "Defined-risk iron condor centered near 7035.",
+      "when_valid": "When price is oscillating around 7035 and holding above 7015.",
+      "risk_note": "Defined risk only. Breakdown below 7015 invalidates the thesis."
+    }
+  ],
+  "timing_notes": [
+    {
+      "window": "Open Noise",
+      "note": "Initial moves may fade quickly in a positive gamma environment."
+    },
+    {
+      "window": "Charm Window Opens",
+      "note": "7035 becomes increasingly magnetic into the close."
+    }
+  ],
+  "summary_cards": {
+    "bias": "Mean reversion above 7015",
+    "pin_zone": "7035",
+    "bull_trigger": "7200",
+    "bear_trigger": "7015",
+    "wildcard": "Late drift to 7035"
+  }
+}

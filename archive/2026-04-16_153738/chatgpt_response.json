@@ -1,0 +1,47 @@
+{
+  "regime_badge_text": "Positive Gamma Regime - Calm with Pinning Bias",
+  "regime_paragraph_1": "The current positive gamma environment supports dampened intraday volatility and encourages mean reversion around established option landmarks. Spot is comfortably below the dominant call wall at 7100, which acts as a magnet, but still within a regime that favors premium decay and call-selling biases.",
+  "regime_paragraph_2": "Charm impact is heightened late in the day, reinforcing pinning tendencies near the call wall as option decay accelerates. While spot\u2019s 59 points below the 7100 call wall reduces immediate pin threat, the gamma structure still suggests that sharp directional moves are constrained and mean reversion remains the path of least resistance.",
+  "regime_paragraph_3": "Vanna factors take a back seat here given subdued volatility (1.79% ATM) and the lack of proximity to the gamma flip or critical put walls. The positive gamma regime guides us to view any dips below 6750, the gamma flip zone, as regime-change candidates that would invite more caution and possible directional extension risk.",
+  "primary_setup_title": "Defined Risk Call Spread Selling into 7100 Wall",
+  "primary_setup_body": "Establish a short call vertical spread just below or at the 7100 call wall to capitalize on pinning and accelerated time decay. The positive gamma backdrop supports premium erosion and reversion toward this key resistance. This trade benefits from spot staying under 7100 with invalidation if SPX convincingly breaks above 7100 intra-day.",
+  "secondary_setup_title": "Put Butterflies Targeting Mean Reversion Zone",
+  "secondary_setup_body": "Deploy a put butterfly around current spot near 7000\u20137050 to harvest premium from the anticipated reversion in a low-volatility, positive gamma environment. This structure plays for limited spot movement below 7100 with a defined risk profile and benefit from decay over the final hours.",
+  "avoid_title": "Avoid Unhedged Directional Bets Below 6750",
+  "avoid_body": "With spot well above the negative gamma flip at 6750, aggressive bearish plays here risk regime invalidation if 6750 is tested or breached, where the market could see accelerated downside and directional volatility expansion. Wait for clear confirmation before layering in directional short exposures below the flip.",
+  "wildcard_title": "Monitor Late-Day Pin Risk as Decay Accelerates",
+  "wildcard_body": "While spot is currently below the charm pin, watch for any late-day ventures north toward 7100. Accelerated charm decay could tighten pinning, creating a magnet effect that compresses price action near the call wall and dampens volatility swings into close.",
+  "options_trade_ideas": [
+    {
+      "name": "Short Call Vertical Near 7100",
+      "thesis": "Sell premium into the strong call wall at 7100 to exploit mean reversion and accelerated decay under positive gamma.",
+      "structure": "Sell 7100 call / Buy 7120 call spread",
+      "when_valid": "Spot remains below 7100, intra-day with persistent positive gamma.",
+      "risk_note": "Invalidates if spot decisively breaches 7100 and holds, as upside momentum could rise."
+    },
+    {
+      "name": "Put Butterfly Near 7000",
+      "thesis": "Capture premium decay while spot consolidates below the call wall in a stable regime.",
+      "structure": "Buy 6980 put, Sell 7000 puts x2, Buy 7020 put",
+      "when_valid": "Spot stays within 6950-7050 range, volatility remains subdued.",
+      "risk_note": "Risk if spot breaks above call wall or accelerates lower toward put wall."
+    }
+  ],
+  "timing_notes": [
+    {
+      "window": "Final 30",
+      "note": "Charm decay intensifies, increasing pinning potential near call wall."
+    },
+    {
+      "window": "Close Decay",
+      "note": "Gamma structure favors mean reversion; premium-selling tactics optimized here."
+    }
+  ],
+  "summary_cards": {
+    "bias": "Mean reversion with controlled premium selling under positive gamma",
+    "pin_zone": "Near 7100 call wall, 59 points above spot, moderate magnet effect",
+    "bull_trigger": "Sustained break and hold above 7100 invalidates positive gamma regime",
+    "bear_trigger": "Move below 6750 put wall flips gamma negative, increasing downside risk",
+    "wildcard": "Late-day charm decay may tighten pinning near 7100, watch for volatility squeeze"
+  }
+}

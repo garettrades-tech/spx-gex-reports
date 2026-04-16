@@ -1,0 +1,29 @@
+{
+  "report_type": "SPX_0DTE_GEX_LEVELS",
+  "snapshot_label": "2026-04-16 16:51 ET",
+  "ticker": "SPX",
+  "model": "0dte",
+  "expiration": "2026-04-16",
+  "spot": 7040.75,
+  "atm_iv_pct": 1.85,
+  "net_gex_b": 11.97,
+  "gamma_notional_b": 24.82,
+  "regime": "POSITIVE",
+  "bias_line": "Mean-reversion / sell wings",
+  "levels": {
+    "call_wall": 7100.0,
+    "put_wall": 6750.0,
+    "plus_gex": 7100.0,
+    "minus_gex": 6750.0,
+    "gex_flip": 6750.0,
+    "pos_trans": 7100.0,
+    "neg_trans": 6750.0,
+    "charm_pin": 7100.0,
+    "bull_trigger": 7200.0,
+    "bear_trigger": 6750.0,
+    "cotmc": 7200.0,
+    "cotmp": 6650.0,
+    "hard_cap": null,
+    "put_floor": null
+  }
+}

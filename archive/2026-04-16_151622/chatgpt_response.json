@@ -1,0 +1,74 @@
+{
+  "regime_badge_text": "Positive Gamma Environment",
+  "regime_paragraph_1": "SPX is currently in a positive gamma regime, favoring mean-reversion behavior as option dealers manage their exposure. The net gamma exposure is positive at 12.34B with a strong gamma notional of 25.16B, suggesting dealers will buy dips and sell rallies within key levels.",
+  "regime_paragraph_2": "The primary pinning zone is near 7100, supported by the call wall and positive gamma transition level. This creates a magnetic effect around this strike, encouraging price to hover near this area as dealers hedge.",
+  "regime_paragraph_3": "Given positive gamma, volatility is expected to remain subdued, supporting defined-risk premium selling strategies and favoring short volatility approaches near extremes away from the pin zone.",
+  "primary_setup_title": "Defined-Risk Wing Selling Near Pin Zone",
+  "primary_setup_body": "With 7100 as a clear pin zone validated by the call wall and charm pin levels, consider selling out-of-the-money call and put wings around this strike to collect premium while benefiting from mean reversion. Position risks increase if SPX breaches 6750 (bear trigger) or rises above 7200 (bull trigger).",
+  "secondary_setup_title": "Pinning and Mean-Reversion Trading",
+  "secondary_setup_body": "Trade intraday bounces and pullbacks near the pin range of 7100, taking advantage of dealer gamma hedging to anticipate price stabilization. Use tight stops beyond 6750 on the downside and 7200 on the upside to manage risk.",
+  "avoid_title": "Avoid Directional Momentum Trades",
+  "avoid_body": "Negative gamma conditions favor directional momentum but here, positive gamma discourages momentum chasing. Avoid directional debit spreads or momentum-based breakout trades given the prevalence of mean-reversion pressure between 6750 and 7100.",
+  "wildcard_title": "Monitor Volatility Spikes During Close Decay Phase",
+  "wildcard_body": "Although gamma is positive now, the close decay window may introduce volatility. Watch for unusual volume or rapid shifts that could challenge the pin zone and require fast adjustment of risk management.",
+  "options_trade_ideas": [
+    {
+      "name": "Short OTM Call and Put Wings",
+      "thesis": "Sell defined-risk call and put wing spreads around 7100 to collect premium amid stable pinning.",
+      "structure": "Sell 7150/7200 call spread and 6750/6700 put spread",
+      "when_valid": "While SPX remains between 6750 and 7200 with positive gamma environment",
+      "risk_note": "Watch for breakouts beyond 7200 or breakdowns below 6750 that can result in losses"
+    },
+    {
+      "name": "Mean-Reversion Scalping Near 7100",
+      "thesis": "Use intraday oscillations around 7100 for quick entries and exits exploiting dealer hedging activity.",
+      "structure": "Trade small directional options or futures around pin levels with tight stop loss",
+      "when_valid": "During calm session phases especially Early Read and Mid Consolidation",
+      "risk_note": "Avoid fading strong directional moves past bull/bear triggers"
+    },
+    {
+      "name": "Defined-Risk Debit Spread if Breach Occurs",
+      "thesis": "If SPX convincingly breaks above 7200 or below 6750, transition to momentum plays using debit spreads.",
+      "structure": "Buy call spreads above 7200 or buy put spreads below 6750",
+      "when_valid": "Only after confirmed breakout or breakdown beyond triggers",
+      "risk_note": "Risk limited to debit paid but time decay matters"
+    }
+  ],
+  "timing_notes": [
+    {
+      "window": "Open Noise",
+      "note": "High noise may cause whipsaws; favor patience"
+    },
+    {
+      "window": "Early Read",
+      "note": "Observe initial bias development near pin zone"
+    },
+    {
+      "window": "Mid Consolidation",
+      "note": "Ideal for mean-reversion scalping within pin range"
+    },
+    {
+      "window": "Charm Window Opens",
+      "note": "Gamma influence intensifies, watch for pinning"
+    },
+    {
+      "window": "Prime Entry",
+      "note": "Best time to initiate premium selling strategies"
+    },
+    {
+      "window": "Close Decay",
+      "note": "Volatility may increase; manage risk tightly"
+    },
+    {
+      "window": "Final 30",
+      "note": "High gamma impact; expect rapid moves, use defined-risk trades"
+    }
+  ],
+  "summary_cards": {
+    "bias": "Mean-reversion bias with short vol preference",
+    "pin_zone": "Around 7100 reinforced by call wall and charm pin",
+    "bull_trigger": "7200 - break above triggers momentum bias",
+    "bear_trigger": "6750 - break below triggers momentum bias",
+    "wildcard": "Volatility increase possible late session during close decay"
+  }
+}

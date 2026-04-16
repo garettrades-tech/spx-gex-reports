@@ -1,0 +1,46 @@
+// ═══════════════════════════════════════════════════
+//  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
+//  Generated: 2026-04-16 16:09 ET
+//  SPX Spot: ~7038.80  |  Regime: POSITIVE GEX (+39.04B)
+//  Expiry: 2026-04-16 (0DTE)
+//  Strategy bias: Mean-reversion / sell wings
+// ═══════════════════════════════════════════════════
+CALL_WALL    = 7040.0
+PUT_WALL     = 6750.0
+PLUS_GEX     = 7040.0
+MINUS_GEX    = 6750.0
+GEX_FLIP     = 6750.0
+POS_TRANS    = 7040.0
+NEG_TRANS    = 6750.0
+CHARM_PIN    = 7040.0
+BULL_TRIGGER = 7200.0
+BEAR_TRIGGER = 6750.0
+SPOT_REF     = 7038.80
+COTMC        = 7200.0
+COTMP        = 6650.0
+HARD_CAP     = float(na)
+PUT_FLOOR    = float(na)
+REGIME_STR   = "POSITIVE"
+MODEL_STR    = "0dte"
+GENERATED    = "2026-04-16 16:09 ET"
+
+// Signals
+sig_CALL_WALL    = "Call Wall · Dealers short 7040 calls → sell into rallies | Mean-reversion / sell wings"
+sig_PUT_WALL     = "Put Wall · 6750 put OI peak → bounce or waterfall on break"
+sig_PLUS_GEX     = "+GEX · Damping zone above 7040 | Mean-reversion favored"
+sig_MINUS_GEX    = "-GEX · Amplifying zone below 6750 | Momentum continuation"
+sig_GEX_FLIP     = "GEX Flip 6750 · TRENDING below / PINNING above | Critical regime line"
+sig_CHARM_PIN    = "Charm Pin 7040 · EOD gravity via delta decay | Charm flow supportive above ATM"
+sig_BULL_TRIGGER = "Bull Trigger 7200 · Squeeze risk above | Watch call OI concentration"
+sig_BEAR_TRIGGER = "Bear Trigger 6750 · Waterfall risk below | Watch put OI concentration"
+
+// Flow / Charm tooltips
+tt_CALL_WALL     = "Call Wall: 7040\nCall OI peak | Dealers short calls above → hedge by selling rallies\nSignal: Fade calls / bear call spreads targeting this level from below"
+tt_PUT_WALL      = "Put Wall: 6750\nPut OI peak | Charm flow positive below → sticky floor\nSignal: Watch bounce at 6750 or acceleration if cleanly broken"
+tt_PLUS_GEX      = "+GEX: 7040\nDampening zone | Dealers long gamma above → mean-reversion bias\nSignal: Iron condors / sell-the-wing strategies preferred"
+tt_MINUS_GEX     = "-GEX: 6750\nAmplifying zone | Dealers short gamma below → trend mode\nSignal: Directional spreads with hard stops only"
+tt_GEX_FLIP      = "GEX Flip: 6750\nCumulative GEX crosses zero at this strike\nBelow → TRENDING regime | Dealer flows amplify directional moves\nAbove → PINNING regime | Mean-reversion / defined-risk structures"
+tt_CHARM_PIN     = "Charm Pin: 7040\nCharm flow supportive above ATM\nPrimary EOD gravity level — price drifts here into the close"
+tt_BULL_TRIGGER  = "Bull Trigger: 7200\nHigh call OI concentration above ATM\nBreak above → forced dealer delta-hedge buying → gamma squeeze\nDo NOT short aggressively above this level"
+tt_BEAR_TRIGGER  = "Bear Trigger: 6750\nHigh put OI concentration below ATM\nBreak below → forced dealer delta-hedge selling → waterfall\nAvoid mean-reversion plays below this level"
+// ═══════════════════════════════════════════════════

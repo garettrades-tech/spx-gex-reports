@@ -1,0 +1,122 @@
+{
+  "report_type": "SPX_0DTE_GEX",
+  "snapshot_label": "2026-04-16 14:41 ET",
+  "ticker": "SPX",
+  "model": "0dte",
+  "expiration": "2026-04-16",
+  "spot": 7022.73,
+  "atm_iv_pct": 10.7,
+  "net_gex_b": 16.17,
+  "gamma_notional_b": 55.37,
+  "regime": "POSITIVE",
+  "bias_line": "Mean-reversion / sell wings",
+  "levels": {
+    "call_wall": 7030.0,
+    "put_wall": 7015.0,
+    "plus_gex": 7030.0,
+    "minus_gex": 7015.0,
+    "gex_flip": 7015.0,
+    "pos_trans": 7030.0,
+    "neg_trans": 7015.0,
+    "charm_pin": 7030.0,
+    "bull_trigger": 7200.0,
+    "bear_trigger": 7015.0,
+    "cotmc": 7200.0,
+    "cotmp": 6650.0,
+    "hard_cap": null,
+    "put_floor": null
+  },
+  "top_call_flow": [
+    {
+      "strike": 7050.0,
+      "volume": 127206,
+      "oi": 4368,
+      "gex_m": 1495
+    },
+    {
+      "strike": 7040.0,
+      "volume": 102358,
+      "oi": 1924,
+      "gex_m": 1307
+    },
+    {
+      "strike": 7060.0,
+      "volume": 91890,
+      "oi": 4686,
+      "gex_m": 761
+    },
+    {
+      "strike": 7045.0,
+      "volume": 83551,
+      "oi": 2045,
+      "gex_m": 999
+    },
+    {
+      "strike": 7035.0,
+      "volume": 70664,
+      "oi": 5862,
+      "gex_m": 5161
+    },
+    {
+      "strike": 7055.0,
+      "volume": 68783,
+      "oi": 2098,
+      "gex_m": 484
+    }
+  ],
+  "top_put_flow": [
+    {
+      "strike": 7000.0,
+      "volume": 91544,
+      "oi": 3685,
+      "gex_m": 1962
+    },
+    {
+      "strike": 7020.0,
+      "volume": 82801,
+      "oi": 1335,
+      "gex_m": 1456
+    },
+    {
+      "strike": 7010.0,
+      "volume": 70800,
+      "oi": 5558,
+      "gex_m": 4623
+    },
+    {
+      "strike": 7030.0,
+      "volume": 64920,
+      "oi": 423,
+      "gex_m": 443
+    },
+    {
+      "strike": 7015.0,
+      "volume": 64726,
+      "oi": 5613,
+      "gex_m": 5423
+    },
+    {
+      "strike": 7025.0,
+      "volume": 64043,
+      "oi": 735,
+      "gex_m": 813
+    }
+  ],
+  "distance_from_spot": {
+    "call_wall": 7.3,
+    "put_wall": -7.7,
+    "gex_flip": -7.7,
+    "charm_pin": 7.3,
+    "bull_trigger": 177.3,
+    "bear_trigger": -7.7
+  },
+  "session_windows": [
+    "Open Noise",
+    "Early Read",
+    "Mid Consolidation",
+    "Charm Window Opens",
+    "Prime Entry",
+    "Close Decay",
+    "Final 30"
+  ]
+}

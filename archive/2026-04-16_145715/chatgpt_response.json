@@ -1,0 +1,30 @@
+{
+  "report_type": "SPX_0DTE_GEX",
+  "snapshot_label": "2026-04-16 15:57 ET",
+  "summary": "The SPX 0DTE options market is currently in a POSITIVE gamma regime, suggesting a mean-reversion bias with a strategy to sell wings. The spot price is 7037.91, positioned comfortably between the put wall at 6750 and the call wall at 7100. Net gamma exposure (GEX) on the buy side stands at 35.87 with a significant gamma notional of 48.95, reinforcing the positive regime.",
+  "key_levels": {
+    "call_wall": 7100.0,
+    "put_wall": 6750.0,
+    "gex_flip": 6750.0,
+    "bull_trigger": 7200.0,
+    "bear_trigger": 6750.0,
+    "cotmc": 7200.0,
+    "cotmp": 6650.0
+  },
+  "level_analysis": {
+    "call_wall": "The call wall at 7100, 62.1 points above spot, remains a key resistance level, with heavy call flow concentrated near 7030 to 7050 strikes.",
+    "put_wall": "The put wall and gamma flip at 6750, 287.9 points below spot, suggest strong support far beneath the current price, emphasizing a bullish bias at present.",
+    "bull_trigger": "The bull trigger at 7200 lies well beyond current spot, offering a possible upside breakout reference.",
+    "bear_trigger": "The bear trigger aligns with the put wall at 6750, marking a critical downside threshold if breached."
+  },
+  "flow_summary": {
+    "call_flow": "Top call flow is centered around strikes from 7030 to 7060, with the largest volume at 7050 (147,758 contracts) and significant open interest at 7030 (6,940 contracts). These calls contribute notably to positive gamma exposure.",
+    "put_flow": "Put flow is focused near strikes 7000 to 7030, with the highest volume at 7020 (122,784 contracts). Open interest is robust at 7015 and 7010 strikes, supporting downside protection near current levels."
+  },
+  "market_sentiment": "The prevailing regime and net positive gamma exposure suggest a mean-reversion market character favoring selling of option wings rather than aggressive trending. The bias line advises selling wings, consistent with consolidative action around the current spot and resistance at the call wall.",
+  "session_context": "The market is currently in the 'Final 30' session window, indicating the last phase of the trading day where position adjustments and hedging are intensified as expiration approaches.",
+  "volatility": {
+    "atm_iv_pct": 4.75,
+    "interpretation": "At-the-money implied volatility remains moderate, supporting a controlled environment for option sellers."
+  }
+}

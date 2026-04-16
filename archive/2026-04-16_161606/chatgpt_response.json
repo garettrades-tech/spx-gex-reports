@@ -1,0 +1,51 @@
+{
+  "regime_badge_text": "POSITIVE GAMMA WITH LONG GAMMA EXPOSURE",
+  "regime_paragraph_1": "Current positive gamma exposure at +12.01B underpins a mean-reverting environment with dampened volatility around the 7020-7060 control zone. Dealer hedging activity supports containment and premium decay, especially as spot remains within this active flow concentration. This constrains large directional moves and encourages premium erosion into expiry.",
+  "regime_paragraph_2": "The 7020-7060 range acts as the primary control zone, with spot near mid-range and some distance from the +28B GEX call wall at 7100. Acceptance above 7060 could shift dealer positioning, but for now the structure favors reversion within the zone. The distant put wall at 6750 is a structural floor but exerts minimal immediate influence.",
+  "regime_paragraph_3": "Late-day charm effects support mild drift and enhanced containment within the control zone without enforcing a strict pin, given spot is not close to the 7100 key pin/charm level. Vanna is currently of low relevance, so gamma remains the dominant regime anchor. The regime would invalidate on sustained acceptance above 7100 or failure back below 7020, disrupting dealer gamma profiles.",
+  "primary_setup_title": "Iron Condor Near Control Zone",
+  "primary_setup_body": "Sell call spreads above 7060 and put spreads below 7020 to capitalize on the positive gamma environment and expected mean-reversion within the 7020-7060 band. These structures benefit from premium decay and low intraday volatility expansion.",
+  "secondary_setup_title": "Butterfly at 7050/7045/7035",
+  "secondary_setup_body": "Consider butterfly spreads targeting strikes with heavy call volume and OI around 7045-7050 to enhance theta potential while leveraging dealer gamma containment in this segment.",
+  "avoid_title": "Avoid Directional Debit Spreads Away From Control Zone",
+  "avoid_body": "Directionally biased debit spreads fail to align with the mean-reverting environment and positive gamma regime, exposing to adverse gamma acceleration outside the control zone.",
+  "wildcard_title": "Monitor Late-Day Charm Influence",
+  "wildcard_body": "Charm may increase drift toward the 7100 pin if spot approaches that level late in the session, which could temporarily reinforce containment or pinning effects not currently active.",
+  "options_trade_ideas": [
+    {
+      "name": "Iron Condor Sell 7070 Call Spread / 7015 Put Spread",
+      "thesis": "Take advantage of expected mean-reversion and low volatility within the 7020-7060 control zone, capitalizing on positive gamma's dampening impact.",
+      "structure": "Sell OTM call credit spread above 7060 and an OTM put credit spread below 7020.",
+      "when_valid": "Valid while spot remains inside or near 7020-7060 with positive gamma holding.",
+      "risk_note": "Invalidates on acceptance above 7100 or breakdown below 7020, which would reduce positive gamma support."
+    },
+    {
+      "name": "Butterfly Spread 7045/7050/7035",
+      "thesis": "Leverage heavy dealer gamma support at clustered strikes for enhanced theta and limited risk exposure within positive gamma regime.",
+      "structure": "Buy/sell butterfly centered near 7045-7050 strikes with balanced wings at 7035 and 7050.",
+      "when_valid": "Effective while spot stays within control zone and gamma remains positive.",
+      "risk_note": "Exposure increases if spot moves decisively outside the control zone."
+    }
+  ],
+  "timing_notes": [
+    {
+      "window": "Charm Window Opens",
+      "note": "Charm starts influencing drift and decay dynamics, reinforcing containment near critical levels but lacks pinning strength currently."
+    },
+    {
+      "window": "Final 30",
+      "note": "Close to expiry, monitoring moves toward 7100 pin level gains importance as charm effects intensify."
+    },
+    {
+      "window": "Mid Consolidation",
+      "note": "Gamma-driven mean reversion dominates price behavior; low volatility regime in place."
+    }
+  ],
+  "summary_cards": {
+    "bias": "Mean-reversion containment biased around the 7020-7060 zone with dampened volatility due to positive gamma.",
+    "pin_zone": "Not near the 7100 pin level; containment preferred over pinning at current spot.",
+    "bull_trigger": "Acceptance and sustained move above 7100 likely shifts regime toward negative gamma and increased upside risk.",
+    "bear_trigger": "Failure back below 7020 would signal regime breakdown, risking volatility ramp and gamma flip.",
+    "wildcard": "Late-day charm may enforce transient drift toward 7100 but currently supports containment rather than strict pin."
+  }
+}

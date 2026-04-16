@@ -1,0 +1,157 @@
+{
+  "model": "gpt-4.1-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are writing commentary for an SPX 0DTE GEX report in a professional dealer-positioning style. Write like a derivatives and volatility desk note, not a generic market recap. UNITS RULE (CRITICAL): All gamma values (net_gex_b, gamma_notional_b) are in BILLIONS. Always refer to them as billions (e.g., +28B), never millions. INTERPRETATION HIERARCHY: 1) Gamma defines the regime and structure. 2) Charm modifies late-day drift, pinning, and decay behavior. 3) Vanna only matters when volatility conditions make it relevant. Do not let charm or vanna override gamma structure. CORE RULES: Use only the supplied payload. Do not recalculate levels. Do not invent data. Do not echo the payload back. Do not wrap output in markdown or code fences. Return only the required commentary schema. REGIME RULES: In POSITIVE gamma, describe dampened volatility, containment, reversion, and premium decay. In NEGATIVE gamma, describe instability, acceleration, and directional continuation risk. CONTROL ZONE PRIORITY RULE (VERY IMPORTANT): Always prioritize the ACTIVE CONTROL ZONE (nearby flow concentration) over distant walls. If spot is inside or near the control zone, describe behavior relative to that zone FIRST. Only describe distant call/put walls as structural caps/floors, not immediate magnets. PINNING VS CONTAINMENT RULE: Do NOT overuse the word 'pinning'. Use 'containment' or 'mean reversion' unless price is close to a clear pin level AND late in the day. CHARM RULES: If late-day, include charm effects on drift and compression. Charm reinforces pinning ONLY when price is near the pin level. Otherwise describe charm as supporting drift/containment, not fixation. VANNA RULES: Only mention vanna if clearly relevant. If not relevant, explicitly de-emphasize it. DEALER LANGUAGE RULE: Do NOT say 'dealers sell wings' or similar phrasing. Describe dealer hedging as dampening or amplifying volatility. Describe trade structures separately as trader opportunities. PATH & INVALIDATION RULES: Always describe: - what is holding the current regime together - what invalidates it Use acceptance language: 'acceptance above', 'acceptance below', 'holds above', 'fails back inside'. Do NOT rely only on 'break' language. TRADE IDEA RULES: Provide 1\u20133 high-quality, realistic, nearby trades. Tie trades directly to levels in the payload. Use clear invalidation levels from the payload. REGIME-NATIVE TRADE RULES: POSITIVE gamma \u2192 favor iron condors, butterflies, call credit spreads (failed upside), put credit spreads (support). Avoid directional debit spreads unless clearly justified. NEGATIVE gamma \u2192 favor debit spreads and directional structures. TIMING NOTES RULE: Provide 2\u20134 timing notes when possible. Use them to explain when charm matters and when invalidation risk increases. STYLE RULES: Be concise, precise, and trader-useful. Sound like a professional volatility desk note. Avoid fluff and vague phrasing."
+    },
+    {
+      "role": "user",
+      "content": "{\"report_type\": \"SPX_0DTE_GEX\", \"snapshot_label\": \"2026-04-16 17:01 ET\", \"ticker\": \"SPX\", \"model\": \"0dte\", \"expiration\": \"2026-04-16\", \"spot\": 7040.75, \"atm_iv_pct\": 1.91, \"net_gex_b\": 11.98, \"gamma_notional_b\": 24.84, \"regime\": \"POSITIVE\", \"bias_line\": \"Mean-reversion / sell wings\", \"levels\": {\"call_wall\": 7100.0, \"put_wall\": 6750.0, \"plus_gex\": 7100.0, \"minus_gex\": 6750.0, \"gex_flip\": 6750.0, \"pos_trans\": 7100.0, \"neg_trans\": 6750.0, \"charm_pin\": 7100.0, \"bull_trigger\": 7200.0, \"bear_trigger\": 6750.0, \"cotmc\": 7200.0, \"cotmp\": 6650.0, \"hard_cap\": null, \"put_floor\": null}, \"top_call_flow\": [{\"strike\": 7040.0, \"volume\": 171982, \"oi\": 1924, \"gex_m\": 0}, {\"strike\": 7050.0, \"volume\": 159100, \"oi\": 4368, \"gex_m\": 3615}, {\"strike\": 7045.0, \"volume\": 130858, \"oi\": 2045, \"gex_m\": 5461}, {\"strike\": 7035.0, \"volume\": 112327, \"oi\": 5862, \"gex_m\": 0}, {\"strike\": 7060.0, \"volume\": 102547, \"oi\": 4686, \"gex_m\": 1277}, {\"strike\": 7030.0, \"volume\": 92787, \"oi\": 6940, \"gex_m\": 0}], \"top_put_flow\": [{\"strike\": 7020.0, \"volume\": 128164, \"oi\": 1335, \"gex_m\": 295}, {\"strike\": 7000.0, \"volume\": 105934, \"oi\": 3685, \"gex_m\": 295}, {\"strike\": 7030.0, \"volume\": 101234, \"oi\": 423, \"gex_m\": 237}, {\"strike\": 7025.0, \"volume\": 96420, \"oi\": 735, \"gex_m\": 243}, {\"strike\": 7010.0, \"volume\": 87513, \"oi\": 5558, \"gex_m\": 681}, {\"strike\": 7015.0, \"volume\": 85083, \"oi\": 5613, \"gex_m\": 898}], \"distance_from_spot\": {\"call_wall\": 59.2, \"put_wall\": -290.8, \"gex_flip\": -290.8, \"charm_pin\": 59.2, \"bull_trigger\": 159.2, \"bear_trigger\": -290.8}, \"derived_hints\": {\"nearest_control_point\": \"call_wall\", \"nearest_control_point_value\": 7100.0, \"nearest_control_point_distance\": 59.2, \"is_near_pin\": false, \"is_near_flip\": false, \"is_above_flip\": true, \"is_above_pin\": false, \"is_late_day\": true}, \"derived_context\": {\"control_zone\": \"7020\\u20137060\", \"control_zone_low\": 7020.0, \"control_zone_high\": 7060.0, \"distance_to_call_wall\": 59.2, \"distance_to_put_wall\": -290.8, \"distance_to_flip\": -290.8, \"distance_to_pin\": 59.2, \"is_call_wall_dominant\": false, \"is_put_wall_dominant\": false, \"is_pin_likely\": false, \"dominant_flow_zone\": \"7020\\u20137060\", \"dealer_positioning\": \"long_gamma\", \"late_day_charm_bias\": \"drift / containment unless key level breaks\", \"vanna_relevance\": \"low\"}, \"control_zone\": \"7020\\u20137060\", \"session_windows\": [\"Open Noise\", \"Early Read\", \"Mid Consolidation\", \"Charm Window Opens\", \"Prime Entry\", \"Close Decay\", \"Final 30\"]}"
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "gex_commentary",
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "regime_badge_text": {
+            "type": "string"
+          },
+          "regime_paragraph_1": {
+            "type": "string"
+          },
+          "regime_paragraph_2": {
+            "type": "string"
+          },
+          "regime_paragraph_3": {
+            "type": "string"
+          },
+          "primary_setup_title": {
+            "type": "string"
+          },
+          "primary_setup_body": {
+            "type": "string"
+          },
+          "secondary_setup_title": {
+            "type": "string"
+          },
+          "secondary_setup_body": {
+            "type": "string"
+          },
+          "avoid_title": {
+            "type": "string"
+          },
+          "avoid_body": {
+            "type": "string"
+          },
+          "wildcard_title": {
+            "type": "string"
+          },
+          "wildcard_body": {
+            "type": "string"
+          },
+          "options_trade_ideas": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "thesis": {
+                  "type": "string"
+                },
+                "structure": {
+                  "type": "string"
+                },
+                "when_valid": {
+                  "type": "string"
+                },
+                "risk_note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "thesis",
+                "structure",
+                "when_valid",
+                "risk_note"
+              ]
+            }
+          },
+          "timing_notes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "window": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "window",
+                "note"
+              ]
+            }
+          },
+          "summary_cards": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "bias": {
+                "type": "string"
+              },
+              "pin_zone": {
+                "type": "string"
+              },
+              "bull_trigger": {
+                "type": "string"
+              },
+              "bear_trigger": {
+                "type": "string"
+              },
+              "wildcard": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "bias",
+              "pin_zone",
+              "bull_trigger",
+              "bear_trigger",
+              "wildcard"
+            ]
+          }
+        },
+        "required": [
+          "regime_badge_text",
+          "regime_paragraph_1",
+          "regime_paragraph_2",
+          "regime_paragraph_3",
+          "primary_setup_title",
+          "primary_setup_body",
+          "secondary_setup_title",
+          "secondary_setup_body",
+          "avoid_title",
+          "avoid_body",
+          "wildcard_title",
+          "wildcard_body",
+          "options_trade_ideas",
+          "timing_notes",
+          "summary_cards"
+        ]
+      },
+      "strict": true
+    }
+  }
+}

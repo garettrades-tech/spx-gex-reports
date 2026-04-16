@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SPX 0DTE GEX Report — 2026-04-16 14:59 ET</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.1/plotly.min.js"></script>
+<style>
+:root{--bg:#0d0f14;--surface:#161922;--surface2:#1e2330;--border:#2a3050;--text:#e2e8f0;--muted:#94a3b8;--green:#00cc44;--red:#ff3333;--yellow:#facc15;--blue:#60a5fa;--purple:#a78bfa;}
+*{box-sizing:border-box}body{font-family:Inter,Segoe UI,system-ui,sans-serif;background:var(--bg);color:var(--text);padding:24px;line-height:1.5}.container{max-width:1400px;margin:0 auto}
+header{margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}h1{font-size:28px;margin:0}h2{font-size:20px;margin:24px 0 12px}h3{font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}
+.chip{display:inline-block;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:600;background:var(--surface2);border:1px solid var(--border);margin-right:8px}.chip.pos{color:var(--green)}.chip.neg{color:var(--red)}.chip.yel{color:var(--yellow)}.chip.blu{color:var(--blue)}
+.summary-bar,.stat-grid,.setup-grid,.summary-final{display:grid;gap:10px}.summary-bar{grid-template-columns:repeat(7,1fr);background:var(--surface);padding:16px;border-radius:10px;border:1px solid var(--border)}.summary-item{text-align:center}.summary-item .lbl,.sc-label,.stat-cell .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.6px}.summary-item .val,.stat-cell .val{font-size:18px;font-weight:700;font-family:JetBrains Mono,ui-monospace,monospace}
+.regime-box,.panel,.chart-container,.setup-card,.summary-card{background:var(--surface);padding:16px;border-radius:10px;border:1px solid var(--border)}.regime-badge{display:inline-block;padding:6px 14px;border-radius:6px;font-weight:700;background:var(--green);color:#000;margin-bottom:12px}
+.stat-grid{grid-template-columns:repeat(4,1fr);margin:14px 0}.stat-cell{background:var(--surface2);padding:12px;border-radius:8px;border:1px solid var(--border)}.narrative p{margin:10px 0;color:#cbd5e1}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:14px}.setup-grid{grid-template-columns:repeat(4,1fr);margin-top:14px}.summary-final{grid-template-columns:repeat(5,1fr);margin-top:14px}
+table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--surface2);color:var(--muted);text-align:left;padding:10px;font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:.6px;border-bottom:1px solid var(--border)}td{padding:8px 10px;border-bottom:1px solid rgba(42,48,80,.5)}pre{background:#0a0c10;color:#cbd5e1;padding:16px;border-radius:8px;font-size:12px;font-family:JetBrains Mono,ui-monospace,monospace;overflow-x:auto;border:1px solid var(--border);white-space:pre-wrap}
+@media (max-width:900px){.summary-bar,.stat-grid,.setup-grid,.two-col,.summary-final{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>SPX 0DTE GEX Report</h1>
+<div class="sub">
+<span class="chip blu">Spot 7030.32</span>
+<span class="chip yel">ATM IV 8.88%</span>
+<span class="chip pos">POSITIVE GEX</span>
+<span class="chip">Net GEX +27.75B</span>
+<span class="chip">Expiry 2026-04-16</span>
+<span class="chip">2026-04-16 14:59 ET</span>
+</div>
+</header>
+<section class="summary-bar">
+
+<div class="summary-item"><div class="lbl">Net GEX</div><div class="val">+27.75B</div></div>
+
+<div class="summary-item"><div class="lbl">GEX Flip</div><div class="val">7015.0</div></div>
+
+<div class="summary-item"><div class="lbl">Call Wall</div><div class="val">7035.0</div></div>
+
+<div class="summary-item"><div class="lbl">Put Wall</div><div class="val">7015.0</div></div>
+
+<div class="summary-item"><div class="lbl">Charm Pin</div><div class="val">7035.0</div></div>
+
+<div class="summary-item"><div class="lbl">Bull Trigger</div><div class="val">7200.0</div></div>
+
+<div class="summary-item"><div class="lbl">Bear Trigger</div><div class="val">7015.0</div></div>
+
+</section>
+<section class="regime-box" style="margin-top:16px;">
+<div class="regime-badge">AUTOMATED LOCAL REPORT</div>
+<h3>Regime Analysis</h3>
+<div class="stat-grid">
+<div class="stat-cell"><div class="lbl">Net GEX</div><div class="val">+27.75B</div></div>
+<div class="stat-cell"><div class="lbl">Gamma Notional</div><div class="val">56.14B</div></div>
+<div class="stat-cell"><div class="lbl">ATM IV</div><div class="val">8.88%</div></div>
+<div class="stat-cell"><div class="lbl">Spot</div><div class="val">7030.32</div></div>
+</div>
+<div class="narrative">
+<p>This report was rendered from the local deterministic GEX engine. Add an optional ChatGPT response file to enrich the narrative, trade ideas, and timing notes.</p>
+<p>The structural levels, spot, and GEX calculations come from the local pipeline so the math stays reproducible even when narrative text is updated.</p>
+<p>Use the Pine block and structural table as the authoritative source of levels. Treat commentary as interpretation layered on top of those fixed outputs.</p>
+</div>
+</section>
+<h2>Flow Snapshot</h2>
+<div class="chart-container"><div id="gexChart" style="width:100%;height:500px;"></div></div>
+<h2>Key Structural Levels</h2>
+<div class="panel"><table><thead><tr><th>Level</th><th>Strike</th><th>Δ from Spot</th><th>Signal</th><th>Interpretation</th></tr></thead><tbody>
+<tr><td>Call Wall</td><td>7035.0</td><td>+4.7</td><td>+GEX</td><td>Dealers short calls above — sell into rallies</td></tr><tr><td>Put Wall</td><td>7015.0</td><td>-15.3</td><td>-GEX</td><td>Put OI peak — bounce or waterfall on break</td></tr><tr><td>GEX Flip</td><td>7015.0</td><td>-15.3</td><td>FLIP</td><td>Regime pivot — TRENDING below / PINNING above</td></tr><tr><td>Charm Pin</td><td>7035.0</td><td>+4.7</td><td>PIN</td><td>Primary EOD gravity via delta decay</td></tr><tr><td>Bull Trigger</td><td>7200.0</td><td>+169.7</td><td>+CALL</td><td>Squeeze risk above — watch call OI cluster</td></tr><tr><td>Bear Trigger</td><td>7015.0</td><td>-15.3</td><td>-PUT</td><td>Waterfall risk below — watch put OI cluster</td></tr><tr><td>COTMC</td><td>7200.0</td><td>+169.7</td><td>+OTM</td><td>Furthest significant call OI cluster above</td></tr><tr><td>COTMP</td><td>6650.0</td><td>-380.3</td><td>-OTM</td><td>Furthest significant put OI cluster below</td></tr>
+</tbody></table></div>
+<h2>Flow + Charm</h2>
+<div class="two-col">
+<div class="panel"><h3>Top Call Volume (Flow)</h3><table><thead><tr><th>Strike</th><th>Volume</th><th>OI</th><th>GEX ($M)</th></tr></thead><tbody><tr><td>7050.0C</td><td>133129</td><td>4368</td><td>2639</td></tr><tr><td>7040.0C</td><td>111346</td><td>1924</td><td>2185</td></tr><tr><td>7060.0C</td><td>94588</td><td>4686</td><td>1287</td></tr><tr><td>7045.0C</td><td>90141</td><td>2045</td><td>1771</td></tr><tr><td>7035.0C</td><td>79175</td><td>5862</td><td>7700</td></tr><tr><td>7030.0C</td><td>74526</td><td>6940</td><td>9283</td></tr></tbody></table></div>
+<div class="panel"><h3>Top Put Volume (Flow)</h3><table><thead><tr><th>Strike</th><th>Volume</th><th>OI</th><th>GEX ($M)</th></tr></thead><tbody><tr><td>7000.0P</td><td>97582</td><td>3685</td><td>1022</td></tr><tr><td>7020.0P</td><td>91815</td><td>1335</td><td>1310</td></tr><tr><td>7010.0P</td><td>77951</td><td>5558</td><td>3011</td></tr><tr><td>7015.0P</td><td>71629</td><td>5613</td><td>4169</td></tr><tr><td>7025.0P</td><td>69548</td><td>735</td><td>897</td></tr><tr><td>7030.0P</td><td>68978</td><td>423</td><td>582</td></tr></tbody></table></div>
+</div>
+<h2>Setups</h2>
+<div class="setup-grid">
+<div class="setup-card"><div class="title">Primary Setup</div><div class="body">Await optional ChatGPT commentary or use the structural levels directly.</div></div>
+<div class="setup-card"><div class="title">Secondary Setup</div><div class="body">Await optional ChatGPT commentary or use the structural levels directly.</div></div>
+<div class="setup-card"><div class="title">Avoid</div><div class="body">Avoid trades that ignore the local regime and invalidation levels.</div></div>
+<div class="setup-card"><div class="title">Wildcard</div><div class="body">Watch for sharp regime changes if price crosses the flip and holds beyond it.</div></div>
+</div>
+<h2>Timing Guide</h2>
+<div class="panel"><table><thead><tr><th>Window</th><th>Note</th></tr></thead><tbody><tr><td colspan="2">No external timing commentary merged yet.</td></tr></tbody></table></div>
+<h2>Summary Cards</h2>
+<div class="summary-final">
+<div class="summary-card"><div class="sc-label">bias</div><div class="sc-value">Use local regime</div></div><div class="summary-card"><div class="sc-label">pin_zone</div><div class="sc-value">See charm pin</div></div><div class="summary-card"><div class="sc-label">bull_trigger</div><div class="sc-value">See bull trigger</div></div><div class="summary-card"><div class="sc-label">bear_trigger</div><div class="sc-value">See bear trigger</div></div><div class="summary-card"><div class="sc-label">wildcard</div><div class="sc-value">Watch the flip</div></div>
+</div>
+
+<h2>Pine Paste Block</h2>
+<pre>// ═══════════════════════════════════════════════════
+//  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
+//  Generated: 2026-04-16 14:59 ET
+//  SPX Spot: ~7030.32  |  Regime: POSITIVE GEX (+27.75B)
+//  Expiry: 2026-04-16 (0DTE)
+//  Strategy bias: Mean-reversion / sell wings
+// ═══════════════════════════════════════════════════
+CALL_WALL    = 7035.0
+PUT_WALL     = 7015.0
+PLUS_GEX     = 7035.0
+MINUS_GEX    = 7015.0
+GEX_FLIP     = 7015.0
+POS_TRANS    = 7035.0
+NEG_TRANS    = 7015.0
+CHARM_PIN    = 7035.0
+BULL_TRIGGER = 7200.0
+BEAR_TRIGGER = 7015.0
+SPOT_REF     = 7030.32
+COTMC        = 7200.0
+COTMP        = 6650.0
+HARD_CAP     = float(na)
+PUT_FLOOR    = float(na)
+REGIME_STR   = "POSITIVE"
+MODEL_STR    = "0dte"
+GENERATED    = "2026-04-16 14:59 ET"
+
+// Signals
+sig_CALL_WALL    = "Call Wall · Dealers short 7035 calls → sell into rallies | Mean-reversion / sell wings"
+sig_PUT_WALL     = "Put Wall · 7015 put OI peak → bounce or waterfall on break"
+sig_PLUS_GEX     = "+GEX · Damping zone above 7035 | Mean-reversion favored"
+sig_MINUS_GEX    = "-GEX · Amplifying zone below 7015 | Momentum continuation"
+sig_GEX_FLIP     = "GEX Flip 7015 · TRENDING below / PINNING above | Critical regime line"
+sig_CHARM_PIN    = "Charm Pin 7035 · EOD gravity via delta decay | Charm flow supportive above ATM"
+sig_BULL_TRIGGER = "Bull Trigger 7200 · Squeeze risk above | Watch call OI concentration"
+sig_BEAR_TRIGGER = "Bear Trigger 7015 · Waterfall risk below | Watch put OI concentration"
+
+// Flow / Charm tooltips
+tt_CALL_WALL     = "Call Wall: 7035\nCall OI peak | Dealers short calls above → hedge by selling rallies\nSignal: Fade calls / bear call spreads targeting this level from below"
+tt_PUT_WALL      = "Put Wall: 7015\nPut OI peak | Charm flow positive below → sticky floor\nSignal: Watch bounce at 7015 or acceleration if cleanly broken"
+tt_PLUS_GEX      = "+GEX: 7035\nDampening zone | Dealers long gamma above → mean-reversion bias\nSignal: Iron condors / sell-the-wing strategies preferred"
+tt_MINUS_GEX     = "-GEX: 7015\nAmplifying zone | Dealers short gamma below → trend mode\nSignal: Directional spreads with hard stops only"
+tt_GEX_FLIP      = "GEX Flip: 7015\nCumulative GEX crosses zero at this strike\nBelow → TRENDING regime | Dealer flows amplify directional moves\nAbove → PINNING regime | Mean-reversion / defined-risk structures"
+tt_CHARM_PIN     = "Charm Pin: 7035\nCharm flow supportive above ATM\nPrimary EOD gravity level — price drifts here into the close"
+tt_BULL_TRIGGER  = "Bull Trigger: 7200\nHigh call OI concentration above ATM\nBreak above → forced dealer delta-hedge buying → gamma squeeze\nDo NOT short aggressively above this level"
+tt_BEAR_TRIGGER  = "Bear Trigger: 7015\nHigh put OI concentration below ATM\nBreak below → forced dealer delta-hedge selling → waterfall\nAvoid mean-reversion plays below this level"
+// ═══════════════════════════════════════════════════
+</pre>
+<footer>Generated by the local SPX GEX pipeline. Structural levels come from the deterministic engine.</footer>
+</div>
+<script>
+const data = {"x": [7050.0, 7040.0, 7060.0, 7045.0, 7035.0, 7030.0], "callVol": [133129, 111346, 94588, 90141, 79175, 74526], "putX": [7000.0, 7020.0, 7010.0, 7015.0, 7025.0, 7030.0], "putVol": [97582, 91815, 77951, 71629, 69548, 68978]};
+Plotly.newPlot('gexChart', [
+  {x: data.x, y: data.callVol, type: 'bar', name: 'Top Call Volume'},
+  {x: data.putX, y: data.putVol, type: 'bar', name: 'Top Put Volume'}
+], {
+  paper_bgcolor:'#161922', plot_bgcolor:'#161922', font:{color:'#e2e8f0'},
+  barmode:'group', margin:{l:40,r:20,t:20,b:40}, xaxis:{title:'Strike'}, yaxis:{title:'Volume'}
+}, {responsive:true});
+</script>
+</body>
+</html>
