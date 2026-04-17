@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════
 //  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
-//  Generated: 2026-04-17 19:00 ET
-//  SPX Spot: ~7125.26  |  Regime: POSITIVE GEX (+9.54B)
+//  Generated: 2026-04-17 19:15 ET
+//  SPX Spot: ~7125.26  |  Regime: POSITIVE GEX (+9.99B)
 //  Expiry: 2026-04-17 (0DTE)
 //  Strategy bias: Mean-reversion / sell wings
 // ═══════════════════════════════════════════════════
@@ -22,7 +22,7 @@ HARD_CAP     = float(na)
 PUT_FLOOR    = float(na)
 REGIME_STR   = "POSITIVE"
 MODEL_STR    = "0dte"
-GENERATED    = "2026-04-17 19:00 ET"
+GENERATED    = "2026-04-17 19:15 ET"
 
 // Signals
 sig_CALL_WALL    = "Call Wall · Dealers short 7175 calls → sell into rallies | Mean-reversion / sell wings"
