@@ -1,0 +1,1911 @@
+{
+  "option_ticker": "O:SPXW260417C07150000",
+  "multiplier": 1,
+  "timespan": "minute",
+  "from_date": "2026-04-16",
+  "to_date": "2026-04-16",
+  "fallback_used": false,
+  "bar_count": 190,
+  "bars": [
+    {
+      "timestamp_ms": 1776346200000,
+      "open": 0.9,
+      "high": 0.95,
+      "low": 0.9,
+      "close": 0.95,
+      "volume": 3.0,
+      "vwap": 0.9333,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776346260000,
+      "open": 1.0,
+      "high": 1.0,
+      "low": 0.9,
+      "close": 0.9,
+      "volume": 31.0,
+      "vwap": 0.9032,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776346320000,
+      "open": 0.85,
+      "high": 0.92,
+      "low": 0.85,
+      "close": 0.92,
+      "volume": 12.0,
+      "vwap": 0.8675,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776346380000,
+      "open": 0.97,
+      "high": 0.97,
+      "low": 0.95,
+      "close": 0.95,
+      "volume": 12.0,
+      "vwap": 0.955,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776346440000,
+      "open": 0.95,
+      "high": 0.95,
+      "low": 0.95,
+      "close": 0.95,
+      "volume": 9.0,
+      "vwap": 0.95,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776346800000,
+      "open": 0.87,
+      "high": 0.88,
+      "low": 0.87,
+      "close": 0.88,
+      "volume": 11.0,
+      "vwap": 0.8755,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776346860000,
+      "open": 0.82,
+      "high": 0.82,
+      "low": 0.82,
+      "close": 0.82,
+      "volume": 1.0,
+      "vwap": 0.82,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776346920000,
+      "open": 0.83,
+      "high": 0.83,
+      "low": 0.77,
+      "close": 0.77,
+      "volume": 87.0,
+      "vwap": 0.82,
+      "transactions": 7
+    },
+    {
+      "timestamp_ms": 1776346980000,
+      "open": 0.77,
+      "high": 0.77,
+      "low": 0.77,
+      "close": 0.77,
+      "volume": 1.0,
+      "vwap": 0.77,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776347100000,
+      "open": 0.77,
+      "high": 0.77,
+      "low": 0.77,
+      "close": 0.77,
+      "volume": 5.0,
+      "vwap": 0.77,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776347160000,
+      "open": 0.8,
+      "high": 0.8,
+      "low": 0.76,
+      "close": 0.8,
+      "volume": 43.0,
+      "vwap": 0.7721,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776347220000,
+      "open": 0.75,
+      "high": 0.75,
+      "low": 0.75,
+      "close": 0.75,
+      "volume": 10.0,
+      "vwap": 0.75,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776347340000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 6.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776347400000,
+      "open": 0.7,
+      "high": 0.75,
+      "low": 0.7,
+      "close": 0.75,
+      "volume": 14.0,
+      "vwap": 0.7143,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776347460000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 4.0,
+      "vwap": 0.7,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776347520000,
+      "open": 0.67,
+      "high": 0.67,
+      "low": 0.67,
+      "close": 0.67,
+      "volume": 5.0,
+      "vwap": 0.67,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776347580000,
+      "open": 0.62,
+      "high": 0.65,
+      "low": 0.62,
+      "close": 0.65,
+      "volume": 12.0,
+      "vwap": 0.645,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776347700000,
+      "open": 0.57,
+      "high": 0.57,
+      "low": 0.57,
+      "close": 0.57,
+      "volume": 1.0,
+      "vwap": 0.57,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776347760000,
+      "open": 0.55,
+      "high": 0.58,
+      "low": 0.55,
+      "close": 0.58,
+      "volume": 53.0,
+      "vwap": 0.5791,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776347880000,
+      "open": 0.6,
+      "high": 0.6,
+      "low": 0.6,
+      "close": 0.6,
+      "volume": 40.0,
+      "vwap": 0.6,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776348000000,
+      "open": 0.6,
+      "high": 0.6,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 2.0,
+      "vwap": 0.575,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776348360000,
+      "open": 0.6,
+      "high": 0.6,
+      "low": 0.6,
+      "close": 0.6,
+      "volume": 5.0,
+      "vwap": 0.6,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776348420000,
+      "open": 0.65,
+      "high": 0.65,
+      "low": 0.65,
+      "close": 0.65,
+      "volume": 1.0,
+      "vwap": 0.65,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776348540000,
+      "open": 0.65,
+      "high": 0.65,
+      "low": 0.65,
+      "close": 0.65,
+      "volume": 15.0,
+      "vwap": 0.65,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776348600000,
+      "open": 0.68,
+      "high": 0.68,
+      "low": 0.68,
+      "close": 0.68,
+      "volume": 1.0,
+      "vwap": 0.68,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776348720000,
+      "open": 0.72,
+      "high": 0.72,
+      "low": 0.72,
+      "close": 0.72,
+      "volume": 1.0,
+      "vwap": 0.72,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776348840000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 1.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776348960000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 1.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776349620000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 1.0,
+      "vwap": 0.5,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776349980000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 23.0,
+      "vwap": 0.5,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776350040000,
+      "open": 0.48,
+      "high": 0.48,
+      "low": 0.48,
+      "close": 0.48,
+      "volume": 970.0,
+      "vwap": 0.48,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776350100000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 4.0,
+      "vwap": 0.5,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776350160000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 7.0,
+      "vwap": 0.5,
+      "transactions": 7
+    },
+    {
+      "timestamp_ms": 1776350220000,
+      "open": 0.47,
+      "high": 0.47,
+      "low": 0.47,
+      "close": 0.47,
+      "volume": 2.0,
+      "vwap": 0.47,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776350400000,
+      "open": 0.4,
+      "high": 0.43,
+      "low": 0.4,
+      "close": 0.43,
+      "volume": 32.0,
+      "vwap": 0.4234,
+      "transactions": 16
+    },
+    {
+      "timestamp_ms": 1776350640000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 1.0,
+      "vwap": 0.5,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776350700000,
+      "open": 0.45,
+      "high": 0.5,
+      "low": 0.45,
+      "close": 0.5,
+      "volume": 2986.0,
+      "vwap": 0.4501,
+      "transactions": 7
+    },
+    {
+      "timestamp_ms": 1776350820000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 3.0,
+      "vwap": 0.5,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776350880000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 50.0,
+      "vwap": 0.5,
+      "transactions": 12
+    },
+    {
+      "timestamp_ms": 1776351000000,
+      "open": 0.55,
+      "high": 0.55,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 13.0,
+      "vwap": 0.55,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776351060000,
+      "open": 0.55,
+      "high": 0.55,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 3.0,
+      "vwap": 0.55,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776351420000,
+      "open": 0.52,
+      "high": 0.52,
+      "low": 0.52,
+      "close": 0.52,
+      "volume": 3.0,
+      "vwap": 0.52,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776351600000,
+      "open": 0.55,
+      "high": 0.57,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 109.0,
+      "vwap": 0.5683,
+      "transactions": 8
+    },
+    {
+      "timestamp_ms": 1776351780000,
+      "open": 0.62,
+      "high": 0.62,
+      "low": 0.62,
+      "close": 0.62,
+      "volume": 2.0,
+      "vwap": 0.62,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776351840000,
+      "open": 0.65,
+      "high": 0.7,
+      "low": 0.65,
+      "close": 0.7,
+      "volume": 2.0,
+      "vwap": 0.675,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776352020000,
+      "open": 0.65,
+      "high": 0.65,
+      "low": 0.65,
+      "close": 0.65,
+      "volume": 5.0,
+      "vwap": 0.65,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776352080000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.67,
+      "close": 0.67,
+      "volume": 3.0,
+      "vwap": 0.68,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776352140000,
+      "open": 0.68,
+      "high": 0.68,
+      "low": 0.68,
+      "close": 0.68,
+      "volume": 7.0,
+      "vwap": 0.68,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776352200000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 10.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776352260000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 2.0,
+      "vwap": 0.7,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776352380000,
+      "open": 0.7,
+      "high": 0.75,
+      "low": 0.67,
+      "close": 0.67,
+      "volume": 4.0,
+      "vwap": 0.7,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776352500000,
+      "open": 0.75,
+      "high": 0.8,
+      "low": 0.75,
+      "close": 0.8,
+      "volume": 74.0,
+      "vwap": 0.7736,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776352560000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.85,
+      "close": 0.85,
+      "volume": 1.0,
+      "vwap": 0.85,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776352620000,
+      "open": 0.8,
+      "high": 0.8,
+      "low": 0.8,
+      "close": 0.8,
+      "volume": 1.0,
+      "vwap": 0.8,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776352680000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.8,
+      "close": 0.8,
+      "volume": 10.0,
+      "vwap": 0.825,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776352800000,
+      "open": 0.75,
+      "high": 0.8,
+      "low": 0.75,
+      "close": 0.8,
+      "volume": 11.0,
+      "vwap": 0.7545,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776352860000,
+      "open": 0.8,
+      "high": 0.8,
+      "low": 0.8,
+      "close": 0.8,
+      "volume": 5.0,
+      "vwap": 0.8,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776352920000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.85,
+      "close": 0.85,
+      "volume": 5.0,
+      "vwap": 0.85,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776353040000,
+      "open": 0.83,
+      "high": 0.87,
+      "low": 0.83,
+      "close": 0.87,
+      "volume": 66.0,
+      "vwap": 0.8306,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776353100000,
+      "open": 0.9,
+      "high": 0.95,
+      "low": 0.9,
+      "close": 0.95,
+      "volume": 4.0,
+      "vwap": 0.9125,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776353160000,
+      "open": 0.92,
+      "high": 1.0,
+      "low": 0.92,
+      "close": 1.0,
+      "volume": 18.0,
+      "vwap": 0.9511,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776353220000,
+      "open": 0.94,
+      "high": 0.94,
+      "low": 0.94,
+      "close": 0.94,
+      "volume": 5.0,
+      "vwap": 0.94,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776353400000,
+      "open": 0.82,
+      "high": 0.82,
+      "low": 0.82,
+      "close": 0.82,
+      "volume": 1.0,
+      "vwap": 0.82,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776353580000,
+      "open": 0.82,
+      "high": 0.82,
+      "low": 0.82,
+      "close": 0.82,
+      "volume": 2.0,
+      "vwap": 0.82,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776353700000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.85,
+      "close": 0.85,
+      "volume": 2.0,
+      "vwap": 0.85,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776353760000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.83,
+      "close": 0.85,
+      "volume": 33.0,
+      "vwap": 0.8458,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776353820000,
+      "open": 0.92,
+      "high": 1.0,
+      "low": 0.92,
+      "close": 1.0,
+      "volume": 2.0,
+      "vwap": 0.96,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776353880000,
+      "open": 0.9,
+      "high": 0.9,
+      "low": 0.9,
+      "close": 0.9,
+      "volume": 6.0,
+      "vwap": 0.9,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776354000000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.85,
+      "close": 0.85,
+      "volume": 1.0,
+      "vwap": 0.85,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776354240000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.85,
+      "close": 0.85,
+      "volume": 1.0,
+      "vwap": 0.85,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776354420000,
+      "open": 0.85,
+      "high": 0.85,
+      "low": 0.82,
+      "close": 0.82,
+      "volume": 11.0,
+      "vwap": 0.8364,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776354660000,
+      "open": 0.92,
+      "high": 0.92,
+      "low": 0.92,
+      "close": 0.92,
+      "volume": 1.0,
+      "vwap": 0.92,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776354840000,
+      "open": 0.95,
+      "high": 0.95,
+      "low": 0.95,
+      "close": 0.95,
+      "volume": 10.0,
+      "vwap": 0.95,
+      "transactions": 10
+    },
+    {
+      "timestamp_ms": 1776354960000,
+      "open": 1.0,
+      "high": 1.0,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 1.0,
+      "vwap": 1.0,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776355020000,
+      "open": 1.0,
+      "high": 1.0,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 9.0,
+      "vwap": 1.0,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776355080000,
+      "open": 1.02,
+      "high": 1.05,
+      "low": 1.02,
+      "close": 1.05,
+      "volume": 5.0,
+      "vwap": 1.044,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776355200000,
+      "open": 1.05,
+      "high": 1.05,
+      "low": 1.05,
+      "close": 1.05,
+      "volume": 1.0,
+      "vwap": 1.05,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776355320000,
+      "open": 1.05,
+      "high": 1.05,
+      "low": 1.05,
+      "close": 1.05,
+      "volume": 10.0,
+      "vwap": 1.05,
+      "transactions": 8
+    },
+    {
+      "timestamp_ms": 1776355380000,
+      "open": 1.1,
+      "high": 1.15,
+      "low": 1.1,
+      "close": 1.1,
+      "volume": 3.0,
+      "vwap": 1.1167,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776355500000,
+      "open": 1.12,
+      "high": 1.12,
+      "low": 1.1,
+      "close": 1.1,
+      "volume": 3.0,
+      "vwap": 1.1067,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776355740000,
+      "open": 1.05,
+      "high": 1.05,
+      "low": 1.05,
+      "close": 1.05,
+      "volume": 14.0,
+      "vwap": 1.05,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776355920000,
+      "open": 1.05,
+      "high": 1.05,
+      "low": 1.05,
+      "close": 1.05,
+      "volume": 30.0,
+      "vwap": 1.05,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776355980000,
+      "open": 1.03,
+      "high": 1.03,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 20.0,
+      "vwap": 1.015,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776356100000,
+      "open": 1.1,
+      "high": 1.1,
+      "low": 1.1,
+      "close": 1.1,
+      "volume": 1.0,
+      "vwap": 1.1,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776356160000,
+      "open": 1.05,
+      "high": 1.15,
+      "low": 1.05,
+      "close": 1.15,
+      "volume": 11.0,
+      "vwap": 1.1409,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776356280000,
+      "open": 1.15,
+      "high": 1.15,
+      "low": 1.15,
+      "close": 1.15,
+      "volume": 1.0,
+      "vwap": 1.15,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776356340000,
+      "open": 1.14,
+      "high": 1.15,
+      "low": 1.14,
+      "close": 1.15,
+      "volume": 40.0,
+      "vwap": 1.145,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776356460000,
+      "open": 1.05,
+      "high": 1.05,
+      "low": 1.05,
+      "close": 1.05,
+      "volume": 10.0,
+      "vwap": 1.05,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776356520000,
+      "open": 1.0,
+      "high": 1.0,
+      "low": 1.0,
+      "close": 1.0,
+      "volume": 50.0,
+      "vwap": 1.0,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776356580000,
+      "open": 0.95,
+      "high": 0.96,
+      "low": 0.95,
+      "close": 0.96,
+      "volume": 24.0,
+      "vwap": 0.9583,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776356640000,
+      "open": 0.92,
+      "high": 0.92,
+      "low": 0.92,
+      "close": 0.92,
+      "volume": 1.0,
+      "vwap": 0.92,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776356700000,
+      "open": 0.92,
+      "high": 0.92,
+      "low": 0.92,
+      "close": 0.92,
+      "volume": 20.0,
+      "vwap": 0.92,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776356820000,
+      "open": 0.97,
+      "high": 0.97,
+      "low": 0.97,
+      "close": 0.97,
+      "volume": 55.0,
+      "vwap": 0.97,
+      "transactions": 9
+    },
+    {
+      "timestamp_ms": 1776356880000,
+      "open": 0.97,
+      "high": 0.97,
+      "low": 0.95,
+      "close": 0.95,
+      "volume": 11.0,
+      "vwap": 0.9682,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776357000000,
+      "open": 0.9,
+      "high": 0.92,
+      "low": 0.9,
+      "close": 0.92,
+      "volume": 2.0,
+      "vwap": 0.91,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776357060000,
+      "open": 0.87,
+      "high": 0.87,
+      "low": 0.87,
+      "close": 0.87,
+      "volume": 1.0,
+      "vwap": 0.87,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776357180000,
+      "open": 0.8,
+      "high": 0.8,
+      "low": 0.7,
+      "close": 0.75,
+      "volume": 6.0,
+      "vwap": 0.7567,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776357300000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 2.0,
+      "vwap": 0.7,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776357420000,
+      "open": 0.72,
+      "high": 0.72,
+      "low": 0.72,
+      "close": 0.72,
+      "volume": 2.0,
+      "vwap": 0.72,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776357480000,
+      "open": 0.77,
+      "high": 0.77,
+      "low": 0.75,
+      "close": 0.75,
+      "volume": 11.0,
+      "vwap": 0.7518,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776357540000,
+      "open": 0.77,
+      "high": 0.77,
+      "low": 0.75,
+      "close": 0.75,
+      "volume": 18.0,
+      "vwap": 0.7667,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776357600000,
+      "open": 0.72,
+      "high": 0.74,
+      "low": 0.72,
+      "close": 0.74,
+      "volume": 3.0,
+      "vwap": 0.7333,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776357840000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 1.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776358140000,
+      "open": 0.7,
+      "high": 0.71,
+      "low": 0.7,
+      "close": 0.71,
+      "volume": 4.0,
+      "vwap": 0.7075,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776358320000,
+      "open": 0.75,
+      "high": 0.75,
+      "low": 0.75,
+      "close": 0.75,
+      "volume": 25.0,
+      "vwap": 0.75,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776358440000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 1.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776358500000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 1.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776358560000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 1.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776358740000,
+      "open": 0.65,
+      "high": 0.65,
+      "low": 0.65,
+      "close": 0.65,
+      "volume": 1.0,
+      "vwap": 0.65,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776358800000,
+      "open": 0.7,
+      "high": 0.7,
+      "low": 0.7,
+      "close": 0.7,
+      "volume": 10.0,
+      "vwap": 0.7,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776358860000,
+      "open": 0.65,
+      "high": 0.65,
+      "low": 0.65,
+      "close": 0.65,
+      "volume": 35.0,
+      "vwap": 0.65,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776359100000,
+      "open": 0.55,
+      "high": 0.55,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 4.0,
+      "vwap": 0.55,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776359160000,
+      "open": 0.55,
+      "high": 0.55,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 20.0,
+      "vwap": 0.55,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776359220000,
+      "open": 0.52,
+      "high": 0.52,
+      "low": 0.52,
+      "close": 0.52,
+      "volume": 1.0,
+      "vwap": 0.52,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776359400000,
+      "open": 0.55,
+      "high": 0.55,
+      "low": 0.55,
+      "close": 0.55,
+      "volume": 10.0,
+      "vwap": 0.55,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776359580000,
+      "open": 0.57,
+      "high": 0.57,
+      "low": 0.57,
+      "close": 0.57,
+      "volume": 2.0,
+      "vwap": 0.57,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776359640000,
+      "open": 0.55,
+      "high": 0.55,
+      "low": 0.5,
+      "close": 0.5,
+      "volume": 71.0,
+      "vwap": 0.5239,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776359760000,
+      "open": 0.5,
+      "high": 0.5,
+      "low": 0.49,
+      "close": 0.49,
+      "volume": 6.0,
+      "vwap": 0.4983,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776359880000,
+      "open": 0.45,
+      "high": 0.45,
+      "low": 0.45,
+      "close": 0.45,
+      "volume": 10.0,
+      "vwap": 0.45,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776359940000,
+      "open": 0.42,
+      "high": 0.42,
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 2.0,
+      "vwap": 0.41,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776360060000,
+      "open": 0.42,
+      "high": 0.42,
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 15.0,
+      "vwap": 0.4133,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776360240000,
+      "open": 0.4,
+      "high": 0.47,
+      "low": 0.4,
+      "close": 0.47,
+      "volume": 7.0,
+      "vwap": 0.46,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776360660000,
+      "open": 0.45,
+      "high": 0.45,
+      "low": 0.45,
+      "close": 0.45,
+      "volume": 1.0,
+      "vwap": 0.45,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776360840000,
+      "open": 0.47,
+      "high": 0.47,
+      "low": 0.45,
+      "close": 0.45,
+      "volume": 15.0,
+      "vwap": 0.4647,
+      "transactions": 8
+    },
+    {
+      "timestamp_ms": 1776360900000,
+      "open": 0.4,
+      "high": 0.4,
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 2.0,
+      "vwap": 0.4,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776361200000,
+      "open": 0.46,
+      "high": 0.46,
+      "low": 0.46,
+      "close": 0.46,
+      "volume": 2.0,
+      "vwap": 0.46,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776361380000,
+      "open": 0.45,
+      "high": 0.45,
+      "low": 0.45,
+      "close": 0.45,
+      "volume": 17.0,
+      "vwap": 0.45,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776361500000,
+      "open": 0.45,
+      "high": 0.45,
+      "low": 0.45,
+      "close": 0.45,
+      "volume": 1.0,
+      "vwap": 0.45,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776361620000,
+      "open": 0.45,
+      "high": 0.45,
+      "low": 0.45,
+      "close": 0.45,
+      "volume": 2.0,
+      "vwap": 0.45,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776361980000,
+      "open": 0.4,
+      "high": 0.4,
+      "low": 0.4,
+      "close": 0.4,
+      "volume": 2.0,
+      "vwap": 0.4,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776362220000,
+      "open": 0.35,
+      "high": 0.37,
+      "low": 0.35,
+      "close": 0.37,
+      "volume": 6.0,
+      "vwap": 0.3667,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776362340000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 1.0,
+      "vwap": 0.3,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776362400000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 1.0,
+      "vwap": 0.3,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776362460000,
+      "open": 0.35,
+      "high": 0.35,
+      "low": 0.35,
+      "close": 0.35,
+      "volume": 10.0,
+      "vwap": 0.35,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776362520000,
+      "open": 0.35,
+      "high": 0.35,
+      "low": 0.35,
+      "close": 0.35,
+      "volume": 21.0,
+      "vwap": 0.35,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776362700000,
+      "open": 0.35,
+      "high": 0.35,
+      "low": 0.35,
+      "close": 0.35,
+      "volume": 5.0,
+      "vwap": 0.35,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776362880000,
+      "open": 0.32,
+      "high": 0.35,
+      "low": 0.32,
+      "close": 0.35,
+      "volume": 13.0,
+      "vwap": 0.3269,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776363240000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 1.0,
+      "vwap": 0.3,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776363360000,
+      "open": 0.3,
+      "high": 0.35,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 7.0,
+      "vwap": 0.3357,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776363420000,
+      "open": 0.35,
+      "high": 0.35,
+      "low": 0.35,
+      "close": 0.35,
+      "volume": 3.0,
+      "vwap": 0.35,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776363780000,
+      "open": 0.27,
+      "high": 0.27,
+      "low": 0.27,
+      "close": 0.27,
+      "volume": 14.0,
+      "vwap": 0.27,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776363840000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 2.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776364020000,
+      "open": 0.24,
+      "high": 0.24,
+      "low": 0.24,
+      "close": 0.24,
+      "volume": 20.0,
+      "vwap": 0.24,
+      "transactions": 15
+    },
+    {
+      "timestamp_ms": 1776364080000,
+      "open": 0.2,
+      "high": 0.2,
+      "low": 0.2,
+      "close": 0.2,
+      "volume": 1.0,
+      "vwap": 0.2,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776364200000,
+      "open": 0.26,
+      "high": 0.26,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 8.0,
+      "vwap": 0.2538,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776364320000,
+      "open": 0.2,
+      "high": 0.2,
+      "low": 0.2,
+      "close": 0.2,
+      "volume": 1.0,
+      "vwap": 0.2,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776364620000,
+      "open": 0.28,
+      "high": 0.28,
+      "low": 0.28,
+      "close": 0.28,
+      "volume": 10.0,
+      "vwap": 0.28,
+      "transactions": 9
+    },
+    {
+      "timestamp_ms": 1776364740000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 2.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776364920000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 1.0,
+      "vwap": 0.3,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776365100000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 1.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776365220000,
+      "open": 0.32,
+      "high": 0.32,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 11.0,
+      "vwap": 0.3182,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776365280000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 2.0,
+      "vwap": 0.3,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776365520000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.27,
+      "close": 0.27,
+      "volume": 2.0,
+      "vwap": 0.285,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776365700000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 50.0,
+      "vwap": 0.25,
+      "transactions": 19
+    },
+    {
+      "timestamp_ms": 1776365760000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 4.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776365940000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 20.0,
+      "vwap": 0.3,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776366000000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 3.0,
+      "vwap": 0.25,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776366060000,
+      "open": 0.27,
+      "high": 0.3,
+      "low": 0.27,
+      "close": 0.3,
+      "volume": 12.0,
+      "vwap": 0.295,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776366480000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.23,
+      "close": 0.23,
+      "volume": 31.0,
+      "vwap": 0.2365,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776366660000,
+      "open": 0.23,
+      "high": 0.23,
+      "low": 0.23,
+      "close": 0.23,
+      "volume": 1.0,
+      "vwap": 0.23,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776366900000,
+      "open": 0.25,
+      "high": 0.3,
+      "low": 0.25,
+      "close": 0.3,
+      "volume": 30.0,
+      "vwap": 0.275,
+      "transactions": 11
+    },
+    {
+      "timestamp_ms": 1776367020000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 1.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776367380000,
+      "open": 0.2,
+      "high": 0.2,
+      "low": 0.2,
+      "close": 0.2,
+      "volume": 1.0,
+      "vwap": 0.2,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776367440000,
+      "open": 0.2,
+      "high": 0.2,
+      "low": 0.2,
+      "close": 0.2,
+      "volume": 1.0,
+      "vwap": 0.2,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776367560000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 1.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776367800000,
+      "open": 0.22,
+      "high": 0.22,
+      "low": 0.22,
+      "close": 0.22,
+      "volume": 1.0,
+      "vwap": 0.22,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776367860000,
+      "open": 0.22,
+      "high": 0.22,
+      "low": 0.22,
+      "close": 0.22,
+      "volume": 2.0,
+      "vwap": 0.22,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776368040000,
+      "open": 0.22,
+      "high": 0.22,
+      "low": 0.22,
+      "close": 0.22,
+      "volume": 2.0,
+      "vwap": 0.22,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776368220000,
+      "open": 0.22,
+      "high": 0.22,
+      "low": 0.22,
+      "close": 0.22,
+      "volume": 1.0,
+      "vwap": 0.22,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776368520000,
+      "open": 0.22,
+      "high": 0.25,
+      "low": 0.22,
+      "close": 0.25,
+      "volume": 15.0,
+      "vwap": 0.23,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776368580000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 95.0,
+      "vwap": 0.25,
+      "transactions": 4
+    },
+    {
+      "timestamp_ms": 1776368640000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 1.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776369000000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 2.0,
+      "vwap": 0.275,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776369120000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 2.0,
+      "vwap": 0.3,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776369240000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 1.0,
+      "vwap": 0.3,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776369300000,
+      "open": 0.25,
+      "high": 0.3,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 5.0,
+      "vwap": 0.26,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776369360000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 22.0,
+      "vwap": 0.25,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776369420000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.2,
+      "close": 0.25,
+      "volume": 5.0,
+      "vwap": 0.24,
+      "transactions": 5
+    },
+    {
+      "timestamp_ms": 1776369480000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.2,
+      "close": 0.2,
+      "volume": 6.0,
+      "vwap": 0.225,
+      "transactions": 6
+    },
+    {
+      "timestamp_ms": 1776369540000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.2,
+      "close": 0.22,
+      "volume": 38.0,
+      "vwap": 0.2276,
+      "transactions": 7
+    },
+    {
+      "timestamp_ms": 1776369660000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 6.0,
+      "vwap": 0.25,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776369720000,
+      "open": 0.3,
+      "high": 0.3,
+      "low": 0.3,
+      "close": 0.3,
+      "volume": 1.0,
+      "vwap": 0.3,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776369840000,
+      "open": 0.25,
+      "high": 0.26,
+      "low": 0.25,
+      "close": 0.26,
+      "volume": 15.0,
+      "vwap": 0.2567,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776369900000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 1.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776370020000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 5.0,
+      "vwap": 0.25,
+      "transactions": 3
+    },
+    {
+      "timestamp_ms": 1776370140000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 1.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776370200000,
+      "open": 0.25,
+      "high": 0.25,
+      "low": 0.25,
+      "close": 0.25,
+      "volume": 3.0,
+      "vwap": 0.25,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776370320000,
+      "open": 0.21,
+      "high": 0.21,
+      "low": 0.21,
+      "close": 0.21,
+      "volume": 1.0,
+      "vwap": 0.21,
+      "transactions": 1
+    },
+    {
+      "timestamp_ms": 1776370380000,
+      "open": 0.21,
+      "high": 0.21,
+      "low": 0.21,
+      "close": 0.21,
+      "volume": 2.0,
+      "vwap": 0.21,
+      "transactions": 2
+    },
+    {
+      "timestamp_ms": 1776370440000,
+      "open": 0.25,
+      "high": 0.3,
+      "low": 0.25,
+      "close": 0.29,
+      "volume": 13.0,
+      "vwap": 0.2569,
+      "transactions": 4
+    }
+  ]
+}

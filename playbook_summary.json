@@ -1,0 +1,125 @@
+{
+  "session_date": "2026-04-16",
+  "spot": 7126.17,
+  "reference_levels": {
+    "call_wall": null,
+    "put_wall": null,
+    "gex_flip": null,
+    "bull_trigger": null,
+    "bear_trigger": null,
+    "charm_pin": null,
+    "regime": null
+  },
+  "quick_takeaways": {
+    "best_call_cluster": {
+      "bucket": "call",
+      "trade_count": 9,
+      "avg_roi_pct": 208.79,
+      "max_roi_pct": 222.48
+    },
+    "best_put_cluster": {
+      "bucket": "put",
+      "trade_count": 1,
+      "avg_roi_pct": 320.0,
+      "max_roi_pct": 320.0
+    },
+    "best_time_bucket": {
+      "bucket": "power_hour",
+      "trade_count": 1,
+      "avg_roi_pct": 320.0,
+      "max_roi_pct": 320.0
+    },
+    "best_trade": {
+      "option_ticker": "O:SPX260417P07000000",
+      "contract_type": "put",
+      "strike": 7000.0,
+      "expiration": "2026-04-17",
+      "entry_timestamp_ms": 1776369000000,
+      "exit_timestamp_ms": 1776369180000,
+      "entry_time_et": "2026-04-16 03:50 PM ET",
+      "exit_time_et": "2026-04-16 03:53 PM ET",
+      "entry_price": 1.0,
+      "exit_price": 4.2,
+      "roi_pct": 320.0,
+      "minutes_from_open": 380,
+      "minutes_to_close": 10,
+      "time_bucket": "power_hour",
+      "spot_reference": 7126.17,
+      "strike_distance_from_spot": -126.17,
+      "strike_abs_distance_from_spot": 126.17,
+      "distance_to_call_wall": null,
+      "distance_to_put_wall": null,
+      "distance_to_gex_flip": null,
+      "distance_to_bull_trigger": null,
+      "distance_to_bear_trigger": null,
+      "nearest_reference_level": null,
+      "nearest_reference_distance": null,
+      "call_wall": null,
+      "put_wall": null,
+      "gex_flip": null,
+      "bull_trigger": null,
+      "bear_trigger": null,
+      "charm_pin": null,
+      "regime": null,
+      "report_family": "roi"
+    }
+  },
+  "group_summaries": [
+    {
+      "contract_type": "put",
+      "time_bucket": "power_hour",
+      "distance_bucket": "100+",
+      "trade_count": 1,
+      "avg_roi_pct": 320.0,
+      "max_roi_pct": 320.0,
+      "best_option_ticker": "O:SPX260417P07000000",
+      "best_entry_time_et": "2026-04-16 03:50 PM ET",
+      "best_exit_time_et": "2026-04-16 03:53 PM ET",
+      "best_entry_price": 1.0,
+      "best_exit_price": 4.2,
+      "best_strike": 7000.0
+    },
+    {
+      "contract_type": "call",
+      "time_bucket": "morning",
+      "distance_bucket": "26-50",
+      "trade_count": 1,
+      "avg_roi_pct": 218.92,
+      "max_roi_pct": 218.92,
+      "best_option_ticker": "O:SPXW260417C07100000",
+      "best_entry_time_et": "2026-04-16 10:39 AM ET",
+      "best_exit_time_et": "2026-04-16 12:19 PM ET",
+      "best_entry_price": 1.85,
+      "best_exit_price": 5.9,
+      "best_strike": 7100.0
+    },
+    {
+      "contract_type": "call",
+      "time_bucket": "morning",
+      "distance_bucket": "11-25",
+      "trade_count": 4,
+      "avg_roi_pct": 210.04,
+      "max_roi_pct": 222.48,
+      "best_option_ticker": "O:SPXW260417C07110000",
+      "best_entry_time_et": "2026-04-16 10:42 AM ET",
+      "best_exit_time_et": "2026-04-16 12:19 PM ET",
+      "best_entry_price": 1.29,
+      "best_exit_price": 4.16,
+      "best_strike": 7110.0
+    },
+    {
+      "contract_type": "call",
+      "time_bucket": "morning",
+      "distance_bucket": "0-10",
+      "trade_count": 4,
+      "avg_roi_pct": 205.01,
+      "max_roi_pct": 215.79,
+      "best_option_ticker": "O:SPXW260417C07120000",
+      "best_entry_time_et": "2026-04-16 10:41 AM ET",
+      "best_exit_time_et": "2026-04-16 12:19 PM ET",
+      "best_entry_price": 0.95,
+      "best_exit_price": 3.0,
+      "best_strike": 7120.0
+    }
+  ]
+}
