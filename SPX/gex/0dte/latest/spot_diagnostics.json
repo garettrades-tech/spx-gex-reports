@@ -1,41 +1,41 @@
 {
   "atm_strike": 7130.0,
-  "atm_iv_pct": 3.07,
+  "atm_iv_pct": 3.44,
   "spot": 7125.26,
   "parity_estimates": [
     {
       "strike": 7120.0,
       "call_last": 5.4,
       "put_last": 0.04,
-      "call_delta": 0.999999999983247,
+      "call_delta": 0.9999999990186625,
       "estimate": 7125.36
     },
     {
       "strike": 7125.0,
       "call_last": 0.4,
       "put_last": 0.1,
-      "call_delta": 0.9999999996303,
+      "call_delta": 0.9999999994113721,
       "estimate": 7125.3
     },
     {
       "strike": 7130.0,
       "call_last": 0.05,
       "put_last": 5.3,
-      "call_delta": 0.06505661279054659,
+      "call_delta": 0.06497812165492405,
       "estimate": 7124.75
     },
     {
       "strike": 7135.0,
       "call_last": 0.03,
       "put_last": 9.8,
-      "call_delta": 0.03663692519588835,
+      "call_delta": 0.03661713741850922,
       "estimate": 7125.23
     },
     {
       "strike": 7140.0,
       "call_last": 0.03,
       "put_last": 14.35,
-      "call_delta": 0.026560560312508995,
+      "call_delta": 0.026551163724637963,
       "estimate": 7125.68
     }
   ]
