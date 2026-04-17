@@ -1,8 +1,13 @@
 {
-  "snapshot_label": "2026-04-17 15:17 ET",
+  "snapshot_label": "2026-04-17 16:35 ET",
   "should_call_openai": true,
   "reasons": [
-    "Forced via CLI flag"
+    "call_wall changed: 7125.0 -> 7175.0",
+    "put_wall changed: 6825.0 -> 6800.0",
+    "gex_flip changed: 6825.0 -> 6800.0",
+    "charm_pin changed: 7125.0 -> 7175.0",
+    "Spot move below threshold: 2.41 points",
+    "Net GEX changed materially: 46.81 -> 8.67 (81.5%)"
   ],
   "last_ai_commentary_snapshot": null
 }
