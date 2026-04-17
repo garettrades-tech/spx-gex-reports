@@ -22,12 +22,12 @@
       "ticker": "O:SPX260417C08000000"
     },
     "greeks": {
-      "delta": 0.0017481191874172328,
-      "gamma": 1.915208354512299e-05,
-      "theta": -25.482778215840035,
-      "vega": 0.005558717132775578
+      "delta": 0.0017481092900054778,
+      "gamma": 1.9151862891677863e-05,
+      "theta": -38.24846132008983,
+      "vega": 0.004536847368734393
     },
-    "implied_volatility": 4.373304683092321,
+    "implied_volatility": 5.357959192774093,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 13263,
@@ -59,12 +59,12 @@
       "ticker": "O:SPX260417C08100000"
     },
     "greeks": {
-      "delta": 0.0008875490853788512,
-      "gamma": 9.936902593199887e-06,
-      "theta": -14.192797889582613,
-      "vega": 0.001702302880689406
+      "delta": 0.0008875448227651318,
+      "gamma": 9.936804758467112e-06,
+      "theta": -21.30293231599871,
+      "vega": 0.0013893639211566226
     },
-    "implied_volatility": 4.531096280338035,
+    "implied_volatility": 5.551295754620033,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4348,
@@ -96,12 +96,12 @@
       "ticker": "O:SPX260417C08200000"
     },
     "greeks": {
-      "delta": 0.0010532710611040198,
-      "gamma": 1.0466577012537085e-05,
-      "theta": -18.6887691552089,
-      "vega": 0.001712637883822831
+      "delta": 0.001053265636659363,
+      "gamma": 1.046646764144374e-05,
+      "theta": -28.051291666311165,
+      "vega": 0.0013978134614174695
     },
-    "implied_volatility": 5.066195355568131,
+    "implied_volatility": 6.206878021120914,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4221,
@@ -133,12 +133,12 @@
       "ticker": "O:SPX260417C08300000"
     },
     "greeks": {
-      "delta": 0.0017732676314334362,
-      "gamma": 1.4724514024643606e-05,
-      "theta": -34.01697561812289,
-      "vega": 0.005660799897726194
+      "delta": 0.0017732603766134397,
+      "gamma": 1.4724387636082458e-05,
+      "theta": -51.05811404496091,
+      "vega": 0.004620259752898276
     },
-    "implied_volatility": 5.7626101497418425,
+    "implied_volatility": 7.060059145131525,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 460,
@@ -170,12 +170,12 @@
       "ticker": "O:SPX260417C08400000"
     },
     "greeks": {
-      "delta": 0.0014850392266645804,
-      "gamma": 1.181981321206863e-05,
-      "theta": -31.01477274892705,
-      "vega": 0.005694499549452869
+      "delta": 0.0014850326315512658,
+      "gamma": 1.181970485904161e-05,
+      "theta": -46.55186614653183,
+      "vega": 0.00464777764933186
     },
-    "implied_volatility": 6.14143566862251,
+    "implied_volatility": 7.524170396715708,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 599,
@@ -207,12 +207,12 @@
       "ticker": "O:SPX260417C08500000"
     },
     "greeks": {
-      "delta": 0.0010533813716638446,
-      "gamma": 8.34778119013938e-06,
-      "theta": -23.392609497279608,
-      "vega": 0.0017433362045388534
+      "delta": 0.0010533771629591487,
+      "gamma": 8.347713262753632e-06,
+      "theta": -35.111655926648545,
+      "vega": 0.001422888059258414
     },
-    "implied_volatility": 6.34664544224241,
+    "implied_volatility": 7.775613321209342,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 290,
@@ -244,12 +244,12 @@
       "ticker": "O:SPX260417C08600000"
     },
     "greeks": {
-      "delta": 0.0009979021248913292,
-      "gamma": 7.487958122408196e-06,
-      "theta": -23.496498938343397,
-      "vega": 0.0017534502128853677
+      "delta": 0.000997898617487573,
+      "gamma": 7.487904263539027e-06,
+      "theta": -35.26759091711743,
+      "vega": 0.001431147458475522
     },
-    "implied_volatility": 6.715973377542458,
+    "implied_volatility": 8.228090187823925,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 314,
@@ -281,12 +281,12 @@
       "ticker": "O:SPX260417C08800000"
     },
     "greeks": {
-      "delta": 0.0009049514185900143,
-      "gamma": 6.152006650597873e-06,
-      "theta": -23.70406832295574,
-      "vega": 0.0017734942719015532
+      "delta": 0.0009049488715444497,
+      "gamma": 6.151970858951579e-06,
+      "theta": -35.57914567228448,
+      "vega": 0.001447513478117346
     },
-    "implied_volatility": 7.4419903702976615,
+    "implied_volatility": 9.117560424064035,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 241,
@@ -318,12 +318,12 @@
       "ticker": "O:SPX260417C09000000"
     },
     "greeks": {
-      "delta": 0.0008301517020727091,
-      "gamma": 5.172063505830205e-06,
-      "theta": -23.91134243674284,
-      "vega": 0.0017932935912527794
+      "delta": 0.0008301497535576928,
+      "gamma": 5.172038160135921e-06,
+      "theta": -35.89025699472095,
+      "vega": 0.0014636777869903178
     },
-    "implied_volatility": 8.151783945573346,
+    "implied_volatility": 9.987155640067279,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 747,
@@ -355,12 +355,12 @@
       "ticker": "O:SPX260417C09200000"
     },
     "greeks": {
-      "delta": 0.0007686605647356863,
-      "gamma": 4.430004142430039e-06,
-      "theta": -24.118303533925612,
-      "vega": 0.0018128559992827205
+      "delta": 0.0007686590061711823,
+      "gamma": 4.429985213868788e-06,
+      "theta": -36.20090154804121,
+      "vega": 0.0014796496920468135
     },
-    "implied_volatility": 8.846064575345817,
+    "implied_volatility": 10.837746469165852,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1161,
@@ -392,12 +392,12 @@
       "ticker": "O:SPX260417C09400000"
     },
     "greeks": {
-      "delta": 0.000717217665196397,
-      "gamma": 3.853237233082605e-06,
-      "theta": -24.3249358247238,
-      "vega": 0.0018321912897018746
+      "delta": 0.0007172163702209785,
+      "gamma": 3.853222453922252e-06,
+      "theta": -36.51105028428571,
+      "vega": 0.0014954329508859985
     },
-    "implied_volatility": 9.525496897011745,
+    "implied_volatility": 11.670146235884259,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2756,
@@ -429,12 +429,12 @@
       "ticker": "O:SPX260417C09600000"
     },
     "greeks": {
-      "delta": 0.0006735473993787927,
-      "gamma": 3.3950907767326305e-06,
-      "theta": -24.531225457238776,
-      "vega": 0.0018513025055615115
+      "delta": 0.0006735462882271005,
+      "gamma": 3.395078801577016e-06,
+      "theta": -36.82068469858772,
+      "vega": 0.0015110373152453873
     },
-    "implied_volatility": 10.190703671470757,
+    "implied_volatility": 12.485118096751151,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 886,
@@ -466,12 +466,12 @@
       "ticker": "O:SPX260417C09800000"
     },
     "greeks": {
-      "delta": 0.0005216603738799631,
-      "gamma": 2.5500235904313163e-06,
-      "theta": -20.345860643313706,
-      "vega": 0.0018702795165275832
+      "delta": 0.0005216595043202037,
+      "gamma": 2.5500144617679556e-06,
+      "theta": -30.53853715607161,
+      "vega": 0.0015265282234379646
     },
-    "implied_volatility": 10.70859652457868,
+    "implied_volatility": 13.119604053017524,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 18440,
@@ -503,12 +503,12 @@
       "ticker": "O:SPX260417C10000000"
     },
     "greeks": {
-      "delta": 0.0003839726260084111,
-      "gamma": 1.8462671549654863e-06,
-      "theta": -16.160266880557945,
-      "vega": 0.0018890675722811748
+      "delta": 0.0003839718087151584,
+      "gamma": 1.8462589521511115e-06,
+      "theta": -24.25604564177526,
+      "vega": 0.0015418634254992243
     },
-    "implied_volatility": 11.216048756337598,
+    "implied_volatility": 13.741299511543563,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1072,
@@ -540,12 +540,12 @@
       "ticker": "O:SPX260417C10400000"
     },
     "greeks": {
-      "delta": 0.00035032510452669325,
-      "gamma": 1.5337362806502625e-06,
-      "theta": -16.57058672331329,
-      "vega": 0.0019258645111578528
+      "delta": 0.0003503243385211423,
+      "gamma": 1.5337293821785652e-06,
+      "theta": -24.871923647823966,
+      "vega": 0.0015719025050522303
     },
-    "implied_volatility": 12.460809740764025,
+    "implied_volatility": 15.26630961039848,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 655,
@@ -577,12 +577,12 @@
       "ticker": "O:SPX260417C10800000"
     },
     "greeks": {
-      "delta": 0.0005069150966993267,
-      "gamma": 1.912335682297225e-06,
-      "theta": -25.7611498859151,
-      "vega": 0.00196166536920434
+      "delta": 0.0005069144182410316,
+      "gamma": 1.912330169587636e-06,
+      "theta": -38.66676455803382,
+      "vega": 0.0016011283993176931
     },
-    "implied_volatility": 13.913603793347939,
+    "implied_volatility": 17.046198939845638,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 27,
@@ -646,12 +646,12 @@
       "ticker": "O:SPX260417C11600000"
     },
     "greeks": {
-      "delta": 0.0005213079005971549,
-      "gamma": 1.6752941239297131e-06,
-      "theta": -30.963579044034418,
-      "vega": 0.002031410661609686
+      "delta": 0.0005213073062668013,
+      "gamma": 1.6752899908928898e-06,
+      "theta": -46.475495811095215,
+      "vega": 0.0016580608865296798
     },
-    "implied_volatility": 16.29647153983879,
+    "implied_volatility": 19.965555912646078,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 132,
@@ -683,12 +683,12 @@
       "ticker": "O:SPX260417C12000000"
     },
     "greeks": {
-      "delta": 0.00026794387130182825,
-      "gamma": 8.899209737908995e-07,
-      "theta": -16.99702189981089,
-      "vega": 0.0005164669555135599
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 16.56613493672607,
+    "implied_volatility": 5.177399837750998e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1264,
@@ -789,7 +789,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062938856201e-05,
+    "implied_volatility": 5.177399745493457e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 15,
@@ -826,7 +826,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062907958097e-05,
+    "implied_volatility": 5.1773997154345376e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1108,
@@ -863,7 +863,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062878084442e-05,
+    "implied_volatility": 5.177399686212828e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2130,
@@ -900,7 +900,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062850910105e-05,
+    "implied_volatility": 5.177399658058888e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3838,
@@ -937,7 +937,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062827328983e-05,
+    "implied_volatility": 5.1773996145440604e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 866,
@@ -974,7 +974,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062803159775e-05,
+    "implied_volatility": 5.1773995842819604e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1341,
@@ -1011,7 +1011,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062778812962e-05,
+    "implied_volatility": 5.17739955611361e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6529,
@@ -1048,7 +1048,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062751084647e-05,
+    "implied_volatility": 5.1773995256800334e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1599,
@@ -1085,7 +1085,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062722837641e-05,
+    "implied_volatility": 5.177399497655781e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5014,
@@ -1122,7 +1122,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062695391609e-05,
+    "implied_volatility": 5.177399466658778e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6027,
@@ -1159,7 +1159,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062668146701e-05,
+    "implied_volatility": 5.177399439486147e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 292,
@@ -1196,7 +1196,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062651047477e-05,
+    "implied_volatility": 5.1773994093839954e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2643,
@@ -1233,7 +1233,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062635150303e-05,
+    "implied_volatility": 5.1773993818222975e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 8461,
@@ -1270,7 +1270,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062615576406e-05,
+    "implied_volatility": 5.177399348225761e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 8091,
@@ -1307,7 +1307,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062600598999e-05,
+    "implied_volatility": 5.177399304001967e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 7351,
@@ -1344,7 +1344,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.34306258254472e-05,
+    "implied_volatility": 5.1773992341963864e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6959,
@@ -1381,7 +1381,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062564597472e-05,
+    "implied_volatility": 5.1773991786824834e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6966,
@@ -1418,7 +1418,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062547298297e-05,
+    "implied_volatility": 5.1773991301285314e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 12618,
@@ -1455,7 +1455,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062530941238e-05,
+    "implied_volatility": 5.177399089933727e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5944,
@@ -1492,7 +1492,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062513960807e-05,
+    "implied_volatility": 5.1773990472993364e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 7433,
@@ -1529,7 +1529,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062494021119e-05,
+    "implied_volatility": 5.1773990024703264e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6757,
@@ -1566,7 +1566,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062476710182e-05,
+    "implied_volatility": 5.177398958132693e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6251,
@@ -1603,7 +1603,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062461613982e-05,
+    "implied_volatility": 5.177398914227352e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3091,
@@ -1640,7 +1640,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062444962879e-05,
+    "implied_volatility": 5.177398874176644e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4324,
@@ -1677,7 +1677,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062428642279e-05,
+    "implied_volatility": 5.177398831282875e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3319,
@@ -1714,7 +1714,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062410918506e-05,
+    "implied_volatility": 5.1773987875504524e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 7155,
@@ -1751,7 +1751,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062394632016e-05,
+    "implied_volatility": 5.177398741913048e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2570,
@@ -1788,7 +1788,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062354506821e-05,
+    "implied_volatility": 5.1773987114492055e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4059,
@@ -1825,7 +1825,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062337182945e-05,
+    "implied_volatility": 5.1773986780399926e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2300,
@@ -1862,7 +1862,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.34306232052008e-05,
+    "implied_volatility": 5.177398601072712e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5964,
@@ -1899,7 +1899,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.34306230427005e-05,
+    "implied_volatility": 5.1773984644342814e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2223,
@@ -1931,12 +1931,12 @@
       "ticker": "O:SPX260417P03900000"
     },
     "greeks": {
-      "delta": -0.00021042570231415408,
-      "gamma": 5.98746580509604e-07,
-      "theta": -16.479563185806764,
-      "vega": 0.0011761404463845636
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 19.88486581703525,
+    "implied_volatility": 5.1773984190130225e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4755,
@@ -1968,12 +1968,12 @@
       "ticker": "O:SPX260417P03950000"
     },
     "greeks": {
-      "delta": -0.00033612689046200916,
-      "gamma": 9.149127392980567e-07,
-      "theta": -25.21066144717166,
-      "vega": 0.001183552185709692
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 19.896356573093524,
+    "implied_volatility": 5.177398373447665e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2541,
@@ -2010,7 +2010,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062208698808e-05,
+    "implied_volatility": 5.1773983323868234e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1066,
@@ -2042,12 +2042,12 @@
       "ticker": "O:SPX260417P04000000"
     },
     "greeks": {
-      "delta": -0.0003430355556649041,
-      "gamma": 9.518538876577514e-07,
-      "theta": -25.162111447967398,
-      "vega": 0.0011912250130612949
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 19.48792155315571,
+    "implied_volatility": 5.1773982921199627e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 16212,
@@ -2079,12 +2079,12 @@
       "ticker": "O:SPX260417P04025000"
     },
     "greeks": {
-      "delta": -0.0002212347804181966,
-      "gamma": 6.60205375000058e-07,
-      "theta": -16.35786387479438,
-      "vega": 0.0011953345938805877
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 18.86728713706359,
+    "implied_volatility": 5.177398248835682e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1040,
@@ -2121,7 +2121,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062057588597e-05,
+    "implied_volatility": 5.1773981764881916e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2118,
@@ -2158,7 +2158,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343062041550281e-05,
+    "implied_volatility": 5.177398136655066e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1154,
@@ -2190,12 +2190,12 @@
       "ticker": "O:SPX260417P04100000"
     },
     "greeks": {
-      "delta": -0.00022810192993432326,
-      "gamma": 7.007962158333143e-07,
-      "theta": -16.284365403570405,
-      "vega": 0.0012067005425868676
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 18.27188255217247,
+    "implied_volatility": 5.177398094901109e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1679,
@@ -2232,7 +2232,7 @@
       "theta": 0,
       "vega": 0
     },
-    "implied_volatility": 6.343061991807502e-05,
+    "implied_volatility": 5.17739805213558e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 943,
@@ -2264,12 +2264,12 @@
       "ticker": "O:SPX260417P04150000"
     },
     "greeks": {
-      "delta": -0.00036499125338361943,
-      "gamma": 1.074073860798949e-06,
-      "theta": -25.01549025396163,
-      "vega": 0.0012139429165287708
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 18.292834670547947,
+    "implied_volatility": 5.177397977739008e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1484,
@@ -2301,12 +2301,12 @@
       "ticker": "O:SPX260417P04175000"
     },
     "greeks": {
-      "delta": -0.0003688430751846382,
-      "gamma": 1.0962717401710398e-06,
-      "theta": -24.990920024240786,
-      "vega": 0.001217686215368062
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 18.09789956017592,
+    "implied_volatility": 5.1773979354360345e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1079,
@@ -2338,12 +2338,12 @@
       "ticker": "O:SPX260417P04200000"
     },
     "greeks": {
-      "delta": -0.00023774868954732264,
-      "gamma": 7.598437525971744e-07,
-      "theta": -16.18585211735021,
-      "vega": 0.0012216840350078733
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 17.494821855571775,
+    "implied_volatility": 5.177397893408289e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 7361,
@@ -2375,12 +2375,12 @@
       "ticker": "O:SPX260417P04225000"
     },
     "greeks": {
-      "delta": -0.0003767240742615253,
-      "gamma": 1.1423927550521609e-06,
-      "theta": -24.94167132144488,
-      "vega": 0.001225137809373011
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 17.71153757789111,
+    "implied_volatility": 5.1773978498487755e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 954,
@@ -2412,12 +2412,12 @@
       "ticker": "O:SPX260417P04250000"
     },
     "greeks": {
-      "delta": -0.00038075621215551554,
-      "gamma": 1.166354802831419e-06,
-      "theta": -24.916994421927466,
-      "vega": 0.0012288463478448738
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 17.520082953643016,
+    "implied_volatility": 5.177397811184287e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2228,
@@ -2449,12 +2449,12 @@
       "ticker": "O:SPX260417P04275000"
     },
     "greeks": {
-      "delta": -0.0003848514969179836,
-      "gamma": 1.1909451855300737e-06,
-      "theta": -24.892283428499415,
-      "vega": 0.0012325435091206408
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 17.329761116971515,
+    "implied_volatility": 5.177397767206887e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1372,
@@ -2486,12 +2486,12 @@
       "ticker": "O:SPX260417P04300000"
     },
     "greeks": {
-      "delta": -0.0003193732097756796,
-      "gamma": 1.0255348223363386e-06,
-      "theta": -20.477183598061032,
-      "vega": 0.001236349286888032
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 16.93834054744796,
+    "implied_volatility": 5.177397721627114e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6036,
@@ -2523,12 +2523,12 @@
       "ticker": "O:SPX260417P04325000"
     },
     "greeks": {
-      "delta": -0.00032283732083639085,
-      "gamma": 1.0473620601268238e-06,
-      "theta": -20.45237178957104,
-      "vega": 0.0012400217964139647
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 16.750843615725053,
+    "implied_volatility": 5.177397684190343e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1181,
@@ -2560,12 +2560,12 @@
       "ticker": "O:SPX260417P04350000"
     },
     "greeks": {
-      "delta": -0.00032635773825509296,
-      "gamma": 1.0697779592839198e-06,
-      "theta": -20.427528469734785,
-      "vega": 0.0012436817337206085
+      "delta": 0,
+      "gamma": 0,
+      "theta": 0,
+      "vega": 0
     },
-    "implied_volatility": 16.564434915880522,
+    "implied_volatility": 5.177397644458084e-05,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1836,
@@ -2597,12 +2597,12 @@
       "ticker": "O:SPX260417P04375000"
     },
     "greeks": {
-      "delta": -0.00025614863403907487,
-      "gamma": 8.790302554062632e-07,
-      "theta": -16.01216400056593,
-      "vega": 0.0012474564799412552
+      "delta": -0.0002561489843666254,
+      "gamma": 8.790328452584285e-07,
+      "theta": -24.034052962648598,
+      "vega": 0.001018235784862025
     },
-    "implied_volatility": 16.178684140212447,
+    "implied_volatility": 19.82121042848441,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1085,
@@ -2634,12 +2634,12 @@
       "ticker": "O:SPX260417P04400000"
     },
     "greeks": {
-      "delta": -0.00025895188977200005,
-      "gamma": 8.979439885744205e-07,
-      "theta": -15.987224278427892,
-      "vega": 0.001251093412812088
+      "delta": -0.0002589522959877857,
+      "gamma": 8.979467956198911e-07,
+      "theta": -23.99662429534561,
+      "vega": 0.0010212040810437114
     },
-    "implied_volatility": 15.994997191741374,
+    "implied_volatility": 19.5961675696617,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2566,
@@ -2671,12 +2671,12 @@
       "ticker": "O:SPX260417P04425000"
     },
     "greeks": {
-      "delta": -0.00026180244358984644,
-      "gamma": 9.173813697947715e-07,
-      "theta": -15.962258211216396,
-      "vega": 0.0012547189117988397
+      "delta": -0.00026180285532437995,
+      "gamma": 9.173842481386536e-07,
+      "theta": -23.959152016186273,
+      "vega": 0.0010241638637582876
     },
-    "implied_volatility": 15.812356421691128,
+    "implied_volatility": 19.372406413495423,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1002,
@@ -2708,12 +2708,12 @@
       "ticker": "O:SPX260417P04450000"
     },
     "greeks": {
-      "delta": -0.00026470153774103795,
-      "gamma": 9.3736144636116e-07,
-      "theta": -15.937263759227829,
-      "vega": 0.0012583338327304683
+      "delta": -0.0002647019551215831,
+      "gamma": 9.373643983562765e-07,
+      "theta": -23.921636159747926,
+      "vega": 0.0010271146862457095
     },
-    "implied_volatility": 15.630750033651475,
+    "implied_volatility": 19.149912125789232,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1286,
@@ -2745,12 +2745,12 @@
       "ticker": "O:SPX260417P04475000"
     },
     "greeks": {
-      "delta": -0.0002676506155031677,
-      "gamma": 9.579046142942635e-07,
-      "theta": -15.912246981369634,
-      "vega": 0.0012619375356067609
+      "delta": -0.00026765093478327637,
+      "gamma": 9.579073240212085e-07,
+      "theta": -23.8840778372248,
+      "vega": 0.0010300569258286823
     },
-    "implied_volatility": 15.450166488347222,
+    "implied_volatility": 18.928670563287312,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1339,
@@ -2782,12 +2782,12 @@
       "ticker": "O:SPX260417P04500000"
     },
     "greeks": {
-      "delta": -0.00027065075343388293,
-      "gamma": 9.790309272471133e-07,
-      "theta": -15.887191269281299,
-      "vega": 0.0012655304724269645
+      "delta": -0.0002706511825120793,
+      "gamma": 9.79034034049733e-07,
+      "theta": -23.84647825574286,
+      "vega": 0.0010329900786521895
     },
-    "implied_volatility": 15.270593716523798,
+    "implied_volatility": 18.70866786147314,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5436,
@@ -2819,12 +2819,12 @@
       "ticker": "O:SPX260417P04525000"
     },
     "greeks": {
-      "delta": -0.00027370370242636916,
-      "gamma": 1.0007633324849312e-06,
-      "theta": -15.862114026292934,
-      "vega": 0.0012691138331475346
+      "delta": -0.000273704081365617,
+      "gamma": 1.0007663445599793e-06,
+      "theta": -23.808833617644876,
+      "vega": 0.0010359144478632072
     },
-    "implied_volatility": 15.092020953459583,
+    "implied_volatility": 18.48989007338774,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1197,
@@ -2856,12 +2856,12 @@
       "ticker": "O:SPX260417P04550000"
     },
     "greeks": {
-      "delta": -0.00027681085129820814,
-      "gamma": 1.023124542652236e-06,
-      "theta": -15.83701038372691,
-      "vega": 0.0012726855391242589
+      "delta": -0.0002768113624018111,
+      "gamma": 1.0231280361001185e-06,
+      "theta": -23.771164665443397,
+      "vega": 0.001038830603072273
     },
-    "implied_volatility": 14.91443708100743,
+    "implied_volatility": 18.27232450939171,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5015,
@@ -2893,12 +2893,12 @@
       "ticker": "O:SPX260417P04575000"
     },
     "greeks": {
-      "delta": -0.000360838093153089,
-      "gamma": 1.3017872804752395e-06,
-      "theta": -20.202618968043918,
-      "vega": 0.0012761371907043162
+      "delta": -0.00036083856596109065,
+      "gamma": 1.301790746351235e-06,
+      "theta": -30.323850597692687,
+      "vega": 0.0010416469708164654
     },
-    "implied_volatility": 14.933726684023304,
+    "implied_volatility": 18.295950714488548,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1665,
@@ -2930,12 +2930,12 @@
       "ticker": "O:SPX260417P04600000"
     },
     "greeks": {
-      "delta": -0.00028319400194714157,
-      "gamma": 1.0698310561172752e-06,
-      "theta": -15.786726151507576,
-      "vega": 0.0012797988527295256
+      "delta": -0.0002831944562315098,
+      "gamma": 1.0698345060904294e-06,
+      "theta": -23.695684618537477,
+      "vega": 0.0010446376208049478
     },
-    "implied_volatility": 14.562192740678384,
+    "implied_volatility": 17.840773855281906,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6952,
@@ -2967,12 +2967,12 @@
       "ticker": "O:SPX260417P04625000"
     },
     "greeks": {
-      "delta": -0.00044982294152783796,
-      "gamma": 1.6151776020649216e-06,
-      "theta": -24.543103896938263,
-      "vega": 0.00128313422362804
+      "delta": -0.000449823517044256,
+      "gamma": 1.6151817800004578e-06,
+      "theta": -36.83883315704232,
+      "vega": 0.001047358395618585
     },
-    "implied_volatility": 14.777151683269052,
+    "implied_volatility": 18.10411740972582,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 883,
@@ -3004,12 +3004,12 @@
       "ticker": "O:SPX260417P04650000"
     },
     "greeks": {
-      "delta": -0.0002898133152417689,
-      "gamma": 1.1193578488134043e-06,
-      "theta": -15.736342707408326,
-      "vega": 0.0012868700592193018
+      "delta": -0.000289813783158297,
+      "gamma": 1.1193614894762796e-06,
+      "theta": -23.62006114771051,
+      "vega": 0.0010504105501322723
     },
-    "implied_volatility": 14.213775791808395,
+    "implied_volatility": 17.413912427830393,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2224,
@@ -3041,12 +3041,12 @@
       "ticker": "O:SPX260417P04675000"
     },
     "greeks": {
-      "delta": -0.00029321587864943353,
-      "gamma": 1.1452491899744732e-06,
-      "theta": -15.711113210926799,
-      "vega": 0.001290390808929957
+      "delta": -0.0002932162872024109,
+      "gamma": 1.1452527083468763e-06,
+      "theta": -23.58218771031484,
+      "vega": 0.0010532838284857402
     },
-    "implied_volatility": 14.040976621206596,
+    "implied_volatility": 17.20220815800521,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 950,
@@ -3078,12 +3078,12 @@
       "ticker": "O:SPX260417P04700000"
     },
     "greeks": {
-      "delta": -0.000296682933214475,
-      "gamma": 1.1719331606336842e-06,
-      "theta": -15.685864454391938,
-      "vega": 0.001293901467766515
+      "delta": -0.00029668341554571866,
+      "gamma": 1.1719370065438542e-06,
+      "theta": -23.54429405893671,
+      "vega": 0.0010561498251288179
     },
-    "implied_volatility": 13.869104247136189,
+    "implied_volatility": 16.991639169826442,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6665,
@@ -3115,12 +3115,12 @@
       "ticker": "O:SPX260417P04725000"
     },
     "greeks": {
-      "delta": -0.000471493919190422,
-      "gamma": 1.770945259014457e-06,
-      "theta": -24.442363055594495,
-      "vega": 0.0012972108560078063
+      "delta": -0.0004714945544146151,
+      "gamma": 1.770950080372994e-06,
+      "theta": -36.68762248448063,
+      "vega": 0.0010588499514270293
     },
-    "implied_volatility": 14.083562800405119,
+    "implied_volatility": 17.254368921450514,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1809,
@@ -3152,12 +3152,12 @@
       "ticker": "O:SPX260417P04750000"
     },
     "greeks": {
-      "delta": -0.0003038181342212079,
-      "gamma": 1.2278086518713907e-06,
-      "theta": -15.63529388677721,
-      "vega": 0.001300892345747959
+      "delta": -0.0003038186318350788,
+      "gamma": 1.2278127191988317e-06,
+      "theta": -23.46838934472166,
+      "vega": 0.0010618574074222086
     },
-    "implied_volatility": 13.528097955595872,
+    "implied_volatility": 16.57385670809295,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2620,
@@ -3189,12 +3189,12 @@
       "ticker": "O:SPX260417P04775000"
     },
     "greeks": {
-      "delta": -0.0003964864202305888,
-      "gamma": 1.5654164513112485e-06,
-      "theta": -20.000926893598002,
-      "vega": 0.0013042769942659953
+      "delta": -0.00039648697497275806,
+      "gamma": 1.5654209132982867e-06,
+      "theta": -30.02111643025755,
+      "vega": 0.0010646193791000857
     },
-    "implied_volatility": 13.550615432826051,
+    "implied_volatility": 16.601436907548486,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1910,
@@ -3226,12 +3226,12 @@
       "ticker": "O:SPX260417P04800000"
     },
     "greeks": {
-      "delta": -0.0003112354499413766,
-      "gamma": 1.287262338938797e-06,
-      "theta": -15.584635335862178,
-      "vega": 0.0013078448198941652
+      "delta": -0.00031123596380279174,
+      "gamma": 1.2872666457005566e-06,
+      "theta": -23.3923521257062,
+      "vega": 0.0010675326994593688
     },
-    "implied_volatility": 13.190680158302872,
+    "implied_volatility": 16.160470502229543,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 11911,
@@ -3263,12 +3263,12 @@
       "ticker": "O:SPX260417P04825000"
     },
     "greeks": {
-      "delta": -0.0004062781691235122,
-      "gamma": 1.6420562698507334e-06,
-      "theta": -19.95027383564939,
-      "vega": 0.0013112126206557381
+      "delta": -0.00040627874857206804,
+      "gamma": 1.6420610427373717e-06,
+      "theta": -29.945088200096865,
+      "vega": 0.0010702815401623022
     },
-    "implied_volatility": 13.213949930376337,
+    "implied_volatility": 16.188972475602707,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1549,
@@ -3300,12 +3300,12 @@
       "ticker": "O:SPX260417P04850000"
     },
     "greeks": {
-      "delta": -0.0003189527971118152,
-      "gamma": 1.3506019677876075e-06,
-      "theta": -15.53389208169341,
-      "vega": 0.0013147569173288232
+      "delta": -0.0003189533282971748,
+      "gamma": 1.3506065341292596e-06,
+      "theta": -23.316188181225755,
+      "vega": 0.0010731770560320252
     },
-    "implied_volatility": 12.856776093613433,
+    "implied_volatility": 15.751389256591231,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2929,
@@ -3337,12 +3337,12 @@
       "ticker": "O:SPX260417P04875000"
     },
     "greeks": {
-      "delta": -0.00032292999639971167,
-      "gamma": 1.383834254834714e-06,
-      "theta": -15.508489860972158,
-      "vega": 0.001318200202836378
+      "delta": -0.0003229305366899083,
+      "gamma": 1.3838389592747357e-06,
+      "theta": -23.278060331564863,
+      "vega": 0.0010759862389660615
     },
-    "implied_volatility": 12.69111905673455,
+    "implied_volatility": 15.54843519848672,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4126,
@@ -3374,12 +3374,12 @@
       "ticker": "O:SPX260417P04900000"
     },
     "greeks": {
-      "delta": -0.0003269896262101779,
-      "gamma": 1.4181689011673413e-06,
-      "theta": -15.483067756891597,
-      "vega": 0.0013216339512164602
+      "delta": -0.0003269901759236492,
+      "gamma": 1.4181737496933382e-06,
+      "theta": -23.239902724670593,
+      "vega": 0.0010787892522515817
     },
-    "implied_volatility": 12.526313507128295,
+    "implied_volatility": 15.346524359460942,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5298,
@@ -3411,12 +3411,12 @@
       "ticker": "O:SPX260417P04925000"
     },
     "greeks": {
-      "delta": -0.00042707632750350584,
-      "gamma": 1.8108857229335546e-06,
-      "theta": -19.84871844021881,
-      "vega": 0.0013249705346472913
+      "delta": -0.0004270769629424298,
+      "gamma": 1.8108912162800223e-06,
+      "theta": -29.79265685684957,
+      "vega": 0.0010815120201797433
     },
-    "implied_volatility": 12.551028190433104,
+    "implied_volatility": 15.376796201907869,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1334,
@@ -3448,12 +3448,12 @@
       "ticker": "O:SPX260417P04950000"
     },
     "greeks": {
-      "delta": -0.0005267681300570002,
-      "gamma": 2.200550131563603e-06,
-      "theta": -24.21436887667431,
-      "vega": 0.0013283095705034914
+      "delta": -0.0005267689437600379,
+      "gamma": 2.2005569844617337e-06,
+      "theta": -36.34541089006891,
+      "vega": 0.0010842376169887908
     },
-    "implied_volatility": 12.575618462868151,
+    "implied_volatility": 15.406915757302315,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3123,
@@ -3485,12 +3485,12 @@
       "ticker": "O:SPX260417P04975000"
     },
     "greeks": {
-      "delta": -0.00033969068128758117,
-      "gamma": 1.528287277490882e-06,
-      "theta": -15.40668654348927,
-      "vega": 0.0013318753579517218
+      "delta": -0.0003396912613798543,
+      "gamma": 1.5282925980472857e-06,
+      "theta": -23.125256995313123,
+      "vega": 0.0010871509170029222
     },
-    "implied_volatility": 12.036919595438356,
+    "implied_volatility": 14.746945245652952,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1700,
@@ -3522,12 +3522,12 @@
       "ticker": "O:SPX260417P05000000"
     },
     "greeks": {
-      "delta": -0.00034410823281456177,
-      "gamma": 1.5675458862314234e-06,
-      "theta": -15.381189005273109,
-      "vega": 0.0013352722460646678
+      "delta": -0.00034410882380971416,
+      "gamma": 1.5675513788288673e-06,
+      "theta": -23.086986041106222,
+      "vega": 0.00108992391901163
     },
-    "implied_volatility": 11.875434355231036,
+    "implied_volatility": 14.549102205445534,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 18993,
@@ -3559,12 +3559,12 @@
       "ticker": "O:SPX260417P05025000"
     },
     "greeks": {
-      "delta": -0.0004496758726474102,
-      "gamma": 2.0036514673738822e-06,
-      "theta": -19.74685163330074,
-      "vega": 0.0013385786214179804
+      "delta": -0.0004496765747984089,
+      "gamma": 2.0036578453971503e-06,
+      "theta": -29.639758479172468,
+      "vega": 0.0010926217140321164
     },
-    "implied_volatility": 11.901518218699087,
+    "implied_volatility": 14.581051280446422,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2157,
@@ -3596,12 +3596,12 @@
       "ticker": "O:SPX260417P05050000"
     },
     "greeks": {
-      "delta": -0.0004556359648188704,
-      "gamma": 2.056105007321e-06,
-      "theta": -19.721339231996776,
-      "vega": 0.0013419582032377737
+      "delta": -0.0004556366856567699,
+      "gamma": 2.056111637890968e-06,
+      "theta": -29.60146551180184,
+      "vega": 0.0010953811059600696
     },
-    "implied_volatility": 11.741173371632804,
+    "implied_volatility": 14.38460537033937,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1428,
@@ -3633,12 +3633,12 @@
       "ticker": "O:SPX260417P05075000"
     },
     "greeks": {
-      "delta": -0.0004617286763635759,
-      "gamma": 2.1104228682300085e-06,
-      "theta": -19.69580916029235,
-      "vega": 0.0013453290113203042
+      "delta": -0.000461729416798279,
+      "gamma": 2.1104297657616783e-06,
+      "theta": -29.56314582544183,
+      "vega": 0.0010981330221150815
     },
-    "implied_volatility": 11.58162538117256,
+    "implied_volatility": 14.1891356684814,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1908,
@@ -3670,12 +3670,12 @@
       "ticker": "O:SPX260417P05100000"
     },
     "greeks": {
-      "delta": -0.0003627845363532368,
-      "gamma": 1.7389862161098271e-06,
-      "theta": -15.279023762395285,
-      "vega": 0.0013487643588437931
+      "delta": -0.00036278517554023774,
+      "gamma": 1.738992484165979e-06,
+      "theta": -22.933639779116508,
+      "vega": 0.0011009390343431399
     },
-    "implied_volatility": 11.237506428960739,
+    "implied_volatility": 13.767547222783787,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 7720,
@@ -3707,12 +3707,12 @@
       "ticker": "O:SPX260417P05110000"
     },
     "greeks": {
-      "delta": -0.000572785314563924,
-      "gamma": 2.593599426574472e-06,
-      "theta": -24.051262067609816,
-      "vega": 0.001349966688243173
+      "delta": -0.0005727863096184069,
+      "gamma": 2.5936084862714695e-06,
+      "theta": -36.100593849932054,
+      "vega": 0.0011019179972271422
     },
-    "implied_volatility": 11.544767604563743,
+    "implied_volatility": 14.143971826324606,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 20,
@@ -3744,12 +3744,12 @@
       "ticker": "O:SPX260417P05120000"
     },
     "greeks": {
-      "delta": -0.0005758803215196654,
-      "gamma": 2.621188947111224e-06,
-      "theta": -24.041044070430985,
-      "vega": 0.0013513067144130286
+      "delta": -0.0005758813299530826,
+      "gamma": 2.6211981746885526e-06,
+      "theta": -36.08525668905001,
+      "vega": 0.0011030127852480905
     },
-    "implied_volatility": 11.481424049758182,
+    "implied_volatility": 14.066366572092896,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 143,
@@ -3781,12 +3781,12 @@
       "ticker": "O:SPX260417P05125000"
     },
     "greeks": {
-      "delta": -0.0004743306246483984,
-      "gamma": 2.225008481899265e-06,
-      "theta": -19.644699142066266,
-      "vega": 0.001352041880878442
+      "delta": -0.0004743314072530169,
+      "gamma": 2.225015961005316e-06,
+      "theta": -29.486431103007146,
+      "vega": 0.0011036136480477802
     },
-    "implied_volatility": 11.264889093749899,
+    "implied_volatility": 13.801087090794287,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2104,
@@ -3818,12 +3818,12 @@
       "ticker": "O:SPX260417P05130000"
     },
     "greeks": {
-      "delta": -0.00047562251356948065,
-      "gamma": 2.236925614445538e-06,
-      "theta": -19.639584507749685,
-      "vega": 0.0013527116131448217
+      "delta": -0.00047562330062511524,
+      "gamma": 2.2369331554868743e-06,
+      "theta": -29.47875464101543,
+      "vega": 0.001104160892644127
     },
-    "implied_volatility": 11.233386679687765,
+    "implied_volatility": 13.76249210212811,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 25,
@@ -3855,12 +3855,12 @@
       "ticker": "O:SPX260417P05140000"
     },
     "greeks": {
-      "delta": -0.000478224109808821,
-      "gamma": 2.2610203968314657e-06,
-      "theta": -19.629353228577138,
-      "vega": 0.0013540491754044535
+      "delta": -0.00047822490590139667,
+      "gamma": 2.26102806393893e-06,
+      "theta": -29.463399001257393,
+      "vega": 0.0011052517604565751
     },
-    "implied_volatility": 11.170474430246438,
+    "implied_volatility": 13.685415614652733,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 20,
@@ -3892,12 +3892,12 @@
       "ticker": "O:SPX260417P05150000"
     },
     "greeks": {
-      "delta": -0.0004808497457073377,
-      "gamma": 2.2854681014081722e-06,
-      "theta": -19.619119206845678,
-      "vega": 0.0013553858834704194
+      "delta": -0.0004808505510210081,
+      "gamma": 2.285475897583953e-06,
+      "theta": -29.448038757912,
+      "vega": 0.0011063431399999531
     },
-    "implied_volatility": 11.107685194710882,
+    "implied_volatility": 13.608489720323965,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2023,
@@ -3929,12 +3929,12 @@
       "ticker": "O:SPX260417P05160000"
     },
     "greeks": {
-      "delta": -0.00048349976503587067,
-      "gamma": 2.310275547426631e-06,
-      "theta": -19.608882666384567,
-      "vega": 0.0013567220057117838
+      "delta": -0.0004835005797595805,
+      "gamma": 2.3102834757639695e-06,
+      "theta": -29.43267412850178,
+      "vega": 0.0011074336790596042
     },
-    "implied_volatility": 11.045018550798469,
+    "implied_volatility": 13.531713876273919,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5,
@@ -3966,12 +3966,12 @@
       "ticker": "O:SPX260417P05170000"
     },
     "greeks": {
-      "delta": -0.0018533890026364002,
-      "gamma": 7.097799884284983e-06,
-      "theta": -76.51294175804583,
-      "vega": 0.004460586298306316
+      "delta": -0.0018533925618963284,
+      "gamma": 7.097827392864201e-06,
+      "theta": -114.8449344842177,
+      "vega": 0.003640962756013702
     },
-    "implied_volatility": 12.447024882582197,
+    "implied_volatility": 15.249368797452513,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6,
@@ -4003,12 +4003,12 @@
       "ticker": "O:SPX260417P05175000"
     },
     "greeks": {
-      "delta": -0.0005934122004806947,
-      "gamma": 2.780216778991622e-06,
-      "theta": -23.98479714460205,
-      "vega": 0.0013586591029772408
+      "delta": -0.0005934132876832462,
+      "gamma": 2.7802270081685483e-06,
+      "theta": -36.00083517459051,
+      "vega": 0.0011090146280674708
     },
-    "implied_volatility": 11.135248272164258,
+    "implied_volatility": 13.642250763108027,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1266,
@@ -4040,12 +4040,12 @@
       "ticker": "O:SPX260417P05180000"
     },
     "greeks": {
-      "delta": -0.0004888743619959973,
-      "gamma": 2.36099776803306e-06,
-      "theta": -19.588402288655164,
-      "vega": 0.0013593865661406287
+      "delta": -0.0004888751961279474,
+      "gamma": 2.3610059703606317e-06,
+      "theta": -29.40193495440656,
+      "vega": 0.0011096100045983608
     },
-    "implied_volatility": 10.92005117980902,
+    "implied_volatility": 13.37861072037319,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 142,
@@ -4077,12 +4077,12 @@
       "ticker": "O:SPX260417P05190000"
     },
     "greeks": {
-      "delta": -0.0004915996605758988,
-      "gamma": 2.3869270228401664e-06,
-      "theta": -19.578158090534426,
-      "vega": 0.0013607183382920698
+      "delta": -0.000491600504716737,
+      "gamma": 2.3869353671967006e-06,
+      "theta": -29.386558928062353,
+      "vega": 0.0011106962268371508
     },
-    "implied_volatility": 10.857749394097878,
+    "implied_volatility": 13.302281896299943,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 534,
@@ -4114,12 +4114,12 @@
       "ticker": "O:SPX260417P05200000"
     },
     "greeks": {
-      "delta": -0.0004943507848101971,
-      "gamma": 2.4132449895592726e-06,
-      "theta": -19.567911432805865,
-      "vega": 0.0013620478138690662
+      "delta": -0.0004943516391706409,
+      "gamma": 2.4132534794412353e-06,
+      "theta": -29.37117937989567,
+      "vega": 0.0011117821249672492
     },
-    "implied_volatility": 10.79556830091912,
+    "implied_volatility": 13.226100974428501,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 11680,
@@ -4151,12 +4151,12 @@
       "ticker": "O:SPX260417P05210000"
     },
     "greeks": {
-      "delta": -0.0006050391854270518,
-      "gamma": 2.8882560646180785e-06,
-      "theta": -23.948962514105894,
-      "vega": 0.001363315793891074
+      "delta": -0.000605040327744353,
+      "gamma": 2.8882670075775996e-06,
+      "theta": -35.94704995059409,
+      "vega": 0.0011128167253322456
     },
-    "implied_volatility": 10.91687998169348,
+    "implied_volatility": 13.374717585246906,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 12,
@@ -4188,12 +4188,12 @@
       "ticker": "O:SPX260417P05220000"
     },
     "greeks": {
-      "delta": -0.0006084316122093072,
-      "gamma": 2.9201656308400276e-06,
-      "theta": -23.938718246340386,
-      "vega": 0.0013646438130645625
+      "delta": -0.0006084327710516608,
+      "gamma": 2.920176789824852e-06,
+      "theta": -35.931673804172995,
+      "vega": 0.001113899679752952
     },
-    "implied_volatility": 10.854760534100043,
+    "implied_volatility": 13.29861210357785,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 35,
@@ -4225,12 +4225,12 @@
       "ticker": "O:SPX260417P05225000"
     },
     "greeks": {
-      "delta": -0.0006101398477959105,
-      "gamma": 2.9362996305420442e-06,
-      "theta": -23.933595291461256,
-      "vega": 0.0013653081747762984
+      "delta": -0.0006101410150363104,
+      "gamma": 2.9363108996613133e-06,
+      "theta": -35.923985061162156,
+      "vega": 0.0011144410045545105
     },
-    "implied_volatility": 10.823745798418939,
+    "implied_volatility": 13.260614582706816,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1290,
@@ -4262,12 +4262,12 @@
       "ticker": "O:SPX260417P05230000"
     },
     "greeks": {
-      "delta": -0.000611856175835317,
-      "gamma": 2.9525546744809466e-06,
-      "theta": -23.92847176854257,
-      "vega": 0.0013659695301440856
+      "delta": -0.000611857351565857,
+      "gamma": 2.952566055179892e-06,
+      "theta": -35.916296074975065,
+      "vega": 0.0011149826976477315
     },
-    "implied_volatility": 10.792760972253065,
+    "implied_volatility": 13.222653816409261,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 216,
@@ -4299,12 +4299,12 @@
       "ticker": "O:SPX260417P05240000"
     },
     "greeks": {
-      "delta": -0.0006153133456294908,
-      "gamma": 2.985432681117085e-06,
-      "theta": -23.9182227011606,
-      "vega": 0.0013672941009651364
+      "delta": -0.0006153145386211465,
+      "gamma": 2.985444289399839e-06,
+      "theta": -35.9009125184972,
+      "vega": 0.0011160645098446296
     },
-    "implied_volatility": 10.730880744774913,
+    "implied_volatility": 13.1468413702742,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 152,
@@ -4336,12 +4336,12 @@
       "ticker": "O:SPX260417P05250000"
     },
     "greeks": {
-      "delta": -0.00039423834055013886,
-      "gamma": 2.0476908628893312e-06,
-      "theta": -15.125292519079107,
-      "vega": 0.0013687387519347397
+      "delta": -0.0003942392299723451,
+      "gamma": 2.0476993524522348e-06,
+      "theta": -22.70290737284928,
+      "vega": 0.0011172468472812442
     },
-    "implied_volatility": 10.303802905606872,
+    "implied_volatility": 12.623624900477761,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5610,
@@ -4373,12 +4373,12 @@
       "ticker": "O:SPX260417P05260000"
     },
     "greeks": {
-      "delta": -0.0006223274269780132,
-      "gamma": 3.0526947031849073e-06,
-      "theta": -23.897717609228607,
-      "vega": 0.0013699406625151233
+      "delta": -0.0006223286556527112,
+      "gamma": 3.052706785014732e-06,
+      "theta": -35.87013511710605,
+      "vega": 0.0011182239354951549
     },
-    "implied_volatility": 10.607476627438071,
+    "implied_volatility": 12.995653065641813,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 92,
@@ -4410,12 +4410,12 @@
       "ticker": "O:SPX260417P05270000"
     },
     "greeks": {
-      "delta": -0.0006258853238184513,
-      "gamma": 3.0870988883493145e-06,
-      "theta": -23.8874621476876,
-      "vega": 0.001371261003063879
+      "delta": -0.0006258865709364106,
+      "gamma": 3.087111216541662e-06,
+      "theta": -35.85474101065044,
+      "vega": 0.0011193015399118538
     },
-    "implied_volatility": 10.5459519439968,
+    "implied_volatility": 12.920276035156288,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 35,
@@ -4447,12 +4447,12 @@
       "ticker": "O:SPX260417P05275000"
     },
     "greeks": {
-      "delta": -0.0003999385482026134,
-      "gamma": 2.106317700157381e-06,
-      "theta": -15.09961892445766,
-      "vega": 0.0013720391663621873
+      "delta": -0.00039993929479553903,
+      "gamma": 2.1063257714602456e-06,
+      "theta": -22.6643626674107,
+      "vega": 0.0011199405736511004
     },
-    "implied_volatility": 10.150795980848653,
+    "implied_volatility": 12.43616851449086,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1958,
@@ -4484,12 +4484,12 @@
       "ticker": "O:SPX260417P05280000"
     },
     "greeks": {
-      "delta": -0.0006294777978671537,
-      "gamma": 3.1220323905937857e-06,
-      "theta": -23.877204531965035,
-      "vega": 0.0013725790515541688
+      "delta": -0.0006294790638446663,
+      "gamma": 3.122044971822584e-06,
+      "theta": -35.83934429974218,
+      "vega": 0.0011203795061698483
     },
-    "implied_volatility": 10.48454485535529,
+    "implied_volatility": 12.845043187985143,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 126,
@@ -4521,12 +4521,12 @@
       "ticker": "O:SPX260417P05290000"
     },
     "greeks": {
-      "delta": -0.0006331053664910089,
-      "gamma": 3.157505937956907e-06,
-      "theta": -23.866943484921237,
-      "vega": 0.0013738964025876007
+      "delta": -0.0006331067335763523,
+      "gamma": 3.1575191268013965e-06,
+      "theta": -35.82394795786563,
+      "vega": 0.001121454228253507
     },
-    "implied_volatility": 10.423254629917908,
+    "implied_volatility": 12.769953794485389,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 66,
@@ -4558,12 +4558,12 @@
       "ticker": "O:SPX260417P05300000"
     },
     "greeks": {
-      "delta": -0.000405783184961319,
-      "gamma": 2.167284316058947e-06,
-      "theta": -15.073931245674988,
-      "vega": 0.0013753295075383512
+      "delta": -0.0004057839500284603,
+      "gamma": 2.167292706528321e-06,
+      "theta": -22.625806043852542,
+      "vega": 0.0011226272637905339
     },
-    "implied_volatility": 9.998515893673341,
+    "implied_volatility": 12.249602948840902,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 8455,
@@ -4595,12 +4595,12 @@
       "ticker": "O:SPX260417P05310000"
     },
     "greeks": {
-      "delta": -0.0006404679088721657,
-      "gamma": 3.230117445173276e-06,
-      "theta": -23.846415407341766,
-      "vega": 0.001376528889324497
+      "delta": -0.000640469234044352,
+      "gamma": 3.230130827794368e-06,
+      "theta": -35.793130492433804,
+      "vega": 0.0011236031948238224
     },
-    "implied_volatility": 10.301023920308042,
+    "implied_volatility": 12.620202778816806,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 140,
@@ -4632,12 +4632,12 @@
       "ticker": "O:SPX260417P05320000"
     },
     "greeks": {
-      "delta": -0.0006442039700897297,
-      "gamma": 3.2672782511185084e-06,
-      "theta": -23.836147830696135,
-      "vega": 0.0013778438445651306
+      "delta": -0.0006442053159069655,
+      "gamma": 3.267291915754761e-06,
+      "theta": -35.77771880607297,
+      "vega": 0.0011246757297387437
     },
-    "implied_volatility": 10.24008242555238,
+    "implied_volatility": 12.545540341179663,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 66,
@@ -4669,12 +4669,12 @@
       "ticker": "O:SPX260417P05325000"
     },
     "greeks": {
-      "delta": -0.0006460859415015433,
-      "gamma": 3.2860775587476843e-06,
-      "theta": -23.831013495810037,
-      "vega": 0.0013784987477721063
+      "delta": -0.0006460872978199461,
+      "gamma": 3.286091367323012e-06,
+      "theta": -35.770012380444186,
+      "vega": 0.0011252132354092653
     },
-    "implied_volatility": 10.209655022021208,
+    "implied_volatility": 12.508262265932185,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1835,
@@ -4706,12 +4706,12 @@
       "ticker": "O:SPX260417P05330000"
     },
     "greeks": {
-      "delta": -0.0006479773013463109,
-      "gamma": 3.3050248117632495e-06,
-      "theta": -23.82587833211164,
-      "vega": 0.0013791560360461648
+      "delta": -0.0006479786682872035,
+      "gamma": 3.3050387662754745e-06,
+      "theta": -35.76230446708235,
+      "vega": 0.0011257474944514597
     },
-    "implied_volatility": 10.179256341348191,
+    "implied_volatility": 12.471019337273718,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 31,
@@ -4743,12 +4743,12 @@
       "ticker": "O:SPX260417P05340000"
     },
     "greeks": {
-      "delta": -0.0006517884191197889,
-      "gamma": 3.343369056355494e-06,
-      "theta": -23.815603736864617,
-      "vega": 0.0013804658947456359
+      "delta": -0.0006517898629218976,
+      "gamma": 3.343383549878307e-06,
+      "theta": -35.746886154425376,
+      "vega": 0.0011268177750730914
     },
-    "implied_volatility": 10.118544917633226,
+    "implied_volatility": 12.396638997831001,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 41,
@@ -4780,12 +4780,12 @@
       "ticker": "O:SPX260417P05350000"
     },
     "greeks": {
-      "delta": -0.0004179288527242304,
-      "gamma": 2.296744588752295e-06,
-      "theta": -15.022514542124965,
-      "vega": 0.0013818865097904704
+      "delta": -0.0004179296576965003,
+      "gamma": 2.296753676673133e-06,
+      "theta": -22.54863051005596,
+      "vega": 0.0011279803324416467
     },
-    "implied_volatility": 9.69610876334835,
+    "implied_volatility": 11.879109527804744,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2582,
@@ -4817,12 +4817,12 @@
       "ticker": "O:SPX260417P05360000"
     },
     "greeks": {
-      "delta": -0.0006595266914622427,
-      "gamma": 3.421902312575326e-06,
-      "theta": -23.79505436640869,
-      "vega": 0.0013830845028804809
+      "delta": -0.0006595281247853334,
+      "gamma": 3.421917186590796e-06,
+      "theta": -35.71603857643479,
+      "vega": 0.0011289559339727584
     },
-    "implied_volatility": 9.997465334004058,
+    "implied_volatility": 12.24829834857343,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 46,
@@ -4854,12 +4854,12 @@
       "ticker": "O:SPX260417P05370000"
     },
     "greeks": {
-      "delta": -0.0006634549387821084,
-      "gamma": 3.4621168007063626e-06,
-      "theta": -23.78477519598262,
-      "vega": 0.0013843923995289487
+      "delta": -0.000663456395285331,
+      "gamma": 3.462131998805104e-06,
+      "theta": -35.700609854461376,
+      "vega": 0.001130024260191271
     },
-    "implied_volatility": 9.937096104287312,
+    "implied_volatility": 12.174337072443949,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 133,
@@ -4891,12 +4891,12 @@
       "ticker": "O:SPX260417P05375000"
     },
     "greeks": {
-      "delta": -0.0006654341164907399,
-      "gamma": 3.4824668861524787e-06,
-      "theta": -23.779634954914627,
-      "vega": 0.0013850456862102073
+      "delta": -0.0006654355847900566,
+      "gamma": 3.482482249759692e-06,
+      "theta": -35.692894498444495,
+      "vega": 0.0011305555277874076
     },
-    "implied_volatility": 9.906953994361174,
+    "implied_volatility": 12.13740850642555,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1203,
@@ -4928,12 +4928,12 @@
       "ticker": "O:SPX260417P05380000"
     },
     "greeks": {
-      "delta": -0.0006674234349793167,
-      "gamma": 3.5029811516138343e-06,
-      "theta": -23.774494226825404,
-      "vega": 0.0013856984134749289
+      "delta": -0.0006674249152146904,
+      "gamma": 3.5029966830934427e-06,
+      "theta": -35.68517833306747,
+      "vega": 0.0011310891179752412
     },
-    "implied_volatility": 9.876840139180759,
+    "implied_volatility": 12.100514542717367,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 78,
@@ -4965,12 +4965,12 @@
       "ticker": "O:SPX260417P05390000"
     },
     "greeks": {
-      "delta": -0.0006714328134691654,
-      "gamma": 3.544509215932209e-06,
-      "theta": -23.76421114965944,
-      "vega": 0.0013870020258443766
+      "delta": -0.0006714343180050189,
+      "gamma": 3.5445250904134934e-06,
+      "theta": -35.66974336412338,
+      "vega": 0.0011321547601216156
     },
-    "implied_volatility": 9.816696946711703,
+    "implied_volatility": 12.026830125899167,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 56,
@@ -5002,12 +5002,12 @@
       "ticker": "O:SPX260417P05400000"
     },
     "greeks": {
-      "delta": -0.0004307247107623185,
-      "gamma": 2.4371752815665826e-06,
-      "theta": -14.971044520611576,
-      "vega": 0.0013884093622670687
+      "delta": -0.0004307255601037514,
+      "gamma": 2.437185157140972e-06,
+      "theta": -22.47137488841995,
+      "vega": 0.0011333054144736308
     },
-    "implied_volatility": 9.396527658870236,
+    "implied_volatility": 11.512078355964023,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 14525,
@@ -5039,12 +5039,12 @@
       "ticker": "O:SPX260417P05410000"
     },
     "greeks": {
-      "delta": -0.0007958590106450426,
-      "gamma": 4.145629948764267e-06,
-      "theta": -28.135056907999378,
-      "vega": 0.0013895695612421712
+      "delta": -0.0007958611181554222,
+      "gamma": 4.145651653866816e-06,
+      "theta": -42.23029573367282,
+      "vega": 0.0011342484055570242
     },
-    "implied_volatility": 9.87665652145714,
+    "implied_volatility": 12.100280784354634,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 87,
@@ -5076,12 +5076,12 @@
       "ticker": "O:SPX260417P05420000"
     },
     "greeks": {
-      "delta": -0.0008006521540125878,
-      "gamma": 4.1949157816567595e-06,
-      "theta": -28.124773933303107,
-      "vega": 0.001390870018543012
+      "delta": -0.0008006542987517262,
+      "gamma": 4.194937995438931e-06,
+      "theta": -42.21486065394404,
+      "vega": 0.0011353100515754237
     },
-    "implied_volatility": 9.816680811767935,
+    "implied_volatility": 12.026801487979787,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 213,
@@ -5113,12 +5113,12 @@
       "ticker": "O:SPX260417P05425000"
     },
     "greeks": {
-      "delta": -0.0006857970478900448,
-      "gamma": 3.6952929406083245e-06,
-      "theta": -23.72820330899942,
-      "vega": 0.0013915586996675964
+      "delta": -0.0006857986422006418,
+      "gamma": 3.6953100963268855e-06,
+      "theta": -35.61569611033443,
+      "vega": 0.0011358750758482619
     },
-    "implied_volatility": 9.607077655582422,
+    "implied_volatility": 11.770015213487172,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2086,
@@ -5150,12 +5150,12 @@
       "ticker": "O:SPX260417P05430000"
     },
     "greeks": {
-      "delta": -0.0008054948718298049,
-      "gamma": 4.245006421045016e-06,
-      "theta": -28.114488984978667,
-      "vega": 0.0013921713659871644
+      "delta": -0.0008054970546951206,
+      "gamma": 4.245029158533186e-06,
+      "theta": -42.19942353463064,
+      "vega": 0.0011363721331553445
     },
-    "implied_volatility": 9.756816706217823,
+    "implied_volatility": 11.953459051780714,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 65,
@@ -5187,12 +5187,12 @@
       "ticker": "O:SPX260417P05440000"
     },
     "greeks": {
-      "delta": -0.000810387950289472,
-      "gamma": 4.2959191774471455e-06,
-      "theta": -28.104201378310368,
-      "vega": 0.0013934693551376348
+      "delta": -0.0008103901722046517,
+      "gamma": 4.2959424541937265e-06,
+      "theta": -42.18398199199218,
+      "vega": 0.0011374328058446838
     },
-    "implied_volatility": 9.697063669560004,
+    "implied_volatility": 11.880252626755732,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 492,
@@ -5224,12 +5224,12 @@
       "ticker": "O:SPX260417P05450000"
     },
     "greeks": {
-      "delta": -0.0004442256667066504,
-      "gamma": 2.589838015173501e-06,
-      "theta": -14.919524008091782,
-      "vega": 0.0013948993601645562
+      "delta": -0.00044422656561395247,
+      "gamma": 2.589848784855693e-06,
+      "theta": -22.39404393734578,
+      "vega": 0.0011386061514035688
     },
-    "implied_volatility": 9.099720469458676,
+    "implied_volatility": 11.148445716272132,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4562,
@@ -5261,12 +5261,12 @@
       "ticker": "O:SPX260417P05460000"
     },
     "greeks": {
-      "delta": -0.00082032841769368,
-      "gamma": 4.400282621971592e-06,
-      "theta": -28.08361994442136,
-      "vega": 0.0013960626545464585
+      "delta": -0.0008203307205892489,
+      "gamma": 4.400307026105034e-06,
+      "theta": -42.153089596010545,
+      "vega": 0.0011395500995770602
     },
-    "implied_volatility": 9.57788945373084,
+    "implied_volatility": 11.734246345861493,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 288,
@@ -5298,12 +5298,12 @@
       "ticker": "O:SPX260417P05470000"
     },
     "greeks": {
-      "delta": -0.0008253774641561439,
-      "gamma": 4.453770315295435e-06,
-      "theta": -28.07332615505086,
-      "vega": 0.0013973588372272728
+      "delta": -0.00082537980903972,
+      "gamma": 4.45379530872147e-06,
+      "theta": -42.13763871281423,
+      "vega": 0.0011406072156741945
     },
-    "implied_volatility": 9.51846745920991,
+    "implied_volatility": 11.661445478937942,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 279,
@@ -5335,12 +5335,12 @@
       "ticker": "O:SPX260417P05475000"
     },
     "greeks": {
-      "delta": -0.0008279220619242306,
-      "gamma": 4.480848997350751e-06,
-      "theta": -28.068178832732386,
-      "vega": 0.0013980049906037284
+      "delta": -0.0008279244281889955,
+      "gamma": 4.480874292087441e-06,
+      "theta": -42.12991243366099,
+      "vega": 0.001141136016190427
     },
-    "implied_volatility": 9.488797619205846,
+    "implied_volatility": 11.62509544107414,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1377,
@@ -5372,12 +5372,12 @@
       "ticker": "O:SPX260417P05480000"
     },
     "greeks": {
-      "delta": -0.0008304801872297837,
-      "gamma": 4.508154167768913e-06,
-      "theta": -28.063030849454368,
-      "vega": 0.0013986519041717057
+      "delta": -0.0008304825751393305,
+      "gamma": 4.5081797683667515e-06,
+      "theta": -42.12218534645354,
+      "vega": 0.001141664265234791
     },
-    "implied_volatility": 9.459155085913618,
+    "implied_volatility": 11.588778882680222,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 289,
@@ -5409,12 +5409,12 @@
       "ticker": "O:SPX260417P05490000"
     },
     "greeks": {
-      "delta": -0.000713924474673553,
-      "gamma": 3.999620778050221e-06,
-      "theta": -23.661264029124435,
-      "vega": 0.0013999784553382418
+      "delta": -0.0007139262574715323,
+      "gamma": 3.999640692727454e-06,
+      "theta": -35.51522110404746,
+      "vega": 0.0011427482774856647
     },
-    "implied_volatility": 9.221375247598758,
+    "implied_volatility": 11.297472102309467,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 319,
@@ -5446,12 +5446,12 @@
       "ticker": "O:SPX260417P05500000"
     },
     "greeks": {
-      "delta": -0.0004584929692400507,
-      "gamma": 2.756180318455848e-06,
-      "theta": -14.867955263046317,
-      "vega": 0.001401358091084668
+      "delta": -0.00045849392378833253,
+      "gamma": 2.7561921086068264e-06,
+      "theta": -22.316640101476263,
+      "vega": 0.0011438786971390705
     },
-    "implied_volatility": 8.805636358762017,
+    "implied_volatility": 10.788149084824292,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 18915,
@@ -5483,12 +5483,12 @@
       "ticker": "O:SPX260417P05510000"
     },
     "greeks": {
-      "delta": -0.0008461192530519734,
-      "gamma": 4.676883325529655e-06,
-      "theta": -28.032131451966546,
-      "vega": 0.0014025245506891694
+      "delta": -0.0008461217765865968,
+      "gamma": 4.676910861493984e-06,
+      "theta": -42.07580548843347,
+      "vega": 0.0011448258765611634
     },
-    "implied_volatility": 9.281870912166761,
+    "implied_volatility": 11.371579097073447,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 417,
@@ -5520,12 +5520,12 @@
       "ticker": "O:SPX260417P05520000"
     },
     "greeks": {
-      "delta": -0.0005986871164024996,
-      "gamma": 3.5173807973694407e-06,
-      "theta": -19.23883644537984,
-      "vega": 0.0014038859728589643
+      "delta": -0.0005986884552253006,
+      "gamma": 3.5173966999628846e-06,
+      "theta": -28.877245082741595,
+      "vega": 0.0011459409615136717
     },
-    "implied_volatility": 8.866828364800138,
+    "implied_volatility": 10.8631086196428,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 313,
@@ -5557,12 +5557,12 @@
       "ticker": "O:SPX260417P05525000"
     },
     "greeks": {
-      "delta": -0.000600616603972147,
-      "gamma": 3.5397449453711267e-06,
-      "theta": -19.2336781378923,
-      "vega": 0.0014045283293797944
+      "delta": -0.0006006179537330331,
+      "gamma": 3.5397610256785606e-06,
+      "theta": -28.86950253798707,
+      "vega": 0.001146464200232498
     },
-    "implied_volatility": 8.837592770297904,
+    "implied_volatility": 10.827290656619489,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1740,
@@ -5594,12 +5594,12 @@
       "ticker": "O:SPX260417P05530000"
     },
     "greeks": {
-      "delta": -0.0006025570528203259,
-      "gamma": 3.562307382525195e-06,
-      "theta": -19.228519879923372,
-      "vega": 0.0014051709076603842
+      "delta": -0.0006025584136611433,
+      "gamma": 3.562323643272249e-06,
+      "theta": -28.861759317957546,
+      "vega": 0.0011469898421646847
     },
-    "implied_volatility": 8.80838390028473,
+    "implied_volatility": 10.791505294303565,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 349,
@@ -5631,12 +5631,12 @@
       "ticker": "O:SPX260417P05540000"
     },
     "greeks": {
-      "delta": -0.0006064712160869587,
-      "gamma": 3.60803644614109e-06,
-      "theta": -19.2182008744964,
-      "vega": 0.0014064554959089279
+      "delta": -0.000606472599523112,
+      "gamma": 3.6080530761588804e-06,
+      "theta": -28.846270393176894,
+      "vega": 0.0011480383410639493
     },
-    "implied_volatility": 8.750045533888214,
+    "implied_volatility": 10.720032047439634,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 328,
@@ -5668,12 +5668,12 @@
       "ticker": "O:SPX260417P05550000"
     },
     "greeks": {
-      "delta": -0.00047359515127149245,
-      "gamma": 2.937869424735747e-06,
-      "theta": -14.81634104386473,
-      "vega": 0.0014077857286507753
+      "delta": -0.00047359616859533253,
+      "gamma": 2.9378823862597068e-06,
+      "theta": -22.239167426671546,
+      "vega": 0.0011491254476180637
     },
-    "implied_volatility": 8.514226040821484,
+    "implied_volatility": 10.431128063526101,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3384,
@@ -5705,12 +5705,12 @@
       "ticker": "O:SPX260417P05560000"
     },
     "greeks": {
-      "delta": -0.0006144353396883921,
-      "gamma": 3.701978516935065e-06,
-      "theta": -19.197556999742822,
-      "vega": 0.001409021517631911
+      "delta": -0.0006144367701228164,
+      "gamma": 3.701995920560668e-06,
+      "theta": -28.815284335798594,
+      "vega": 0.0011501335636873186
     },
-    "implied_volatility": 8.633685880247928,
+    "implied_volatility": 10.577474125682377,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 310,
@@ -5742,12 +5742,12 @@
       "ticker": "O:SPX260417P05570000"
     },
     "greeks": {
-      "delta": -0.0006184869042109201,
-      "gamma": 3.7502312034580567e-06,
-      "theta": -19.187232388456145,
-      "vega": 0.0014103040665084188
+      "delta": -0.0006184883590886895,
+      "gamma": 3.7502490123309595e-06,
+      "theta": -28.799787395450476,
+      "vega": 0.0011511790950124072
     },
-    "implied_volatility": 8.575663880817082,
+    "implied_volatility": 10.506388541231376,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 242,
@@ -5779,12 +5779,12 @@
       "ticker": "O:SPX260417P05575000"
     },
     "greeks": {
-      "delta": -0.00048148300106780074,
-      "gamma": 3.035060068080117e-06,
-      "theta": -14.79051732103272,
-      "vega": 0.0014109859329154402
+      "delta": -0.00048148405284590567,
+      "gamma": 3.035073681123392e-06,
+      "theta": -22.2004062896581,
+      "vega": 0.0011517403305519886
     },
-    "implied_volatility": 8.369508399367025,
+    "implied_volatility": 10.253827424442564,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1639,
@@ -5816,12 +5816,12 @@
       "ticker": "O:SPX260417P05580000"
     },
     "greeks": {
-      "delta": -0.0006225859050477743,
-      "gamma": 3.799365768048695e-06,
-      "theta": -19.176906824545064,
-      "vega": 0.0014115826753016989
+      "delta": -0.0006225873850261843,
+      "gamma": 3.799383995102428e-06,
+      "theta": -28.78428814514089,
+      "vega": 0.0011522240299442806
     },
-    "implied_volatility": 8.517746773413343,
+    "implied_volatility": 10.435431302511196,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 294,
@@ -5853,12 +5853,12 @@
       "ticker": "O:SPX260417P05590000"
     },
     "greeks": {
-      "delta": -0.0006267331927058256,
-      "gamma": 3.8494035691945275e-06,
-      "theta": -19.166578692266793,
-      "vega": 0.0014128605448667302
+      "delta": -0.0006267346984644228,
+      "gamma": 3.849422227873072e-06,
+      "theta": -28.768785774645295,
+      "vega": 0.0011532688043587012
     },
-    "implied_volatility": 8.459933817799037,
+    "implied_volatility": 10.364601796473218,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 319,
@@ -5890,12 +5890,12 @@
       "ticker": "O:SPX260417P05600000"
     },
     "greeks": {
-      "delta": -0.0004896091465944482,
-      "gamma": 3.136833449856878e-06,
-      "theta": -14.764683034356564,
-      "vega": 0.00141418065122757
+      "delta": -0.0004896103083974766,
+      "gamma": 3.136848169206545e-06,
+      "theta": -22.1616323805244,
+      "vega": 0.0011543470754740096
     },
-    "implied_volatility": 8.22544126595898,
+    "implied_volatility": 10.07732379263923,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 12152,
@@ -5927,12 +5927,12 @@
       "ticker": "O:SPX260417P05610000"
     },
     "greeks": {
-      "delta": -0.0006351761332081404,
-      "gamma": 3.952277575894446e-06,
-      "theta": -19.145917337558416,
-      "vega": 0.0014154134160951847
+      "delta": -0.0006351776926585208,
+      "gamma": 3.952297140299136e-06,
+      "theta": -28.7377734746614,
+      "vega": 0.0011553532788938143
     },
-    "implied_volatility": 8.344619434753202,
+    "implied_volatility": 10.22332445862432,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 905,
@@ -5964,12 +5964,12 @@
       "ticker": "O:SPX260417P05620000"
     },
     "greeks": {
-      "delta": -0.00049628910359848,
-      "gamma": 3.2217458762457835e-06,
-      "theta": -14.744007645737224,
-      "vega": 0.0014167289663530652
+      "delta": -0.0004962902232905763,
+      "gamma": 3.221760790596391e-06,
+      "theta": -22.130596100533037,
+      "vega": 0.001156429815073206
     },
-    "implied_volatility": 8.110651870321256,
+    "implied_volatility": 9.936689714709932,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 261,
@@ -6001,12 +6001,12 @@
       "ticker": "O:SPX260417P05625000"
     },
     "greeks": {
-      "delta": -0.0004979847350247658,
-      "gamma": 3.243479618180509e-06,
-      "theta": -14.738837909447573,
-      "vega": 0.0014173654367811614
+      "delta": -0.0004979858627724488,
+      "gamma": 3.2434946883486817e-06,
+      "theta": -22.122836381240674,
+      "vega": 0.0011569492062194666
     },
-    "implied_volatility": 8.082018680367465,
+    "implied_volatility": 9.901609791285622,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1626,
@@ -6038,12 +6038,12 @@
       "ticker": "O:SPX260417P05630000"
     },
     "greeks": {
-      "delta": -0.0006438229493404544,
-      "gamma": 4.059037472637913e-06,
-      "theta": -19.125249378714923,
-      "vega": 0.0014179618445545436
+      "delta": -0.0006438245657689513,
+      "gamma": 4.059058004743463e-06,
+      "theta": -28.706751486627155,
+      "vega": 0.0011574335014537778
     },
-    "implied_volatility": 8.229717963930197,
+    "implied_volatility": 10.08255302508373,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 530,
@@ -6075,12 +6075,12 @@
       "ticker": "O:SPX260417P05640000"
     },
     "greeks": {
-      "delta": -0.0006482251653106409,
-      "gamma": 4.113935342792457e-06,
-      "theta": -19.114912694886247,
-      "vega": 0.001419233138694529
+      "delta": -0.0006482268110001306,
+      "gamma": 4.113956380700959e-06,
+      "theta": -28.691236496388342,
+      "vega": 0.0011584717201518656
     },
-    "implied_volatility": 8.172421092548845,
+    "implied_volatility": 10.012355823371573,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 440,
@@ -6112,12 +6112,12 @@
       "ticker": "O:SPX260417P05650000"
     },
     "greeks": {
-      "delta": -0.0005066216184324533,
-      "gamma": 3.355311852478615e-06,
-      "theta": -14.712982531625896,
-      "vega": 0.0014205445280617893
+      "delta": -0.0005066227881266692,
+      "gamma": 3.355327738872406e-06,
+      "theta": -22.084028120732437,
+      "vega": 0.0011595454907552128
     },
-    "implied_volatility": 7.9392350023474965,
+    "implied_volatility": 9.72667859085367,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5508,
@@ -6149,12 +6149,12 @@
       "ticker": "O:SPX260417P05660000"
     },
     "greeks": {
-      "delta": -0.0006571921273569774,
-      "gamma": 4.2268950489473724e-06,
-      "theta": -19.094234504680504,
-      "vega": 0.001421775399663955
+      "delta": -0.000657193834653578,
+      "gamma": 4.226917153234163e-06,
+      "theta": -28.66019899386311,
+      "vega": 0.0011605479212319213
     },
-    "implied_volatility": 8.05813336418153,
+    "implied_volatility": 9.872336269682306,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 462,
@@ -6186,12 +6186,12 @@
       "ticker": "O:SPX260417P05670000"
     },
     "greeks": {
-      "delta": -0.0006617589130375477,
-      "gamma": 4.285010569071042e-06,
-      "theta": -19.083892928171498,
-      "vega": 0.0014230433998405857
+      "delta": -0.000661760652459544,
+      "gamma": 4.285033233856661e-06,
+      "theta": -28.644676759764643,
+      "vega": 0.001161583132458461
     },
-    "implied_volatility": 8.001141762088015,
+    "implied_volatility": 9.80251307284085,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 598,
@@ -6223,12 +6223,12 @@
       "ticker": "O:SPX260417P05675000"
     },
     "greeks": {
-      "delta": -0.0005155324104234788,
-      "gamma": 3.4726689285565614e-06,
-      "theta": -14.687117303533112,
-      "vega": 0.0014237142109596557
+      "delta": -0.0005155336250317433,
+      "gamma": 3.4726856977963888e-06,
+      "theta": -22.0452055307168,
+      "vega": 0.0011621340863987065
     },
-    "implied_volatility": 7.797084614690357,
+    "implied_volatility": 9.552523346890569,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1597,
@@ -6260,12 +6260,12 @@
       "ticker": "O:SPX260417P05680000"
     },
     "greeks": {
-      "delta": -0.0005173486050905579,
-      "gamma": 3.496835079158824e-06,
-      "theta": -14.681943178604604,
-      "vega": 0.001424349019927807
+      "delta": -0.000517349829061745,
+      "gamma": 3.4968520335720288e-06,
+      "theta": -22.03743948720294,
+      "vega": 0.0011626511753876695
     },
-    "implied_volatility": 7.768730060665608,
+    "implied_volatility": 9.517784843526291,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 254,
@@ -6297,12 +6297,12 @@
       "ticker": "O:SPX260417P05690000"
     },
     "greeks": {
-      "delta": -0.0005210159153945953,
-      "gamma": 3.545886438515341e-06,
-      "theta": -14.671593506820988,
-      "vega": 0.0014256134854465274
+      "delta": -0.0005210171584903667,
+      "gamma": 3.545903772358465e-06,
+      "theta": -22.021905418808164,
+      "vega": 0.0011636842576442927
     },
-    "implied_volatility": 7.71209602611596,
+    "implied_volatility": 9.448399842842157,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 393,
@@ -6334,12 +6334,12 @@
       "ticker": "O:SPX260417P05700000"
     },
     "greeks": {
-      "delta": -0.0005247305483160386,
-      "gamma": 3.5959176452923815e-06,
-      "theta": -14.661242297192265,
-      "vega": 0.0014268779674173298
+      "delta": -0.0005247318110844283,
+      "gamma": 3.595935371099045e-06,
+      "theta": -22.006368547499626,
+      "vega": 0.001164716604310292
     },
-    "implied_volatility": 7.65556188716297,
+    "implied_volatility": 9.379137119289602,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 12071,
@@ -6371,12 +6371,12 @@
       "ticker": "O:SPX260417P05710000"
     },
     "greeks": {
-      "delta": -0.0075593244850931714,
-      "gamma": 3.0856619316354375e-05,
-      "theta": -223.27511117107608,
-      "vega": 0.012898490073849585
+      "delta": -0.007559347799941512,
+      "gamma": 3.0856808770122465e-05,
+      "theta": -335.1333124308343,
+      "vega": 0.010528420996002107
     },
-    "implied_volatility": 10.198256004406444,
+    "implied_volatility": 12.494284144305526,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 290,
@@ -6408,12 +6408,12 @@
       "ticker": "O:SPX260417P05720000"
     },
     "greeks": {
-      "delta": -0.000532305600805082,
-      "gamma": 3.6990250352305166e-06,
-      "theta": -14.640537123242568,
-      "vega": 0.001429404030708282
+      "delta": -0.0005323068490207451,
+      "gamma": 3.699043251860499e-06,
+      "theta": -21.975287925161506,
+      "vega": 0.0011667780862938538
     },
-    "implied_volatility": 7.542792016765781,
+    "implied_volatility": 9.24097709511518,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 364,
@@ -6445,12 +6445,12 @@
       "ticker": "O:SPX260417P05725000"
     },
     "greeks": {
-      "delta": -0.000534230403168705,
-      "gamma": 3.7254558981691928e-06,
-      "theta": -14.635359320863987,
-      "vega": 0.0014300339831047875
+      "delta": -0.0005342316759986766,
+      "gamma": 3.725474412163389e-06,
+      "theta": -21.96751657832774,
+      "vega": 0.0011672923994367167
     },
-    "implied_volatility": 7.514661460665069,
+    "implied_volatility": 9.206512954613366,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1369,
@@ -6482,12 +6482,12 @@
       "ticker": "O:SPX260417P05730000"
     },
     "greeks": {
-      "delta": -0.0005361677710097122,
-      "gamma": 3.7521548150692127e-06,
-      "theta": -14.630178329627734,
-      "vega": 0.0014306632915302034
+      "delta": -0.0005361691786586005,
+      "gamma": 3.752174293654662e-06,
+      "theta": -21.959745287998157,
+      "vega": 0.0011678080659605218
     },
-    "implied_volatility": 7.486555512625923,
+    "implied_volatility": 9.172079163843222,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 712,
@@ -6519,12 +6519,12 @@
       "ticker": "O:SPX260417P05735000"
     },
     "greeks": {
-      "delta": -0.000538118148009423,
-      "gamma": 3.7791273183318325e-06,
-      "theta": -14.625002522698207,
-      "vega": 0.0014312940338208537
+      "delta": -0.0005381194842514069,
+      "gamma": 3.779146522623022e-06,
+      "theta": -21.95197308127435,
+      "vega": 0.0011683213568164754
     },
-    "implied_volatility": 7.458474368837846,
+    "implied_volatility": 9.137675465551283,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 30,
@@ -6556,12 +6556,12 @@
       "ticker": "O:SPX260417P05740000"
     },
     "greeks": {
-      "delta": -0.000695383474496236,
-      "gamma": 4.725086892647469e-06,
-      "theta": -19.01146021747873,
-      "vega": 0.0014318908017814456
+      "delta": -0.0006953854665702817,
+      "gamma": 4.725114066788095e-06,
+      "theta": -28.535957593702825,
+      "vega": 0.0011688073305608229
     },
-    "implied_volatility": 7.605010151802434,
+    "implied_volatility": 9.31719260379764,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 469,
@@ -6593,12 +6593,12 @@
       "ticker": "O:SPX260417P05745000"
     },
     "greeks": {
-      "delta": -0.0005420576631538032,
-      "gamma": 3.833903175691845e-06,
-      "theta": -14.614645205903875,
-      "vega": 0.0014325521110920055
+      "delta": -0.0005420590218010972,
+      "gamma": 3.833922835316133e-06,
+      "theta": -21.93642689714992,
+      "vega": 0.0011693509974932976
     },
-    "implied_volatility": 7.40238559641307,
+    "implied_volatility": 9.068958338616294,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 9,
@@ -6630,12 +6630,12 @@
       "ticker": "O:SPX260417P05750000"
     },
     "greeks": {
-      "delta": -0.0005440471468081888,
-      "gamma": 3.861714589365147e-06,
-      "theta": -14.609465843390568,
-      "vega": 0.0014331820608690805
+      "delta": -0.0005440485169086389,
+      "gamma": 3.86173448254049e-06,
+      "theta": -21.928653031049688,
+      "vega": 0.0011698636652044641
     },
-    "implied_volatility": 7.374377935975315,
+    "implied_volatility": 9.034644826856852,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 8284,
@@ -6667,12 +6667,12 @@
       "ticker": "O:SPX260417P05755000"
     },
     "greeks": {
-      "delta": -0.0007029897909191628,
-      "gamma": 4.827612301168986e-06,
-      "theta": -18.995930105060864,
-      "vega": 0.0014337787103737205
+      "delta": -0.0007029918189438607,
+      "gamma": 4.827640446787889e-06,
+      "theta": -28.512647454759314,
+      "vega": 0.001170348450311431
     },
-    "implied_volatility": 7.520757356188414,
+    "implied_volatility": 9.213970451989033,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 12,
@@ -6704,12 +6704,12 @@
       "ticker": "O:SPX260417P05760000"
     },
     "greeks": {
-      "delta": -0.000705558743034572,
-      "gamma": 4.862485703172982e-06,
-      "theta": -18.990757975188608,
-      "vega": 0.0014344058626030243
+      "delta": -0.0007055606054390352,
+      "gamma": 4.862513144574367e-06,
+      "theta": -28.504875723788064,
+      "vega": 0.0011708619808627348
     },
-    "implied_volatility": 7.492722424617856,
+    "implied_volatility": 9.179623111283853,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 611,
@@ -6741,12 +6741,12 @@
       "ticker": "O:SPX260417P05765000"
     },
     "greeks": {
-      "delta": -0.0007081442420524938,
-      "gamma": 4.897713228952598e-06,
-      "theta": -18.985574014193425,
-      "vega": 0.001435035391771402
+      "delta": -0.0007081463377131208,
+      "gamma": 4.897742301464823e-06,
+      "theta": -28.497103487789694,
+      "vega": 0.0011713738015930863
     },
-    "implied_volatility": 7.464711496503321,
+    "implied_volatility": 9.145305759028203,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 40,
@@ -6778,12 +6778,12 @@
       "ticker": "O:SPX260417P05770000"
     },
     "greeks": {
-      "delta": -0.0007107470685384103,
-      "gamma": 4.933303267398264e-06,
-      "theta": -18.980395762866625,
-      "vega": 0.001435663250612308
+      "delta": -0.0007107491858658156,
+      "gamma": 4.933332740473609e-06,
+      "theta": -28.489330661291202,
+      "vega": 0.001171886678056034
     },
-    "implied_volatility": 7.436725242419779,
+    "implied_volatility": 9.111018328835325,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 808,
@@ -6815,12 +6815,12 @@
       "ticker": "O:SPX260417P05775000"
     },
     "greeks": {
-      "delta": -0.000713367182954102,
-      "gamma": 4.969259485162546e-06,
-      "theta": -18.97521727863086,
-      "vega": 0.0014362895287862573
+      "delta": -0.000713369322278497,
+      "gamma": 4.969289366122037e-06,
+      "theta": -28.481557579272838,
+      "vega": 0.0011724016666726687
     },
-    "implied_volatility": 7.408763400572442,
+    "implied_volatility": 9.076760821647275,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1210,
@@ -6852,12 +6852,12 @@
       "ticker": "O:SPX260417P05780000"
     },
     "greeks": {
-      "delta": -0.0007160047599949159,
-      "gamma": 5.005586869770351e-06,
-      "theta": -18.970039598190656,
-      "vega": 0.0014369202304524106
+      "delta": -0.0007160069216524943,
+      "gamma": 5.005617166091651e-06,
+      "theta": -28.47378365063593,
+      "vega": 0.0011729135619641393
     },
-    "implied_volatility": 7.38082612963014,
+    "implied_volatility": 9.042533090756457,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 936,
@@ -6889,12 +6889,12 @@
       "ticker": "O:SPX260417P05785000"
     },
     "greeks": {
-      "delta": -0.0007186599767138958,
-      "gamma": 5.042290493581513e-06,
-      "theta": -18.964860610546086,
-      "vega": 0.0014375457597304913
+      "delta": -0.0007186621610478957,
+      "gamma": 5.042321212918025e-06,
+      "theta": -28.466009180007596,
+      "vega": 0.0011734246739832275
     },
-    "implied_volatility": 7.352912975374501,
+    "implied_volatility": 9.008335132645731,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 320,
@@ -6926,12 +6926,12 @@
       "ticker": "O:SPX260417P05790000"
     },
     "greeks": {
-      "delta": -0.0007213330125643857,
-      "gamma": 5.079375515557148e-06,
-      "theta": -18.959680932001415,
-      "vega": 0.0014381725278039845
+      "delta": -0.0007213352199239634,
+      "gamma": 5.079406665727658e-06,
+      "theta": -28.458234194432627,
+      "vega": 0.0011739371607945258
     },
-    "implied_volatility": 7.325024016285673,
+    "implied_volatility": 8.974166899492728,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 677,
@@ -6963,12 +6963,12 @@
       "ticker": "O:SPX260417P05795000"
     },
     "greeks": {
-      "delta": -0.0007240240494385185,
-      "gamma": 5.11684718301416e-06,
-      "theta": -18.9545009246741,
-      "vega": 0.0014387976910165785
+      "delta": -0.0007240262801795963,
+      "gamma": 5.116878772011365e-06,
+      "theta": -28.450458649173683,
+      "vega": 0.001174449076071966
     },
-    "implied_volatility": 7.297159280353316,
+    "implied_volatility": 8.940028332281088,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 10,
@@ -7000,12 +7000,12 @@
       "ticker": "O:SPX260417P05800000"
     },
     "greeks": {
-      "delta": -0.0005646981648034709,
-      "gamma": 4.156313639055973e-06,
-      "theta": -14.557655690509588,
-      "vega": 0.0014394544484936727
+      "delta": -0.0005646996594203576,
+      "gamma": 4.156336105098235e-06,
+      "theta": -21.85088339093701,
+      "vega": 0.0011749875470656473
     },
-    "implied_volatility": 7.095640041075699,
+    "implied_volatility": 8.69314853604862,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 12218,
@@ -7037,12 +7037,12 @@
       "ticker": "O:SPX260417P05805000"
     },
     "greeks": {
-      "delta": -0.0005668420699319769,
-      "gamma": 4.18751586781746e-06,
-      "theta": -14.552472458014327,
-      "vega": 0.001440080517431834
+      "delta": -0.0005668435780790098,
+      "gamma": 4.187538617066762e-06,
+      "theta": -21.843103425865163,
+      "vega": 0.001175497477169096
     },
-    "implied_volatility": 7.06789904649956,
+    "implied_volatility": 8.65916166352122,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 11,
@@ -7074,12 +7074,12 @@
       "ticker": "O:SPX260417P05810000"
     },
     "greeks": {
-      "delta": -0.0005690009085502209,
-      "gamma": 4.219052927810488e-06,
-      "theta": -14.547289434840781,
-      "vega": 0.0014407067103957677
+      "delta": -0.0005690024304391538,
+      "gamma": 4.219075965409887e-06,
+      "theta": -21.83532295456296,
+      "vega": 0.001176009588627978
     },
-    "implied_volatility": 7.0401821765134,
+    "implied_volatility": 8.62520418435167,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 958,
@@ -7111,12 +7111,12 @@
       "ticker": "O:SPX260417P05815000"
     },
     "greeks": {
-      "delta": -0.0005711748390101193,
-      "gamma": 4.250929591162172e-06,
-      "theta": -14.542105516568045,
-      "vega": 0.0014413326450858483
+      "delta": -0.000571176374856874,
+      "gamma": 4.250952922374492e-06,
+      "theta": -21.82754202751181,
+      "vega": 0.001176518588360578
     },
-    "implied_volatility": 7.01248912159395,
+    "implied_volatility": 8.591276057222931,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 27,
@@ -7148,12 +7148,12 @@
       "ticker": "O:SPX260417P05820000"
     },
     "greeks": {
-      "delta": -0.0005733640219082612,
-      "gamma": 4.2831507150773815e-06,
-      "theta": -14.536921518649944,
-      "vega": 0.001441955526525332
+      "delta": -0.0005733655719332002,
+      "gamma": 4.283174345284892e-06,
+      "theta": -21.819760868207286,
+      "vega": 0.0011770296786949076
     },
-    "implied_volatility": 6.984820037377636,
+    "implied_volatility": 8.55737727473702,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 875,
@@ -7185,12 +7185,12 @@
       "ticker": "O:SPX260417P05825000"
     },
     "greeks": {
-      "delta": -0.0007405587962181104,
-      "gamma": 5.350102193844243e-06,
-      "theta": -18.92341343053565,
-      "vega": 0.0014425538667139945
+      "delta": -0.0007405611751094623,
+      "gamma": 5.350136593975592e-06,
+      "theta": -28.403794750073875,
+      "vega": 0.001177513499727167
     },
-    "implied_volatility": 7.130477085255166,
+    "implied_volatility": 8.735817197491205,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 2407,
@@ -7222,12 +7222,12 @@
       "ticker": "O:SPX260417P05830000"
     },
     "greeks": {
-      "delta": -0.0005777887988662454,
-      "gamma": 4.34864620973777e-06,
-      "theta": -14.526552255731087,
-      "vega": 0.001443205350630532
+      "delta": -0.0005777903779258247,
+      "gamma": 4.348670454578001e-06,
+      "theta": -21.804196469760814,
+      "vega": 0.0011780484172519668
     },
-    "implied_volatility": 6.929553366886151,
+    "implied_volatility": 8.48966726837482,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 359,
@@ -7259,12 +7259,12 @@
       "ticker": "O:SPX260417P05835000"
     },
     "greeks": {
-      "delta": -0.0007462230472128025,
-      "gamma": 5.431200079183975e-06,
-      "theta": -18.91304764292653,
-      "vega": 0.0014438021186155318
+      "delta": -0.0007462254786583146,
+      "gamma": 5.431235488961139e-06,
+      "theta": -28.3882358975445,
+      "vega": 0.0011785331798514027
     },
-    "implied_volatility": 7.075108110480661,
+    "implied_volatility": 8.667981853835645,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 214,
@@ -7296,12 +7296,12 @@
       "ticker": "O:SPX260417P05840000"
     },
     "greeks": {
-      "delta": -0.0007490847022893024,
-      "gamma": 5.472403200940338e-06,
-      "theta": -18.90786488321088,
-      "vega": 0.0014444258927063002
+      "delta": -0.0007490871606410754,
+      "gamma": 5.472439130094106e-06,
+      "theta": -28.380455664534757,
+      "vega": 0.0011790448688147716
     },
-    "implied_volatility": 7.047459530888616,
+    "implied_volatility": 8.634108019338239,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1155,
@@ -7333,12 +7333,12 @@
       "ticker": "O:SPX260417P05845000"
     },
     "greeks": {
-      "delta": -0.0007519663210860587,
-      "gamma": 5.514050723984051e-06,
-      "theta": -18.902681096597547,
-      "vega": 0.0014450492531490335
+      "delta": -0.0007519688067747916,
+      "gamma": 5.514087182522391e-06,
+      "theta": -28.37267577591288,
+      "vega": 0.0011795515584265542
     },
-    "implied_volatility": 7.019834626297906,
+    "implied_volatility": 8.600263475978455,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 41,
@@ -7370,12 +7370,12 @@
       "ticker": "O:SPX260417P05850000"
     },
     "greeks": {
-      "delta": -0.0005868287069162737,
-      "gamma": 4.4839943218318234e-06,
-      "theta": -14.505809942919063,
-      "vega": 0.0014456988468694381
+      "delta": -0.0005868303468890893,
+      "gamma": 4.484019866190354e-06,
+      "theta": -21.77306261007337,
+      "vega": 0.0011800865765266746
     },
-    "implied_volatility": 6.819305167447894,
+    "implied_volatility": 8.354596707472922,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5384,
@@ -7407,12 +7407,12 @@
       "ticker": "O:SPX260417P05855000"
     },
     "greeks": {
-      "delta": -0.0005891293507019308,
-      "gamma": 4.518770211998586e-06,
-      "theta": -14.500623442225358,
-      "vega": 0.0014463218033932445
+      "delta": -0.0005891310065237631,
+      "gamma": 4.51879609667973e-06,
+      "theta": -21.76527771328033,
+      "vega": 0.0011805936853874694
     },
-    "implied_volatility": 6.791802250632993,
+    "implied_volatility": 8.3209015026829,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 66,
@@ -7444,12 +7444,12 @@
       "ticker": "O:SPX260417P05860000"
     },
     "greeks": {
-      "delta": -0.0005914466174651091,
-      "gamma": 4.553932711649481e-06,
-      "theta": -14.495436721054343,
-      "vega": 0.001446944927524792
+      "delta": -0.0005914482893947537,
+      "gamma": 4.55395894312587e-06,
+      "theta": -21.757493148250813,
+      "vega": 0.0011811018391227387
     },
-    "implied_volatility": 6.764322940071626,
+    "implied_volatility": 8.28723534438782,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 735,
@@ -7481,12 +7481,12 @@
       "ticker": "O:SPX260417P05865000"
     },
     "greeks": {
-      "delta": -0.0007636967122581217,
-      "gamma": 5.685213535705096e-06,
-      "theta": -18.881943328193504,
-      "vega": 0.001447542028328994
+      "delta": -0.0007636993117699523,
+      "gamma": 5.685252216522446e-06,
+      "theta": -28.341549338488747,
+      "vega": 0.0011815879760256791
     },
-    "implied_volatility": 6.909572363077891,
+    "implied_volatility": 8.465175636049505,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 55,
@@ -7518,12 +7518,12 @@
       "ticker": "O:SPX260417P05870000"
     },
     "greeks": {
-      "delta": -0.0007666813855597313,
-      "gamma": 5.729180612934864e-06,
-      "theta": -18.876758548106693,
-      "vega": 0.0014481633552970925
+      "delta": -0.0007666840146906745,
+      "gamma": 5.729219876741994e-06,
+      "theta": -28.333766118495358,
+      "vega": 0.0011820948839052934
     },
-    "implied_volatility": 6.882065988623777,
+    "implied_volatility": 8.43147602667877,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 452,
@@ -7555,12 +7555,12 @@
       "ticker": "O:SPX260417P05875000"
     },
     "greeks": {
-      "delta": -0.0005984999960743679,
-      "gamma": 4.661797504252007e-06,
-      "theta": -14.479874826091933,
-      "vega": 0.001448810063308749
+      "delta": -0.0005985017179318248,
+      "gamma": 4.661824816480709e-06,
+      "theta": -21.734134003356882,
+      "vega": 0.0011826261761159267
     },
-    "implied_volatility": 6.682026142196288,
+    "implied_volatility": 8.186409231523902,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1211,
@@ -7592,12 +7592,12 @@
       "ticker": "O:SPX260417P05880000"
     },
     "greeks": {
-      "delta": -0.0006008856088232397,
-      "gamma": 4.698564615682363e-06,
-      "theta": -14.474686806623648,
-      "vega": 0.0014494314920345855
+      "delta": -0.0006008873478767337,
+      "gamma": 4.698592302159367e-06,
+      "theta": -21.726346680065237,
+      "vega": 0.0011831333046635713
     },
-    "implied_volatility": 6.654640752406274,
+    "implied_volatility": 8.152857982908042,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1685,
@@ -7629,12 +7629,12 @@
       "ticker": "O:SPX260417P05885000"
     },
     "greeks": {
-      "delta": -0.0007757640098509305,
-      "gamma": 5.864015735751647e-06,
-      "theta": -18.86120077498148,
-      "vega": 0.0014500302012253235
+      "delta": -0.0007757667307822205,
+      "gamma": 5.864056818552911e-06,
+      "theta": -28.310413709915505,
+      "vega": 0.0011836171298490984
     },
-    "implied_volatility": 6.7996877947990475,
+    "implied_volatility": 8.330550210767809,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 66,
@@ -7666,12 +7666,12 @@
       "ticker": "O:SPX260417P05890000"
     },
     "greeks": {
-      "delta": -0.0007788351989205533,
-      "gamma": 5.909962731135183e-06,
-      "theta": -18.85601406050054,
-      "vega": 0.001450649150633156
+      "delta": -0.0007788379514657376,
+      "gamma": 5.910004444536334e-06,
+      "theta": -28.302628555872978,
+      "vega": 0.0011841258458666034
     },
-    "implied_volatility": 6.772275303847036,
+    "implied_volatility": 8.296965762608135,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1872,
@@ -7703,12 +7703,12 @@
       "ticker": "O:SPX260417P05895000"
     },
     "greeks": {
-      "delta": -0.0007819286100929047,
-      "gamma": 5.956423029921999e-06,
-      "theta": -18.850827012110482,
-      "vega": 0.0014512714258154177
+      "delta": -0.0007819313947757538,
+      "gamma": 5.956465386539873e-06,
+      "theta": -28.294843018074786,
+      "vega": 0.0011846322308479678
     },
-    "implied_volatility": 6.744886210437642,
+    "implied_volatility": 8.26340999575941,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 132,
@@ -7740,12 +7740,12 @@
       "ticker": "O:SPX260417P05900000"
     },
     "greeks": {
-      "delta": -0.0006106056789955536,
-      "gamma": 4.849858696890634e-06,
-      "theta": -14.453931077191443,
-      "vega": 0.001451912931209996
+      "delta": -0.0006106074897584104,
+      "gamma": 4.8498879549540124e-06,
+      "theta": -21.695192999989118,
+      "vega": 0.001185161518215794
     },
-    "implied_volatility": 6.545332492610143,
+    "implied_volatility": 8.018939009665157,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 16831,
@@ -7777,12 +7777,12 @@
       "ticker": "O:SPX260417P05905000"
     },
     "greeks": {
-      "delta": -0.0007881830792054981,
-      "gamma": 6.050914079706104e-06,
-      "theta": -18.840452020148643,
-      "vega": 0.0014525113473091108
+      "delta": -0.0007881859297785797,
+      "gamma": 6.05095776183089e-06,
+      "theta": -28.279270309585986,
+      "vega": 0.0011856454269529042
     },
-    "implied_volatility": 6.690178074886733,
+    "implied_volatility": 8.196384238998085,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 220,
@@ -7814,12 +7814,12 @@
       "ticker": "O:SPX260417P05910000"
     },
     "greeks": {
-      "delta": -0.0006155751115269895,
-      "gamma": 4.928131731702035e-06,
-      "theta": -14.443551345621295,
-      "vega": 0.0014531520536116757
+      "delta": -0.000615576959986721,
+      "gamma": 4.928161822897802e-06,
+      "theta": -21.679613260662826,
+      "vega": 0.0011861747874214428
     },
-    "implied_volatility": 6.490817856798037,
+    "implied_volatility": 7.95215039932722,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 716,
@@ -7851,12 +7851,12 @@
       "ticker": "O:SPX260417P05915000"
     },
     "greeks": {
-      "delta": -0.0007945294143931477,
-      "gamma": 6.147551394502482e-06,
-      "theta": -18.830076054984723,
-      "vega": 0.0014537511806194453
+      "delta": -0.0007945323330822594,
+      "gamma": 6.147596456339402e-06,
+      "theta": -28.263695697365108,
+      "vega": 0.0011866587829339542
     },
-    "implied_volatility": 6.63556311331822,
+    "implied_volatility": 8.129472565240093,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 125,
@@ -7888,12 +7888,12 @@
       "ticker": "O:SPX260417P05920000"
     },
     "greeks": {
-      "delta": -0.0006206197026841997,
-      "gamma": 5.0082274551216245e-06,
-      "theta": -14.433171077592245,
-      "vega": 0.0014543897352442415
+      "delta": -0.0006206215901391213,
+      "gamma": 5.0082584131055935e-06,
+      "theta": -21.664031946187766,
+      "vega": 0.001187182299604613
     },
-    "implied_volatility": 6.436395950625767,
+    "implied_volatility": 7.885475252019688,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3876,
@@ -7925,12 +7925,12 @@
       "ticker": "O:SPX260417P05925000"
     },
     "greeks": {
-      "delta": -0.000623170722682709,
-      "gamma": 5.048976438643809e-06,
-      "theta": -14.427980413651076,
-      "vega": 0.0014550083691905705
+      "delta": -0.0006231726301399611,
+      "gamma": 5.049007843171429e-06,
+      "theta": -21.656240687672284,
+      "vega": 0.0011876882201256528
     },
-    "implied_volatility": 6.409219598154163,
+    "implied_volatility": 7.852180103568142,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1567,
@@ -7962,12 +7962,12 @@
       "ticker": "O:SPX260417P05930000"
     },
     "greeks": {
-      "delta": -0.0008042256820963891,
-      "gamma": 6.296674168589259e-06,
-      "theta": -18.81451046196044,
-      "vega": 0.001455608712755384
+      "delta": -0.0008042287073357756,
+      "gamma": 6.29672140749701e-06,
+      "theta": -28.24033090853412,
+      "vega": 0.0011881743629280548
     },
-    "implied_volatility": 6.553814705578073,
+    "implied_volatility": 8.02931820756179,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 351,
@@ -7999,12 +7999,12 @@
       "ticker": "O:SPX260417P05935000"
     },
     "greeks": {
-      "delta": -0.0006283311650010142,
-      "gamma": 5.1319119876486395e-06,
-      "theta": -14.417594493846575,
-      "vega": 0.0014562444849649258
+      "delta": -0.0006283332690578437,
+      "gamma": 5.131945399393502e-06,
+      "theta": -21.640656681541426,
+      "vega": 0.00118869927241083
     },
-    "implied_volatility": 6.354935792686311,
+    "implied_volatility": 7.785674363729943,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 92,
@@ -8036,12 +8036,12 @@
       "ticker": "O:SPX260417P05940000"
     },
     "greeks": {
-      "delta": -0.000810810816700874,
-      "gamma": 6.398966327557376e-06,
-      "theta": -18.80413172892808,
-      "vega": 0.0014568447511807306
+      "delta": -0.0008108139160340005,
+      "gamma": 6.399015093679043e-06,
+      "theta": -28.224751985718004,
+      "vega": 0.0011891853131457467
     },
-    "implied_volatility": 6.499431227920791,
+    "implied_volatility": 7.962690103168102,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 601,
@@ -8073,12 +8073,12 @@
       "ticker": "O:SPX260417P05945000"
     },
     "greeks": {
-      "delta": -0.0008141404955286592,
-      "gamma": 6.451001958150981e-06,
-      "theta": -18.798941625765114,
-      "vega": 0.001457462450753663
+      "delta": -0.0008141436328651451,
+      "gamma": 6.451051511761947e-06,
+      "theta": -28.21696164659352,
+      "vega": 0.001189688322064785
     },
-    "implied_volatility": 6.472273969101177,
+    "implied_volatility": 7.929418324503324,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 186,
@@ -8110,12 +8110,12 @@
       "ticker": "O:SPX260417P05950000"
     },
     "greeks": {
-      "delta": -0.0006362220440252691,
-      "gamma": 5.2600282829124285e-06,
-      "theta": -14.402022328653487,
-      "vega": 0.0014580972503203977
+      "delta": -0.000636224055820525,
+      "gamma": 5.260062053469141e-06,
+      "theta": -21.617276918619662,
+      "vega": 0.0011902141448800235
     },
-    "implied_volatility": 6.273682387546894,
+    "implied_volatility": 7.686126422620236,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 6069,
@@ -8147,12 +8147,12 @@
       "ticker": "O:SPX260417P05955000"
     },
     "greeks": {
-      "delta": -0.0008208754926451743,
-      "gamma": 6.556898115469124e-06,
-      "theta": -18.788560885189522,
-      "vega": 0.0014586978273560657
+      "delta": -0.0008208787079681969,
+      "gamma": 6.556949293812732e-06,
+      "theta": -28.201379969940547,
+      "vega": 0.001190696671785979
     },
-    "implied_volatility": 6.418028378272623,
+    "implied_volatility": 7.86295918126486,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 49,
@@ -8184,12 +8184,12 @@
       "ticker": "O:SPX260417P05960000"
     },
     "greeks": {
-      "delta": -0.0006415853044462479,
-      "gamma": 5.348004771492338e-06,
-      "theta": -14.3916402891788,
-      "vega": 0.0014593325201344611
+      "delta": -0.0006415872185295502,
+      "gamma": 5.348038546505516e-06,
+      "theta": -21.60168848999871,
+      "vega": 0.0011912185232864218
     },
-    "implied_volatility": 6.219627718630451,
+    "implied_volatility": 7.619901121320311,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 494,
@@ -8221,12 +8221,12 @@
       "ticker": "O:SPX260417P05965000"
     },
     "greeks": {
-      "delta": -0.0008277132817261001,
-      "gamma": 6.665290597773172e-06,
-      "theta": -18.77817893175815,
-      "vega": 0.0014599316567589036
+      "delta": -0.0008277165777693119,
+      "gamma": 6.6653434699864406e-06,
+      "theta": -28.18579658514583,
+      "vega": 0.0011917062228421762
     },
-    "implied_volatility": 6.363874343931206,
+    "implied_volatility": 7.796612218714793,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 51,
@@ -8258,12 +8258,12 @@
       "ticker": "O:SPX260417P05970000"
     },
     "greeks": {
-      "delta": -0.0008311714673434751,
-      "gamma": 6.720447325297866e-06,
-      "theta": -18.772987263081365,
-      "vega": 0.0014605463807118599
+      "delta": -0.0008311748048083304,
+      "gamma": 6.720501071467788e-06,
+      "theta": -28.178004328752035,
+      "vega": 0.0011922096795740898
     },
-    "implied_volatility": 6.336831523523124,
+    "implied_volatility": 7.763480696869854,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1370,
@@ -8295,12 +8295,12 @@
       "ticker": "O:SPX260417P05975000"
     },
     "greeks": {
-      "delta": -0.0008346562530817013,
-      "gamma": 6.776257751904101e-06,
-      "theta": -18.767795294753146,
-      "vega": 0.0014611641081866047
+      "delta": -0.0008346596326959774,
+      "gamma": 6.776312390653071e-06,
+      "theta": -28.17021172158674,
+      "vega": 0.0011927115283429277
     },
-    "implied_volatility": 6.309811477083351,
+    "implied_volatility": 7.730377088180562,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 5463,
@@ -8332,12 +8332,12 @@
       "ticker": "O:SPX260417P05980000"
     },
     "greeks": {
-      "delta": -0.0006525665907569413,
-      "gamma": 5.530410636212349e-06,
-      "theta": -14.37086222301697,
-      "vega": 0.0014617964158757735
+      "delta": -0.0006525689371790346,
+      "gamma": 5.530449009872759e-06,
+      "theta": -21.570513733710673,
+      "vega": 0.0011932329311389973
     },
-    "implied_volatility": 6.111790651849255,
+    "implied_volatility": 7.487785002967846,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 396,
@@ -8369,12 +8369,12 @@
       "ticker": "O:SPX260417P05985000"
     },
     "greeks": {
-      "delta": -0.0008417068716587246,
-      "gamma": 6.889881011203516e-06,
-      "theta": -18.75741056140769,
-      "vega": 0.0014623953849004418
+      "delta": -0.000841710337817438,
+      "gamma": 6.889937492880696e-06,
+      "theta": -28.15462516714629,
+      "vega": 0.001193718098350459
     },
-    "implied_volatility": 6.255839569323507,
+    "implied_volatility": 7.66425338190368,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 94,
@@ -8406,12 +8406,12 @@
       "ticker": "O:SPX260417P05990000"
     },
     "greeks": {
-      "delta": -0.0008452733400790885,
-      "gamma": 6.9477150081316186e-06,
-      "theta": -18.752217726770155,
-      "vega": 0.001463011710144367
+      "delta": -0.0008452766276966719,
+      "gamma": 6.947770913954308e-06,
+      "theta": -28.1468228528063,
+      "vega": 0.001194221710617875
     },
-    "implied_volatility": 6.228887619642541,
+    "implied_volatility": 7.631232894830749,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 826,
@@ -8443,12 +8443,12 @@
       "ticker": "O:SPX260417P05995000"
     },
     "greeks": {
-      "delta": -0.0008488676799758467,
-      "gamma": 7.006245042296998e-06,
-      "theta": -18.747024604164952,
-      "vega": 0.0014636268069673926
+      "delta": -0.0008488713798781186,
+      "gamma": 7.006304437842899e-06,
+      "theta": -28.139041805865432,
+      "vega": 0.0011947222807220234
     },
-    "implied_volatility": 6.201958292493363,
+    "implied_volatility": 7.598240845948091,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 69,
@@ -8480,12 +8480,12 @@
       "ticker": "O:SPX260417P06000000"
     },
     "greeks": {
-      "delta": -0.0006639021088709577,
-      "gamma": 5.721898163127532e-06,
-      "theta": -14.350083118915709,
-      "vega": 0.001464257229113671
+      "delta": -0.0006639043624212795,
+      "gamma": 5.7219374926659876e-06,
+      "theta": -21.539318602685867,
+      "vega": 0.0011952394161469447
     },
-    "implied_volatility": 6.004315412098837,
+    "implied_volatility": 7.356111503433963,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 100386,
@@ -8517,12 +8517,12 @@
       "ticker": "O:SPX260417P06005000"
     },
     "greeks": {
-      "delta": -0.0006667933467367913,
-      "gamma": 5.771259133193647e-06,
-      "theta": -14.344887979072512,
-      "vega": 0.0014648681548472752
+      "delta": -0.0006667956268364924,
+      "gamma": 5.771299085541916e-06,
+      "theta": -21.531520457546826,
+      "vega": 0.0011957438109727757
     },
-    "implied_volatility": 5.977502898569841,
+    "implied_volatility": 7.323262065388201,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 93,
@@ -8554,12 +8554,12 @@
       "ticker": "O:SPX260417P06010000"
     },
     "greeks": {
-      "delta": -0.0008598212592338007,
-      "gamma": 7.186123622777684e-06,
-      "theta": -18.731444477568502,
-      "vega": 0.0014654685604426816
+      "delta": -0.0008598250231062388,
+      "gamma": 7.186185541573653e-06,
+      "theta": -28.115652964822015,
+      "vega": 0.0011962287573277872
     },
-    "implied_volatility": 6.1213058240609435,
+    "implied_volatility": 7.499429099635966,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 607,
@@ -8591,12 +8591,12 @@
       "ticker": "O:SPX260417P06015000"
     },
     "greeks": {
-      "delta": -0.0008635304423687357,
-      "gamma": 7.247551191558183e-06,
-      "theta": -18.726250240407037,
-      "vega": 0.0014660812815603366
+      "delta": -0.0008635343937400579,
+      "gamma": 7.247615141202584e-06,
+      "theta": -28.107861670883324,
+      "vega": 0.0011967295023712046
     },
-    "implied_volatility": 6.094466612460311,
+    "implied_volatility": 7.46654715323893,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 102,
@@ -8628,12 +8628,12 @@
       "ticker": "O:SPX260417P06020000"
     },
     "greeks": {
-      "delta": -0.0008672692026440942,
-      "gamma": 7.309732640708229e-06,
-      "theta": -18.721056023194556,
-      "vega": 0.0014666967252938714
+      "delta": -0.0008672728089807641,
+      "gamma": 7.309794916518419e-06,
+      "theta": -28.100051182481767,
+      "vega": 0.0011972304346953568
     },
-    "implied_volatility": 6.067649883739499,
+    "implied_volatility": 7.433692110028106,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 372,
@@ -8665,12 +8665,12 @@
       "ticker": "O:SPX260417P06025000"
     },
     "greeks": {
-      "delta": -0.0008710378977716876,
-      "gamma": 7.372680248641828e-06,
-      "theta": -18.715861267081596,
-      "vega": 0.0014673097135007316
+      "delta": -0.0008710416530132665,
+      "gamma": 7.372744319525467e-06,
+      "theta": -28.092257612588288,
+      "vega": 0.0011977328646863253
     },
-    "implied_volatility": 6.040855509496678,
+    "implied_volatility": 7.400865037820705,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3719,
@@ -8702,12 +8702,12 @@
       "ticker": "O:SPX260417P06030000"
     },
     "greeks": {
-      "delta": -0.0006816080225668996,
-      "gamma": 6.027501264505642e-06,
-      "theta": -14.318906946496025,
-      "vega": 0.001467935864643346
+      "delta": -0.0006816104430145128,
+      "gamma": 6.027544542658999e-06,
+      "theta": -21.4925235266254,
+      "vega": 0.0011982463325612971
     },
-    "implied_volatility": 5.8437755619644225,
+    "implied_volatility": 7.1594258693047665,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 377,
@@ -8739,12 +8739,12 @@
       "ticker": "O:SPX260417P06035000"
     },
     "greeks": {
-      "delta": -0.0008786665524926373,
-      "gamma": 7.500924311315378e-06,
-      "theta": -18.70547128422658,
-      "vega": 0.001468535733682829
+      "delta": -0.0008786705007347455,
+      "gamma": 7.500991300561769e-06,
+      "theta": -28.076665158609647,
+      "vega": 0.0011987340248432667
     },
-    "implied_volatility": 5.987333859968461,
+    "implied_volatility": 7.335292872318374,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 53,
@@ -8776,12 +8776,12 @@
       "ticker": "O:SPX260417P06040000"
     },
     "greeks": {
-      "delta": -0.0006877068085083124,
-      "gamma": 6.134601811367413e-06,
-      "theta": -14.308512461951425,
-      "vega": 0.0014691604920652299
+      "delta": -0.000687709288865948,
+      "gamma": 6.134646525960689e-06,
+      "theta": -21.47692197998527,
+      "vega": 0.001199245285980565
     },
-    "implied_volatility": 5.790440457607744,
+    "implied_volatility": 7.094082351304015,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 662,
@@ -8813,12 +8813,12 @@
       "ticker": "O:SPX260417P06045000"
     },
     "greeks": {
-      "delta": -0.0008864193861282193,
-      "gamma": 7.632386720993662e-06,
-      "theta": -18.695079837477795,
-      "vega": 0.0014697601138569522
+      "delta": -0.0008864234417136692,
+      "gamma": 7.632456103459855e-06,
+      "theta": -28.061068390391217,
+      "vega": 0.0011997330685191115
     },
-    "implied_volatility": 5.933901292383469,
+    "implied_volatility": 7.2698298738441895,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 63,
@@ -8850,12 +8850,12 @@
       "ticker": "O:SPX260417P06050000"
     },
     "greeks": {
-      "delta": -0.0008903433279629503,
-      "gamma": 7.699358271790824e-06,
-      "theta": -18.68988368050853,
-      "vega": 0.0014703724924953004
+      "delta": -0.000890347438720305,
+      "gamma": 7.699428891622685e-06,
+      "theta": -28.05326903484748,
+      "vega": 0.001200232339798641
     },
-    "implied_volatility": 5.907218339992599,
+    "implied_volatility": 7.237139165923433,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 3711,
@@ -8887,12 +8887,12 @@
       "ticker": "O:SPX260417P06055000"
     },
     "greeks": {
-      "delta": -0.0008942994766910033,
-      "gamma": 7.767175125303441e-06,
-      "theta": -18.684687258649806,
-      "vega": 0.0014709837268840373
+      "delta": -0.0008943036436507072,
+      "gamma": 7.7672470106506e-06,
+      "theta": -28.045469639208367,
+      "vega": 0.001200732913629701
     },
-    "implied_volatility": 5.880557562965255,
+    "implied_volatility": 7.204475670190013,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 170,
@@ -8924,12 +8924,12 @@
       "ticker": "O:SPX260417P06060000"
     },
     "greeks": {
-      "delta": -0.0008982882331133562,
-      "gamma": 7.835851445886837e-06,
-      "theta": -18.679490578844145,
-      "vega": 0.0014715949505266779
+      "delta": -0.0008982924573290719,
+      "gamma": 7.835924625657205e-06,
+      "theta": -28.03766946236441,
+      "vega": 0.00120123282066097
     },
-    "implied_volatility": 5.853918925432356,
+    "implied_volatility": 7.171839245974603,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 1011,
@@ -8961,12 +8961,12 @@
       "ticker": "O:SPX260417P06065000"
     },
     "greeks": {
-      "delta": -0.0007034083197404769,
-      "gamma": 6.4146638024251855e-06,
-      "theta": -14.282521575665225,
-      "vega": 0.0014722160068759622
+      "delta": -0.0007034109602132011,
+      "gamma": 6.41471240369041e-06,
+      "theta": -21.437910726784125,
+      "vega": 0.0012017442139081109
     },
-    "implied_volatility": 5.6574897766357335,
+    "implied_volatility": 6.931197696211619,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 560,
@@ -8998,12 +8998,12 @@
       "ticker": "O:SPX260417P06070000"
     },
     "greeks": {
-      "delta": -0.0007066292303269307,
-      "gamma": 6.472884652142179e-06,
-      "theta": -14.277322637219699,
-      "vega": 0.001472827250122981
+      "delta": -0.0007066319047094559,
+      "gamma": 6.472934085243247e-06,
+      "theta": -21.430107215517907,
+      "vega": 0.0012022412070871638
     },
-    "implied_volatility": 5.6309657102624415,
+    "implied_volatility": 6.898701686416273,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 455,
@@ -9035,12 +9035,12 @@
       "ticker": "O:SPX260417P06075000"
     },
     "greeks": {
-      "delta": -0.0007098778243035062,
-      "gamma": 6.531871655262142e-06,
-      "theta": -14.272123419343815,
-      "vega": 0.0014734359071581688
+      "delta": -0.0007098805332597484,
+      "gamma": 6.5319219395637455e-06,
+      "theta": -21.422303299319797,
+      "vega": 0.001202739924190286
     },
-    "implied_volatility": 5.6044635766030915,
+    "implied_volatility": 6.8662325481904976,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 4420,
@@ -9072,12 +9072,12 @@
       "ticker": "O:SPX260417P06080000"
     },
     "greeks": {
-      "delta": -0.0007131544626250497,
-      "gamma": 6.591638232431456e-06,
-      "theta": -14.26692400002011,
-      "vega": 0.001474046905036548
+      "delta": -0.0007131572068353044,
+      "gamma": 6.5916893878479576e-06,
+      "theta": -21.41449898776084,
+      "vega": 0.0012032393053289412
     },
-    "implied_volatility": 5.577983354514117,
+    "implied_volatility": 6.83379023842909,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 710,
@@ -9109,12 +9109,12 @@
       "ticker": "O:SPX260417P06085000"
     },
     "greeks": {
-      "delta": -0.0007164595125459003,
-      "gamma": 6.652198098743811e-06,
-      "theta": -14.261724297481544,
-      "vega": 0.0014746563734605303
+      "delta": -0.00071646229270713,
+      "gamma": 6.652250145757702e-06,
+      "theta": -21.406694300792275,
+      "vega": 0.0012037352699032888
     },
-    "implied_volatility": 5.5515249915895515,
+    "implied_volatility": 6.80137471576576,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 93,
@@ -9146,12 +9146,12 @@
       "ticker": "O:SPX260417P06090000"
     },
     "greeks": {
-      "delta": -0.0007197933477574682,
-      "gamma": 6.713565271515418e-06,
-      "theta": -14.256524343669744,
-      "vega": 0.0014752643687717493
+      "delta": -0.0007197961645831988,
+      "gamma": 6.713618231192188e-06,
+      "theta": -21.39888965443288,
+      "vega": 0.001204234397704103
     },
-    "implied_volatility": 5.525088457833335,
+    "implied_volatility": 6.76898600153947,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 608,
@@ -9183,12 +9183,12 @@
       "ticker": "O:SPX260417P06095000"
     },
     "greeks": {
-      "delta": -0.0007231563485304755,
-      "gamma": 6.77575407830885e-06,
-      "theta": -14.25132441810105,
-      "vega": 0.0014758744568781912
+      "delta": -0.000723159202751534,
+      "gamma": 6.775807972312308e-06,
+      "theta": -21.39108421604649,
+      "vega": 0.001204731130484339
     },
-    "implied_volatility": 5.498673770992185,
+    "implied_volatility": 6.736623919430231,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 154,
@@ -9220,12 +9220,12 @@
       "ticker": "O:SPX260417P06100000"
     },
     "greeks": {
-      "delta": -0.0007265489018589275,
-      "gamma": 6.838779165180943e-06,
-      "theta": -14.24612416637678,
-      "vega": 0.0014764844068339113
+      "delta": -0.0007265517942246012,
+      "gamma": 6.838834015807059e-06,
+      "theta": -21.38327843830495,
+      "vega": 0.0012052285301946614
     },
-    "implied_volatility": 5.472280826211095,
+    "implied_volatility": 6.7042884970466865,
     "last_quote": null,
     "last_trade": null,
     "open_interest": 14472,
