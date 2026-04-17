@@ -50,14 +50,14 @@ Rules:
 JSON PAYLOAD:
 {
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-04-17 18:00 ET",
+  "snapshot_label": "2026-04-17 18:15 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-04-17",
   "spot": 7125.26,
-  "atm_iv_pct": 2.41,
-  "net_gex_b": 8.58,
-  "gamma_notional_b": 14.66,
+  "atm_iv_pct": 2.59,
+  "net_gex_b": 8.57,
+  "gamma_notional_b": 14.64,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -81,19 +81,19 @@ JSON PAYLOAD:
       "strike": 7130.0,
       "volume": 156471,
       "oi": 1973,
-      "gex_m": 4962
+      "gex_m": 4950
     },
     {
       "strike": 7150.0,
       "volume": 153604,
       "oi": 5428,
-      "gex_m": 1041
+      "gex_m": 1040
     },
     {
       "strike": 7140.0,
       "volume": 153161,
       "oi": 2984,
-      "gex_m": 1289
+      "gex_m": 1288
     },
     {
       "strike": 7160.0,
@@ -111,7 +111,7 @@ JSON PAYLOAD:
       "strike": 7135.0,
       "volume": 121860,
       "oi": 2006,
-      "gex_m": 1635
+      "gex_m": 1633
     }
   ],
   "top_put_flow": [
@@ -125,7 +125,7 @@ JSON PAYLOAD:
       "strike": 7120.0,
       "volume": 128693,
       "oi": 109,
-      "gex_m": 149
+      "gex_m": 150
     },
     {
       "strike": 7110.0,
@@ -143,7 +143,7 @@ JSON PAYLOAD:
       "strike": 7125.0,
       "volume": 92491,
       "oi": 68,
-      "gex_m": 588
+      "gex_m": 590
     },
     {
       "strike": 7130.0,
