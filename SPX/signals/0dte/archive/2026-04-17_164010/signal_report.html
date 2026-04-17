@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPX Signals</title>
+    <style>
+        :root {
+            --bg: #020817;
+            --panel: #0f172a;
+            --panel-2: #111827;
+            --border: #243047;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #60a5fa;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrap {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .hero {
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 48px;
+            letter-spacing: -1px;
+        }
+
+        .sub {
+            color: var(--muted);
+            font-size: 18px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            padding: 6px 12px;
+            border: 1px solid var(--border);
+            color: var(--text);
+            font-weight: 700;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .metric {
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .metric-label {
+            color: var(--muted);
+            font-size: 11px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .metric-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent);
+            word-break: break-word;
+        }
+
+        .signal-reason {
+            color: var(--text);
+            line-height: 1.5;
+            margin-bottom: 18px;
+        }
+
+        @media (max-width: 1000px) {
+            .metric-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 700px) {
+            .metric-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="hero">
+            <h1>SPX Signals</h1>
+            <div class="sub">Conservative signal engine driven by current GEX context and your historical playbook.</div>
+        </div>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Current Context</h3>
+                <span class="badge">2026-04-17 04:40:10 PM ET</span>
+            </div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Ticker</div>
+            <div class="metric-value">SPX</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Mode</div>
+            <div class="metric-value">0dte</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Regime</div>
+            <div class="metric-value">POSITIVE</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Spot</div>
+            <div class="metric-value">7125.26</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Call Wall</div>
+            <div class="metric-value">7175.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Put Wall</div>
+            <div class="metric-value">6800.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">GEX Flip</div>
+            <div class="metric-value">6800.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Signal Count</div>
+            <div class="metric-value">0</div>
+        </div>
+        
+            </div>
+        </section>
+
+        
+            <section class="card">
+                <div class="card-header">
+                    <h3>No Conservative Signal</h3>
+                </div>
+                <div class="signal-reason">
+                    Current conditions do not meet the conservative signal thresholds.
+                </div>
+            </section>
+            
+    </div>
+</body>
+</html>
