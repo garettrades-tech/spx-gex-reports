@@ -1,13 +1,13 @@
 {
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-04-17 17:45 ET",
+  "snapshot_label": "2026-04-17 18:00 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-04-17",
   "spot": 7125.26,
-  "atm_iv_pct": 2.27,
-  "net_gex_b": 8.6,
-  "gamma_notional_b": 14.67,
+  "atm_iv_pct": 2.41,
+  "net_gex_b": 8.58,
+  "gamma_notional_b": 14.66,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -31,7 +31,7 @@
       "strike": 7130.0,
       "volume": 156471,
       "oi": 1973,
-      "gex_m": 4974
+      "gex_m": 4962
     },
     {
       "strike": 7150.0,
@@ -43,7 +43,7 @@
       "strike": 7140.0,
       "volume": 153161,
       "oi": 2984,
-      "gex_m": 1290
+      "gex_m": 1289
     },
     {
       "strike": 7160.0,
@@ -61,7 +61,7 @@
       "strike": 7135.0,
       "volume": 121860,
       "oi": 2006,
-      "gex_m": 1637
+      "gex_m": 1635
     }
   ],
   "top_put_flow": [
@@ -93,7 +93,7 @@
       "strike": 7125.0,
       "volume": 92491,
       "oi": 68,
-      "gex_m": 586
+      "gex_m": 588
     },
     {
       "strike": 7130.0,
