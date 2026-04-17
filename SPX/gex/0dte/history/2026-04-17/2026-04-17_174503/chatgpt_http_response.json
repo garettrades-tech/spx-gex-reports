@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-DVkCc24Hblxht5Qy4y2t37lPPwEJS",
+  "object": "chat.completion",
+  "created": 1776458142,
+  "model": "gpt-4.1-mini-2025-04-14",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"regime_badge_text\":\"POSITIVE GAMMA\",\"regime_paragraph_1\":\"SPX 0DTE gamma stands firmly positive at +8.67B with gamma notional at +14.74B, establishing a regime of controlled volatility and mean-reversion tendencies. The primary gamma well resides between 7110 and 7150, encapsulating spot at 7125, which places the market well inside the active containment zone. This positioning favors premium decay and discourages sustained directional moves, as dealer hedging is digesting order flow and dampening intraday acceleration.\",\"regime_paragraph_2\":\"Late-day charm currently supports drift and containment around the control band but does not reinforce pinning due to spot being 50 points shy of the 7175 charm pin level. Thus, while price may experience mild compression, no firm fixation is expected near the upper band today. Vanna influence is low given stable volatility at 1.83%, so directional skew impact on hedging dynamics is minimal.\",\"regime_paragraph_3\":\"The structure is anchored by acceptance inside the 7110-7150 zone and the proximity to the upper gamma concentration overlaying 7150 calls, with failure back inside this band invalidating attempts at sustained breakouts. Acceptance above the 7175 call wall would shift dealer exposure and potentially increase volatility, invalidating the current mean-reverting regime.\",\"primary_setup_title\":\"Iron Condor Around Gamma Well\",\"primary_setup_body\":\"Construct short iron condors using the active control zone boundaries at 7110-7150 for wing strikes, capitalizing on the positive gamma structure that dampens volatility and compresses premium. Invalidation resides above 7175, where gamma flips and charm pinning intensify.\",\"secondary_setup_title\":\"Put Credit Spreads for Support Zones\",\"secondary_setup_body\":\"Employ put credit spreads just above 7110 to exploit dealer-supported containment at the lower bound of the control zone. This setup benefits from positive gamma-driven mean reversion with defined risk below 6800 gamma flip level.\",\"avoid_title\":\"Directional Debit Spreads\",\"avoid_body\":\"Avoid directional debit spreads today as positive gamma favors reversion and premium decay rather than sustained directional continuation, limiting efficacy of outright directional bets.\",\"wildcard_title\":\"Call Credit Spreads Near Call Wall\",\"wildcard_body\":\"Call credit spreads near the 7150-7175 corridor can be opportunistic for fading late-day rallies into the call wall, acknowledging charm’s modest containment effect but stopping short of expecting a firm pin.\",\"options_trade_ideas\":[{\"name\":\"Iron Condor 7110–7150\",\"thesis\":\"Trade defined range amid positive gamma containment between 7110 and 7150.\",\"structure\":\"Short iron condor with wings at 7110 and 7150 strikes.\",\"when_valid\":\"Valid while spot remains inside the 7110–7150 control zone.\",\"risk_note\":\"Invalid if spot breaks and holds above 7175 call wall, signaling regime shift.\"},{\"name\":\"Put Credit Spread above 7110\",\"thesis\":\"Leverage positive gamma support near 7110 to collect premium.\",\"structure\":\"Bull put spread with short put at 7110 and long put lower.\",\"when_valid\":\"Effective while spot holds above 7110, within gamma containment zone.\",\"risk_note\":\"Risk increases if spot falls below 6800 gamma flip level, breaking mean reversion.\"},{\"name\":\"Call Credit Spread 7150–7175\",\"thesis\":\"Fade upside rallies into call wall resistance and charm pin proximity.\",\"structure\":\"Bear call spread shorting 7150 calls and hedging with 7175 calls.\",\"when_valid\":\"Works as long as spot remains below 7175 charm pin area.\",\"risk_note\":\"Losses accumulate if spot breaks and holds above 7175, activating stronger pinning and volatility.\"}],\"timing_notes\":[{\"window\":\"Charm Window Opens\",\"note\":\"Charm begins to influence late-day drift and containment but does not enforce pinning away from 7175 level.\"},{\"window\":\"Final 30\",\"note\":\"Heightened sensitivity to breaks above 7175 or below 7110 will invalidate current containment and alter gamma regime.\"},{\"window\":\"Mid Consolidation\",\"note\":\"Stable positive gamma aids premium decay and dampens sharp directional moves within the 7110-7150 corridor.\"}],\"summary_cards\":{\"bias\":\"Mean-reverting / Premium Decay\",\"pin_zone\":\"No near-term pin; containment within 7110–7150 zone\",\"bull_trigger\":\"Acceptance above 7175 invalidates containment and triggers acceleration\",\"bear_trigger\":\"Drop below 6800 breaks gamma regime into negative territory\",\"wildcard\":\"Call credit spreads near 7150–7175 to fade late-day rallies\"}}",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1957,
+    "completion_tokens": 954,
+    "total_tokens": 2911,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6b9eec770d"
+}
