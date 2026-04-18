@@ -1,0 +1,56 @@
+{
+  "session_date": "2026-04-17",
+  "weekday_name": "Friday",
+  "weekday_number": 4,
+  "is_closed_session": false,
+  "is_shortened_session": false,
+  "market_close_et": "16:00",
+  "is_pre_holiday_session": false,
+  "is_post_holiday_session": false,
+  "high_impact_events_today": [],
+  "high_impact_events_plus_minus_2d": [],
+  "is_high_impact_macro_day": false,
+  "major_expiration_events_today": [
+    {
+      "event_type": "expiration",
+      "name": "Monthly Options Expiration",
+      "event_date": "2026-04-17",
+      "event_time_et": null,
+      "impact": "medium",
+      "source": "derived_from_standard_monthly_opex_rule"
+    }
+  ],
+  "major_expiration_events_plus_minus_2d": [
+    {
+      "event_type": "expiration",
+      "name": "VIX Standard Expiration",
+      "event_date": "2026-04-15",
+      "event_time_et": null,
+      "impact": "high",
+      "source": "derived_from_cboe_vix_standard_expiration_rule"
+    },
+    {
+      "event_type": "expiration",
+      "name": "Monthly Options Expiration",
+      "event_date": "2026-04-17",
+      "event_time_et": null,
+      "impact": "medium",
+      "source": "derived_from_standard_monthly_opex_rule"
+    }
+  ],
+  "is_major_expiration_day": true,
+  "is_vix_expiration_day": false,
+  "is_monthly_opex_day": true,
+  "is_quad_witching_day": false,
+  "days_to_next_major_expiration": 0,
+  "days_from_last_major_expiration": 0,
+  "macro_tags": [],
+  "expiration_tags": [
+    "Monthly Options Expiration"
+  ],
+  "headline_context_available": false,
+  "headline_context_source": null,
+  "notes": [
+    "Major expiration day."
+  ]
+}
