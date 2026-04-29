@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RazorTrades — SPX Master Dashboard</title>
+    <style>
+        :root {
+            --bg:      #020817;
+            --panel:   #0f172a;
+            --panel-2: #111827;
+            --border:  #1e2d45;
+            --text:    #e5e7eb;
+            --muted:   #94a3b8;
+            --accent:  #60a5fa;
+            --good:    #22c55e;
+            --warn:    #f59e0b;
+            --bad:     #ef4444;
+            --header-h: 56px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+            font-size: 14px;
+            padding-top: var(--header-h);
+        }
+
+        /* ── Sticky header ── */
+        .sticky-header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: var(--header-h);
+            background: rgba(2,8,23,0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            padding: 0 28px;
+            gap: 24px;
+            z-index: 100;
+        }
+        .header-brand {
+            font-size: 20px;
+            font-weight: 900;
+            letter-spacing: -0.5px;
+            color: var(--text);
+            white-space: nowrap;
+        }
+        .header-sub {
+            font-size: 12px;
+            font-weight: 400;
+            color: var(--muted);
+            margin-left: 6px;
+        }
+        .header-pills {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            flex: 1;
+        }
+        .header-stat {
+            display: flex;
+            flex-direction: column;
+            padding: 0 18px;
+        }
+        .header-stat-label {
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--muted);
+            text-transform: uppercase;
+        }
+        .header-stat-val {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+        }
+        .header-divider {
+            width: 1px;
+            height: 30px;
+            background: var(--border);
+        }
+
+        /* ── Layout ── */
+        .wrap {
+            max-width: 1720px;
+            margin: 0 auto;
+            padding: 24px 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        /* ── Cards ── */
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 22px 24px;
+        }
+        .zone-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+        .zone-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--muted);
+        }
+        .zone-sub {
+            font-size: 12px;
+            color: #475569;
+        }
+
+        /* ── Metrics ── */
+        .metric {
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+        }
+        .metric-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            color: var(--muted);
+            margin-bottom: 8px;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent);
+            word-break: break-word;
+        }
+
+        /* ── Report links ── */
+        .report-link {
+            display: block;
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 16px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            transition: border-color .15s;
+        }
+        .report-link:hover { border-color: var(--accent); }
+        .muted { color: var(--muted); }
+
+        /* ── Health table ── */
+        .health-table {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .health-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 12px;
+            background: var(--panel-2);
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+        .health-key {
+            flex: 0 0 160px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .health-status {
+            flex: 0 0 80px;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        .health-ts {
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        @media (max-width: 900px) {
+            .sticky-header { flex-wrap: wrap; height: auto; padding: 10px 16px; }
+            .wrap { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="header-brand">RazorTrades <span class="header-sub">SPX 0DTE</span></div>
+        <div class="header-pills">
+            <div class="header-stat"><span class="header-stat-label">SPOT</span><span class="header-stat-val">7129.36</span></div>
+            <div class="header-divider"></div>
+            <div class="header-stat"><span class="header-stat-label">REGIME</span><span class="header-stat-val">POSITIVE</span></div>
+            <div class="header-divider"></div>
+            <div class="header-stat"><span class="header-stat-label">BIAS</span><span class="header-stat-val" style="color:#60a5fa">NEUTRAL (1)</span></div>
+            <div class="header-divider"></div>
+            <div class="header-stat"><span class="header-stat-label">VIX</span><span class="header-stat-val" style="color:#94a3b8">UNKNOWN (stale)</span></div>
+            <div class="header-divider"></div>
+            <div class="header-stat"><span class="header-stat-label">SIZE</span><span class="header-stat-val" style="color:#94a3b8">-</span></div>
+            <div class="header-divider"></div>
+            <div class="header-stat"><span class="header-stat-label">UPDATED</span><span class="header-stat-val" style="font-size:12px">2026-04-29 02:47:00 PM ET</span></div>
+        </div>
+    </header>
+    <div class="wrap">
+        <section class="card" style="border-color:rgba(96,165,250,0.35);background:linear-gradient(135deg,rgba(96,165,250,0.08),#0f172a)">
+        <div class="zone-header">
+            <span class="zone-title">Active Signal</span>
+            <span style="display:inline-block;padding:3px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.5px;background:#60a5fa22;color:#60a5fa;border:1px solid #60a5fa55">LIVE</span>
+        </div>
+        <div style="display:flex;gap:24px;align-items:flex-start">
+            <div style="flex:1.2;min-width:0">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+            <div style="font-size:42px;font-weight:900;letter-spacing:-1px;color:#60a5fa">NO SIGNAL</div>
+            <span style="display:inline-block;padding:3px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.5px;background:#60a5fa22;color:#60a5fa;border:1px solid #60a5fa55">NEUTRAL</span>
+            <span style="display:inline-block;padding:3px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.5px;background:#60a5fa22;color:#60a5fa;border:1px solid #60a5fa55">Conf -</span>
+        </div>
+        <div style="margin-bottom:10px"><span style="color:#94a3b8;font-size:12px;text-transform:uppercase;letter-spacing:.5px">Reason</span><br>
+            <span style="color:#e5e7eb;line-height:1.5">-</span></div>
+        <div style="margin-bottom:10px"><span style="color:#94a3b8;font-size:12px;text-transform:uppercase;letter-spacing:.5px">Invalidation</span><br>
+            <span style="color:#f59e0b;line-height:1.5">-</span></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">
+            <span style="display:inline-block;padding:3px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.5px;background:#94a3b822;color:#94a3b8;border:1px solid #94a3b855">Base Conf: -</span>
+            <span style="display:inline-block;padding:3px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.5px;background:#94a3b822;color:#94a3b8;border:1px solid #94a3b855">Target: -</span>
+            <span style="display:inline-block;padding:3px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.5px;background:#94a3b822;color:#94a3b8;border:1px solid #94a3b855">Readiness: -</span>
+        </div>
+    </div>
+            <div style="flex:0.8;min-width:0;border-left:1px solid rgba(96,165,250,0.35);padding-left:24px">
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#94a3b8;margin-bottom:12px">Selected Contract</div>
+        <div style="font-size:32px;font-weight:900;color:#60a5fa;margin-bottom:4px">O:SPXW260429C07140000</div>
+        <div style="color:#94a3b8;font-size:13px;margin-bottom:16px">7140.00 strike &nbsp;|&nbsp; Exp 2026-04-29 &nbsp;|&nbsp; 10.64 from spot</div>
+        <div style="color:#94a3b8;font-size:12px;margin-bottom:4px">Mode: <span style="color:#e5e7eb">fallback_regime_based</span></div>
+        <div style="color:#94a3b8;font-size:12px;line-height:1.5">spot-relative + liquidity-based selection</div>
+    </div>
+        </div>
+        
+    </section>
+        <section class="card">
+            <div class="zone-header">
+                <span class="zone-title">Reports</span>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px">
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/gex/0dte/latest/gex_profile.html">GEX Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/oi/0dte/latest/oi_report.html">OI Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/positioning/latest/positioning_report.html">Positioning Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/gex/structural/latest/structural_report.html">Structural GEX Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/signals/0dte/latest/signal_report.html">Signal Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/signals/0dte/latest/performance_report.html">Performance Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/roi/0dte/latest/roi_report.html">ROI Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/playbook/0dte/latest/playbook_report.html">Playbook Report &rarr;</a>
+        <a class="report-link" href="https://garettrades-tech.github.io/spx-gex-reports/SPX/signals/0dte/latest/master_dashboard.html">Master Dashboard &rarr;</a>
+    </div>
+        </section>
+        <section class="card">
+            <div class="zone-header">
+                <span class="zone-title">Market Structure</span><span class="zone-sub">0DTE GEX levels · Structural anchor levels · VIX term structure</span>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px"><div class="metric">
+            <div class="metric-label">Spot</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">7129.36</div>
+        </div><div class="metric">
+            <div class="metric-label">Call Wall</div>
+            <div class="metric-value" style="color:#22c55e;font-size:24px">7350.00</div>
+        </div><div class="metric">
+            <div class="metric-label">Put Wall</div>
+            <div class="metric-value" style="color:#ef4444;font-size:24px">6925.00</div>
+        </div><div class="metric">
+            <div class="metric-label">GEX Flip</div>
+            <div class="metric-value" style="color:#f59e0b;font-size:24px">6925.00</div>
+        </div><div class="metric">
+            <div class="metric-label">Control Low</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">7140.00</div>
+        </div><div class="metric">
+            <div class="metric-label">Control Mid</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">7145.00</div>
+        </div><div class="metric">
+            <div class="metric-label">Control High</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">7150.00</div>
+        </div><div class="metric">
+            <div class="metric-label">Zone Status</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">below</div>
+        </div></div>
+<div style="border-top:1px solid var(--border);margin-top:18px;padding-top:16px">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+        <span style="font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#94a3b8;font-weight:700">Structural GEX</span>
+        <span style="font-size:11px;color:#475569">— aggregated across all expirations (macro anchor levels)</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px">
+        <div class="metric"><div class="metric-label">Structural Call Wall</div><div class="metric-value" style="color:#22c55e;font-size:20px">7200.00</div></div>
+        <div class="metric"><div class="metric-label">Structural Put Wall</div><div class="metric-value" style="color:#ef4444;font-size:20px">6760.00</div></div>
+        <div class="metric"><div class="metric-label">Structural GEX Flip</div><div class="metric-value" style="color:#f59e0b;font-size:20px">6760.00</div></div>
+        <div class="metric"><div class="metric-label">COTMC (Max Call OI)</div><div class="metric-value" style="color:#22c55e;font-size:20px">7275.00</div></div>
+        <div class="metric"><div class="metric-label">COTMP (Max Put OI)</div><div class="metric-value" style="color:#ef4444;font-size:20px">6800.00</div></div>
+    </div>
+    <div style="display:flex;gap:20px;margin-top:10px;font-size:12px;color:#94a3b8">
+        <span>Structural Regime: <strong style="color:#e5e7eb">POSITIVE</strong></span>
+        <span>Net GEX ($B): <strong style="color:#60a5fa">0.00</strong></span>
+    </div>
+</div><div style="border-top:1px solid var(--border);margin-top:18px;padding-top:14px;color:#475569;font-size:12px">VIX term structure data not available (stale or no feed)</div>
+        </section>
+        <section class="card">
+            <div class="zone-header">
+                <span class="zone-title">Latest Evaluated Outcome</span>
+            </div>
+            <div style="display:flex;gap:24px;align-items:flex-start">
+        <div style="min-width:140px">
+            <span style="font-size:32px;font-weight:900;color:#94a3b8">EVALUATED_OPTION</span>
+            <div style="color:#94a3b8;font-size:12px;margin-top:6px">Last evaluated outcome</div>
+        </div>
+        <div style="flex:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px">
+            <div class="metric">
+            <div class="metric-label">Entry Price</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">2.80</div>
+        </div>
+            <div class="metric">
+            <div class="metric-label">Entry Time</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">-</div>
+        </div>
+            <div class="metric">
+            <div class="metric-label">Peak Return %</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">-</div>
+        </div>
+        </div>
+    </div>
+    <div style="margin-top:14px;color:#94a3b8;font-size:12px">Exit reason: <span style="color:#e5e7eb">-</span></div>
+        </section>
+        <section class="card">
+            <div class="zone-header">
+                <span class="zone-title">Performance & Calibration</span>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px"><div class="metric">
+            <div class="metric-label">Evaluated Signals</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">-</div>
+        </div><div class="metric">
+            <div class="metric-label">Win Rate %</div>
+            <div class="metric-value" style="color:#22c55e;font-size:24px">-</div>
+        </div><div class="metric">
+            <div class="metric-label">Avg Peak Return %</div>
+            <div class="metric-value" style="color:#22c55e;font-size:24px">-</div>
+        </div><div class="metric">
+            <div class="metric-label">Calibration Rows</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:24px">-</div>
+        </div></div><div style="margin-top:12px;color:#94a3b8;font-size:12px">Calibration Readiness: <span style="color:#e5e7eb">Insufficient Data</span></div>
+        </section>
+        <section class="card">
+            <div class="zone-header">
+                <span class="zone-title">ROI & Playbook</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+        <div>
+            <div style="font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#94a3b8;margin-bottom:10px">ROI Best Trade</div>
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px"><div class="metric">
+            <div class="metric-label">Side</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">-</div>
+        </div><div class="metric">
+            <div class="metric-label">Strike</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">7135.00</div>
+        </div><div class="metric">
+            <div class="metric-label">Expiry</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">2026-04-28</div>
+        </div><div class="metric">
+            <div class="metric-label">ROI %</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">1900.00</div>
+        </div></div>
+        </div>
+        <div>
+            <div style="font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#94a3b8;margin-bottom:10px">Playbook Quick Takeaways</div>
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px"><div class="metric">
+            <div class="metric-label">Best Call Cluster</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">-</div>
+        </div><div class="metric">
+            <div class="metric-label">Best Put Cluster</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">-</div>
+        </div><div class="metric">
+            <div class="metric-label">Best Time Bucket</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">power_hour</div>
+        </div><div class="metric">
+            <div class="metric-label">Bucket Win Rate %</div>
+            <div class="metric-value" style="color:#60a5fa;font-size:20px">100.00</div>
+        </div></div>
+        </div>
+    </div>
+        </section>
+        <section class="card" style="opacity:0.85">
+        <div class="zone-header">
+            <span class="zone-title">System Health</span>
+            <span class="zone-sub">Data freshness — last pipeline run timestamps</span>
+        </div>
+        <div class="health-table"><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">GEX</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-29 02:45:25 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f59e0b;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Structural GEX</span><span class="health-status" style="color:#f59e0b">stale</span><span class="health-ts">2026-04-29 02:00:58 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">OI Report</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-29 02:46:17 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Signals</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-29 02:47:00 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Tracked Signal</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-29 02:47:07 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Contract Selection</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-29 02:47:11 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">ROI</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-28 03:20:11 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Playbook</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-28 03:20:16 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Performance</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-28 03:20:20 PM</span></div><div class="health-row"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:5px;vertical-align:middle;"></span><span class="health-key">Calibration</span><span class="health-status" style="color:#22c55e">fresh</span><span class="health-ts">2026-04-28 03:20:24 PM</span></div></div>
+    </section>
+    </div>
+</body>
+</html>

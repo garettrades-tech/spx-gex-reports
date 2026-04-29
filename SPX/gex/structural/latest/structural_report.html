@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SPX Structural GEX — 2026-04-29 15:00 ET</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont,
+          "Segoe UI", monospace; font-size: 13px; padding: 24px; }
+  h1 { font-size: 1.2em; color: #58a6ff; margin-bottom: 4px; }
+  .meta { color: #8b949e; font-size: 0.85em; margin-bottom: 24px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px;
+             font-size: 0.8em; font-weight: 600; margin-left: 8px; }
+  .card { background: #161b22; border: 1px solid #30363d; border-radius: 6px;
+           padding: 16px; margin-bottom: 20px; }
+  h2 { font-size: 0.95em; color: #8b949e; text-transform: uppercase;
+        letter-spacing: 0.08em; margin-bottom: 12px; }
+  table { width: 100%; border-collapse: collapse; }
+  tr:hover td { background: #1c2128; }
+  td, th { border-bottom: 1px solid #21262d; padding: 5px 10px; }
+  th { color: #8b949e; font-size: 0.8em; text-transform: uppercase;
+        letter-spacing: 0.06em; }
+  pre { background: #0d1117; border: 1px solid #30363d; border-radius: 4px;
+          padding: 14px; font-family: monospace; font-size: 0.85em;
+          color: #79c0ff; white-space: pre-wrap; overflow-x: auto; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px;
+           border-radius: 12px; font-size: 0.8em; font-weight: 600; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .col { flex: 1; min-width: 200px; }
+  .metric-val { font-size: 1.6em; font-weight: 600; font-family: monospace; }
+  .metric-lbl { color: #8b949e; font-size: 0.8em; margin-top: 2px; }
+  .warn-banner { background: #1f2d1f; border: 1px solid #39d353; border-radius: 6px;
+                  padding: 10px 14px; margin-bottom: 20px; color: #8b949e;
+                  font-size: 0.85em; }
+</style>
+</head>
+<body>
+
+<h1>SPX Structural GEX
+  <span class="badge" style="background:#1f3a2f;color:#39d353">STRUCTURAL</span>
+  <span class="badge" style="background:#1a1f2e;color:#58a6ff">MULTI-EXPIRY</span>
+</h1>
+<div class="meta">
+  Generated: 2026-04-29 15:00 ET &nbsp;|&nbsp;
+  Spot ref: <strong style="color:#e6edf3">7,112.5</strong> &nbsp;|&nbsp;
+  Regime: <strong style="color:#39d353">POSITIVE</strong> &nbsp;|&nbsp;
+  Net GEX: <strong style="color:#39d353">+0.00B</strong> &nbsp;|&nbsp;
+  Expirations: <strong style="color:#e6edf3">16</strong>
+</div>
+
+<div class="warn-banner">
+  ⚠ These levels are computed from aggregated OI across ALL tracked expirations.
+  Use for <strong>weekly/macro anchor levels</strong> and structural bias only.
+  For intraday 0DTE pin levels, see the 0DTE GEX report.
+  <a href="../../../gex/0dte/latest/gex_profile.html"
+     style="color:#58a6ff;margin-left:8px">→ 0DTE Report</a>
+</div>
+
+<div class="row">
+  <div class="col card">
+    <h2>Structural Levels</h2>
+    <table>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">CALL WALL (structural)</td>
+          <td style="color:#39d353;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">7,200.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">PUT WALL (structural)</td>
+          <td style="color:#f85149;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">6,760.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">GEX FLIP</td>
+          <td style="color:#e3b341;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">6,760.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">BULL TRIGGER</td>
+          <td style="color:#58a6ff;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">7,200.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">BEAR TRIGGER</td>
+          <td style="color:#f85149;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">6,760.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">CHARM PIN</td>
+          <td style="color:#e3b341;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">7,200.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">CONTROL LOW</td>
+          <td style="color:#8b949e;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">—</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">CONTROL HIGH</td>
+          <td style="color:#8b949e;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">—</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">COT MAX CALL (COTMC)</td>
+          <td style="color:#39d353;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">7,275.0</td>
+        </tr>
+        <tr>
+          <td style="color:#8b949e;padding:6px 12px">COT MAX PUT  (COTMP)</td>
+          <td style="color:#f85149;text-align:right;font-family:monospace;
+                     font-size:1.05em;padding:6px 12px">6,800.0</td>
+        </tr></table>
+  </div>
+
+  <div class="col card">
+    <h2>GEX by Expiration</h2>
+    <table>
+      <tr>
+        <th>Expiry</th>
+        <th style="text-align:right">Net GEX</th>
+        <th style="text-align:right">Call OI</th>
+        <th style="text-align:right">Put OI</th>
+        <th style="text-align:right">Strikes</th>
+        <th>Distribution</th>
+      </tr>
+      
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-04-27</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">202,123</td>
+          <td style="text-align:right;color:#8b949e">245,930</td>
+          <td style="text-align:right;color:#8b949e">288</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-04-28</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">152,438</td>
+          <td style="text-align:right;color:#8b949e">195,607</td>
+          <td style="text-align:right;color:#8b949e">287</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-04-29</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">181,079</td>
+          <td style="text-align:right;color:#8b949e">212,281</td>
+          <td style="text-align:right;color:#8b949e">274</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-04-30</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">241,827</td>
+          <td style="text-align:right;color:#8b949e">424,854</td>
+          <td style="text-align:right;color:#8b949e">500</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-01</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">146,207</td>
+          <td style="text-align:right;color:#8b949e">360,235</td>
+          <td style="text-align:right;color:#8b949e">339</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-04</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">42,436</td>
+          <td style="text-align:right;color:#8b949e">78,032</td>
+          <td style="text-align:right;color:#8b949e">268</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-05</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">25,265</td>
+          <td style="text-align:right;color:#8b949e">56,039</td>
+          <td style="text-align:right;color:#8b949e">247</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-06</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">20,199</td>
+          <td style="text-align:right;color:#8b949e">44,935</td>
+          <td style="text-align:right;color:#8b949e">225</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-07</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">13,577</td>
+          <td style="text-align:right;color:#8b949e">34,928</td>
+          <td style="text-align:right;color:#8b949e">225</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-08</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">84,604</td>
+          <td style="text-align:right;color:#8b949e">245,002</td>
+          <td style="text-align:right;color:#8b949e">311</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-05-15</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">121,039</td>
+          <td style="text-align:right;color:#8b949e">433,775</td>
+          <td style="text-align:right;color:#8b949e">572</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-07-17</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">36,078</td>
+          <td style="text-align:right;color:#8b949e">116,554</td>
+          <td style="text-align:right;color:#8b949e">495</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-08-21</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">16,320</td>
+          <td style="text-align:right;color:#8b949e">64,423</td>
+          <td style="text-align:right;color:#8b949e">430</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-09-18</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">29,241</td>
+          <td style="text-align:right;color:#8b949e">186,356</td>
+          <td style="text-align:right;color:#8b949e">380</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2026-12-18</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">1,026,442</td>
+          <td style="text-align:right;color:#8b949e">1,484,241</td>
+          <td style="text-align:right;color:#8b949e">215</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#e6edf3;font-family:monospace">2027-03-19</td>
+          <td style="color:#39d353;text-align:right">+0.0M</td>
+          <td style="text-align:right;color:#8b949e">232,382</td>
+          <td style="text-align:right;color:#8b949e">282,048</td>
+          <td style="text-align:right;color:#8b949e">195</td>
+          <td>
+            <div style="display:inline-block;width:0px;height:8px;
+                        background:#39d353;border-radius:2px;
+                        float:right"></div>
+          </td>
+        </tr>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Pine Script Paste Block (Structural)</h2>
+  <pre>// ═══════════════════════════════════════════════════
+//  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
+//  Generated: 2026-04-29 15:00 ET
+//  SPX Spot: ~7112.53  |  Regime: POSITIVE (STRUCTURAL)
+//  Expiry: multi-expiry aggregate
+//  Strategy bias: STRUCTURAL — use for weekly/macro anchor levels only
+// ═══════════════════════════════════════════════════
+CALL_WALL    = 7200.0
+PUT_WALL     = 6760.0
+PLUS_GEX     = 7200.0
+MINUS_GEX    = 6760.0
+GEX_FLIP     = 6760.0
+POS_TRANS    = 7200.0
+NEG_TRANS    = 6760.0
+CHARM_PIN    = 7200.0
+BULL_TRIGGER = 7200.0
+BEAR_TRIGGER = 6760.0
+SPOT_REF     = 7112.53
+CONTROL_LOW  = float(na)
+CONTROL_HIGH = float(na)
+COTMC        = 7275.0
+COTMP        = 6800.0
+HARD_CAP     = float(na)
+PUT_FLOOR    = float(na)
+</pre>
+</div>
+
+<div class="card" style="color:#8b949e;font-size:0.8em">
+  Reads from: <code style="color:#79c0ff">C:\GEX\output\spx_desk.db</code><br>
+  Model: <code style="color:#79c0ff">position_grid</code> (latest snapshot per expiration)<br>
+  0DTE context: <code style="color:#79c0ff">C:\GEX\output\SPX\gex\0dte\latest\gex_context.json</code>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,930 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPX ROI Report</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #020817;
+            --panel: #0f172a;
+            --panel-2: #111827;
+            --border: #243047;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #60a5fa;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .layout {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 360px 1fr;
+        }
+
+        .sidebar {
+            background: linear-gradient(180deg, var(--panel), #0b1220);
+            border-right: 1px solid var(--border);
+            padding: 24px;
+        }
+
+        .main {
+            padding: 24px;
+        }
+
+        .brand {
+            font-size: 30px;
+            font-weight: 800;
+            letter-spacing: -0.8px;
+            margin-bottom: 20px;
+        }
+
+        .sub {
+            color: var(--muted);
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 18px;
+            margin-bottom: 18px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 42px;
+            line-height: 1.05;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            margin: 0 0 4px 0;
+            font-size: 22px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            padding: 6px 10px;
+            font-size: 12px;
+            font-weight: 700;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .metric-grid.compact {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .metric {
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .metric-label {
+            color: var(--muted);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            margin-bottom: 8px;
+        }
+
+        .metric-value {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .metric-value.small {
+            font-size: 14px;
+            line-height: 1.4;
+            word-break: break-word;
+        }
+
+        .metric-value.accent {
+            color: var(--accent);
+        }
+
+        .chart-wrap {
+            height: 460px;
+        }
+
+        .volume-wrap {
+            height: 180px;
+            margin-top: 18px;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        th {
+            color: var(--muted);
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+
+        .mono {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 12px;
+        }
+
+        .accent {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        @media (max-width: 1200px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .metric-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 700px) {
+            .metric-grid,
+            .metric-grid.compact {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">SPX ROI</div>
+            <div class="sub">
+                Bar-based theoretical hindsight scan using saved 0DTE contracts and 1-minute option bars.
+            </div>
+
+            <section class="card">
+                <div class="card-header">
+                    <h3>Session</h3>
+                    <span class="badge">0DTE / Dated</span>
+                </div>
+                <div class="metric-grid compact">
+                    <div class="metric">
+                        <div class="metric-label">Session Date</div>
+                        <div class="metric-value small">2026-04-28</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Spot</div>
+                        <div class="metric-value">7138.77</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Candidates</div>
+                        <div class="metric-value">30</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROI Windows</div>
+                        <div class="metric-value">13</div>
+                    </div>
+                </div>
+            </section>
+
+            
+        <section class="card">
+            <div class="card-header">
+                <h3>Overall Best</h3>
+                <span class="badge">PUT</span>
+            </div>
+            <div class="metric-grid compact">
+                <div class="metric">
+                    <div class="metric-label">Contract</div>
+                    <div class="metric-value small">O:SPXW260428P07135000</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Strike</div>
+                    <div class="metric-value">7135.0</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">ROI</div>
+                    <div class="metric-value accent">1,900.00%</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Entry</div>
+                    <div class="metric-value">$0.05</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Exit</div>
+                    <div class="metric-value">$1.00</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Entry Time</div>
+                    <div class="metric-value small">2026-04-28 03:51 PM ET</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Exit Time</div>
+                    <div class="metric-value small">2026-04-28 03:54 PM ET</div>
+                </div>
+            </div>
+        </section>
+        
+            
+        <section class="card">
+            <div class="card-header">
+                <h3>Best Call</h3>
+                <span class="badge">CALL</span>
+            </div>
+            <div class="metric-grid compact">
+                <div class="metric">
+                    <div class="metric-label">Contract</div>
+                    <div class="metric-value small">O:SPXW260428C07140000</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Strike</div>
+                    <div class="metric-value">7140.0</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">ROI</div>
+                    <div class="metric-value accent">508.00%</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Entry</div>
+                    <div class="metric-value">$1.25</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Exit</div>
+                    <div class="metric-value">$7.60</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Entry Time</div>
+                    <div class="metric-value small">2026-04-28 01:19 PM ET</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Exit Time</div>
+                    <div class="metric-value small">2026-04-28 03:11 PM ET</div>
+                </div>
+            </div>
+        </section>
+        
+            
+        <section class="card">
+            <div class="card-header">
+                <h3>Best Put</h3>
+                <span class="badge">PUT</span>
+            </div>
+            <div class="metric-grid compact">
+                <div class="metric">
+                    <div class="metric-label">Contract</div>
+                    <div class="metric-value small">O:SPXW260428P07135000</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Strike</div>
+                    <div class="metric-value">7135.0</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">ROI</div>
+                    <div class="metric-value accent">1,900.00%</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Entry</div>
+                    <div class="metric-value">$0.05</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Exit</div>
+                    <div class="metric-value">$1.00</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Entry Time</div>
+                    <div class="metric-value small">2026-04-28 03:51 PM ET</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Exit Time</div>
+                    <div class="metric-value small">2026-04-28 03:54 PM ET</div>
+                </div>
+            </div>
+        </section>
+        
+        </aside>
+
+        <main class="main">
+            <section class="card">
+                <div class="card-header">
+                    <h2>Highest Possible ROI Trade</h2>
+                    <span class="badge">O:SPXW260428P07135000</span>
+                </div>
+                <div class="muted" style="margin-bottom: 18px;">
+                    Focused chart window around the winning entry and exit.
+                </div>
+
+                <div class="metric-grid" style="margin-bottom: 20px;">
+                    <div class="metric">
+                        <div class="metric-label">Winner ROI</div>
+                        <div class="metric-value accent">1,900.00%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Winner Entry</div>
+                        <div class="metric-value">$0.05</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Winner Exit</div>
+                        <div class="metric-value">$1.00</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Trade Window</div>
+                        <div class="metric-value small">2026-04-28 03:51 PM ET → 2026-04-28 03:54 PM ET</div>
+                    </div>
+                </div>
+
+                <div class="chart-wrap">
+                    <canvas id="priceChart"></canvas>
+                </div>
+                <div class="volume-wrap">
+                    <canvas id="volumeChart"></canvas>
+                </div>
+            </section>
+
+            
+        <section class="card">
+            <div class="card-header">
+                <h3>Top Overall ROI Trades</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Strike</th>
+                            <th>Contract</th>
+                            <th>Entry</th>
+                            <th>Entry Time</th>
+                            <th>Exit</th>
+                            <th>Exit Time</th>
+                            <th>ROI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>PUT</td>
+                    <td>7135.0</td>
+                    <td class="mono">O:SPXW260428P07135000</td>
+                    <td>$0.05</td>
+                    <td>2026-04-28 03:51 PM ET</td>
+                    <td>$1.00</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">1,900.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7130.0</td>
+                    <td class="mono">O:SPXW260428P07130000</td>
+                    <td>$0.03</td>
+                    <td>2026-04-28 03:50 PM ET</td>
+                    <td>$0.30</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">900.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7140.0</td>
+                    <td class="mono">O:SPXW260428P07140000</td>
+                    <td>$0.42</td>
+                    <td>2026-04-28 03:53 PM ET</td>
+                    <td>$3.40</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">709.52%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7140.0</td>
+                    <td class="mono">O:SPXW260428C07140000</td>
+                    <td>$1.25</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$7.60</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">508.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7145.0</td>
+                    <td class="mono">O:SPXW260428C07145000</td>
+                    <td>$0.80</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$4.60</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">475.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7135.0</td>
+                    <td class="mono">O:SPXW260428C07135000</td>
+                    <td>$2.00</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$11.50</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">475.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7130.0</td>
+                    <td class="mono">O:SPXW260428C07130000</td>
+                    <td>$3.10</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$16.20</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">422.58%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7150.0</td>
+                    <td class="mono">O:SPXW260428C07150000</td>
+                    <td>$0.01</td>
+                    <td>2026-04-28 03:55 PM ET</td>
+                    <td>$0.05</td>
+                    <td>2026-04-28 03:56 PM ET</td>
+                    <td class="accent">400.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7120.0</td>
+                    <td class="mono">O:SPXW260428P07120000</td>
+                    <td>$0.10</td>
+                    <td>2026-04-28 03:13 PM ET</td>
+                    <td>$0.40</td>
+                    <td>2026-04-28 03:20 PM ET</td>
+                    <td class="accent">300.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7160.0</td>
+                    <td class="mono">O:SPXW260428C07160000</td>
+                    <td>$0.03</td>
+                    <td>2026-04-28 03:48 PM ET</td>
+                    <td>$0.10</td>
+                    <td>2026-04-28 03:50 PM ET</td>
+                    <td class="accent">233.33%</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+            
+        <section class="card">
+            <div class="card-header">
+                <h3>Top Call ROI Trades</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Strike</th>
+                            <th>Contract</th>
+                            <th>Entry</th>
+                            <th>Entry Time</th>
+                            <th>Exit</th>
+                            <th>Exit Time</th>
+                            <th>ROI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>CALL</td>
+                    <td>7140.0</td>
+                    <td class="mono">O:SPXW260428C07140000</td>
+                    <td>$1.25</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$7.60</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">508.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7145.0</td>
+                    <td class="mono">O:SPXW260428C07145000</td>
+                    <td>$0.80</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$4.60</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">475.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7135.0</td>
+                    <td class="mono">O:SPXW260428C07135000</td>
+                    <td>$2.00</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$11.50</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">475.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7130.0</td>
+                    <td class="mono">O:SPXW260428C07130000</td>
+                    <td>$3.10</td>
+                    <td>2026-04-28 01:19 PM ET</td>
+                    <td>$16.20</td>
+                    <td>2026-04-28 03:11 PM ET</td>
+                    <td class="accent">422.58%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7150.0</td>
+                    <td class="mono">O:SPXW260428C07150000</td>
+                    <td>$0.01</td>
+                    <td>2026-04-28 03:55 PM ET</td>
+                    <td>$0.05</td>
+                    <td>2026-04-28 03:56 PM ET</td>
+                    <td class="accent">400.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>CALL</td>
+                    <td>7160.0</td>
+                    <td class="mono">O:SPXW260428C07160000</td>
+                    <td>$0.03</td>
+                    <td>2026-04-28 03:48 PM ET</td>
+                    <td>$0.10</td>
+                    <td>2026-04-28 03:50 PM ET</td>
+                    <td class="accent">233.33%</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+            
+        <section class="card">
+            <div class="card-header">
+                <h3>Top Put ROI Trades</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Strike</th>
+                            <th>Contract</th>
+                            <th>Entry</th>
+                            <th>Entry Time</th>
+                            <th>Exit</th>
+                            <th>Exit Time</th>
+                            <th>ROI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>PUT</td>
+                    <td>7135.0</td>
+                    <td class="mono">O:SPXW260428P07135000</td>
+                    <td>$0.05</td>
+                    <td>2026-04-28 03:51 PM ET</td>
+                    <td>$1.00</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">1,900.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7130.0</td>
+                    <td class="mono">O:SPXW260428P07130000</td>
+                    <td>$0.03</td>
+                    <td>2026-04-28 03:50 PM ET</td>
+                    <td>$0.30</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">900.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7140.0</td>
+                    <td class="mono">O:SPXW260428P07140000</td>
+                    <td>$0.42</td>
+                    <td>2026-04-28 03:53 PM ET</td>
+                    <td>$3.40</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">709.52%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7120.0</td>
+                    <td class="mono">O:SPXW260428P07120000</td>
+                    <td>$0.10</td>
+                    <td>2026-04-28 03:13 PM ET</td>
+                    <td>$0.40</td>
+                    <td>2026-04-28 03:20 PM ET</td>
+                    <td class="accent">300.00%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7125.0</td>
+                    <td class="mono">O:SPXW260428P07125000</td>
+                    <td>$0.03</td>
+                    <td>2026-04-28 03:50 PM ET</td>
+                    <td>$0.10</td>
+                    <td>2026-04-28 03:54 PM ET</td>
+                    <td class="accent">233.33%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7100.0</td>
+                    <td class="mono">O:SPXW260428P07100000</td>
+                    <td>$2.35</td>
+                    <td>2026-04-28 10:07 AM ET</td>
+                    <td>$7.60</td>
+                    <td>2026-04-28 10:51 AM ET</td>
+                    <td class="accent">223.40%</td>
+                </tr>
+                
+
+                <tr>
+                    <td>PUT</td>
+                    <td>7115.0</td>
+                    <td class="mono">O:SPXW260428P07115000</td>
+                    <td>$4.10</td>
+                    <td>2026-04-28 10:07 AM ET</td>
+                    <td>$13.10</td>
+                    <td>2026-04-28 10:51 AM ET</td>
+                    <td class="accent">219.51%</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        </main>
+    </div>
+
+    <script>
+        const labels = ["03:26 PM", "03:27 PM", "03:28 PM", "03:29 PM", "03:30 PM", "03:31 PM", "03:32 PM", "03:33 PM", "03:34 PM", "03:35 PM", "03:36 PM", "03:37 PM", "03:38 PM", "03:39 PM", "03:40 PM", "03:41 PM", "03:42 PM", "03:43 PM", "03:44 PM", "03:45 PM", "03:46 PM", "03:47 PM", "03:48 PM", "03:49 PM", "03:50 PM", "03:51 PM", "03:52 PM", "03:53 PM", "03:54 PM", "03:55 PM", "03:56 PM", "03:57 PM", "03:58 PM", "03:59 PM", "04:00 PM"];
+        const openData = [1.55, 1.5, 1.4, 1.55, 1.5, 1.6, 1.6, 1.8, 2.05, 2.6, 2.25, 1.9, 2.0, 1.65, 1.25, 0.85, 0.72, 0.9, 0.85, 0.8, 0.7, 0.6, 0.7, 0.7, 0.55, 0.11, 0.15, 0.13, 0.2, 0.35, 0.15, 0.1, 0.05, 0.05, 0.05];
+        const highData = [1.65, 1.65, 1.6, 1.8, 1.7, 1.75, 2.22, 2.2, 2.65, 2.75, 2.7, 2.0, 2.05, 1.7, 1.25, 0.9, 0.95, 1.0, 0.92, 0.95, 0.75, 0.7, 0.85, 0.7, 0.55, 0.15, 0.15, 0.25, 1.0, 0.6, 0.2, 0.2, 0.15, 0.05, 0.05];
+        const lowData = [1.4, 1.3, 1.35, 1.4, 1.4, 1.52, 1.57, 1.7, 1.95, 2.0, 1.8, 1.55, 1.65, 1.2, 0.8, 0.6, 0.72, 0.7, 0.65, 0.65, 0.6, 0.55, 0.62, 0.5, 0.1, 0.05, 0.1, 0.05, 0.2, 0.05, 0.1, 0.05, 0.03, 0.03, 0.05];
+        const closeData = [1.5, 1.4, 1.55, 1.6, 1.65, 1.6, 1.85, 2.05, 2.55, 2.32, 1.9, 2.0, 1.7, 1.3, 0.8, 0.75, 0.9, 0.85, 0.85, 0.7, 0.65, 0.65, 0.7, 0.55, 0.15, 0.1, 0.15, 0.2, 0.3, 0.12, 0.1, 0.05, 0.05, 0.05, 0.05];
+        const volumeData = [414.0, 386.0, 392.0, 605.0, 762.0, 412.0, 1176.0, 1144.0, 1463.0, 1026.0, 836.0, 500.0, 612.0, 726.0, 1070.0, 776.0, 868.0, 1088.0, 578.0, 953.0, 529.0, 362.0, 700.0, 546.0, 1752.0, 779.0, 5515.0, 1537.0, 1891.0, 1654.0, 644.0, 694.0, 380.0, 491.0, 1.0];
+        const entryIndex = 25;
+        const exitIndex = 28;
+
+        const priceCtx = document.getElementById("priceChart").getContext("2d");
+        const volumeCtx = document.getElementById("volumeChart").getContext("2d");
+
+        const floatingCandles = openData.map((o, i) => [o, closeData[i]]);
+
+        const wickPlugin = {
+            id: "wickPlugin",
+            afterDatasetsDraw(chart) {
+                const ctx = chart.ctx;
+                const scales = chart.scales;
+                const xScale = scales.x;
+                const yScale = scales.y;
+
+                ctx.save();
+
+                for (let i = 0; i < labels.length; i++) {
+                    const x = xScale.getPixelForValue(i);
+                    const highY = yScale.getPixelForValue(highData[i]);
+                    const lowY = yScale.getPixelForValue(lowData[i]);
+
+                    const color = closeData[i] >= openData[i] ? "#22c55e" : "#ef4444";
+                    ctx.strokeStyle = color;
+                    ctx.lineWidth = 1.4;
+
+                    ctx.beginPath();
+                    ctx.moveTo(x, highY);
+                    ctx.lineTo(x, lowY);
+                    ctx.stroke();
+
+                    if (i === entryIndex || i === exitIndex) {
+                        ctx.fillStyle = i === entryIndex ? "#60a5fa" : "#f59e0b";
+                        ctx.beginPath();
+                        ctx.arc(x, i === entryIndex ? lowY : highY, 5, 0, Math.PI * 2);
+                        ctx.fill();
+                    }
+                }
+
+                if (entryIndex >= 0 && exitIndex >= 0 && exitIndex > entryIndex) {
+                    const startX = xScale.getPixelForValue(entryIndex);
+                    const endX = xScale.getPixelForValue(exitIndex);
+                    const topY = yScale.top;
+                    const bottomY = yScale.bottom;
+
+                    ctx.fillStyle = "rgba(96, 165, 250, 0.08)";
+                    ctx.fillRect(startX, topY, endX - startX, bottomY - topY);
+                }
+
+                ctx.restore();
+            }
+        };
+
+        new Chart(priceCtx, {
+            type: "bar",
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: "Candles",
+                        data: floatingCandles,
+                        backgroundColor: closeData.map((c, i) => c >= openData[i] ? "#22c55e" : "#ef4444"),
+                        borderWidth: 0,
+                        barThickness: 6
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title(items) {
+                                return items[0].label;
+                            },
+                            label(context) {
+                                const i = context.dataIndex;
+                                return [
+                                    "Open: " + openData[i],
+                                    "High: " + highData[i],
+                                    "Low: " + lowData[i],
+                                    "Close: " + closeData[i]
+                                ];
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            color: "#94a3b8",
+                            maxRotation: 0,
+                            autoSkip: true,
+                            maxTicksLimit: 16
+                        },
+                        grid: {
+                            color: "rgba(148,163,184,0.08)"
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: "#e5e7eb"
+                        },
+                        grid: {
+                            color: "rgba(148,163,184,0.08)"
+                        }
+                    }
+                }
+            },
+            plugins: [wickPlugin]
+        });
+
+        new Chart(volumeCtx, {
+            type: "bar",
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: "Volume",
+                        data: volumeData,
+                        backgroundColor: closeData.map((c, i) => c >= openData[i] ? "rgba(34,197,94,0.6)" : "rgba(239,68,68,0.6)"),
+                        borderWidth: 0,
+                        barThickness: 6
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            color: "#94a3b8",
+                            maxRotation: 0,
+                            autoSkip: true,
+                            maxTicksLimit: 16
+                        },
+                        grid: {
+                            color: "rgba(148,163,184,0.08)"
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: "#e5e7eb"
+                        },
+                        grid: {
+                            color: "rgba(148,163,184,0.08)"
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

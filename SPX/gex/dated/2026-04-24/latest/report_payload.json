@@ -1,0 +1,156 @@
+{
+  "report_type": "SPX_0DTE_GEX",
+  "snapshot_label": "2026-04-17 11:04 ET",
+  "ticker": "SPX",
+  "model": "0dte",
+  "expiration": "2026-04-24",
+  "spot": 7135.32,
+  "atm_iv_pct": 12.39,
+  "net_gex_b": 6.12,
+  "gamma_notional_b": 12.59,
+  "regime": "POSITIVE",
+  "bias_line": "Mean-reversion / sell wings",
+  "levels": {
+    "call_wall": 7200.0,
+    "put_wall": 6800.0,
+    "plus_gex": 7200.0,
+    "minus_gex": 6800.0,
+    "gex_flip": 6800.0,
+    "pos_trans": 7200.0,
+    "neg_trans": 6800.0,
+    "charm_pin": 7200.0,
+    "bull_trigger": 7200.0,
+    "bear_trigger": 6800.0,
+    "cotmc": 7300.0,
+    "cotmp": 6800.0,
+    "hard_cap": null,
+    "put_floor": null
+  },
+  "top_call_flow": [
+    {
+      "strike": 7200.0,
+      "volume": 5805,
+      "oi": 5847,
+      "gex_m": 915
+    },
+    {
+      "strike": 7225.0,
+      "volume": 2584,
+      "oi": 2765,
+      "gex_m": 387
+    },
+    {
+      "strike": 7275.0,
+      "volume": 2033,
+      "oi": 361,
+      "gex_m": 33
+    },
+    {
+      "strike": 7300.0,
+      "volume": 1755,
+      "oi": 5150,
+      "gex_m": 337
+    },
+    {
+      "strike": 7100.0,
+      "volume": 1635,
+      "oi": 4370,
+      "gex_m": 639
+    },
+    {
+      "strike": 7150.0,
+      "volume": 1582,
+      "oi": 2617,
+      "gex_m": 431
+    }
+  ],
+  "top_put_flow": [
+    {
+      "strike": 4600.0,
+      "volume": 3126,
+      "oi": 646,
+      "gex_m": 0
+    },
+    {
+      "strike": 6900.0,
+      "volume": 2697,
+      "oi": 2202,
+      "gex_m": 98
+    },
+    {
+      "strike": 6880.0,
+      "volume": 1864,
+      "oi": 1400,
+      "gex_m": 55
+    },
+    {
+      "strike": 7000.0,
+      "volume": 1771,
+      "oi": 2943,
+      "gex_m": 250
+    },
+    {
+      "strike": 7050.0,
+      "volume": 1399,
+      "oi": 621,
+      "gex_m": 70
+    },
+    {
+      "strike": 6800.0,
+      "volume": 1127,
+      "oi": 8538,
+      "gex_m": 201
+    }
+  ],
+  "distance_from_spot": {
+    "call_wall": 64.7,
+    "put_wall": -335.3,
+    "gex_flip": -335.3,
+    "charm_pin": 64.7,
+    "bull_trigger": 64.7,
+    "bear_trigger": -335.3
+  },
+  "derived_hints": {
+    "nearest_control_point": "call_wall",
+    "nearest_control_point_value": 7200.0,
+    "nearest_control_point_distance": 64.7,
+    "is_near_pin": false,
+    "is_near_flip": false,
+    "is_above_flip": true,
+    "is_above_pin": false,
+    "is_late_day": false
+  },
+  "derived_context": {
+    "control_zone": "7150\u20137150",
+    "control_zone_low": 7150.0,
+    "control_zone_high": 7150.0,
+    "distance_to_call_wall": 64.7,
+    "distance_to_put_wall": -335.3,
+    "distance_to_flip": -335.3,
+    "distance_to_pin": 64.7,
+    "is_call_wall_dominant": false,
+    "is_put_wall_dominant": false,
+    "is_pin_likely": false,
+    "dominant_flow_zone": "7150\u20137150",
+    "dealer_positioning": "long_gamma",
+    "late_day_charm_bias": "secondary intraday factor",
+    "vanna_relevance": "moderate"
+  },
+  "control_zone": "7150\u20137150",
+  "session_windows": [
+    "Open Noise",
+    "Early Read",
+    "Mid Consolidation",
+    "Charm Window Opens",
+    "Prime Entry",
+    "Close Decay",
+    "Final 30"
+  ],
+  "report_identity": {
+    "ticker": "SPX",
+    "family": "gex",
+    "mode": "dated",
+    "key": "SPX/gex/dated/2026-04-24",
+    "dated_expiration": "2026-04-24"
+  }
+}

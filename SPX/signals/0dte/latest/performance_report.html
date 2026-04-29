@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signal Performance Summary</title>
+    <style>
+        :root {
+            --bg: #020817;
+            --panel: #0f172a;
+            --panel-2: #111827;
+            --border: #243047;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #60a5fa;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrap {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 44px;
+            letter-spacing: -1px;
+        }
+
+        .sub {
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            margin-bottom: 16px;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .metric {
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .metric-label {
+            color: var(--muted);
+            font-size: 11px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .metric-value {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        th {
+            color: var(--muted);
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 1000px) {
+            .metric-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 700px) {
+            .metric-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Signal Performance Summary</h1>
+        <div class="sub">Generated 2026-04-28 15:20:20 | History rows: 224</div>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Dataset Quality</h3>
+            </div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Tracked Rows</div>
+            <div class="metric-value">224</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Evaluated Rows</div>
+            <div class="metric-value">2</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Pending Rows</div>
+            <div class="metric-value">222</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Partial Rows</div>
+            <div class="metric-value">0</div>
+        </div>
+        
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Overall Evaluated</h3>
+            </div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Count</div>
+            <div class="metric-value">2</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg MFE 15m</div>
+            <div class="metric-value">0.74</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg MAE 15m</div>
+            <div class="metric-value">0.67</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg MFE 30m</div>
+            <div class="metric-value">0.84</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg MAE 30m</div>
+            <div class="metric-value">0.91</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg MFE 60m</div>
+            <div class="metric-value">0.99</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg MAE 60m</div>
+            <div class="metric-value">1.60</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Avg EOD</div>
+            <div class="metric-value">-1.30</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">EOD Win Rate %</div>
+            <div class="metric-value">0.00</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Trigger Hits</div>
+            <div class="metric-value">2</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Trigger Misses</div>
+            <div class="metric-value">0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Invalidated First</div>
+            <div class="metric-value">1</div>
+        </div>
+        
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Top Buckets</h3>
+            </div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Top Signal Type</div>
+            <div class="metric-value">CALL | -0.7</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Top Bias Label</div>
+            <div class="metric-value">BULLISH | -1.305</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Top Weekday</div>
+            <div class="metric-value">Monday | -1.305</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Top Selection Mode</div>
+            <div class="metric-value">signal_based | -0.7</div>
+        </div>
+        
+            </div>
+        </section>
+
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Signal Type</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>CALL</td>
+                    <td>1</td>
+                    <td>0.50</td>
+                    <td>0.95</td>
+                    <td>0.70</td>
+                    <td>0.95</td>
+                    <td>1.00</td>
+                    <td>1.30</td>
+                    <td>-0.70</td>
+                    <td>0.00%</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>VOLATILITY WATCH</td>
+                    <td>1</td>
+                    <td>0.99</td>
+                    <td>0.39</td>
+                    <td>0.99</td>
+                    <td>0.86</td>
+                    <td>0.99</td>
+                    <td>1.91</td>
+                    <td>-1.91</td>
+                    <td>0.00%</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Bias Label</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>BULLISH</td>
+                    <td>2</td>
+                    <td>0.74</td>
+                    <td>0.67</td>
+                    <td>0.84</td>
+                    <td>0.91</td>
+                    <td>0.99</td>
+                    <td>1.60</td>
+                    <td>-1.30</td>
+                    <td>0.00%</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Weekday</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>Monday</td>
+                    <td>2</td>
+                    <td>0.74</td>
+                    <td>0.67</td>
+                    <td>0.84</td>
+                    <td>0.91</td>
+                    <td>0.99</td>
+                    <td>1.60</td>
+                    <td>-1.30</td>
+                    <td>0.00%</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Selection Mode</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>fallback_regime_based</td>
+                    <td>1</td>
+                    <td>0.99</td>
+                    <td>0.39</td>
+                    <td>0.99</td>
+                    <td>0.86</td>
+                    <td>0.99</td>
+                    <td>1.91</td>
+                    <td>-1.91</td>
+                    <td>0.00%</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                
+                <tr>
+                    <td>signal_based</td>
+                    <td>1</td>
+                    <td>0.50</td>
+                    <td>0.95</td>
+                    <td>0.70</td>
+                    <td>0.95</td>
+                    <td>1.00</td>
+                    <td>1.30</td>
+                    <td>-0.70</td>
+                    <td>0.00%</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Macro Day</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>False</td>
+                    <td>2</td>
+                    <td>0.74</td>
+                    <td>0.67</td>
+                    <td>0.84</td>
+                    <td>0.91</td>
+                    <td>0.99</td>
+                    <td>1.60</td>
+                    <td>-1.30</td>
+                    <td>0.00%</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Expiration Day</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>False</td>
+                    <td>2</td>
+                    <td>0.74</td>
+                    <td>0.67</td>
+                    <td>0.84</td>
+                    <td>0.91</td>
+                    <td>0.99</td>
+                    <td>1.60</td>
+                    <td>-1.30</td>
+                    <td>0.00%</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By VIX Expiration Day</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>False</td>
+                    <td>2</td>
+                    <td>0.74</td>
+                    <td>0.67</td>
+                    <td>0.84</td>
+                    <td>0.91</td>
+                    <td>0.99</td>
+                    <td>1.60</td>
+                    <td>-1.30</td>
+                    <td>0.00%</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header">
+                <h3>By Quad Witching Day</h3>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Count</th>
+                            <th>Avg MFE 15m</th>
+                            <th>Avg MAE 15m</th>
+                            <th>Avg MFE 30m</th>
+                            <th>Avg MAE 30m</th>
+                            <th>Avg MFE 60m</th>
+                            <th>Avg MAE 60m</th>
+                            <th>Avg EOD</th>
+                            <th>Win Rate</th>
+                            <th>Trigger Hits</th>
+                            <th>Invalidated First</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>False</td>
+                    <td>2</td>
+                    <td>0.74</td>
+                    <td>0.67</td>
+                    <td>0.84</td>
+                    <td>0.91</td>
+                    <td>0.99</td>
+                    <td>1.60</td>
+                    <td>-1.30</td>
+                    <td>0.00%</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>

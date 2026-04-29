@@ -1,0 +1,172 @@
+{
+  "timestamp_et": "2026-04-29 02:54:48 PM ET",
+  "created_at_et": "2026-04-29T15:54:48.832727-04:00",
+  "ticker": "SPX",
+  "mode": "0dte",
+  "regime": "POSITIVE",
+  "spot": 7129.36,
+  "call_wall": 7350.0,
+  "put_wall": 6925.0,
+  "gex_flip": 6925.0,
+  "signal_count": 0,
+  "signals": [],
+  "market_stance": {
+    "stance": "BULLISH WATCH",
+    "bias": "Bullish-to-contained",
+    "summary": "Positive regime favors contained bullish behavior, especially if price holds near supportive structure.",
+    "trigger_long": "Constructive above 7,330.00",
+    "trigger_short": "Risk rises if price drives toward 6,925.00",
+    "avoid": "Avoid chasing extended upside far away from the call wall or after momentum is already spent.",
+    "best_time_bucket": "power_hour",
+    "best_reference_cluster": null,
+    "best_call_cluster_avg_roi": 456.116,
+    "best_put_cluster_avg_roi": 1169.84,
+    "distance_to_call_wall": 220.64000000000033,
+    "distance_to_put_wall": 204.35999999999967,
+    "distance_to_flip": 204.35999999999967
+  },
+  "trade_plan": {
+    "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
+    "secondary_setup": "Secondary setup: if no clean bullish confirmation appears, treat the market as contained and wait for a better level test.",
+    "avoid_condition": "Avoid aggressive puts in a positive regime unless price materially deteriorates toward the flip or lower structure.",
+    "trigger_levels": {
+      "bullish_trigger": 7350.0,
+      "bearish_trigger": 6925.0,
+      "volatility_trigger": null
+    }
+  },
+  "bias_score": {
+    "score": 1,
+    "label": "NEUTRAL",
+    "zone_adjustment": 0,
+    "structural_regime": "POSITIVE"
+  },
+  "positioning": {
+    "available": true,
+    "zone_count": 24,
+    "watchlist_count": 50,
+    "reference_spot": 7131.42,
+    "bias_zone_adjustment": 0,
+    "top_zones": [
+      {
+        "zone_type": "ACTIVE_PIN_ZONE",
+        "low": 7050.0,
+        "high": 7200.0,
+        "mid": 7125.0,
+        "top_score": 869.4549,
+        "flags": [
+          "GREEK_SHIFT_ONLY",
+          "LONG_DATED",
+          "MULTI_EXPIRATION"
+        ]
+      },
+      {
+        "zone_type": "SUPPORT_ZONE",
+        "low": 7000.0,
+        "high": 7000.0,
+        "mid": 7000.0,
+        "top_score": 187.0068,
+        "flags": [
+          "GREEK_SHIFT_ONLY",
+          "LONG_DATED",
+          "MULTI_EXPIRATION"
+        ]
+      },
+      {
+        "zone_type": "SUPPORT_ZONE",
+        "low": 6900.0,
+        "high": 6900.0,
+        "mid": 6900.0,
+        "top_score": 158.5882,
+        "flags": [
+          "GREEK_SHIFT_ONLY",
+          "LONG_DATED",
+          "MULTI_EXPIRATION"
+        ]
+      },
+      {
+        "zone_type": "SUPPORT_ZONE",
+        "low": 6950.0,
+        "high": 6950.0,
+        "mid": 6950.0,
+        "top_score": 144.6045,
+        "flags": [
+          "GREEK_SHIFT_ONLY",
+          "LONG_DATED",
+          "MULTI_EXPIRATION"
+        ]
+      },
+      {
+        "zone_type": "SUPPORT_ZONE",
+        "low": 6850.0,
+        "high": 6850.0,
+        "mid": 6850.0,
+        "top_score": 141.3399,
+        "flags": [
+          "GREEK_SHIFT_ONLY",
+          "LONG_DATED",
+          "MULTI_EXPIRATION"
+        ]
+      }
+    ]
+  },
+  "playbook_reference": {
+    "best_time_bucket": "power_hour",
+    "best_reference_cluster": null,
+    "best_call_cluster_avg_roi": 456.116,
+    "best_put_cluster_avg_roi": 1169.84
+  },
+  "signal_calibration": {
+    "available": true,
+    "readiness": "insufficient_data",
+    "evaluated_row_count": 2,
+    "signals": []
+  },
+  "vix_context": {
+    "vix": null,
+    "vix9d": null,
+    "vix3m": null,
+    "vix6m": null,
+    "vix1y": null,
+    "vvix": null,
+    "regime": "UNKNOWN",
+    "term_structure": "UNKNOWN",
+    "ratio_9d_vix": null,
+    "ratio_vix_3m": null,
+    "ratio_vix_6m": null,
+    "pct_9d_vix": null,
+    "pct_vix_3m": null,
+    "pct_vix_6m": null,
+    "conf_delta": 0.0,
+    "conf_delta_level": 0.0,
+    "conf_delta_term": 0.0,
+    "suppress": false,
+    "stale": true,
+    "updated_at": null
+  },
+  "structural_gex_context": {
+    "schema_version": 2,
+    "TICKER": "SPX",
+    "REPORT": "gex",
+    "MODE": "structural",
+    "EXPIRATION": "multi-expiry (16 expirations)",
+    "GENERATED_AT_ET": "2026-04-29 15:00 ET",
+    "CALL_WALL": 7200.0,
+    "PUT_WALL": 6760.0,
+    "GEX_FLIP": 6760.0,
+    "BULL_TRIGGER": 7200.0,
+    "BEAR_TRIGGER": 6760.0,
+    "CHARM_PIN": 7200.0,
+    "CONTROL_LOW": null,
+    "CONTROL_HIGH": null,
+    "CONTROL_MID": null,
+    "COTMC": 7275.0,
+    "COTMP": 6800.0,
+    "PLUS_GEX": 7200.0,
+    "MINUS_GEX": 6760.0,
+    "SPOT_REF": 7112.53,
+    "REGIME_STR": "POSITIVE",
+    "NET_GEX_B": 0.0,
+    "expiry_count": 16
+  }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPX Signals</title>
+    <style>
+        :root {
+            --bg: #020817;
+            --panel: #0f172a;
+            --panel-2: #111827;
+            --border: #243047;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #60a5fa;
+        }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; }
+        .wrap { max-width: 1400px; margin: 0 auto; padding: 24px; }
+        .hero { margin-bottom: 24px; }
+        h1 { margin: 0 0 10px 0; font-size: 48px; letter-spacing: -1px; }
+        .sub { color: var(--muted); font-size: 18px; }
+        .card { background: var(--panel); border: 1px solid var(--border); border-radius: 18px; padding: 20px; margin-bottom: 20px; }
+        .card-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+        .badge { display: inline-flex; align-items: center; border-radius: 999px; padding: 6px 12px; border: 1px solid var(--border); color: var(--text); font-weight: 700; }
+        .metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+        .metric { background: var(--panel-2); border: 1px solid var(--border); border-radius: 14px; padding: 14px; }
+        .metric-label { color: var(--muted); font-size: 11px; text-transform: uppercase; margin-bottom: 8px; }
+        .metric-value { font-size: 28px; font-weight: 700; color: var(--accent); word-break: break-word; }
+        .signal-reason { color: var(--text); line-height: 1.5; margin-bottom: 18px; }
+        .paragraph { color: var(--text); line-height: 1.65; margin-bottom: 14px; }
+        table td, table th { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+        @media (max-width: 1000px) { .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+        @media (max-width: 700px) { .metric-grid { grid-template-columns: 1fr; } h1 { font-size: 36px; } }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="hero">
+            <h1>SPX Signals</h1>
+            <div class="sub">Conservative signal engine driven by GEX context, historical playbook, and position zone confluence.</div>
+        </div>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Current Context</h3>
+                <span class="badge">2026-04-29 02:54:48 PM ET</span>
+            </div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Ticker</div>
+            <div class="metric-value">SPX</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Mode</div>
+            <div class="metric-value">0dte</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Regime</div>
+            <div class="metric-value">POSITIVE</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Spot</div>
+            <div class="metric-value">7129.36</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Call Wall</div>
+            <div class="metric-value">7350.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Put Wall</div>
+            <div class="metric-value">6925.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">GEX Flip</div>
+            <div class="metric-value">6925.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Signal Count</div>
+            <div class="metric-value">0</div>
+        </div>
+        
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Market Stance</h3>
+            </div>
+            <div class="metric-grid" style="margin-bottom: 18px;">
+                
+        <div class="metric">
+            <div class="metric-label">Stance</div>
+            <div class="metric-value">BULLISH WATCH</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Bias</div>
+            <div class="metric-value">Bullish-to-contained</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Bias Score</div>
+            <div class="metric-value">1</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Bias Label</div>
+            <div class="metric-value">NEUTRAL</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Time Bucket</div>
+            <div class="metric-value">power_hour</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Ref Cluster</div>
+            <div class="metric-value">-</div>
+        </div>
+        
+            </div>
+            <div class="paragraph">Positive regime favors contained bullish behavior, especially if price holds near supportive structure.</div>
+            <div class="paragraph"><strong>Long Trigger:</strong> Constructive above 7,330.00</div>
+            <div class="paragraph"><strong>Short Trigger:</strong> Risk rises if price drives toward 6,925.00</div>
+            <div class="paragraph"><strong>Avoid:</strong> Avoid chasing extended upside far away from the call wall or after momentum is already spent.</div>
+        </section>
+
+        <section class="card">
+            <div class="card-header">
+                <h3>Trade Plan</h3>
+            </div>
+            <div class="paragraph"><strong>Primary Setup:</strong> Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.</div>
+            <div class="paragraph"><strong>Secondary Setup:</strong> Secondary setup: if no clean bullish confirmation appears, treat the market as contained and wait for a better level test.</div>
+            <div class="paragraph"><strong>Avoid Condition:</strong> Avoid aggressive puts in a positive regime unless price materially deteriorates toward the flip or lower structure.</div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Bullish Trigger</div>
+            <div class="metric-value">7350.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Bearish Trigger</div>
+            <div class="metric-value">6925.0</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Volatility Trigger</div>
+            <div class="metric-value">-</div>
+        </div>
+        
+            </div>
+        </section>
+
+        
+            <section class="card">
+                <div class="card-header">
+                    <h3>No Conservative Signal</h3>
+                </div>
+                <div class="signal-reason">
+                    Current conditions do not meet the conservative signal thresholds.
+                </div>
+            </section>
+            
+
+        
+    <section class="card">
+        <div class="card-header">
+            <h3>Calibration Status</h3>
+        </div>
+        <div class="metric-grid" style="margin-bottom: 18px;">
+            
+        <div class="metric">
+            <div class="metric-label">Calibration Available</div>
+            <div class="metric-value">True</div>
+        </div>
+        
+            
+        <div class="metric">
+            <div class="metric-label">Readiness</div>
+            <div class="metric-value">insufficient_data</div>
+        </div>
+        
+            
+        <div class="metric">
+            <div class="metric-label">Evaluated Rows</div>
+            <div class="metric-value">2</div>
+        </div>
+        
+            
+        <div class="metric">
+            <div class="metric-label">Positioning Available</div>
+            <div class="metric-value">True</div>
+        </div>
+        
+            
+        <div class="metric">
+            <div class="metric-label">Zones Loaded</div>
+            <div class="metric-value">24</div>
+        </div>
+        
+            
+        <div class="metric">
+            <div class="metric-label">Bias Zone Adj</div>
+            <div class="metric-value">0</div>
+        </div>
+        
+        </div>
+        <table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="color:#94a3b8;text-align:left"><th>Type</th><th>Range</th><th>Mid</th><th>Score</th><th>Flags</th></tr></thead><tbody><tr><td>ACTIVE_PIN_ZONE</td><td>7050.0-7200.0</td><td>7125.0</td><td>869.4549</td><td>GREEK_SHIFT_ONLY, LONG_DATED, MULTI_EXPIRATION</td></tr><tr><td>SUPPORT_ZONE</td><td>7000.0-7000.0</td><td>7000.0</td><td>187.0068</td><td>GREEK_SHIFT_ONLY, LONG_DATED, MULTI_EXPIRATION</td></tr><tr><td>SUPPORT_ZONE</td><td>6900.0-6900.0</td><td>6900.0</td><td>158.5882</td><td>GREEK_SHIFT_ONLY, LONG_DATED, MULTI_EXPIRATION</td></tr><tr><td>SUPPORT_ZONE</td><td>6950.0-6950.0</td><td>6950.0</td><td>144.6045</td><td>GREEK_SHIFT_ONLY, LONG_DATED, MULTI_EXPIRATION</td></tr><tr><td>SUPPORT_ZONE</td><td>6850.0-6850.0</td><td>6850.0</td><td>141.3399</td><td>GREEK_SHIFT_ONLY, LONG_DATED, MULTI_EXPIRATION</td></tr></tbody></table>
+    </section>
+    
+    </div>
+</body>
+</html>

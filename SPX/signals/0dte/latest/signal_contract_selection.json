@@ -1,0 +1,21 @@
+{
+  "has_selected_contract": true,
+  "selection_mode": "fallback_regime_based",
+  "selection_reason": "spot-relative + liquidity-based selection",
+  "selected_contract": {
+    "signal_type": "CALL",
+    "option_ticker": "O:SPXW260429C07140000",
+    "contract_type": "call",
+    "strike": 7140.0,
+    "expiration": "2026-04-29",
+    "volume": 80614,
+    "open_interest": 2108,
+    "distance_from_spot": 10.64,
+    "inside_ideal_range": true,
+    "ideal_strike_low": 7129.36,
+    "ideal_strike_high": 7179.36,
+    "selection_reason": "spot-relative + liquidity-based selection"
+  },
+  "nearest_valid_expiration": "2026-04-29",
+  "candidate_count": 10
+}

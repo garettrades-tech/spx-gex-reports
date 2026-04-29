@@ -1,0 +1,63 @@
+{
+  "atm_strike": 7130.0,
+  "atm_iv_pct": 6.8,
+  "spot": 7130.07,
+  "parity_estimates": [
+    {
+      "strike": 7120.0,
+      "call_last": 11.3,
+      "put_last": 1.2,
+      "call_delta": 0.7863725155001698,
+      "estimate": 7130.1
+    },
+    {
+      "strike": 7125.0,
+      "call_last": 7.4,
+      "put_last": 2.3,
+      "call_delta": 0.669072257037029,
+      "estimate": 7130.1
+    },
+    {
+      "strike": 7130.0,
+      "call_last": 4.2,
+      "put_last": 4.2,
+      "call_delta": 0.4938132872487883,
+      "estimate": 7130.0
+    },
+    {
+      "strike": 7135.0,
+      "call_last": 2.15,
+      "put_last": 7.0,
+      "call_delta": 0.310433375207705,
+      "estimate": 7130.15
+    },
+    {
+      "strike": 7140.0,
+      "call_last": 1.0,
+      "put_last": 11.0,
+      "call_delta": 0.16463395959791893,
+      "estimate": 7130.0
+    }
+  ],
+  "primary_spot_source": "massive_index_1m_aggregate",
+  "primary_spot": 7128.89,
+  "primary_spot_timestamp_et": "2026-04-29 15:31:00 ET",
+  "parity_fallback_spot": 7130.07,
+  "index_spot_raw": {
+    "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-26/2026-04-29",
+    "params": {
+      "adjusted": "true",
+      "sort": "desc",
+      "limit": 1
+    },
+    "result": {
+      "o": 7129.25,
+      "c": 7128.89,
+      "h": 7130.26,
+      "l": 7128.68,
+      "t": 1777491060000
+    },
+    "status": "DELAYED",
+    "resultsCount": null
+  }
+}

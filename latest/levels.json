@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "report_type": "SPX_0DTE_GEX_LEVELS",
+  "snapshot_label": "2026-04-29 15:45 ET",
+  "ticker": "SPX",
+  "model": "0dte",
+  "expiration": "2026-04-29",
+  "spot": 7129.36,
+  "atm_iv_pct": 7.37,
+  "net_gex_b": 0.89,
+  "gamma_notional_b": 28.88,
+  "regime": "POSITIVE",
+  "bias_line": "Mean-reversion / sell wings",
+  "levels": {
+    "call_wall": 7350.0,
+    "put_wall": 6925.0,
+    "plus_gex": 7350.0,
+    "minus_gex": 6925.0,
+    "gex_flip": 6925.0,
+    "pos_trans": 7350.0,
+    "neg_trans": 6925.0,
+    "charm_pin": 7350.0,
+    "bull_trigger": 7350.0,
+    "bear_trigger": 6925.0,
+    "cotmc": 7350.0,
+    "cotmp": 6925.0,
+    "hard_cap": null,
+    "put_floor": null,
+    "control_low": 7140.0,
+    "control_high": 7150.0,
+    "control_mid": 7145.0
+  },
+  "control_low": 7140.0,
+  "control_high": 7150.0,
+  "control_mid": 7145.0,
+  "control_zone": {
+    "low": 7140.0,
+    "high": 7150.0,
+    "mid": 7145.0,
+    "width": 10.0,
+    "spot_inside": false,
+    "status": "below",
+    "distance_to_low": -10.6,
+    "distance_to_high": 20.6
+  },
+  "report_identity": {
+    "ticker": "SPX",
+    "family": "gex",
+    "mode": "0dte",
+    "key": "SPX/gex/0dte",
+    "dated_expiration": null
+  }
+}

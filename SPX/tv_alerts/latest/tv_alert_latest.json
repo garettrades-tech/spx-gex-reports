@@ -1,0 +1,19 @@
+{
+  "received_at_ct": "2026-04-29 09:33:46 CT",
+  "timestamp": "2026-04-29T14:00:00Z",
+  "symbol": "ES1!",
+  "alert_type": "PD_GLOBEX_CLOSE_CROSS",
+  "price": 7171.75,
+  "timeframe": "60",
+  "source": "ES_LEVELS",
+  "message": null,
+  "raw": {
+    "symbol": "ES1!",
+    "alert_type": "PD_GLOBEX_CLOSE_CROSS",
+    "price": 7171.75,
+    "timeframe": "60",
+    "timestamp": "2026-04-29T14:00:00Z",
+    "source": "ES_LEVELS",
+    "event_group": "LEVELS"
+  }
+}

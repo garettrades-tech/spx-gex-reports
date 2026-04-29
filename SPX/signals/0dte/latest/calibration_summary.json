@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-04-28 15:20:24",
+  "evaluated_row_count": 2,
+  "readiness": "insufficient_data",
+  "thresholds": {
+    "soft_adjustments_min_rows": 20,
+    "normal_adjustments_min_rows": 50,
+    "max_abs_adjustment": 0.1
+  },
+  "overall": {
+    "win_rate": 0.0,
+    "avg_end_of_day_outcome": -1.305,
+    "avg_mfe_30m": 0.845,
+    "avg_mae_30m": 0.905
+  },
+  "adjustments": {
+    "signal_type": {
+      "VOLATILITY WATCH": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.91,
+        "avg_mfe_30m": 0.99,
+        "avg_mae_30m": 0.86,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": -0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=-0.605"
+        ]
+      },
+      "CALL": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -0.7,
+        "avg_mfe_30m": 0.7,
+        "avg_mae_30m": 0.95,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.605"
+        ]
+      }
+    },
+    "bias_label": {
+      "BULLISH": {
+        "count": 2,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.305,
+        "avg_mfe_30m": 0.845,
+        "avg_mae_30m": 0.905,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.0"
+        ]
+      }
+    },
+    "weekday_name": {
+      "Monday": {
+        "count": 2,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.305,
+        "avg_mfe_30m": 0.845,
+        "avg_mae_30m": 0.905,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.0"
+        ]
+      }
+    },
+    "selection_mode": {
+      "fallback_regime_based": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.91,
+        "avg_mfe_30m": 0.99,
+        "avg_mae_30m": 0.86,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": -0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=-0.605"
+        ]
+      },
+      "signal_based": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -0.7,
+        "avg_mfe_30m": 0.7,
+        "avg_mae_30m": 0.95,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.605"
+        ]
+      }
+    },
+    "macro_day": {
+      "False": {
+        "count": 2,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.305,
+        "avg_mfe_30m": 0.845,
+        "avg_mae_30m": 0.905,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.0"
+        ]
+      }
+    },
+    "expiration_day": {
+      "False": {
+        "count": 2,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.305,
+        "avg_mfe_30m": 0.845,
+        "avg_mae_30m": 0.905,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.0"
+        ]
+      }
+    },
+    "vix_expiration_day": {
+      "False": {
+        "count": 2,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.305,
+        "avg_mfe_30m": 0.845,
+        "avg_mae_30m": 0.905,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.0"
+        ]
+      }
+    },
+    "quad_witching_day": {
+      "False": {
+        "count": 2,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -1.305,
+        "avg_mfe_30m": 0.845,
+        "avg_mae_30m": 0.905,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.0"
+        ]
+      }
+    }
+  },
+  "notes": [
+    "This version is advisory only and should not yet fully drive live confidence.",
+    "Suggested adjustments are scaled down when sample size is small.",
+    "Use evaluated rows only for calibration decisions."
+  ]
+}

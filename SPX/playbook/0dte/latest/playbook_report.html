@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPX Playbook Report</title>
+    <style>
+        :root {
+            --bg: #020817;
+            --panel: #0f172a;
+            --panel-2: #111827;
+            --border: #243047;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #60a5fa;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrap {
+            max-width: 1650px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 42px;
+            letter-spacing: -1px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .sub {
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            margin-bottom: 16px;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .metric {
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+            min-height: 110px;
+        }
+
+        .metric-label {
+            color: var(--muted);
+            font-size: 11px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .metric-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent);
+            word-break: break-word;
+        }
+
+        .paragraph {
+            margin-bottom: 10px;
+            line-height: 1.45;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        th {
+            color: var(--muted);
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        .section-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 1100px) {
+            .metric-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .section-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .metric-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>SPX Playbook Report</h1>
+        <div class="sub">Context-aware clustering using ROI trades matched to nearest prior GEX snapshot.</div>
+
+        <section class="card">
+            <div class="card-header"><h3>Dataset Overview</h3></div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Row Count</div>
+            <div class="metric-value">10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Matched GEX Rows</div>
+            <div class="metric-value">10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Source Rows Used</div>
+            <div class="metric-value">10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Generated</div>
+            <div class="metric-value">2026-04-28 15:20:16</div>
+        </div>
+        
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-header"><h3>Quick Takeaways</h3></div>
+            <div class="metric-grid">
+                
+        <div class="metric">
+            <div class="metric-label">Best Time Bucket</div>
+            <div class="metric-value">power_hour</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Time Avg ROI</div>
+            <div class="metric-value">828.57</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Ref Level</div>
+            <div class="metric-value">gex_flip</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Ref Level Avg ROI</div>
+            <div class="metric-value">632.34</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Ref Dist Bucket</div>
+            <div class="metric-value">0-10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Ref Dist Avg ROI</div>
+            <div class="metric-value">723.76</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Spot Dist Bucket</div>
+            <div class="metric-value">0-10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Spot Dist Avg ROI</div>
+            <div class="metric-value">881.42</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Call Cluster</div>
+            <div class="metric-value">0-10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Call Avg ROI</div>
+            <div class="metric-value">456.12</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Put Cluster</div>
+            <div class="metric-value">0-10</div>
+        </div>
+        
+                
+        <div class="metric">
+            <div class="metric-label">Best Put Avg ROI</div>
+            <div class="metric-value">1169.84</div>
+        </div>
+        
+            </div>
+        </section>
+
+        <div class="section-grid">
+            <section class="card">
+                <div class="card-header"><h3>Best Playbook Trade</h3></div>
+                <div class="paragraph"><strong>Option:</strong> O:SPXW260428P07135000</div>
+                <div class="paragraph"><strong>Contract Type:</strong> put</div>
+                <div class="paragraph"><strong>Entry:</strong> 2026-04-28 03:51 PM ET</div>
+                <div class="paragraph"><strong>Exit:</strong> 2026-04-28 03:54 PM ET</div>
+                <div class="paragraph"><strong>ROI %:</strong> 1900.00</div>
+                <div class="paragraph"><strong>Nearest Ref Level:</strong> gex_flip</div>
+                <div class="paragraph"><strong>Regime:</strong> NEGATIVE</div>
+                <div class="paragraph"><strong>Matched GEX Snapshot:</strong> 2026-04-28 15:46 ET</div>
+            </section>
+
+            <section class="card">
+                <div class="card-header"><h3>ROI Report Best Trade</h3></div>
+                <div class="paragraph"><strong>Option:</strong> O:SPXW260428P07135000</div>
+                <div class="paragraph"><strong>Contract Type:</strong> put</div>
+                <div class="paragraph"><strong>Entry:</strong> 2026-04-28 03:51 PM ET</div>
+                <div class="paragraph"><strong>Exit:</strong> 2026-04-28 03:54 PM ET</div>
+                <div class="paragraph"><strong>ROI %:</strong> 1900.00</div>
+                <div class="paragraph"><strong>Strike:</strong> 7135.00</div>
+                <div class="paragraph"><strong>Expiration:</strong> 2026-04-28</div>
+            </section>
+        </div>
+
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Time Bucket</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>power_hour</td>
+                    <td>5</td>
+                    <td>828.57</td>
+                    <td>709.52</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>9.00</td>
+                    <td>9.20</td>
+                </tr>
+                
+                <tr>
+                    <td>midday</td>
+                    <td>4</td>
+                    <td>470.14</td>
+                    <td>475.00</td>
+                    <td>100.00%</td>
+                    <td>508.00</td>
+                    <td>5.00</td>
+                    <td>10.69</td>
+                </tr>
+                
+                <tr>
+                    <td>afternoon</td>
+                    <td>1</td>
+                    <td>300.00</td>
+                    <td>300.00</td>
+                    <td>100.00%</td>
+                    <td>300.00</td>
+                    <td>20.00</td>
+                    <td>16.25</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Contract Type</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>put</td>
+                    <td>4</td>
+                    <td>952.38</td>
+                    <td>804.76</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>8.75</td>
+                    <td>7.56</td>
+                </tr>
+                
+                <tr>
+                    <td>call</td>
+                    <td>6</td>
+                    <td>418.99</td>
+                    <td>448.79</td>
+                    <td>100.00%</td>
+                    <td>508.00</td>
+                    <td>8.33</td>
+                    <td>12.46</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Regime</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>NEGATIVE</td>
+                    <td>10</td>
+                    <td>632.34</td>
+                    <td>475.00</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>8.50</td>
+                    <td>10.50</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Nearest Reference Level</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>gex_flip</td>
+                    <td>10</td>
+                    <td>632.34</td>
+                    <td>475.00</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>8.50</td>
+                    <td>10.50</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Reference Distance Bucket</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>0-10</td>
+                    <td>8</td>
+                    <td>723.76</td>
+                    <td>491.50</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>5.62</td>
+                    <td>8.47</td>
+                </tr>
+                
+                <tr>
+                    <td>10-25</td>
+                    <td>2</td>
+                    <td>266.67</td>
+                    <td>266.67</td>
+                    <td>100.00%</td>
+                    <td>300.00</td>
+                    <td>20.00</td>
+                    <td>18.63</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Spot Distance Bucket</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>0-10</td>
+                    <td>5</td>
+                    <td>881.42</td>
+                    <td>709.52</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>4.00</td>
+                    <td>5.07</td>
+                </tr>
+                
+                <tr>
+                    <td>10-25</td>
+                    <td>5</td>
+                    <td>383.27</td>
+                    <td>400.00</td>
+                    <td>100.00%</td>
+                    <td>508.00</td>
+                    <td>13.00</td>
+                    <td>15.93</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Call Reference Distance Bucket</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>0-10</td>
+                    <td>5</td>
+                    <td>456.12</td>
+                    <td>475.00</td>
+                    <td>100.00%</td>
+                    <td>508.00</td>
+                    <td>6.00</td>
+                    <td>10.75</td>
+                </tr>
+                
+                <tr>
+                    <td>10-25</td>
+                    <td>1</td>
+                    <td>233.33</td>
+                    <td>233.33</td>
+                    <td>100.00%</td>
+                    <td>233.33</td>
+                    <td>20.00</td>
+                    <td>21.01</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        
+        <section class="card">
+            <div class="card-header"><h3>Clusters: Put Reference Distance Bucket</h3></div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bucket</th>
+                            <th>Count</th>
+                            <th>Avg ROI %</th>
+                            <th>Median ROI %</th>
+                            <th>Win Rate</th>
+                            <th>Best ROI %</th>
+                            <th>Avg Ref Dist</th>
+                            <th>Avg Spot Dist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                <tr>
+                    <td>0-10</td>
+                    <td>3</td>
+                    <td>1169.84</td>
+                    <td>900.00</td>
+                    <td>100.00%</td>
+                    <td>1900.00</td>
+                    <td>5.00</td>
+                    <td>4.66</td>
+                </tr>
+                
+                <tr>
+                    <td>10-25</td>
+                    <td>1</td>
+                    <td>300.00</td>
+                    <td>300.00</td>
+                    <td>100.00%</td>
+                    <td>300.00</td>
+                    <td>20.00</td>
+                    <td>16.25</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>

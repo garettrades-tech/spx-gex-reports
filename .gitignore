@@ -1,0 +1,14 @@
+spx_desk.db
+*.db
+*.db-shm
+*.db-wal
+
+**/archive/
+chain_raw_page*.json
+raw_pages/
+level_diagnostics*.json
+
+**/history/
+chatgpt_*.json
+chatgpt_*.txt
+chain_normalized.csv
