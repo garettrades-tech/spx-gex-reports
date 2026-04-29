@@ -1,21 +1,21 @@
 // ═══════════════════════════════════════════════════
 //  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
-//  Generated: 2026-04-29 15:00 ET
-//  SPX Spot: ~7112.53  |  Regime: POSITIVE (STRUCTURAL)
+//  Generated: 2026-04-29 16:13 ET
+//  SPX Spot: ~7133.10  |  Regime: POSITIVE (STRUCTURAL)
 //  Expiry: multi-expiry aggregate
 //  Strategy bias: STRUCTURAL — use for weekly/macro anchor levels only
 // ═══════════════════════════════════════════════════
 CALL_WALL    = 7200.0
-PUT_WALL     = 6760.0
+PUT_WALL     = 6780.0
 PLUS_GEX     = 7200.0
-MINUS_GEX    = 6760.0
-GEX_FLIP     = 6760.0
+MINUS_GEX    = 6780.0
+GEX_FLIP     = 6780.0
 POS_TRANS    = 7200.0
-NEG_TRANS    = 6760.0
+NEG_TRANS    = 6780.0
 CHARM_PIN    = 7200.0
 BULL_TRIGGER = 7200.0
-BEAR_TRIGGER = 6760.0
-SPOT_REF     = 7112.53
+BEAR_TRIGGER = 6780.0
+SPOT_REF     = 7133.10
 CONTROL_LOW  = float(na)
 CONTROL_HIGH = float(na)
 COTMC        = 7275.0
