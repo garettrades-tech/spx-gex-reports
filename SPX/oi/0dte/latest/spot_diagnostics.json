@@ -1,48 +1,48 @@
 {
-  "atm_strike": 7210.0,
-  "atm_iv_pct": 8.68,
-  "spot": 7206.94,
+  "atm_strike": 7215.0,
+  "atm_iv_pct": 7.77,
+  "spot": 7216.2,
   "parity_estimates": [
     {
-      "strike": 7200.0,
-      "call_last": 9.75,
-      "put_last": 2.95,
-      "call_delta": 0.720321735195782,
-      "estimate": 7206.8
-    },
-    {
       "strike": 7205.0,
-      "call_last": 6.6,
-      "put_last": 4.7,
-      "call_delta": 0.6024549012015908,
-      "estimate": 7206.9
+      "call_last": 12.75,
+      "put_last": 1.4,
+      "call_delta": 0.7856680854208853,
+      "estimate": 7216.35
     },
     {
       "strike": 7210.0,
-      "call_last": 4.2,
-      "put_last": 7.3,
-      "call_delta": 0.46776493291412596,
-      "estimate": 7206.9
+      "call_last": 8.9,
+      "put_last": 2.57,
+      "call_delta": 0.6675952191936264,
+      "estimate": 7216.33
     },
     {
       "strike": 7215.0,
-      "call_last": 2.55,
-      "put_last": 10.57,
-      "call_delta": 0.3355089902263127,
-      "estimate": 7206.98
+      "call_last": 5.7,
+      "put_last": 4.5,
+      "call_delta": 0.5188632671445562,
+      "estimate": 7216.2
     },
     {
       "strike": 7220.0,
-      "call_last": 1.5,
-      "put_last": 14.4,
-      "call_delta": 0.22405090718004123,
-      "estimate": 7207.1
+      "call_last": 3.4,
+      "put_last": 7.2,
+      "call_delta": 0.3633399077376249,
+      "estimate": 7216.2
+    },
+    {
+      "strike": 7225.0,
+      "call_last": 1.83,
+      "put_last": 10.9,
+      "call_delta": 0.23030537882508292,
+      "estimate": 7215.93
     }
   ],
   "primary_spot_source": "massive_index_1m_aggregate",
-  "primary_spot": 7208.99,
-  "primary_spot_timestamp_et": "2026-04-30 15:00:00 ET",
-  "parity_fallback_spot": 7206.94,
+  "primary_spot": 7216.02,
+  "primary_spot_timestamp_et": "2026-04-30 15:16:00 ET",
+  "parity_fallback_spot": 7216.2,
   "index_spot_raw": {
     "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-27/2026-04-30",
     "params": {
@@ -51,11 +51,11 @@
       "limit": 1
     },
     "result": {
-      "o": 7206.91,
-      "c": 7208.99,
-      "h": 7208.99,
-      "l": 7205.7300000000005,
-      "t": 1777575600000
+      "o": 7215.3,
+      "c": 7216.02,
+      "h": 7216.68,
+      "l": 7215.26,
+      "t": 1777576560000
     },
     "status": "DELAYED",
     "resultsCount": null
