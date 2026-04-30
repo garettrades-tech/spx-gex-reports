@@ -1,21 +1,21 @@
 // ═══════════════════════════════════════════════════
 //  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
 //  Generated: 
-//  SPX Spot: ~7173.95  |  Regime: POSITIVE
+//  SPX Spot: ~7174.91  |  Regime: POSITIVE
 //  Expiry: 
 //  Strategy bias: 
 // ═══════════════════════════════════════════════════
 CALL_WALL    = 7300.0
-PUT_WALL     = 7000.0
+PUT_WALL     = 7005.0
 PLUS_GEX     = 7300.0
-MINUS_GEX    = 7000.0
-GEX_FLIP     = 7000.0
+MINUS_GEX    = 7005.0
+GEX_FLIP     = 7005.0
 POS_TRANS    = 7300.0
-NEG_TRANS    = 7000.0
+NEG_TRANS    = 7005.0
 CHARM_PIN    = 7300.0
 BULL_TRIGGER = 7300.0
-BEAR_TRIGGER = 7000.0
-SPOT_REF     = 7173.95
+BEAR_TRIGGER = 7005.0
+SPOT_REF     = 7174.91
 CONTROL_LOW  = 7170.0
 CONTROL_HIGH = 7185.0
 COTMC        = 7300.0
