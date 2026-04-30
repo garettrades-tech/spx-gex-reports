@@ -1,48 +1,48 @@
 {
-  "atm_strike": 7190.0,
-  "atm_iv_pct": 10.8,
-  "spot": 7187.96,
+  "atm_strike": 7200.0,
+  "atm_iv_pct": 11.79,
+  "spot": 7194.4,
   "parity_estimates": [
     {
-      "strike": 7180.0,
-      "call_last": 12.8,
-      "put_last": 4.85,
-      "call_delta": 0.6620933186399558,
-      "estimate": 7187.95
-    },
-    {
-      "strike": 7185.0,
-      "call_last": 9.56,
-      "put_last": 6.6,
-      "call_delta": 0.5743946195359169,
-      "estimate": 7187.96
-    },
-    {
       "strike": 7190.0,
-      "call_last": 7.05,
-      "put_last": 8.96,
-      "call_delta": 0.47809789623431875,
-      "estimate": 7188.09
+      "call_last": 10.2,
+      "put_last": 6.1,
+      "call_delta": 0.6706378705410855,
+      "estimate": 7194.1
     },
     {
       "strike": 7195.0,
-      "call_last": 4.95,
-      "put_last": 12.1,
-      "call_delta": 0.37984421698072784,
-      "estimate": 7187.85
+      "call_last": 7.46,
+      "put_last": 8.11,
+      "call_delta": 0.5884181111204615,
+      "estimate": 7194.35
     },
     {
       "strike": 7200.0,
-      "call_last": 3.33,
-      "put_last": 15.4,
-      "call_delta": 0.28892286894296715,
-      "estimate": 7187.93
+      "call_last": 5.3,
+      "put_last": 11.0,
+      "call_delta": 0.49624392094627934,
+      "estimate": 7194.3
+    },
+    {
+      "strike": 7205.0,
+      "call_last": 3.67,
+      "put_last": 14.33,
+      "call_delta": 0.40392243158108676,
+      "estimate": 7194.34
+    },
+    {
+      "strike": 7210.0,
+      "call_last": 2.5,
+      "put_last": 17.6,
+      "call_delta": 0.3197485272738653,
+      "estimate": 7194.9
     }
   ],
   "primary_spot_source": "massive_index_1m_aggregate",
-  "primary_spot": 7189.82,
-  "primary_spot_timestamp_et": "2026-04-30 13:45:00 ET",
-  "parity_fallback_spot": 7187.96,
+  "primary_spot": 7199.650000000001,
+  "primary_spot_timestamp_et": "2026-04-30 14:00:00 ET",
+  "parity_fallback_spot": 7194.4,
   "index_spot_raw": {
     "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-27/2026-04-30",
     "params": {
@@ -51,11 +51,11 @@
       "limit": 1
     },
     "result": {
-      "o": 7186.95,
-      "c": 7189.82,
-      "h": 7189.82,
-      "l": 7186.95,
-      "t": 1777571100000
+      "o": 7194.08,
+      "c": 7199.650000000001,
+      "h": 7199.78,
+      "l": 7193.62,
+      "t": 1777572000000
     },
     "status": "DELAYED",
     "resultsCount": null
