@@ -1,48 +1,48 @@
 {
-  "atm_strike": 7195.0,
-  "atm_iv_pct": 11.2,
-  "spot": 7194.31,
+  "atm_strike": 7200.0,
+  "atm_iv_pct": 10.08,
+  "spot": 7201.45,
   "parity_estimates": [
     {
-      "strike": 7185.0,
-      "call_last": 13.7,
-      "put_last": 4.25,
-      "call_delta": 0.6788880060551701,
-      "estimate": 7194.45
-    },
-    {
       "strike": 7190.0,
-      "call_last": 10.2,
-      "put_last": 6.1,
-      "call_delta": 0.5937185796728994,
-      "estimate": 7194.1
+      "call_last": 14.8,
+      "put_last": 3.4,
+      "call_delta": 0.7421280897314039,
+      "estimate": 7201.4
     },
     {
       "strike": 7195.0,
-      "call_last": 7.46,
-      "put_last": 8.11,
-      "call_delta": 0.49925420496783274,
-      "estimate": 7194.35
+      "call_last": 11.3,
+      "put_last": 4.8,
+      "call_delta": 0.6484561936149328,
+      "estimate": 7201.5
     },
     {
       "strike": 7200.0,
-      "call_last": 5.3,
-      "put_last": 11.0,
-      "call_delta": 0.4002582180272687,
-      "estimate": 7194.3
+      "call_last": 8.3,
+      "put_last": 6.8,
+      "call_delta": 0.5444678492217955,
+      "estimate": 7201.5
     },
     {
       "strike": 7205.0,
-      "call_last": 3.67,
-      "put_last": 14.33,
-      "call_delta": 0.30981658210782836,
-      "estimate": 7194.34
+      "call_last": 5.77,
+      "put_last": 9.4,
+      "call_delta": 0.4359048952990262,
+      "estimate": 7201.37
+    },
+    {
+      "strike": 7210.0,
+      "call_last": 4.0,
+      "put_last": 12.5,
+      "call_delta": 0.33257044371000144,
+      "estimate": 7201.5
     }
   ],
   "primary_spot_source": "massive_index_1m_aggregate",
-  "primary_spot": 7199.650000000001,
-  "primary_spot_timestamp_et": "2026-04-30 14:00:00 ET",
-  "parity_fallback_spot": 7194.31,
+  "primary_spot": 7201.59,
+  "primary_spot_timestamp_et": "2026-04-30 14:15:00 ET",
+  "parity_fallback_spot": 7201.45,
   "index_spot_raw": {
     "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-27/2026-04-30",
     "params": {
@@ -51,11 +51,11 @@
       "limit": 1
     },
     "result": {
-      "o": 7194.08,
-      "c": 7199.650000000001,
-      "h": 7199.78,
-      "l": 7193.62,
-      "t": 1777572000000
+      "o": 7201.7,
+      "c": 7201.59,
+      "h": 7202.31,
+      "l": 7201.43,
+      "t": 1777572900000
     },
     "status": "DELAYED",
     "resultsCount": null

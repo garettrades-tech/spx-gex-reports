@@ -1,29 +1,29 @@
 {
   "schema_version": 2,
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-04-30 14:15 ET",
+  "snapshot_label": "2026-04-30 14:30 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-04-30",
-  "spot": 7199.65,
-  "atm_iv_pct": 11.2,
-  "net_gex_b": 27.46,
-  "gamma_notional_b": 37.07,
+  "spot": 7201.59,
+  "atm_iv_pct": 10.08,
+  "net_gex_b": 26.41,
+  "gamma_notional_b": 35.26,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
     "call_wall": 7300.0,
-    "put_wall": 7005.0,
+    "put_wall": 7000.0,
     "plus_gex": 7300.0,
-    "minus_gex": 7005.0,
-    "gex_flip": 7005.0,
+    "minus_gex": 7000.0,
+    "gex_flip": 7000.0,
     "pos_trans": 7300.0,
-    "neg_trans": 7005.0,
+    "neg_trans": 7000.0,
     "charm_pin": 7300.0,
     "bull_trigger": 7300.0,
-    "bear_trigger": 7005.0,
-    "cotmc": 7300.0,
-    "cotmp": 6900.0,
+    "bear_trigger": 7000.0,
+    "cotmc": 7400.0,
+    "cotmp": 7000.0,
     "hard_cap": null,
     "put_floor": null,
     "control_low": 7200.0,
@@ -33,89 +33,89 @@
   "top_call_flow": [
     {
       "strike": 7200.0,
-      "volume": 79514,
+      "volume": 91324,
       "oi": 5314,
-      "gex_m": 5376
+      "gex_m": 6078
     },
     {
       "strike": 7180.0,
-      "volume": 77102,
+      "volume": 78241,
       "oi": 1775,
-      "gex_m": 1326
+      "gex_m": 999
     },
     {
       "strike": 7190.0,
-      "volume": 73052,
+      "volume": 76206,
       "oi": 1297,
-      "gex_m": 1258
+      "gex_m": 1180
     },
     {
       "strike": 7185.0,
-      "volume": 66582,
+      "volume": 68450,
       "oi": 1854,
-      "gex_m": 1624
+      "gex_m": 1355
     },
     {
       "strike": 7170.0,
-      "volume": 62733,
+      "volume": 63245,
       "oi": 2796,
-      "gex_m": 1407
+      "gex_m": 888
     },
     {
       "strike": 7175.0,
-      "volume": 57403,
+      "volume": 58460,
       "oi": 2057,
-      "gex_m": 1274
+      "gex_m": 870
     }
   ],
   "top_put_flow": [
     {
       "strike": 7150.0,
-      "volume": 51434,
+      "volume": 52731,
       "oi": 2255,
-      "gex_m": 420
+      "gex_m": 314
     },
     {
       "strike": 7140.0,
-      "volume": 47025,
+      "volume": 47943,
       "oi": 813,
-      "gex_m": 99
+      "gex_m": 78
     },
     {
       "strike": 7160.0,
-      "volume": 44956,
+      "volume": 46922,
       "oi": 340,
-      "gex_m": 102
+      "gex_m": 72
     },
     {
       "strike": 7100.0,
-      "volume": 43981,
+      "volume": 45321,
       "oi": 5005,
-      "gex_m": 183
+      "gex_m": 164
     },
     {
       "strike": 7130.0,
-      "volume": 42496,
+      "volume": 43251,
       "oi": 966,
-      "gex_m": 80
+      "gex_m": 69
     },
     {
-      "strike": 7135.0,
-      "volume": 40764,
-      "oi": 952,
-      "gex_m": 97
+      "strike": 7170.0,
+      "volume": 42941,
+      "oi": 273,
+      "gex_m": 94
     }
   ],
   "distance_from_spot": {
-    "call_wall": 100.3,
-    "put_wall": -194.7,
-    "gex_flip": -194.7,
-    "charm_pin": 100.3,
-    "bull_trigger": 100.3,
-    "bear_trigger": -194.7,
-    "control_low": 0.3,
-    "control_high": 5.3,
-    "control_mid": 2.8
+    "call_wall": 98.4,
+    "put_wall": -201.6,
+    "gex_flip": -201.6,
+    "charm_pin": 98.4,
+    "bull_trigger": 98.4,
+    "bear_trigger": -201.6,
+    "control_low": -1.6,
+    "control_high": 3.4,
+    "control_mid": 0.9
   },
   "control_low": 7200.0,
   "control_high": 7205.0,
@@ -125,35 +125,35 @@
     "high": 7205.0,
     "mid": 7202.5,
     "width": 5.0,
-    "spot_inside": false,
-    "status": "below",
-    "distance_to_low": -0.3,
-    "distance_to_high": 5.3
+    "spot_inside": true,
+    "status": "inside",
+    "distance_to_low": 1.6,
+    "distance_to_high": 3.4
   },
   "derived_hints": {
     "nearest_control_point": "control_mid",
     "nearest_control_point_value": 7202.5,
-    "nearest_control_point_distance": 2.8,
+    "nearest_control_point_distance": 0.9,
     "is_near_pin": false,
     "is_near_flip": false,
     "is_above_flip": true,
     "is_above_pin": false,
-    "is_late_day": false
+    "is_late_day": true
   },
   "derived_context": {
     "control_zone": "7200\u20137205",
     "control_zone_low": 7200.0,
     "control_zone_high": 7205.0,
-    "distance_to_call_wall": 100.3,
-    "distance_to_put_wall": -194.7,
-    "distance_to_flip": -194.7,
-    "distance_to_pin": 100.3,
+    "distance_to_call_wall": 98.4,
+    "distance_to_put_wall": -201.6,
+    "distance_to_flip": -201.6,
+    "distance_to_pin": 98.4,
     "is_call_wall_dominant": false,
     "is_put_wall_dominant": false,
     "is_pin_likely": false,
     "dominant_flow_zone": "7200\u20137205",
     "dealer_positioning": "long_gamma",
-    "late_day_charm_bias": "secondary intraday factor",
+    "late_day_charm_bias": "drift / containment unless key level breaks",
     "vanna_relevance": "low"
   },
   "session_windows": [
