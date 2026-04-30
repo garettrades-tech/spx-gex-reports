@@ -1,10 +1,10 @@
 {
-  "timestamp_et": "2026-04-30 11:01:35 AM ET",
-  "created_at_et": "2026-04-30T12:01:35.408362-04:00",
+  "timestamp_et": "2026-04-30 11:15:35 AM ET",
+  "created_at_et": "2026-04-30T12:15:35.497656-04:00",
   "ticker": "SPX",
   "mode": "0dte",
   "regime": "POSITIVE",
-  "spot": 7159.58,
+  "spot": 7168.91,
   "call_wall": 7300.0,
   "put_wall": 7005.0,
   "gex_flip": 7005.0,
@@ -21,9 +21,9 @@
     "best_reference_cluster": null,
     "best_call_cluster_avg_roi": 456.116,
     "best_put_cluster_avg_roi": 1169.84,
-    "distance_to_call_wall": 140.42000000000007,
-    "distance_to_put_wall": 154.57999999999993,
-    "distance_to_flip": 154.57999999999993
+    "distance_to_call_wall": 131.09000000000015,
+    "distance_to_put_wall": 163.90999999999985,
+    "distance_to_flip": 163.90999999999985
   },
   "trade_plan": {
     "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
@@ -36,9 +36,9 @@
     }
   },
   "bias_score": {
-    "score": 1,
+    "score": 0,
     "label": "NEUTRAL",
-    "zone_adjustment": 0,
+    "zone_adjustment": -1,
     "structural_regime": "POSITIVE"
   },
   "positioning": {
@@ -46,7 +46,7 @@
     "zone_count": 24,
     "watchlist_count": 50,
     "reference_spot": 7131.42,
-    "bias_zone_adjustment": 0,
+    "bias_zone_adjustment": -1,
     "top_zones": [
       {
         "zone_type": "ACTIVE_PIN_ZONE",
