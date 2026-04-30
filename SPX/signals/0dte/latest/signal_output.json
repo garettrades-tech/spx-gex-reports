@@ -1,13 +1,13 @@
 {
-  "timestamp_et": "2026-04-30 01:46:04 PM ET",
-  "created_at_et": "2026-04-30T14:46:04.595253-04:00",
+  "timestamp_et": "2026-04-30 02:00:58 PM ET",
+  "created_at_et": "2026-04-30T15:00:58.059536-04:00",
   "ticker": "SPX",
   "mode": "0dte",
   "regime": "POSITIVE",
-  "spot": 7204.63,
+  "spot": 7209.91,
   "call_wall": 7300.0,
-  "put_wall": 6900.0,
-  "gex_flip": 6900.0,
+  "put_wall": 7000.0,
+  "gex_flip": 7000.0,
   "signal_count": 0,
   "signals": [],
   "market_stance": {
@@ -15,15 +15,15 @@
     "bias": "Bullish-to-contained",
     "summary": "Positive regime favors contained bullish behavior, especially if price holds near supportive structure.",
     "trigger_long": "Constructive above 7,280.00",
-    "trigger_short": "Risk rises if price drives toward 6,900.00",
+    "trigger_short": "Risk rises if price drives toward 7,000.00",
     "avoid": "Avoid chasing extended upside far away from the call wall or after momentum is already spent.",
     "best_time_bucket": "power_hour",
     "best_reference_cluster": null,
     "best_call_cluster_avg_roi": 456.116,
     "best_put_cluster_avg_roi": 1169.84,
-    "distance_to_call_wall": 95.36999999999989,
-    "distance_to_put_wall": 304.6300000000001,
-    "distance_to_flip": 304.6300000000001
+    "distance_to_call_wall": 90.09000000000015,
+    "distance_to_put_wall": 209.90999999999985,
+    "distance_to_flip": 209.90999999999985
   },
   "trade_plan": {
     "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
@@ -31,7 +31,7 @@
     "avoid_condition": "Avoid aggressive puts in a positive regime unless price materially deteriorates toward the flip or lower structure.",
     "trigger_levels": {
       "bullish_trigger": 7300.0,
-      "bearish_trigger": 6900.0,
+      "bearish_trigger": 7000.0,
       "volatility_trigger": null
     }
   },
