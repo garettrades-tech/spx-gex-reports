@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-04-30 13:45 ET",
+  "snapshot_label": "2026-04-30 14:00 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-04-30",
-  "spot": 7187.82,
-  "atm_iv_pct": 10.68,
-  "net_gex_b": 24.37,
-  "gamma_notional_b": 36.24,
+  "spot": 7189.82,
+  "atm_iv_pct": 11.22,
+  "net_gex_b": 24.7,
+  "gamma_notional_b": 35.87,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -33,89 +33,89 @@
   "top_call_flow": [
     {
       "strike": 7180.0,
-      "volume": 70448,
+      "volume": 74227,
       "oi": 1775,
-      "gex_m": 1810
-    },
-    {
-      "strike": 7170.0,
-      "volume": 60695,
-      "oi": 2796,
-      "gex_m": 2190
+      "gex_m": 1586
     },
     {
       "strike": 7200.0,
-      "volume": 59976,
+      "volume": 70786,
       "oi": 5314,
-      "gex_m": 3561
+      "gex_m": 4510
     },
     {
       "strike": 7190.0,
-      "volume": 58702,
+      "volume": 67514,
       "oi": 1297,
-      "gex_m": 1168
+      "gex_m": 1320
     },
     {
       "strike": 7185.0,
-      "volume": 57150,
+      "volume": 63248,
       "oi": 1854,
-      "gex_m": 1925
+      "gex_m": 1820
+    },
+    {
+      "strike": 7170.0,
+      "volume": 62001,
+      "oi": 2796,
+      "gex_m": 1876
     },
     {
       "strike": 7175.0,
-      "volume": 53515,
+      "volume": 55494,
       "oi": 2057,
-      "gex_m": 1665
+      "gex_m": 1636
     }
   ],
   "top_put_flow": [
     {
       "strike": 7150.0,
-      "volume": 46740,
+      "volume": 49682,
       "oi": 2255,
-      "gex_m": 832
+      "gex_m": 623
     },
     {
       "strike": 7140.0,
-      "volume": 44607,
+      "volume": 46125,
       "oi": 813,
-      "gex_m": 195
-    },
-    {
-      "strike": 7100.0,
-      "volume": 42207,
-      "oi": 5005,
-      "gex_m": 293
-    },
-    {
-      "strike": 7130.0,
-      "volume": 40336,
-      "oi": 966,
-      "gex_m": 158
+      "gex_m": 145
     },
     {
       "strike": 7160.0,
-      "volume": 40261,
+      "volume": 43442,
       "oi": 340,
-      "gex_m": 198
+      "gex_m": 151
+    },
+    {
+      "strike": 7100.0,
+      "volume": 43430,
+      "oi": 5005,
+      "gex_m": 237
+    },
+    {
+      "strike": 7130.0,
+      "volume": 41413,
+      "oi": 966,
+      "gex_m": 117
     },
     {
       "strike": 7135.0,
-      "volume": 38320,
+      "volume": 40138,
       "oi": 952,
-      "gex_m": 189
+      "gex_m": 137
     }
   ],
   "distance_from_spot": {
-    "call_wall": 112.2,
-    "put_wall": -182.8,
-    "gex_flip": -182.8,
-    "charm_pin": 112.2,
-    "bull_trigger": 112.2,
-    "bear_trigger": -182.8,
-    "control_low": -17.8,
-    "control_high": -2.8,
-    "control_mid": -10.3
+    "call_wall": 110.2,
+    "put_wall": -184.8,
+    "gex_flip": -184.8,
+    "charm_pin": 110.2,
+    "bull_trigger": 110.2,
+    "bear_trigger": -184.8,
+    "control_low": -19.8,
+    "control_high": -4.8,
+    "control_mid": -12.3
   },
   "control_low": 7170.0,
   "control_high": 7185.0,
@@ -127,13 +127,13 @@
     "width": 15.0,
     "spot_inside": false,
     "status": "above",
-    "distance_to_low": 17.8,
-    "distance_to_high": -2.8
+    "distance_to_low": 19.8,
+    "distance_to_high": -4.8
   },
   "derived_hints": {
     "nearest_control_point": "control_mid",
     "nearest_control_point_value": 7177.5,
-    "nearest_control_point_distance": -10.3,
+    "nearest_control_point_distance": -12.3,
     "is_near_pin": false,
     "is_near_flip": false,
     "is_above_flip": true,
@@ -144,10 +144,10 @@
     "control_zone": "7170\u20137185",
     "control_zone_low": 7170.0,
     "control_zone_high": 7185.0,
-    "distance_to_call_wall": 112.2,
-    "distance_to_put_wall": -182.8,
-    "distance_to_flip": -182.8,
-    "distance_to_pin": 112.2,
+    "distance_to_call_wall": 110.2,
+    "distance_to_put_wall": -184.8,
+    "distance_to_flip": -184.8,
+    "distance_to_pin": 110.2,
     "is_call_wall_dominant": false,
     "is_put_wall_dominant": false,
     "is_pin_likely": false,
