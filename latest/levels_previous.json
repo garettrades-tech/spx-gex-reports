@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
   "report_type": "SPX_0DTE_GEX_LEVELS",
-  "snapshot_label": "2026-04-30 11:30 ET",
+  "snapshot_label": "2026-04-30 11:45 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-04-30",
-  "spot": 7165.69,
-  "atm_iv_pct": 14.64,
-  "net_gex_b": 15.04,
-  "gamma_notional_b": 33.64,
+  "spot": 7169.45,
+  "atm_iv_pct": 14.43,
+  "net_gex_b": 16.56,
+  "gamma_notional_b": 34.07,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -40,8 +40,8 @@
     "width": 15.0,
     "spot_inside": false,
     "status": "below",
-    "distance_to_low": -4.3,
-    "distance_to_high": 19.3
+    "distance_to_low": -0.6,
+    "distance_to_high": 15.6
   },
   "report_identity": {
     "ticker": "SPX",
