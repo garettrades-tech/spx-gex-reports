@@ -1,12 +1,12 @@
 {
-  "tracked_at": "2026-04-30 11:45:55",
+  "tracked_at": "2026-04-30 12:01:17",
   "signal": {
-    "timestamp_et": "2026-04-30 11:45:46 AM ET",
-    "created_at_et": "2026-04-30T12:45:46.563245-04:00",
+    "timestamp_et": "2026-04-30 12:01:08 PM ET",
+    "created_at_et": "2026-04-30T13:01:08.427175-04:00",
     "ticker": "SPX",
     "mode": "0dte",
     "regime": "POSITIVE",
-    "spot": 7174.91,
+    "spot": 7168.33,
     "call_wall": 7300.0,
     "put_wall": 7005.0,
     "gex_flip": 7005.0,
@@ -23,9 +23,9 @@
       "best_reference_cluster": null,
       "best_call_cluster_avg_roi": 456.116,
       "best_put_cluster_avg_roi": 1169.84,
-      "distance_to_call_wall": 125.09000000000015,
-      "distance_to_put_wall": 169.90999999999985,
-      "distance_to_flip": 169.90999999999985
+      "distance_to_call_wall": 131.67000000000007,
+      "distance_to_put_wall": 163.32999999999993,
+      "distance_to_flip": 163.32999999999993
     },
     "trade_plan": {
       "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
@@ -222,13 +222,13 @@
     "headline_commentary": "Need to verify whether any breaking macro or tariff-related headline was active."
   },
   "tracking_row": {
-    "tracked_at": "2026-04-30 11:45:55",
-    "signal_timestamp_et": "2026-04-30 11:45:46 AM ET",
+    "tracked_at": "2026-04-30 12:01:17",
+    "signal_timestamp_et": "2026-04-30 12:01:08 PM ET",
     "session_date": "2026-04-30",
     "ticker": "SPX",
     "mode": "0dte",
     "regime": "POSITIVE",
-    "spot": 7174.91,
+    "spot": 7168.33,
     "call_wall": 7300.0,
     "put_wall": 7005.0,
     "gex_flip": 7005.0,
