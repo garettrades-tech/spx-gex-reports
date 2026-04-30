@@ -1,6 +1,6 @@
 {
-  "snapshot_label": "2026-04-30 12:15 ET",
-  "commentary_mode": "retained",
-  "commentary_source_snapshot": null,
-  "reason": "No meaningful structural change detected; Spot move below threshold: 9.33 points; Net GEX change below threshold: 8.5%"
+  "snapshot_label": "2026-04-30 12:30 ET",
+  "commentary_mode": "fresh",
+  "commentary_source_snapshot": "2026-04-30 12:30 ET",
+  "reason": "put_wall changed: 7005.0 -> 7000.0; gex_flip changed: 7005.0 -> 7000.0; Spot move below threshold: 5.04 points; Net GEX change below threshold: 8.9%"
 }
