@@ -1,22 +1,13 @@
 {
-  "session_date": "2026-04-29",
-  "weekday_name": "Wednesday",
-  "weekday_number": 2,
+  "session_date": "2026-04-30",
+  "weekday_name": "Thursday",
+  "weekday_number": 3,
   "is_closed_session": false,
   "is_shortened_session": false,
   "market_close_et": "16:00",
   "is_pre_holiday_session": false,
   "is_post_holiday_session": false,
-  "high_impact_events_today": [
-    {
-      "event_type": "macro",
-      "name": "FOMC Meeting Day",
-      "event_date": "2026-04-29",
-      "event_time_et": null,
-      "impact": "high",
-      "source": "fed_fomc_2026"
-    }
-  ],
+  "high_impact_events_today": [],
   "high_impact_events_plus_minus_2d": [
     {
       "event_type": "macro",
@@ -35,22 +26,18 @@
       "source": "fed_fomc_2026"
     }
   ],
-  "is_high_impact_macro_day": true,
+  "is_high_impact_macro_day": false,
   "major_expiration_events_today": [],
   "major_expiration_events_plus_minus_2d": [],
   "is_major_expiration_day": false,
   "is_vix_expiration_day": false,
   "is_monthly_opex_day": false,
   "is_quad_witching_day": false,
-  "days_to_next_major_expiration": 16,
-  "days_from_last_major_expiration": 12,
-  "macro_tags": [
-    "FOMC Meeting Day"
-  ],
+  "days_to_next_major_expiration": 15,
+  "days_from_last_major_expiration": 13,
+  "macro_tags": [],
   "expiration_tags": [],
   "headline_context_available": false,
   "headline_context_source": null,
-  "notes": [
-    "High-impact macro event day."
-  ]
+  "notes": []
 }
