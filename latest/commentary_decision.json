@@ -1,9 +1,11 @@
 {
-  "snapshot_label": "2026-05-01 12:00 ET",
+  "snapshot_label": "2026-05-01 12:15 ET",
   "should_call_openai": true,
   "reasons": [
-    "Spot move below threshold: 5.91 points",
-    "Net GEX changed materially: 54.0 -> 63.05 (16.8%)"
+    "put_wall changed: 6975.0 -> 6985.0",
+    "gex_flip changed: 6975.0 -> 6985.0",
+    "Spot move below threshold: 6.30 points",
+    "Net GEX changed materially: 63.05 -> 55.25 (12.4%)"
   ],
   "last_ai_commentary_snapshot": null
 }
