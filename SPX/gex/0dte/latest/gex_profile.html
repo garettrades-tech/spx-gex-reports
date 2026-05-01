@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>SPX 0DTE GEX Report — 2026-04-30 15:45 ET</title>
+<title>SPX 0DTE GEX Report — 2026-05-01 09:46 ET</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.1/plotly.min.js"></script>
 <style>
@@ -36,30 +36,30 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
 </div>
 <h1>SPX 0DTE GEX Report</h1>
 <div class="sub">
-<span class="chip blu">Spot 7212.54</span>
-<span class="chip yel">ATM IV 7.47%</span>
+<span class="chip blu">Spot 7239.48</span>
+<span class="chip yel">ATM IV 9.61%</span>
 <span class="chip pos">POSITIVE GEX</span>
-<span class="chip">Net GEX +34.61B</span>
-<span class="chip">Expiry 2026-04-30</span>
-<span class="chip">2026-04-30 15:45 ET</span>
+<span class="chip">Net GEX +34.51B</span>
+<span class="chip">Expiry 2026-05-01</span>
+<span class="chip">2026-05-01 09:46 ET</span>
 </div>
 </header>
 
 <section class="summary-bar">
 
-<div class="summary-item"><div class="lbl">Net GEX</div><div class="val">+34.61B</div></div>
+<div class="summary-item"><div class="lbl">Net GEX</div><div class="val">+34.51B</div></div>
 
-<div class="summary-item"><div class="lbl">GEX Flip</div><div class="val">7005.0</div></div>
+<div class="summary-item"><div class="lbl">GEX Flip</div><div class="val">6975.0</div></div>
 
-<div class="summary-item"><div class="lbl">Call Wall</div><div class="val">7300.0</div></div>
+<div class="summary-item"><div class="lbl">Call Wall</div><div class="val">7340.0</div></div>
 
-<div class="summary-item"><div class="lbl">Put Wall</div><div class="val">7005.0</div></div>
+<div class="summary-item"><div class="lbl">Put Wall</div><div class="val">6975.0</div></div>
 
-<div class="summary-item"><div class="lbl">Charm Pin</div><div class="val">7300.0</div></div>
+<div class="summary-item"><div class="lbl">Charm Pin</div><div class="val">7340.0</div></div>
 
-<div class="summary-item"><div class="lbl">Bull Trigger</div><div class="val">7300.0</div></div>
+<div class="summary-item"><div class="lbl">Bull Trigger</div><div class="val">7340.0</div></div>
 
-<div class="summary-item"><div class="lbl">Bear Trigger</div><div class="val">7005.0</div></div>
+<div class="summary-item"><div class="lbl">Bear Trigger</div><div class="val">6975.0</div></div>
 
 </section>
 
@@ -79,14 +79,14 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
     <div class="commentary-status-item">
       <div class="lbl">Source Snapshot</div>
       <div class="val">
-        2026-04-30 15:45 ET
+        2026-05-01 09:46 ET
       </div>
     </div>
 
     <div class="commentary-status-item">
       <div class="lbl">Reason</div>
       <div class="val">
-        put_wall changed: 7000.0 -> 7005.0; gex_flip changed: 7000.0 -> 7005.0; Spot move below threshold: 2.90 points; Net GEX change below threshold: 7.6%
+        call_wall changed: 7300.0 -> 7340.0; put_wall changed: 7005.0 -> 6975.0; gex_flip changed: 7005.0 -> 6975.0; charm_pin changed: 7300.0 -> 7340.0; Spot moved materially: 7212.54 -> 7239.48 (26.94 points); Net GEX change below threshold: 0.3%
       </div>
     </div>
   </div>
@@ -94,18 +94,18 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
 
 
 <section class="regime-box" style="margin-top:16px;">
-<div class="regime-badge">POSITIVE GAMMA</div>
+<div class="regime-badge">POSITIVE gamma regime – Volatility containment and mean reversion</div>
 <h3>Regime Analysis</h3>
 <div class="stat-grid">
-<div class="stat-cell"><div class="lbl">Net GEX</div><div class="val">+34.61B</div></div>
-<div class="stat-cell"><div class="lbl">Gamma Notional</div><div class="val">40.71B</div></div>
-<div class="stat-cell"><div class="lbl">ATM IV</div><div class="val">7.47%</div></div>
-<div class="stat-cell"><div class="lbl">Spot</div><div class="val">7212.54</div></div>
+<div class="stat-cell"><div class="lbl">Net GEX</div><div class="val">+34.51B</div></div>
+<div class="stat-cell"><div class="lbl">Gamma Notional</div><div class="val">51.02B</div></div>
+<div class="stat-cell"><div class="lbl">ATM IV</div><div class="val">9.61%</div></div>
+<div class="stat-cell"><div class="lbl">Spot</div><div class="val">7239.48</div></div>
 </div>
 <div class="narrative">
-<p>SPX currently sits just above the active control zone at 7200-7210, with net gamma exposure at a robust +34.61B maintaining a positive gamma regime. This structure supports dampened intraday volatility and encourages mean reversion behavior within this range, limiting runaway price moves and favoring premium decay.</p>
-<p>Charm is relevant late in the session, reinforcing drift and containment near the control zone rather than enforcing strict pinning since the spot is not close to the 7300 charm pin level. Dealers’ gamma book continues to suppress volatility through dynamic hedging, reducing directional breakouts absent acceptance beyond key edges.</p>
-<p>The distant call wall at 7300 (+40.71B gamma notional) and the put wall well below at 7005 serve as structural caps and floors respectively but do not dictate immediate spot action. This regime holds as long as price remains above the 7200 control low; acceptance below this level would undermine the current containment and open room for accelerated moves to the downside.</p>
+<p>The SPX 0DTE gamma stands robustly positive at +34.5B, signaling a regime dominated by dealer long gamma exposure. This structure promotes volatility dampening and price containment within the active control zone between 7240 and 7255. Currently, spot trades just below this zone, about 8 points shy of the midpoint (7247.5), implying mean reversion pressure to push the index back up into the 7240-7255 corridor. Gamma decay within this narrow band supports stable ranges and premium erosion, favoring non-directional hedging activity.</p>
+<p>The nearest gamma flip and put wall sit over 260 points below spot around 6975, putting them far out of immediate influence. The call wall and charm pin at 7340 are over 100 points away, serving only as structural overhead resistance caps at this stage, not near-term magnets. Charm effects are moderate given the early session timing, reinforcing normal drift and supporting containment rather than fixation. Vanna impact is muted in the current subdued volatility environment (ATM IV ~9.6%), so vanna-driven distortions are minimal.</p>
+<p>The regime hinges on spot acceptance above the lower control boundary at 7240 and inside or near the 7240-7255 range, where dealer long gamma hedging creates mean reversion forces. Should spot decisively break and hold below 7240 early, that would weaken containment and introduce complexity to the positive gamma narrative. Conversely, acceptance above the upper control boundary at 7255 would strengthen the bullish gamma regime and increase the scope for controlled range expansion toward the ~7340 call walls.</p>
 </div>
 </section>
 
@@ -131,10 +131,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>Call Wall</td>
-            <td>7300.0</td>
+            <td>7340.0</td>
             <td>
                 
-                    +87.5
+                    +100.5
                 
             </td>
             <td>+GEX</td>
@@ -143,10 +143,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>Put Wall</td>
-            <td>7005.0</td>
+            <td>6975.0</td>
             <td>
                 
-                    -207.5
+                    -264.5
                 
             </td>
             <td>-GEX</td>
@@ -155,10 +155,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>GEX Flip</td>
-            <td>7005.0</td>
+            <td>6975.0</td>
             <td>
                 
-                    -207.5
+                    -264.5
                 
             </td>
             <td>FLIP</td>
@@ -167,10 +167,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>Charm Pin</td>
-            <td>7300.0</td>
+            <td>7340.0</td>
             <td>
                 
-                    +87.5
+                    +100.5
                 
             </td>
             <td>PIN</td>
@@ -179,10 +179,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>Bull Trigger</td>
-            <td>7300.0</td>
+            <td>7340.0</td>
             <td>
                 
-                    +87.5
+                    +100.5
                 
             </td>
             <td>+CALL</td>
@@ -191,10 +191,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>Bear Trigger</td>
-            <td>7005.0</td>
+            <td>6975.0</td>
             <td>
                 
-                    -207.5
+                    -264.5
                 
             </td>
             <td>-PUT</td>
@@ -203,10 +203,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>COTMC</td>
-            <td>7400.0</td>
+            <td>7340.0</td>
             <td>
                 
-                    +187.5
+                    +100.5
                 
             </td>
             <td>+OTM</td>
@@ -215,10 +215,10 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>COTMP</td>
-            <td>7000.0</td>
+            <td>6975.0</td>
             <td>
                 
-                    -212.5
+                    -264.5
                 
             </td>
             <td>-OTM</td>
@@ -227,14 +227,14 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
         
         <tr>
             <td>Active Control Zone</td>
-            <td>7200.0 - 7210.0</td>
+            <td>7240.0 - 7255.0</td>
             <td>
                 
-                    -7.5
+                    +8.0
                 
             </td>
-            <td>ABOVE</td>
-            <td>Spot above active control zone</td>
+            <td>BELOW</td>
+            <td>Spot below active control zone</td>
         </tr>
         
     </tbody>
@@ -243,54 +243,54 @@ table{width:100%;border-collapse:collapse;font-size:14px}th{background:var(--sur
 
 <h2>Flow + Charm</h2>
 <div class="two-col">
-<div class="panel"><h3>Top Call Volume (Flow)</h3><table><thead><tr><th>Strike</th><th>Volume</th><th>OI</th><th>GEX ($M)</th></tr></thead><tbody><tr><td>7200.0C</td><td>111481</td><td>5314</td><td>4813</td></tr><tr><td>7190.0C</td><td>81534</td><td>1297</td><td>660</td></tr><tr><td>7180.0C</td><td>80612</td><td>1775</td><td>555</td></tr><tr><td>7210.0C</td><td>78076</td><td>1343</td><td>2132</td></tr><tr><td>7205.0C</td><td>72413</td><td>2730</td><td>3362</td></tr><tr><td>7185.0C</td><td>71913</td><td>1854</td><td>718</td></tr></tbody></table></div>
-<div class="panel"><h3>Top Put Volume (Flow)</h3><table><thead><tr><th>Strike</th><th>Volume</th><th>OI</th><th>GEX ($M)</th></tr></thead><tbody><tr><td>7150.0P</td><td>56024</td><td>2255</td><td>95</td></tr><tr><td>7160.0P</td><td>51193</td><td>340</td><td>25</td></tr><tr><td>7140.0P</td><td>50065</td><td>813</td><td>27</td></tr><tr><td>7170.0P</td><td>49129</td><td>273</td><td>33</td></tr><tr><td>7100.0P</td><td>48187</td><td>5005</td><td>82</td></tr><tr><td>7200.0P</td><td>48113</td><td>671</td><td>594</td></tr></tbody></table></div>
+<div class="panel"><h3>Top Call Volume (Flow)</h3><table><thead><tr><th>Strike</th><th>Volume</th><th>OI</th><th>GEX ($M)</th></tr></thead><tbody><tr><td>7245.0C</td><td>1806</td><td>4769</td><td>4210</td></tr><tr><td>7400.0C</td><td>1141</td><td>2958</td><td>30</td></tr><tr><td>7175.0C</td><td>1008</td><td>3037</td><td>0</td></tr><tr><td>8200.0C</td><td>1000</td><td>1004</td><td>1</td></tr><tr><td>7180.0C</td><td>999</td><td>2067</td><td>0</td></tr><tr><td>7200.0C</td><td>979</td><td>14136</td><td>0</td></tr></tbody></table></div>
+<div class="panel"><h3>Top Put Volume (Flow)</h3><table><thead><tr><th>Strike</th><th>Volume</th><th>OI</th><th>GEX ($M)</th></tr></thead><tbody><tr><td>6890.0P</td><td>7137</td><td>2526</td><td>10</td></tr><tr><td>6860.0P</td><td>4842</td><td>4611</td><td>14</td></tr><tr><td>6875.0P</td><td>4252</td><td>5260</td><td>17</td></tr><tr><td>4800.0P</td><td>2506</td><td>3329</td><td>0</td></tr><tr><td>6945.0P</td><td>1597</td><td>974</td><td>3</td></tr><tr><td>6965.0P</td><td>1437</td><td>1238</td><td>5</td></tr></tbody></table></div>
 </div>
 
 <h2>Setups</h2>
 <div class="setup-grid">
-<div class="setup-card"><div class="title">Mean-Reversion Iron Condors near Control Zone</div><div class="body">The control zone between 7200 and 7210 houses concentrated gamma and offers a natural corridor for iron condors or butterfly spreads. Selling wings around 7200 support with call spreads referencing the 7300 wall offers defined risk/reward profiles while exploiting expected mean-reverting decay under positive gamma.</div></div>
-<div class="setup-card"><div class="title">Call Credit Spreads Fading Breakout Above 7300</div><div class="body">While spot is below 7300, upside is contained by the high gamma build and charm pin far above spot. Traders can sell call credit spreads near 7300 to capture premium with limited risk unless spot shows acceptance above this level, which would invalidate the upside cap thesis.</div></div>
-<div class="setup-card"><div class="title">Avoid Directional Debit Spreads Outside Break Levels</div><div class="body">With strong positive gamma and dealer positioning long gamma near current spot, directional debit spreads betting on continuation risk are suboptimal unless there is clear acceptance outside control or trigger levels (below 7200 or above 7300). Volatility dampening favors neutral structures.</div></div>
-<div class="setup-card"><div class="title">Watch for Late-Day Charm Effect on Drift</div><div class="body">Charm influences late-session drift and compression, supporting containment near but not at the pin level. Any sudden acceptance above 7300 or below 7200 will invalidate the containment regime and amplify gamma-driven moves, increasing directional risk.</div></div>
+<div class="setup-card"><div class="title">Iron Condor around 7240-7255 Control Zone</div><div class="body">With spot just below and mean reversion expected toward 7240-7255, iron condors can capitalize on range-bound decay. Sell call and put credit spreads that nest inside the active control zone, for example short calls around 7255 and short puts near 7240, capturing premium as dealer long gamma enforces containment within these levels. This setup benefits from selling premium into the volatility dampening environment.</div></div>
+<div class="setup-card"><div class="title">Call Credit Spread Above 7340</div><div class="body">The 7340 level acts as a distant structural call wall and charm pin, unlikely to attract immediate spot attention but a natural ceiling. Selling call credit spreads just below 7340 offers a directional opportunity toward range resistance, with positive gamma support below 7255 containing spot in the interim. This trade assumes rejection upon approach to 7340 and offers controlled risk with acceptance invalidation above 7340.</div></div>
+<div class="setup-card"><div class="title">Avoid Directional Debit Spreads in Range-bound Environment</div><div class="body">Directional debit spreads or outright long directional positions face headwinds in positive gamma regime with strong containment forces within 7240-7255. Premature bullish or bearish directional bets risk acceleration only if clear acceptance outside the active control zone occurs. Maintain focus on non-directional range frameworks until regime invalidation.</div></div>
+<div class="setup-card"><div class="title">Monitor Late-day Charm for Drift and Compression</div><div class="body">Charm influence grows in late sessions, potentially reinforcing pinning near 7340 if spot approaches close enough. Despite current distance, remain alert to intraday shifts as charm can tighten ranges and compress volatility toward pin levels late-day. Early session charm impact remains secondary to dominant gamma structure now.</div></div>
 </div>
 
 <h2>Timing Guide</h2>
-<div class="panel"><table><thead><tr><th>Window</th><th>Note</th></tr></thead><tbody><tr><td>Charm Window Opens</td><td>Charm begins to modulate late-session drift—notice containment influence but no hard pinning away from 7300 pin.</td></tr><tr><td>Final 30</td><td>Late-day charm effects intensify; watch for potential acceleration if spot breaches control boundaries.</td></tr><tr><td>Close Decay</td><td>Gamma acceleration diminishes near end of day, solidifying mean reversion unless strong acceptance outside the control zone occurs.</td></tr></tbody></table></div>
+<div class="panel"><table><thead><tr><th>Window</th><th>Note</th></tr></thead><tbody><tr><td>Early Read</td><td>Spot currently below control zone; initial mean reversion signals start to build.</td></tr><tr><td>Mid Consolidation</td><td>Gamma remains dominant; charm effects begin to register but remain secondary.</td></tr><tr><td>Late-day Charm Window Opens</td><td>Charm influence may increase pinning strength near 7340 if spot approaches.</td></tr><tr><td>Close Decay</td><td>Premium decay accelerates inside control range favored by dealer gamma hedging.</td></tr></tbody></table></div>
 
 <h2>Summary Cards</h2>
 <div class="summary-final">
-<div class="summary-card"><div class="sc-label">bias</div><div class="sc-value">Mean-reversion with dampened volatility under strong positive gamma</div></div><div class="summary-card"><div class="sc-label">pin_zone</div><div class="sc-value">Control zone at 7200-7210 governs near-term spot containment</div></div><div class="summary-card"><div class="sc-label">bull_trigger</div><div class="sc-value">Acceptance above 7300 would invalidate upside containment and trigger acceleration</div></div><div class="summary-card"><div class="sc-label">bear_trigger</div><div class="sc-value">Acceptance below 7200 control low risks regime shift and directional downside acceleration</div></div><div class="summary-card"><div class="sc-label">wildcard</div><div class="sc-value">Late-day charm supports containment but can enable drift; watch for acceptance beyond 7300 or below 7200</div></div>
+<div class="summary-card"><div class="sc-label">bias</div><div class="sc-value">Mean reversion with volatility containment inside 7240-7255 zone</div></div><div class="summary-card"><div class="sc-label">pin_zone</div><div class="sc-value">Not near pin; main control at 7240-7255</div></div><div class="summary-card"><div class="sc-label">bull_trigger</div><div class="sc-value">Acceptance above 7255 strengthens positive gamma containment and upside range</div></div><div class="summary-card"><div class="sc-label">bear_trigger</div><div class="sc-value">Acceptance below 7240 risks breaking containment, increasing downside acceleration</div></div><div class="summary-card"><div class="sc-label">wildcard</div><div class="sc-value">Late-day charm may reinforce pinning near 7340 if spot approaches</div></div>
 </div>
 
 
 <h2>Educational Options Ideas</h2>
-<div class="panel"><table><thead><tr><th>Name</th><th>Thesis</th><th>Structure</th><th>When Valid</th><th>Risk Note</th></tr></thead><tbody><tr><td>Iron Condor 7200/7210/7300 spreads</td><td>Use the dense gamma near 7200-7210 control zone to sell wings with puts at 7200 and calls at 7300 for rangebound premium decay</td><td>Iron Condor</td><td>Spot remains within 7200-7300 range and above control low 7200</td><td>Invalidated by acceptance below 7200 or above 7300</td></tr><tr><td>Call Credit Spread 7250-7300</td><td>Fade upside attempts near 7300 call wall where positive gamma and charm enforce strong containment</td><td>Call Credit Spread</td><td>Spot stays below 7300 and fails to hold above charm pin 7300 late day</td><td>Invalidated by acceptance above 7300 with follow-through</td></tr><tr><td>Put Credit Spread 7200-7150</td><td>Support-focused put spreads near 7200 to capture premium with positive gamma cushioning downside</td><td>Put Credit Spread</td><td>Spot holds above control low 7200</td><td>Invalidated by a decisive break and acceptance below 7200 control low</td></tr></tbody></table></div>
+<div class="panel"><table><thead><tr><th>Name</th><th>Thesis</th><th>Structure</th><th>When Valid</th><th>Risk Note</th></tr></thead><tbody><tr><td>Iron Condor Straddling 7240-7255</td><td>Leverages positive gamma containment within control zone by selling premium near zone boundaries to capture decay in a stable range.</td><td>Sell put spread near 7240, sell call spread near 7255</td><td>Spot remains inside or just below the 7240-7255 control zone</td><td>Spot acceptance below 7240 or above 7255 raises risk of range expansion, increasing potential loss.</td></tr><tr><td>Call Credit Spread 7300-7335</td><td>Positions against spot rally beyond short-term range, targeting volume and charm resistance near 7340 call pin.</td><td>Sell 7335 calls, buy 7300 calls</td><td>Spot approaches upper control range and remains below 7340 call wall</td><td>Acceptance above 7340 invalidates the bearish view; strategy is directional and requires gamma environment to remain positive below the pin.</td></tr><tr><td>Put Credit Spread 7220-7240</td><td>Captures mean reversion as spot tests or dips towards control zone low, reinforced by dealer long gamma support.</td><td>Sell 7220 puts, buy 7240 puts</td><td>Spot tests levels just below the 7240 zone without sustained breakdown</td><td>Fails and acceptance below 7220 undermine containment, increasing downside volatility.</td></tr></tbody></table></div>
 
 
 <h2>Pine Paste Block</h2>
 <pre>// ═══════════════════════════════════════════════════
 //  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
 //  Generated: 
-//  SPX Spot: ~7212.54  |  Regime: POSITIVE
+//  SPX Spot: ~7239.48  |  Regime: POSITIVE
 //  Expiry: 
 //  Strategy bias: 
 // ═══════════════════════════════════════════════════
-CALL_WALL    = 7300.0
-PUT_WALL     = 7005.0
-PLUS_GEX     = 7300.0
-MINUS_GEX    = 7005.0
-GEX_FLIP     = 7005.0
-POS_TRANS    = 7300.0
-NEG_TRANS    = 7005.0
-CHARM_PIN    = 7300.0
-BULL_TRIGGER = 7300.0
-BEAR_TRIGGER = 7005.0
-SPOT_REF     = 7212.54
-CONTROL_LOW  = 7200.0
-CONTROL_HIGH = 7210.0
-COTMC        = 7400.0
-COTMP        = 7000.0
+CALL_WALL    = 7340.0
+PUT_WALL     = 6975.0
+PLUS_GEX     = 7340.0
+MINUS_GEX    = 6975.0
+GEX_FLIP     = 6975.0
+POS_TRANS    = 7340.0
+NEG_TRANS    = 6975.0
+CHARM_PIN    = 7340.0
+BULL_TRIGGER = 7340.0
+BEAR_TRIGGER = 6975.0
+SPOT_REF     = 7239.48
+CONTROL_LOW  = 7240.0
+CONTROL_HIGH = 7255.0
+COTMC        = 7340.0
+COTMP        = 6975.0
 HARD_CAP     = float(na)
 PUT_FLOOR    = float(na)
 </pre>
@@ -299,8 +299,8 @@ PUT_FLOOR    = float(na)
 </div>
 
 <script>
-const priceData = {"times": ["2026-04-30 09:46-04:00", "2026-04-30 10:00-04:00", "2026-04-30 10:15-04:00", "2026-04-30 10:30-04:00", "2026-04-30 10:45-04:00", "2026-04-30 11:00-04:00", "2026-04-30 11:15-04:00", "2026-04-30 11:30-04:00", "2026-04-30 11:45-04:00", "2026-04-30 12:00-04:00", "2026-04-30 12:15-04:00", "2026-04-30 12:30-04:00", "2026-04-30 12:45-04:00", "2026-04-30 13:00-04:00", "2026-04-30 13:15-04:00", "2026-04-30 13:30-04:00", "2026-04-30 13:45-04:00", "2026-04-30 14:00-04:00", "2026-04-30 14:15-04:00", "2026-04-30 14:30-04:00", "2026-04-30 14:45-04:00", "2026-04-30 15:00-04:00", "2026-04-30 15:15-04:00", "2026-04-30 15:30-04:00", "2026-04-30 15:45-04:00"], "spots": [7157.81, 7154.33, 7138.92, 7136.93, 7144.1, 7147.31, 7164.62, 7165.69, 7169.45, 7159.58, 7168.91, 7173.95, 7174.91, 7168.33, 7171.31, 7176.9, 7187.82, 7189.82, 7199.65, 7201.59, 7204.63, 7209.91, 7208.99, 7215.44, 7212.54], "levels": [{"name": "COTMC", "value": 7400.0, "color": "#38bdf8", "width": 1, "dash": "dot"}, {"name": "Call Wall / Charm Pin / Bull Trigger", "value": 7300.0, "color": "#00cc44", "width": 2, "dash": "solid"}, {"name": "Spot", "value": 7212.54, "color": "#facc15", "width": 3, "dash": "dash"}, {"name": "Put Wall / GEX Flip / Bear Trigger", "value": 7005.0, "color": "#ff3333", "width": 2, "dash": "solid"}, {"name": "COTMP", "value": 7000.0, "color": "#fb7185", "width": 1, "dash": "dot"}], "controlZone": {"low": 7200.0, "high": 7210.0, "mid": 7205.0, "width": 10.0, "spot_inside": false, "status": "above", "distance_to_low": 12.5, "distance_to_high": -2.5}, "latestSpot": 7212.54};
-const data = {"x": [7200.0, 7190.0, 7180.0, 7210.0, 7205.0, 7185.0], "callVol": [111481, 81534, 80612, 78076, 72413, 71913], "putX": [7150.0, 7160.0, 7140.0, 7170.0, 7100.0, 7200.0], "putVol": [56024, 51193, 50065, 49129, 48187, 48113], "controlZone": {"low": 7200.0, "high": 7210.0, "mid": 7205.0, "width": 10.0, "spot_inside": false, "status": "above", "distance_to_low": 12.5, "distance_to_high": -2.5}};
+const priceData = {"times": ["2026-05-01 09:46-04:00"], "spots": [7239.48], "levels": [{"name": "Call Wall / Charm Pin / Bull Trigger / COTMC", "value": 7340.0, "color": "#00cc44", "width": 2, "dash": "solid"}, {"name": "Spot", "value": 7239.48, "color": "#facc15", "width": 3, "dash": "dash"}, {"name": "Put Wall / GEX Flip / Bear Trigger / COTMP", "value": 6975.0, "color": "#ff3333", "width": 2, "dash": "solid"}], "controlZone": {"low": 7240.0, "high": 7255.0, "mid": 7247.5, "width": 15.0, "spot_inside": false, "status": "below", "distance_to_low": -0.5, "distance_to_high": 15.5}, "latestSpot": 7239.48};
+const data = {"x": [7245.0, 7400.0, 7175.0, 8200.0, 7180.0, 7200.0], "callVol": [1806, 1141, 1008, 1000, 999, 979], "putX": [6890.0, 6860.0, 6875.0, 4800.0, 6945.0, 6965.0], "putVol": [7137, 4842, 4252, 2506, 1597, 1437], "controlZone": {"low": 7240.0, "high": 7255.0, "mid": 7247.5, "width": 15.0, "spot_inside": false, "status": "below", "distance_to_low": -0.5, "distance_to_high": 15.5}};
 
 function levelTrace(level) {
   if (!priceData.times || priceData.times.length === 0) return null;
