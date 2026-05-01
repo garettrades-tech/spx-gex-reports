@@ -1,48 +1,48 @@
 {
-  "atm_strike": 7245.0,
-  "atm_iv_pct": 7.0,
-  "spot": 7245.14,
+  "atm_strike": 7235.0,
+  "atm_iv_pct": 8.47,
+  "spot": 7236.14,
   "parity_estimates": [
     {
+      "strike": 7225.0,
+      "call_last": 13.2,
+      "put_last": 2.15,
+      "call_delta": 0.7388124206649687,
+      "estimate": 7236.05
+    },
+    {
+      "strike": 7230.0,
+      "call_last": 9.4,
+      "put_last": 3.3,
+      "call_delta": 0.6391342685637817,
+      "estimate": 7236.1
+    },
+    {
       "strike": 7235.0,
-      "call_last": 12.74,
-      "put_last": 2.37,
-      "call_delta": 0.7736420028332184,
-      "estimate": 7245.37
+      "call_last": 6.14,
+      "put_last": 5.1,
+      "call_delta": 0.5130845523016007,
+      "estimate": 7236.04
     },
     {
       "strike": 7240.0,
-      "call_last": 8.2,
-      "put_last": 3.2,
-      "call_delta": 0.6543956593800211,
-      "estimate": 7245.0
+      "call_last": 3.64,
+      "put_last": 7.5,
+      "call_delta": 0.3711059506889704,
+      "estimate": 7236.14
     },
     {
       "strike": 7245.0,
-      "call_last": 5.2,
-      "put_last": 5.1,
-      "call_delta": 0.5024865464262258,
-      "estimate": 7245.1
-    },
-    {
-      "strike": 7250.0,
-      "call_last": 2.9,
-      "put_last": 7.7,
-      "call_delta": 0.34840058298699306,
-      "estimate": 7245.2
-    },
-    {
-      "strike": 7255.0,
-      "call_last": 1.65,
-      "put_last": 11.6,
-      "call_delta": 0.20649537805153204,
-      "estimate": 7245.05
+      "call_last": 1.95,
+      "put_last": 10.6,
+      "call_delta": 0.23717372114735052,
+      "estimate": 7236.35
     }
   ],
   "primary_spot_source": "massive_index_1m_aggregate",
-  "primary_spot": 7242.860000000001,
-  "primary_spot_timestamp_et": "2026-05-01 14:30:00 ET",
-  "parity_fallback_spot": 7245.14,
+  "primary_spot": 7233.93,
+  "primary_spot_timestamp_et": "2026-05-01 14:45:00 ET",
+  "parity_fallback_spot": 7236.14,
   "index_spot_raw": {
     "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-28/2026-05-01",
     "params": {
@@ -51,11 +51,11 @@
       "limit": 1
     },
     "result": {
-      "o": 7244.92,
-      "c": 7242.860000000001,
-      "h": 7245.02,
-      "l": 7242.71,
-      "t": 1777660200000
+      "o": 7235.45,
+      "c": 7233.93,
+      "h": 7235.71,
+      "l": 7233.74,
+      "t": 1777661100000
     },
     "status": "DELAYED",
     "resultsCount": null
