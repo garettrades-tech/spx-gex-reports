@@ -1,11 +1,11 @@
 {
   "session_date": "2026-05-01",
-  "last_received_at_ct": "2026-05-01 13:00:04 CT",
-  "last_alert_type": "VP_POC_CROSS_UP",
+  "last_received_at_ct": "2026-05-01 13:15:01 CT",
+  "last_alert_type": "VP_POC_CROSS_DOWN",
   "last_symbol": "UNKNOWN",
   "last_source": "UNKNOWN",
-  "last_price": 7279.5,
-  "total_alert_count": 489,
+  "last_price": 7269.5,
+  "total_alert_count": 494,
   "counts_by_type": {
     "LOCAL_TEST_DATE_FOLDER": 1,
     "TEST_PIPELINE": 1,
@@ -16,7 +16,7 @@
     "UNKNOWN": 70,
     "PDH_BREAK_UP": 5,
     "PD_GLOBEX_CLOSE_CROSS": 33,
-    "VWAP_CROSS": 199,
+    "VWAP_CROSS": 200,
     "VWAP_3SD_LOW": 39,
     "VWAP_3SD_HIGH": 48,
     "ORB_LOW_BREAK_DOWN": 6,
@@ -33,22 +33,23 @@
     "TEST": 3,
     "KEY_IB_MID_CROSS_DOWN": 1,
     "VP_POC_CROSS_UP": 2,
-    "VP_SKINNY_BELLY_FORMED": 1
+    "VP_SKINNY_BELLY_FORMED": 3,
+    "VP_POC_CROSS_DOWN": 2
   },
   "counts_by_source": {
     "LOCAL_TEST": 1,
     "MANUAL_TEST": 1,
     "PUBLIC_TEST": 4,
     "TRADINGVIEW": 1,
-    "UNKNOWN": 77,
+    "UNKNOWN": 81,
     "SPX_LEVELS": 35,
-    "ES_LEVELS": 201,
+    "ES_LEVELS": 202,
     "NQ_LEVELS": 146,
     "TICK_LEVELS": 23
   },
   "counts_by_symbol": {
-    "ES1!": 208,
-    "UNKNOWN": 76,
+    "ES1!": 209,
+    "UNKNOWN": 80,
     "SPX": 36,
     "NQ1!": 146,
     "TICKQ": 18,
