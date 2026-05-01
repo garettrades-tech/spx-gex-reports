@@ -1,10 +1,10 @@
 {
-  "timestamp_et": "2026-05-01 12:30:48 PM ET",
-  "created_at_et": "2026-05-01T13:30:48.611760-04:00",
+  "timestamp_et": "2026-05-01 12:40:02 PM ET",
+  "created_at_et": "2026-05-01T13:40:02.828306-04:00",
   "ticker": "SPX",
   "mode": "0dte",
   "regime": "POSITIVE",
-  "spot": 7248.93,
+  "spot": 7250.64,
   "call_wall": 7340.0,
   "put_wall": 6975.0,
   "gex_flip": 6975.0,
@@ -21,9 +21,9 @@
     "best_reference_cluster": null,
     "best_call_cluster_avg_roi": 456.116,
     "best_put_cluster_avg_roi": 1169.84,
-    "distance_to_call_wall": 91.06999999999971,
-    "distance_to_put_wall": 273.9300000000003,
-    "distance_to_flip": 273.9300000000003
+    "distance_to_call_wall": 89.35999999999967,
+    "distance_to_put_wall": 275.6400000000003,
+    "distance_to_flip": 275.6400000000003
   },
   "trade_plan": {
     "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
