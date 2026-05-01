@@ -1,19 +1,30 @@
 {
-  "received_at_ct": "2026-04-29 09:33:46 CT",
-  "timestamp": "2026-04-29T14:00:00Z",
-  "symbol": "ES1!",
-  "alert_type": "PD_GLOBEX_CLOSE_CROSS",
-  "price": 7171.75,
+  "received_at_ct": "2026-05-01 13:00:04 CT",
+  "timestamp": "2026-05-01T12:00:00",
+  "symbol": null,
+  "alert_type": "VP_POC_CROSS_UP",
+  "price": 7279.5,
   "timeframe": "60",
-  "source": "ES_LEVELS",
+  "source": null,
   "message": null,
   "raw": {
-    "symbol": "ES1!",
-    "alert_type": "PD_GLOBEX_CLOSE_CROSS",
-    "price": 7171.75,
+    "type": "VP_POC_CROSS_UP",
+    "ticker": "ES1!",
+    "price": 7279.5,
+    "timestamp": "2026-05-01T12:00:00",
     "timeframe": "60",
-    "timestamp": "2026-04-29T14:00:00Z",
-    "source": "ES_LEVELS",
-    "event_group": "LEVELS"
+    "data": {
+      "detail": "price_crossed_above_poc",
+      "poc": 7275.135,
+      "vah": 7295.3,
+      "val": 7269.14,
+      "vwap": 7277.6542,
+      "vp_shape": "D",
+      "vol_delta_pct": 10.28,
+      "price_zone": "inside_va",
+      "sp_zone_low": 7246.25,
+      "sp_zone_high": 7248.43,
+      "naked_pocs": 0
+    }
   }
 }

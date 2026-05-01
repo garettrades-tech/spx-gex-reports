@@ -1,11 +1,11 @@
 {
-  "snapshot_label": "2026-05-01 13:45 ET",
+  "snapshot_label": "2026-05-01 14:00 ET",
   "should_call_openai": true,
   "reasons": [
-    "call_wall changed: 7340.0 -> 7280.0",
-    "charm_pin changed: 7340.0 -> 7280.0",
-    "Spot move below threshold: 2.40 points",
-    "Net GEX change below threshold: 0.8%"
+    "call_wall changed: 7280.0 -> 7340.0",
+    "charm_pin changed: 7280.0 -> 7340.0",
+    "Spot move below threshold: 0.60 points",
+    "Net GEX change below threshold: 4.6%"
   ],
   "last_ai_commentary_snapshot": null
 }
