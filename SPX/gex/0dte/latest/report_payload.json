@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-05-01 10:30 ET",
+  "snapshot_label": "2026-05-01 10:45 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-05-01",
-  "spot": 7265.75,
-  "atm_iv_pct": 11.01,
-  "net_gex_b": 63.42,
-  "gamma_notional_b": 74.88,
+  "spot": 7261.66,
+  "atm_iv_pct": 10.92,
+  "net_gex_b": 61.95,
+  "gamma_notional_b": 74.39,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -32,90 +32,90 @@
   },
   "top_call_flow": [
     {
-      "strike": 7280.0,
-      "volume": 40936,
-      "oi": 19205,
-      "gex_m": 14770
+      "strike": 7300.0,
+      "volume": 48923,
+      "oi": 8165,
+      "gex_m": 2719
     },
     {
-      "strike": 7300.0,
-      "volume": 39991,
-      "oi": 8165,
-      "gex_m": 3037
+      "strike": 7280.0,
+      "volume": 47410,
+      "oi": 19205,
+      "gex_m": 14526
     },
     {
       "strike": 7275.0,
-      "volume": 27280,
+      "volume": 32776,
       "oi": 8073,
-      "gex_m": 6582
-    },
-    {
-      "strike": 7290.0,
-      "volume": 26136,
-      "oi": 13730,
-      "gex_m": 8024
+      "gex_m": 6693
     },
     {
       "strike": 7270.0,
-      "volume": 25523,
+      "volume": 31997,
       "oi": 2621,
-      "gex_m": 2120
+      "gex_m": 2245
     },
     {
-      "strike": 7260.0,
-      "volume": 24056,
-      "oi": 2507,
-      "gex_m": 1807
+      "strike": 7290.0,
+      "volume": 31809,
+      "oi": 13730,
+      "gex_m": 7400
+    },
+    {
+      "strike": 7285.0,
+      "volume": 27996,
+      "oi": 8053,
+      "gex_m": 5283
     }
   ],
   "top_put_flow": [
     {
-      "strike": 7200.0,
-      "volume": 15292,
-      "oi": 4225,
-      "gex_m": 594
-    },
-    {
       "strike": 7250.0,
-      "volume": 14952,
+      "volume": 18693,
       "oi": 404,
-      "gex_m": 239
+      "gex_m": 254
     },
     {
       "strike": 7240.0,
-      "volume": 14759,
+      "volume": 17967,
       "oi": 265,
-      "gex_m": 119
+      "gex_m": 126
+    },
+    {
+      "strike": 7200.0,
+      "volume": 17229,
+      "oi": 4225,
+      "gex_m": 651
     },
     {
       "strike": 7245.0,
-      "volume": 14445,
+      "volume": 16589,
       "oi": 74,
-      "gex_m": 36
+      "gex_m": 41
     },
     {
       "strike": 7230.0,
-      "volume": 13381,
+      "volume": 15490,
       "oi": 177,
-      "gex_m": 59
+      "gex_m": 62
     },
     {
       "strike": 7220.0,
-      "volume": 11383,
+      "volume": 14949,
       "oi": 373,
-      "gex_m": 95
+      "gex_m": 96
     }
   ],
   "distance_from_spot": {
-    "call_wall": 14.2,
-    "put_wall": -290.8,
-    "gex_flip": -290.8,
-    "charm_pin": 14.2,
-    "bull_trigger": 74.2,
-    "bear_trigger": -290.8,
-    "control_low": 9.2,
-    "control_high": 24.2,
-    "control_mid": 16.8
+    "call_wall": 18.3,
+    "put_wall": -286.7,
+    "gex_flip": -286.7,
+    "charm_pin": 18.3,
+    "bull_trigger": 78.3,
+    "bear_trigger": -286.7,
+    "control_low": 13.3,
+    "control_high": 28.3,
+    "control_mid": 20.8
   },
   "control_low": 7275.0,
   "control_high": 7290.0,
@@ -127,13 +127,13 @@
     "width": 15.0,
     "spot_inside": false,
     "status": "below",
-    "distance_to_low": -9.2,
-    "distance_to_high": 24.2
+    "distance_to_low": -13.3,
+    "distance_to_high": 28.3
   },
   "derived_hints": {
     "nearest_control_point": "call_wall",
     "nearest_control_point_value": 7280.0,
-    "nearest_control_point_distance": 14.2,
+    "nearest_control_point_distance": 18.3,
     "is_near_pin": false,
     "is_near_flip": false,
     "is_above_flip": true,
@@ -144,10 +144,10 @@
     "control_zone": "7275\u20137290",
     "control_zone_low": 7275.0,
     "control_zone_high": 7290.0,
-    "distance_to_call_wall": 14.2,
-    "distance_to_put_wall": -290.8,
-    "distance_to_flip": -290.8,
-    "distance_to_pin": 14.2,
+    "distance_to_call_wall": 18.3,
+    "distance_to_put_wall": -286.7,
+    "distance_to_flip": -286.7,
+    "distance_to_pin": 18.3,
     "is_call_wall_dominant": true,
     "is_put_wall_dominant": false,
     "is_pin_likely": true,
