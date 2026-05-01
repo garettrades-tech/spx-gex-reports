@@ -2,9 +2,9 @@
   "report_type": "OI_BY_STRIKE",
   "ticker": "SPX",
   "model": "0dte",
-  "snapshot_label": "2026-05-01 13:15 ET",
+  "snapshot_label": "2026-05-01 13:30 ET",
   "expiration": "2026-05-01",
-  "spot": 7243.61,
+  "spot": 7248.93,
   "near_spot_window": 100.0,
   "top_total_oi": [
     {
@@ -13,7 +13,7 @@
       "put_oi": 47359,
       "total_oi": 47361,
       "net_oi": -47357,
-      "distance_from_spot": -1943.61,
+      "distance_from_spot": -1948.93,
       "call_volume": 1,
       "put_volume": 121,
       "total_volume": 122
@@ -24,7 +24,7 @@
       "put_oi": 45971,
       "total_oi": 45973,
       "net_oi": -45969,
-      "distance_from_spot": -2043.61,
+      "distance_from_spot": -2048.93,
       "call_volume": 1,
       "put_volume": 125,
       "total_volume": 126
@@ -35,10 +35,10 @@
       "put_oi": 7,
       "total_oi": 30722,
       "net_oi": 30708,
-      "distance_from_spot": 96.39,
-      "call_volume": 4890,
+      "distance_from_spot": 91.07,
+      "call_volume": 4929,
       "put_volume": 48,
-      "total_volume": 4938
+      "total_volume": 4977
     },
     {
       "strike": 5750.0,
@@ -46,7 +46,7 @@
       "put_oi": 21551,
       "total_oi": 21551,
       "net_oi": -21551,
-      "distance_from_spot": -1493.61,
+      "distance_from_spot": -1498.93,
       "call_volume": 1,
       "put_volume": 1,
       "total_volume": 2
@@ -57,10 +57,10 @@
       "put_oi": 12,
       "total_oi": 19217,
       "net_oi": 19193,
-      "distance_from_spot": 36.39,
-      "call_volume": 104674,
-      "put_volume": 3286,
-      "total_volume": 107960
+      "distance_from_spot": 31.07,
+      "call_volume": 105648,
+      "put_volume": 3414,
+      "total_volume": 109062
     },
     {
       "strike": 7200.0,
@@ -68,10 +68,10 @@
       "put_oi": 4225,
       "total_oi": 18361,
       "net_oi": 9911,
-      "distance_from_spot": -43.61,
-      "call_volume": 3943,
-      "put_volume": 49663,
-      "total_volume": 53606
+      "distance_from_spot": -48.93,
+      "call_volume": 4105,
+      "put_volume": 50979,
+      "total_volume": 55084
     },
     {
       "strike": 5100.0,
@@ -79,7 +79,7 @@
       "put_oi": 16572,
       "total_oi": 16572,
       "net_oi": -16572,
-      "distance_from_spot": -2143.61,
+      "distance_from_spot": -2148.93,
       "call_volume": 0,
       "put_volume": 31,
       "total_volume": 31
@@ -90,10 +90,10 @@
       "put_oi": 280,
       "total_oi": 14010,
       "net_oi": 13450,
-      "distance_from_spot": 46.39,
-      "call_volume": 65416,
-      "put_volume": 1227,
-      "total_volume": 66643
+      "distance_from_spot": 41.07,
+      "call_volume": 65848,
+      "put_volume": 1339,
+      "total_volume": 67187
     },
     {
       "strike": 7350.0,
@@ -101,10 +101,10 @@
       "put_oi": 35,
       "total_oi": 12885,
       "net_oi": 12815,
-      "distance_from_spot": 106.39,
-      "call_volume": 4112,
+      "distance_from_spot": 101.07,
+      "call_volume": 4147,
       "put_volume": 209,
-      "total_volume": 4321
+      "total_volume": 4356
     },
     {
       "strike": 7150.0,
@@ -112,10 +112,10 @@
       "put_oi": 6225,
       "total_oi": 12528,
       "net_oi": 78,
-      "distance_from_spot": -93.61,
-      "call_volume": 404,
-      "put_volume": 12334,
-      "total_volume": 12738
+      "distance_from_spot": -98.93,
+      "call_volume": 414,
+      "put_volume": 12544,
+      "total_volume": 12958
     }
   ],
   "top_call_oi": [
@@ -125,10 +125,10 @@
       "put_oi": 7,
       "total_oi": 30722,
       "net_oi": 30708,
-      "distance_from_spot": 96.39,
-      "call_volume": 4890,
+      "distance_from_spot": 91.07,
+      "call_volume": 4929,
       "put_volume": 48,
-      "total_volume": 4938
+      "total_volume": 4977
     },
     {
       "strike": 7280.0,
@@ -136,10 +136,10 @@
       "put_oi": 12,
       "total_oi": 19217,
       "net_oi": 19193,
-      "distance_from_spot": 36.39,
-      "call_volume": 104674,
-      "put_volume": 3286,
-      "total_volume": 107960
+      "distance_from_spot": 31.07,
+      "call_volume": 105648,
+      "put_volume": 3414,
+      "total_volume": 109062
     },
     {
       "strike": 7200.0,
@@ -147,10 +147,10 @@
       "put_oi": 4225,
       "total_oi": 18361,
       "net_oi": 9911,
-      "distance_from_spot": -43.61,
-      "call_volume": 3943,
-      "put_volume": 49663,
-      "total_volume": 53606
+      "distance_from_spot": -48.93,
+      "call_volume": 4105,
+      "put_volume": 50979,
+      "total_volume": 55084
     },
     {
       "strike": 7290.0,
@@ -158,10 +158,10 @@
       "put_oi": 280,
       "total_oi": 14010,
       "net_oi": 13450,
-      "distance_from_spot": 46.39,
-      "call_volume": 65416,
-      "put_volume": 1227,
-      "total_volume": 66643
+      "distance_from_spot": 41.07,
+      "call_volume": 65848,
+      "put_volume": 1339,
+      "total_volume": 67187
     },
     {
       "strike": 7350.0,
@@ -169,10 +169,10 @@
       "put_oi": 35,
       "total_oi": 12885,
       "net_oi": 12815,
-      "distance_from_spot": 106.39,
-      "call_volume": 4112,
+      "distance_from_spot": 101.07,
+      "call_volume": 4147,
       "put_volume": 209,
-      "total_volume": 4321
+      "total_volume": 4356
     },
     {
       "strike": 7310.0,
@@ -180,10 +180,10 @@
       "put_oi": 20,
       "total_oi": 9140,
       "net_oi": 9100,
-      "distance_from_spot": 66.39,
-      "call_volume": 17213,
+      "distance_from_spot": 61.07,
+      "call_volume": 17426,
       "put_volume": 426,
-      "total_volume": 17639
+      "total_volume": 17852
     },
     {
       "strike": 7300.0,
@@ -191,10 +191,10 @@
       "put_oi": 140,
       "total_oi": 8305,
       "net_oi": 8025,
-      "distance_from_spot": 56.39,
-      "call_volume": 85658,
-      "put_volume": 2544,
-      "total_volume": 88202
+      "distance_from_spot": 51.07,
+      "call_volume": 86224,
+      "put_volume": 2549,
+      "total_volume": 88773
     },
     {
       "strike": 7275.0,
@@ -202,10 +202,10 @@
       "put_oi": 519,
       "total_oi": 8592,
       "net_oi": 7554,
-      "distance_from_spot": 31.39,
-      "call_volume": 78862,
-      "put_volume": 5526,
-      "total_volume": 84388
+      "distance_from_spot": 26.07,
+      "call_volume": 79843,
+      "put_volume": 5565,
+      "total_volume": 85408
     },
     {
       "strike": 7285.0,
@@ -213,10 +213,10 @@
       "put_oi": 284,
       "total_oi": 8337,
       "net_oi": 7769,
-      "distance_from_spot": 41.39,
-      "call_volume": 62904,
-      "put_volume": 1682,
-      "total_volume": 64586
+      "distance_from_spot": 36.07,
+      "call_volume": 63422,
+      "put_volume": 1690,
+      "total_volume": 65112
     },
     {
       "strike": 7375.0,
@@ -224,10 +224,10 @@
       "put_oi": 1,
       "total_oi": 7383,
       "net_oi": 7381,
-      "distance_from_spot": 131.39,
-      "call_volume": 5035,
+      "distance_from_spot": 126.07,
+      "call_volume": 5052,
       "put_volume": 1,
-      "total_volume": 5036
+      "total_volume": 5053
     }
   ],
   "top_put_oi": [
@@ -237,7 +237,7 @@
       "put_oi": 47359,
       "total_oi": 47361,
       "net_oi": -47357,
-      "distance_from_spot": -1943.61,
+      "distance_from_spot": -1948.93,
       "call_volume": 1,
       "put_volume": 121,
       "total_volume": 122
@@ -248,7 +248,7 @@
       "put_oi": 45971,
       "total_oi": 45973,
       "net_oi": -45969,
-      "distance_from_spot": -2043.61,
+      "distance_from_spot": -2048.93,
       "call_volume": 1,
       "put_volume": 125,
       "total_volume": 126
@@ -259,7 +259,7 @@
       "put_oi": 21551,
       "total_oi": 21551,
       "net_oi": -21551,
-      "distance_from_spot": -1493.61,
+      "distance_from_spot": -1498.93,
       "call_volume": 1,
       "put_volume": 1,
       "total_volume": 2
@@ -270,7 +270,7 @@
       "put_oi": 16572,
       "total_oi": 16572,
       "net_oi": -16572,
-      "distance_from_spot": -2143.61,
+      "distance_from_spot": -2148.93,
       "call_volume": 0,
       "put_volume": 31,
       "total_volume": 31
@@ -281,10 +281,10 @@
       "put_oi": 9879,
       "total_oi": 11149,
       "net_oi": -8609,
-      "distance_from_spot": -268.61,
-      "call_volume": 54,
-      "put_volume": 651,
-      "total_volume": 705
+      "distance_from_spot": -273.93,
+      "call_volume": 55,
+      "put_volume": 671,
+      "total_volume": 726
     },
     {
       "strike": 4600.0,
@@ -292,7 +292,7 @@
       "put_oi": 8735,
       "total_oi": 8741,
       "net_oi": -8729,
-      "distance_from_spot": -2643.61,
+      "distance_from_spot": -2648.93,
       "call_volume": 5,
       "put_volume": 1,
       "total_volume": 6
@@ -303,10 +303,10 @@
       "put_oi": 8524,
       "total_oi": 10307,
       "net_oi": -6741,
-      "distance_from_spot": -343.61,
-      "call_volume": 55,
-      "put_volume": 1138,
-      "total_volume": 1193
+      "distance_from_spot": -348.93,
+      "call_volume": 56,
+      "put_volume": 1139,
+      "total_volume": 1195
     },
     {
       "strike": 6800.0,
@@ -314,7 +314,7 @@
       "put_oi": 8214,
       "total_oi": 9268,
       "net_oi": -7160,
-      "distance_from_spot": -443.61,
+      "distance_from_spot": -448.93,
       "call_volume": 84,
       "put_volume": 447,
       "total_volume": 531
@@ -325,7 +325,7 @@
       "put_oi": 7024,
       "total_oi": 7075,
       "net_oi": -6973,
-      "distance_from_spot": -258.61,
+      "distance_from_spot": -263.93,
       "call_volume": 7,
       "put_volume": 1019,
       "total_volume": 1026
@@ -336,34 +336,23 @@
       "put_oi": 6826,
       "total_oi": 8906,
       "net_oi": -4746,
-      "distance_from_spot": -293.61,
+      "distance_from_spot": -298.93,
       "call_volume": 50,
-      "put_volume": 1174,
-      "total_volume": 1224
+      "put_volume": 1283,
+      "total_volume": 1333
     }
   ],
   "near_spot_rows": [
-    {
-      "strike": 7145.0,
-      "call_oi": 601,
-      "put_oi": 1390,
-      "total_oi": 1991,
-      "net_oi": -789,
-      "distance_from_spot": -98.61,
-      "call_volume": 89,
-      "put_volume": 6734,
-      "total_volume": 6823
-    },
     {
       "strike": 7150.0,
       "call_oi": 6303,
       "put_oi": 6225,
       "total_oi": 12528,
       "net_oi": 78,
-      "distance_from_spot": -93.61,
-      "call_volume": 404,
-      "put_volume": 12334,
-      "total_volume": 12738
+      "distance_from_spot": -98.93,
+      "call_volume": 414,
+      "put_volume": 12544,
+      "total_volume": 12958
     },
     {
       "strike": 7155.0,
@@ -371,10 +360,10 @@
       "put_oi": 1094,
       "total_oi": 1741,
       "net_oi": -447,
-      "distance_from_spot": -88.61,
-      "call_volume": 120,
-      "put_volume": 7909,
-      "total_volume": 8029
+      "distance_from_spot": -93.93,
+      "call_volume": 121,
+      "put_volume": 8144,
+      "total_volume": 8265
     },
     {
       "strike": 7160.0,
@@ -382,10 +371,10 @@
       "put_oi": 2288,
       "total_oi": 3172,
       "net_oi": -1404,
-      "distance_from_spot": -83.61,
-      "call_volume": 343,
-      "put_volume": 12395,
-      "total_volume": 12738
+      "distance_from_spot": -88.93,
+      "call_volume": 344,
+      "put_volume": 12598,
+      "total_volume": 12942
     },
     {
       "strike": 7165.0,
@@ -393,10 +382,10 @@
       "put_oi": 1827,
       "total_oi": 4577,
       "net_oi": 923,
-      "distance_from_spot": -78.61,
-      "call_volume": 248,
-      "put_volume": 9134,
-      "total_volume": 9382
+      "distance_from_spot": -83.93,
+      "call_volume": 255,
+      "put_volume": 9281,
+      "total_volume": 9536
     },
     {
       "strike": 7170.0,
@@ -404,10 +393,10 @@
       "put_oi": 2282,
       "total_oi": 4631,
       "net_oi": 67,
-      "distance_from_spot": -73.61,
-      "call_volume": 399,
-      "put_volume": 11777,
-      "total_volume": 12176
+      "distance_from_spot": -78.93,
+      "call_volume": 500,
+      "put_volume": 12130,
+      "total_volume": 12630
     },
     {
       "strike": 7175.0,
@@ -415,10 +404,10 @@
       "put_oi": 4171,
       "total_oi": 7208,
       "net_oi": -1134,
-      "distance_from_spot": -68.61,
-      "call_volume": 3142,
-      "put_volume": 14463,
-      "total_volume": 17605
+      "distance_from_spot": -73.93,
+      "call_volume": 3157,
+      "put_volume": 14639,
+      "total_volume": 17796
     },
     {
       "strike": 7180.0,
@@ -426,10 +415,10 @@
       "put_oi": 1225,
       "total_oi": 3292,
       "net_oi": 842,
-      "distance_from_spot": -63.61,
-      "call_volume": 4113,
-      "put_volume": 18348,
-      "total_volume": 22461
+      "distance_from_spot": -68.93,
+      "call_volume": 4225,
+      "put_volume": 18654,
+      "total_volume": 22879
     },
     {
       "strike": 7185.0,
@@ -437,10 +426,10 @@
       "put_oi": 1769,
       "total_oi": 2632,
       "net_oi": -906,
-      "distance_from_spot": -58.61,
-      "call_volume": 320,
-      "put_volume": 16841,
-      "total_volume": 17161
+      "distance_from_spot": -63.93,
+      "call_volume": 334,
+      "put_volume": 17097,
+      "total_volume": 17431
     },
     {
       "strike": 7190.0,
@@ -448,10 +437,10 @@
       "put_oi": 841,
       "total_oi": 1974,
       "net_oi": 292,
-      "distance_from_spot": -53.61,
-      "call_volume": 733,
-      "put_volume": 20137,
-      "total_volume": 20870
+      "distance_from_spot": -58.93,
+      "call_volume": 748,
+      "put_volume": 20461,
+      "total_volume": 21209
     },
     {
       "strike": 7195.0,
@@ -459,10 +448,10 @@
       "put_oi": 487,
       "total_oi": 1304,
       "net_oi": 330,
-      "distance_from_spot": -48.61,
+      "distance_from_spot": -53.93,
       "call_volume": 420,
-      "put_volume": 20170,
-      "total_volume": 20590
+      "put_volume": 20614,
+      "total_volume": 21034
     },
     {
       "strike": 7200.0,
@@ -470,10 +459,10 @@
       "put_oi": 4225,
       "total_oi": 18361,
       "net_oi": 9911,
-      "distance_from_spot": -43.61,
-      "call_volume": 3943,
-      "put_volume": 49663,
-      "total_volume": 53606
+      "distance_from_spot": -48.93,
+      "call_volume": 4105,
+      "put_volume": 50979,
+      "total_volume": 55084
     },
     {
       "strike": 7205.0,
@@ -481,10 +470,10 @@
       "put_oi": 708,
       "total_oi": 2074,
       "net_oi": 658,
-      "distance_from_spot": -38.61,
-      "call_volume": 1017,
-      "put_volume": 28252,
-      "total_volume": 29269
+      "distance_from_spot": -43.93,
+      "call_volume": 1049,
+      "put_volume": 28930,
+      "total_volume": 29979
     },
     {
       "strike": 7210.0,
@@ -492,10 +481,10 @@
       "put_oi": 1209,
       "total_oi": 3423,
       "net_oi": 1005,
-      "distance_from_spot": -33.61,
-      "call_volume": 3013,
-      "put_volume": 36450,
-      "total_volume": 39463
+      "distance_from_spot": -38.93,
+      "call_volume": 3054,
+      "put_volume": 37571,
+      "total_volume": 40625
     },
     {
       "strike": 7215.0,
@@ -503,10 +492,10 @@
       "put_oi": 854,
       "total_oi": 2896,
       "net_oi": 1188,
-      "distance_from_spot": -28.61,
-      "call_volume": 2090,
-      "put_volume": 36400,
-      "total_volume": 38490
+      "distance_from_spot": -33.93,
+      "call_volume": 2183,
+      "put_volume": 37806,
+      "total_volume": 39989
     },
     {
       "strike": 7220.0,
@@ -514,10 +503,10 @@
       "put_oi": 373,
       "total_oi": 2637,
       "net_oi": 1891,
-      "distance_from_spot": -23.61,
-      "call_volume": 4480,
-      "put_volume": 54662,
-      "total_volume": 59142
+      "distance_from_spot": -28.93,
+      "call_volume": 4595,
+      "put_volume": 57097,
+      "total_volume": 61692
     },
     {
       "strike": 7225.0,
@@ -525,10 +514,10 @@
       "put_oi": 267,
       "total_oi": 2510,
       "net_oi": 1976,
-      "distance_from_spot": -18.61,
-      "call_volume": 4265,
-      "put_volume": 44281,
-      "total_volume": 48546
+      "distance_from_spot": -23.93,
+      "call_volume": 4439,
+      "put_volume": 46176,
+      "total_volume": 50615
     },
     {
       "strike": 7230.0,
@@ -536,10 +525,10 @@
       "put_oi": 177,
       "total_oi": 3293,
       "net_oi": 2939,
-      "distance_from_spot": -13.61,
-      "call_volume": 8626,
-      "put_volume": 55892,
-      "total_volume": 64518
+      "distance_from_spot": -18.93,
+      "call_volume": 8825,
+      "put_volume": 58185,
+      "total_volume": 67010
     },
     {
       "strike": 7235.0,
@@ -547,10 +536,10 @@
       "put_oi": 132,
       "total_oi": 1676,
       "net_oi": 1412,
-      "distance_from_spot": -8.61,
-      "call_volume": 8036,
-      "put_volume": 50952,
-      "total_volume": 58988
+      "distance_from_spot": -13.93,
+      "call_volume": 8364,
+      "put_volume": 52909,
+      "total_volume": 61273
     },
     {
       "strike": 7240.0,
@@ -558,10 +547,10 @@
       "put_oi": 265,
       "total_oi": 2868,
       "net_oi": 2338,
-      "distance_from_spot": -3.61,
-      "call_volume": 20186,
-      "put_volume": 66149,
-      "total_volume": 86335
+      "distance_from_spot": -8.93,
+      "call_volume": 21304,
+      "put_volume": 69102,
+      "total_volume": 90406
     },
     {
       "strike": 7245.0,
@@ -569,10 +558,10 @@
       "put_oi": 74,
       "total_oi": 4843,
       "net_oi": 4695,
-      "distance_from_spot": 1.39,
-      "call_volume": 31880,
-      "put_volume": 56788,
-      "total_volume": 88668
+      "distance_from_spot": -3.93,
+      "call_volume": 35013,
+      "put_volume": 59709,
+      "total_volume": 94722
     },
     {
       "strike": 7250.0,
@@ -580,10 +569,10 @@
       "put_oi": 404,
       "total_oi": 7217,
       "net_oi": 6409,
-      "distance_from_spot": 6.39,
-      "call_volume": 55005,
-      "put_volume": 67233,
-      "total_volume": 122238
+      "distance_from_spot": 1.07,
+      "call_volume": 58602,
+      "put_volume": 69114,
+      "total_volume": 127716
     },
     {
       "strike": 7255.0,
@@ -591,10 +580,10 @@
       "put_oi": 60,
       "total_oi": 3108,
       "net_oi": 2988,
-      "distance_from_spot": 11.39,
-      "call_volume": 54701,
-      "put_volume": 39341,
-      "total_volume": 94042
+      "distance_from_spot": 6.07,
+      "call_volume": 56976,
+      "put_volume": 39695,
+      "total_volume": 96671
     },
     {
       "strike": 7260.0,
@@ -602,10 +591,10 @@
       "put_oi": 63,
       "total_oi": 2570,
       "net_oi": 2444,
-      "distance_from_spot": 16.39,
-      "call_volume": 80954,
-      "put_volume": 32721,
-      "total_volume": 113675
+      "distance_from_spot": 11.07,
+      "call_volume": 85246,
+      "put_volume": 32887,
+      "total_volume": 118133
     },
     {
       "strike": 7265.0,
@@ -613,10 +602,10 @@
       "put_oi": 19,
       "total_oi": 2036,
       "net_oi": 1998,
-      "distance_from_spot": 21.39,
-      "call_volume": 71912,
-      "put_volume": 23836,
-      "total_volume": 95748
+      "distance_from_spot": 16.07,
+      "call_volume": 73936,
+      "put_volume": 23940,
+      "total_volume": 97876
     },
     {
       "strike": 7270.0,
@@ -624,10 +613,10 @@
       "put_oi": 40,
       "total_oi": 2661,
       "net_oi": 2581,
-      "distance_from_spot": 26.39,
-      "call_volume": 89465,
-      "put_volume": 14983,
-      "total_volume": 104448
+      "distance_from_spot": 21.07,
+      "call_volume": 91105,
+      "put_volume": 15051,
+      "total_volume": 106156
     },
     {
       "strike": 7275.0,
@@ -635,10 +624,10 @@
       "put_oi": 519,
       "total_oi": 8592,
       "net_oi": 7554,
-      "distance_from_spot": 31.39,
-      "call_volume": 78862,
-      "put_volume": 5526,
-      "total_volume": 84388
+      "distance_from_spot": 26.07,
+      "call_volume": 79843,
+      "put_volume": 5565,
+      "total_volume": 85408
     },
     {
       "strike": 7280.0,
@@ -646,10 +635,10 @@
       "put_oi": 12,
       "total_oi": 19217,
       "net_oi": 19193,
-      "distance_from_spot": 36.39,
-      "call_volume": 104674,
-      "put_volume": 3286,
-      "total_volume": 107960
+      "distance_from_spot": 31.07,
+      "call_volume": 105648,
+      "put_volume": 3414,
+      "total_volume": 109062
     },
     {
       "strike": 7285.0,
@@ -657,10 +646,10 @@
       "put_oi": 284,
       "total_oi": 8337,
       "net_oi": 7769,
-      "distance_from_spot": 41.39,
-      "call_volume": 62904,
-      "put_volume": 1682,
-      "total_volume": 64586
+      "distance_from_spot": 36.07,
+      "call_volume": 63422,
+      "put_volume": 1690,
+      "total_volume": 65112
     },
     {
       "strike": 7290.0,
@@ -668,10 +657,10 @@
       "put_oi": 280,
       "total_oi": 14010,
       "net_oi": 13450,
-      "distance_from_spot": 46.39,
-      "call_volume": 65416,
-      "put_volume": 1227,
-      "total_volume": 66643
+      "distance_from_spot": 41.07,
+      "call_volume": 65848,
+      "put_volume": 1339,
+      "total_volume": 67187
     },
     {
       "strike": 7295.0,
@@ -679,10 +668,10 @@
       "put_oi": 12,
       "total_oi": 1481,
       "net_oi": 1457,
-      "distance_from_spot": 51.39,
-      "call_volume": 27762,
-      "put_volume": 838,
-      "total_volume": 28600
+      "distance_from_spot": 46.07,
+      "call_volume": 28067,
+      "put_volume": 840,
+      "total_volume": 28907
     },
     {
       "strike": 7300.0,
@@ -690,10 +679,10 @@
       "put_oi": 140,
       "total_oi": 8305,
       "net_oi": 8025,
-      "distance_from_spot": 56.39,
-      "call_volume": 85658,
-      "put_volume": 2544,
-      "total_volume": 88202
+      "distance_from_spot": 51.07,
+      "call_volume": 86224,
+      "put_volume": 2549,
+      "total_volume": 88773
     },
     {
       "strike": 7305.0,
@@ -701,10 +690,10 @@
       "put_oi": 2,
       "total_oi": 2125,
       "net_oi": 2121,
-      "distance_from_spot": 61.39,
-      "call_volume": 19142,
-      "put_volume": 435,
-      "total_volume": 19577
+      "distance_from_spot": 56.07,
+      "call_volume": 19760,
+      "put_volume": 436,
+      "total_volume": 20196
     },
     {
       "strike": 7310.0,
@@ -712,10 +701,10 @@
       "put_oi": 20,
       "total_oi": 9140,
       "net_oi": 9100,
-      "distance_from_spot": 66.39,
-      "call_volume": 17213,
+      "distance_from_spot": 61.07,
+      "call_volume": 17426,
       "put_volume": 426,
-      "total_volume": 17639
+      "total_volume": 17852
     },
     {
       "strike": 7315.0,
@@ -723,10 +712,10 @@
       "put_oi": 7,
       "total_oi": 1216,
       "net_oi": 1202,
-      "distance_from_spot": 71.39,
-      "call_volume": 9021,
+      "distance_from_spot": 66.07,
+      "call_volume": 9228,
       "put_volume": 36,
-      "total_volume": 9057
+      "total_volume": 9264
     },
     {
       "strike": 7320.0,
@@ -734,10 +723,10 @@
       "put_oi": 9,
       "total_oi": 1995,
       "net_oi": 1977,
-      "distance_from_spot": 76.39,
-      "call_volume": 9630,
-      "put_volume": 52,
-      "total_volume": 9682
+      "distance_from_spot": 71.07,
+      "call_volume": 9713,
+      "put_volume": 53,
+      "total_volume": 9766
     },
     {
       "strike": 7325.0,
@@ -745,10 +734,10 @@
       "put_oi": 16,
       "total_oi": 1999,
       "net_oi": 1967,
-      "distance_from_spot": 81.39,
-      "call_volume": 18725,
-      "put_volume": 145,
-      "total_volume": 18870
+      "distance_from_spot": 76.07,
+      "call_volume": 18788,
+      "put_volume": 147,
+      "total_volume": 18935
     },
     {
       "strike": 7330.0,
@@ -756,10 +745,10 @@
       "put_oi": 7,
       "total_oi": 1813,
       "net_oi": 1799,
-      "distance_from_spot": 86.39,
-      "call_volume": 4540,
+      "distance_from_spot": 81.07,
+      "call_volume": 4578,
       "put_volume": 35,
-      "total_volume": 4575
+      "total_volume": 4613
     },
     {
       "strike": 7335.0,
@@ -767,10 +756,10 @@
       "put_oi": 2,
       "total_oi": 546,
       "net_oi": 542,
-      "distance_from_spot": 91.39,
-      "call_volume": 4347,
-      "put_volume": 29,
-      "total_volume": 4376
+      "distance_from_spot": 86.07,
+      "call_volume": 4867,
+      "put_volume": 30,
+      "total_volume": 4897
     },
     {
       "strike": 7340.0,
@@ -778,10 +767,21 @@
       "put_oi": 7,
       "total_oi": 30722,
       "net_oi": 30708,
-      "distance_from_spot": 96.39,
-      "call_volume": 4890,
+      "distance_from_spot": 91.07,
+      "call_volume": 4929,
       "put_volume": 48,
-      "total_volume": 4938
+      "total_volume": 4977
+    },
+    {
+      "strike": 7345.0,
+      "call_oi": 437,
+      "put_oi": 0,
+      "total_oi": 437,
+      "net_oi": 437,
+      "distance_from_spot": 96.07,
+      "call_volume": 3117,
+      "put_volume": 6,
+      "total_volume": 3123
     }
   ],
   "top_total_near": [
@@ -791,10 +791,10 @@
       "put_oi": 7,
       "total_oi": 30722,
       "net_oi": 30708,
-      "distance_from_spot": 96.39,
-      "call_volume": 4890,
+      "distance_from_spot": 91.07,
+      "call_volume": 4929,
       "put_volume": 48,
-      "total_volume": 4938
+      "total_volume": 4977
     },
     {
       "strike": 7280.0,
@@ -802,10 +802,10 @@
       "put_oi": 12,
       "total_oi": 19217,
       "net_oi": 19193,
-      "distance_from_spot": 36.39,
-      "call_volume": 104674,
-      "put_volume": 3286,
-      "total_volume": 107960
+      "distance_from_spot": 31.07,
+      "call_volume": 105648,
+      "put_volume": 3414,
+      "total_volume": 109062
     },
     {
       "strike": 7200.0,
@@ -813,10 +813,10 @@
       "put_oi": 4225,
       "total_oi": 18361,
       "net_oi": 9911,
-      "distance_from_spot": -43.61,
-      "call_volume": 3943,
-      "put_volume": 49663,
-      "total_volume": 53606
+      "distance_from_spot": -48.93,
+      "call_volume": 4105,
+      "put_volume": 50979,
+      "total_volume": 55084
     },
     {
       "strike": 7290.0,
@@ -824,10 +824,10 @@
       "put_oi": 280,
       "total_oi": 14010,
       "net_oi": 13450,
-      "distance_from_spot": 46.39,
-      "call_volume": 65416,
-      "put_volume": 1227,
-      "total_volume": 66643
+      "distance_from_spot": 41.07,
+      "call_volume": 65848,
+      "put_volume": 1339,
+      "total_volume": 67187
     },
     {
       "strike": 7150.0,
@@ -835,10 +835,10 @@
       "put_oi": 6225,
       "total_oi": 12528,
       "net_oi": 78,
-      "distance_from_spot": -93.61,
-      "call_volume": 404,
-      "put_volume": 12334,
-      "total_volume": 12738
+      "distance_from_spot": -98.93,
+      "call_volume": 414,
+      "put_volume": 12544,
+      "total_volume": 12958
     },
     {
       "strike": 7310.0,
@@ -846,10 +846,10 @@
       "put_oi": 20,
       "total_oi": 9140,
       "net_oi": 9100,
-      "distance_from_spot": 66.39,
-      "call_volume": 17213,
+      "distance_from_spot": 61.07,
+      "call_volume": 17426,
       "put_volume": 426,
-      "total_volume": 17639
+      "total_volume": 17852
     },
     {
       "strike": 7275.0,
@@ -857,10 +857,10 @@
       "put_oi": 519,
       "total_oi": 8592,
       "net_oi": 7554,
-      "distance_from_spot": 31.39,
-      "call_volume": 78862,
-      "put_volume": 5526,
-      "total_volume": 84388
+      "distance_from_spot": 26.07,
+      "call_volume": 79843,
+      "put_volume": 5565,
+      "total_volume": 85408
     },
     {
       "strike": 7285.0,
@@ -868,10 +868,10 @@
       "put_oi": 284,
       "total_oi": 8337,
       "net_oi": 7769,
-      "distance_from_spot": 41.39,
-      "call_volume": 62904,
-      "put_volume": 1682,
-      "total_volume": 64586
+      "distance_from_spot": 36.07,
+      "call_volume": 63422,
+      "put_volume": 1690,
+      "total_volume": 65112
     },
     {
       "strike": 7300.0,
@@ -879,10 +879,10 @@
       "put_oi": 140,
       "total_oi": 8305,
       "net_oi": 8025,
-      "distance_from_spot": 56.39,
-      "call_volume": 85658,
-      "put_volume": 2544,
-      "total_volume": 88202
+      "distance_from_spot": 51.07,
+      "call_volume": 86224,
+      "put_volume": 2549,
+      "total_volume": 88773
     },
     {
       "strike": 7250.0,
@@ -890,10 +890,10 @@
       "put_oi": 404,
       "total_oi": 7217,
       "net_oi": 6409,
-      "distance_from_spot": 6.39,
-      "call_volume": 55005,
-      "put_volume": 67233,
-      "total_volume": 122238
+      "distance_from_spot": 1.07,
+      "call_volume": 58602,
+      "put_volume": 69114,
+      "total_volume": 127716
     }
   ],
   "top_call_near": [
@@ -903,10 +903,10 @@
       "put_oi": 7,
       "total_oi": 30722,
       "net_oi": 30708,
-      "distance_from_spot": 96.39,
-      "call_volume": 4890,
+      "distance_from_spot": 91.07,
+      "call_volume": 4929,
       "put_volume": 48,
-      "total_volume": 4938
+      "total_volume": 4977
     },
     {
       "strike": 7280.0,
@@ -914,10 +914,10 @@
       "put_oi": 12,
       "total_oi": 19217,
       "net_oi": 19193,
-      "distance_from_spot": 36.39,
-      "call_volume": 104674,
-      "put_volume": 3286,
-      "total_volume": 107960
+      "distance_from_spot": 31.07,
+      "call_volume": 105648,
+      "put_volume": 3414,
+      "total_volume": 109062
     },
     {
       "strike": 7200.0,
@@ -925,10 +925,10 @@
       "put_oi": 4225,
       "total_oi": 18361,
       "net_oi": 9911,
-      "distance_from_spot": -43.61,
-      "call_volume": 3943,
-      "put_volume": 49663,
-      "total_volume": 53606
+      "distance_from_spot": -48.93,
+      "call_volume": 4105,
+      "put_volume": 50979,
+      "total_volume": 55084
     },
     {
       "strike": 7290.0,
@@ -936,10 +936,10 @@
       "put_oi": 280,
       "total_oi": 14010,
       "net_oi": 13450,
-      "distance_from_spot": 46.39,
-      "call_volume": 65416,
-      "put_volume": 1227,
-      "total_volume": 66643
+      "distance_from_spot": 41.07,
+      "call_volume": 65848,
+      "put_volume": 1339,
+      "total_volume": 67187
     },
     {
       "strike": 7310.0,
@@ -947,10 +947,10 @@
       "put_oi": 20,
       "total_oi": 9140,
       "net_oi": 9100,
-      "distance_from_spot": 66.39,
-      "call_volume": 17213,
+      "distance_from_spot": 61.07,
+      "call_volume": 17426,
       "put_volume": 426,
-      "total_volume": 17639
+      "total_volume": 17852
     },
     {
       "strike": 7300.0,
@@ -958,10 +958,10 @@
       "put_oi": 140,
       "total_oi": 8305,
       "net_oi": 8025,
-      "distance_from_spot": 56.39,
-      "call_volume": 85658,
-      "put_volume": 2544,
-      "total_volume": 88202
+      "distance_from_spot": 51.07,
+      "call_volume": 86224,
+      "put_volume": 2549,
+      "total_volume": 88773
     },
     {
       "strike": 7275.0,
@@ -969,10 +969,10 @@
       "put_oi": 519,
       "total_oi": 8592,
       "net_oi": 7554,
-      "distance_from_spot": 31.39,
-      "call_volume": 78862,
-      "put_volume": 5526,
-      "total_volume": 84388
+      "distance_from_spot": 26.07,
+      "call_volume": 79843,
+      "put_volume": 5565,
+      "total_volume": 85408
     },
     {
       "strike": 7285.0,
@@ -980,10 +980,10 @@
       "put_oi": 284,
       "total_oi": 8337,
       "net_oi": 7769,
-      "distance_from_spot": 41.39,
-      "call_volume": 62904,
-      "put_volume": 1682,
-      "total_volume": 64586
+      "distance_from_spot": 36.07,
+      "call_volume": 63422,
+      "put_volume": 1690,
+      "total_volume": 65112
     },
     {
       "strike": 7250.0,
@@ -991,10 +991,10 @@
       "put_oi": 404,
       "total_oi": 7217,
       "net_oi": 6409,
-      "distance_from_spot": 6.39,
-      "call_volume": 55005,
-      "put_volume": 67233,
-      "total_volume": 122238
+      "distance_from_spot": 1.07,
+      "call_volume": 58602,
+      "put_volume": 69114,
+      "total_volume": 127716
     },
     {
       "strike": 7150.0,
@@ -1002,10 +1002,10 @@
       "put_oi": 6225,
       "total_oi": 12528,
       "net_oi": 78,
-      "distance_from_spot": -93.61,
-      "call_volume": 404,
-      "put_volume": 12334,
-      "total_volume": 12738
+      "distance_from_spot": -98.93,
+      "call_volume": 414,
+      "put_volume": 12544,
+      "total_volume": 12958
     }
   ],
   "top_put_near": [
@@ -1015,10 +1015,10 @@
       "put_oi": 6225,
       "total_oi": 12528,
       "net_oi": 78,
-      "distance_from_spot": -93.61,
-      "call_volume": 404,
-      "put_volume": 12334,
-      "total_volume": 12738
+      "distance_from_spot": -98.93,
+      "call_volume": 414,
+      "put_volume": 12544,
+      "total_volume": 12958
     },
     {
       "strike": 7200.0,
@@ -1026,10 +1026,10 @@
       "put_oi": 4225,
       "total_oi": 18361,
       "net_oi": 9911,
-      "distance_from_spot": -43.61,
-      "call_volume": 3943,
-      "put_volume": 49663,
-      "total_volume": 53606
+      "distance_from_spot": -48.93,
+      "call_volume": 4105,
+      "put_volume": 50979,
+      "total_volume": 55084
     },
     {
       "strike": 7175.0,
@@ -1037,10 +1037,10 @@
       "put_oi": 4171,
       "total_oi": 7208,
       "net_oi": -1134,
-      "distance_from_spot": -68.61,
-      "call_volume": 3142,
-      "put_volume": 14463,
-      "total_volume": 17605
+      "distance_from_spot": -73.93,
+      "call_volume": 3157,
+      "put_volume": 14639,
+      "total_volume": 17796
     },
     {
       "strike": 7160.0,
@@ -1048,10 +1048,10 @@
       "put_oi": 2288,
       "total_oi": 3172,
       "net_oi": -1404,
-      "distance_from_spot": -83.61,
-      "call_volume": 343,
-      "put_volume": 12395,
-      "total_volume": 12738
+      "distance_from_spot": -88.93,
+      "call_volume": 344,
+      "put_volume": 12598,
+      "total_volume": 12942
     },
     {
       "strike": 7170.0,
@@ -1059,10 +1059,10 @@
       "put_oi": 2282,
       "total_oi": 4631,
       "net_oi": 67,
-      "distance_from_spot": -73.61,
-      "call_volume": 399,
-      "put_volume": 11777,
-      "total_volume": 12176
+      "distance_from_spot": -78.93,
+      "call_volume": 500,
+      "put_volume": 12130,
+      "total_volume": 12630
     },
     {
       "strike": 7165.0,
@@ -1070,10 +1070,10 @@
       "put_oi": 1827,
       "total_oi": 4577,
       "net_oi": 923,
-      "distance_from_spot": -78.61,
-      "call_volume": 248,
-      "put_volume": 9134,
-      "total_volume": 9382
+      "distance_from_spot": -83.93,
+      "call_volume": 255,
+      "put_volume": 9281,
+      "total_volume": 9536
     },
     {
       "strike": 7185.0,
@@ -1081,21 +1081,10 @@
       "put_oi": 1769,
       "total_oi": 2632,
       "net_oi": -906,
-      "distance_from_spot": -58.61,
-      "call_volume": 320,
-      "put_volume": 16841,
-      "total_volume": 17161
-    },
-    {
-      "strike": 7145.0,
-      "call_oi": 601,
-      "put_oi": 1390,
-      "total_oi": 1991,
-      "net_oi": -789,
-      "distance_from_spot": -98.61,
-      "call_volume": 89,
-      "put_volume": 6734,
-      "total_volume": 6823
+      "distance_from_spot": -63.93,
+      "call_volume": 334,
+      "put_volume": 17097,
+      "total_volume": 17431
     },
     {
       "strike": 7180.0,
@@ -1103,10 +1092,10 @@
       "put_oi": 1225,
       "total_oi": 3292,
       "net_oi": 842,
-      "distance_from_spot": -63.61,
-      "call_volume": 4113,
-      "put_volume": 18348,
-      "total_volume": 22461
+      "distance_from_spot": -68.93,
+      "call_volume": 4225,
+      "put_volume": 18654,
+      "total_volume": 22879
     },
     {
       "strike": 7210.0,
@@ -1114,10 +1103,21 @@
       "put_oi": 1209,
       "total_oi": 3423,
       "net_oi": 1005,
-      "distance_from_spot": -33.61,
-      "call_volume": 3013,
-      "put_volume": 36450,
-      "total_volume": 39463
+      "distance_from_spot": -38.93,
+      "call_volume": 3054,
+      "put_volume": 37571,
+      "total_volume": 40625
+    },
+    {
+      "strike": 7155.0,
+      "call_oi": 647,
+      "put_oi": 1094,
+      "total_oi": 1741,
+      "net_oi": -447,
+      "distance_from_spot": -93.93,
+      "call_volume": 121,
+      "put_volume": 8144,
+      "total_volume": 8265
     }
   ],
   "row_count": 348
