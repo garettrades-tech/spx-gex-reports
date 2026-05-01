@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-05-01 11:45 ET",
+  "snapshot_label": "2026-05-01 12:00 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-05-01",
-  "spot": 7257.44,
-  "atm_iv_pct": 10.32,
-  "net_gex_b": 54.0,
-  "gamma_notional_b": 65.82,
+  "spot": 7263.35,
+  "atm_iv_pct": 9.44,
+  "net_gex_b": 63.05,
+  "gamma_notional_b": 73.1,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -33,89 +33,89 @@
   "top_call_flow": [
     {
       "strike": 7280.0,
-      "volume": 77292,
+      "volume": 83255,
       "oi": 19205,
-      "gex_m": 10717
+      "gex_m": 15019
     },
     {
       "strike": 7300.0,
-      "volume": 77204,
+      "volume": 78895,
       "oi": 8165,
-      "gex_m": 1457
+      "gex_m": 2051
     },
     {
       "strike": 7270.0,
-      "volume": 57027,
+      "volume": 62253,
       "oi": 2621,
-      "gex_m": 2186
+      "gex_m": 2670
     },
     {
       "strike": 7275.0,
-      "volume": 52627,
+      "volume": 58699,
       "oi": 8073,
-      "gex_m": 5672
-    },
-    {
-      "strike": 7290.0,
-      "volume": 49681,
-      "oi": 13730,
-      "gex_m": 4360
+      "gex_m": 7482
     },
     {
       "strike": 7260.0,
-      "volume": 48104,
+      "volume": 53836,
       "oi": 2507,
-      "gex_m": 2379
+      "gex_m": 2424
+    },
+    {
+      "strike": 7290.0,
+      "volume": 52234,
+      "oi": 13730,
+      "gex_m": 6335
     }
   ],
   "top_put_flow": [
     {
       "strike": 7250.0,
-      "volume": 40968,
+      "volume": 44639,
       "oi": 404,
-      "gex_m": 346
+      "gex_m": 307
     },
     {
       "strike": 7240.0,
-      "volume": 37936,
+      "volume": 41049,
       "oi": 265,
-      "gex_m": 174
+      "gex_m": 140
     },
     {
       "strike": 7245.0,
-      "volume": 33665,
+      "volume": 35697,
       "oi": 74,
-      "gex_m": 57
+      "gex_m": 47
     },
     {
       "strike": 7200.0,
-      "volume": 32441,
+      "volume": 33999,
       "oi": 4225,
-      "gex_m": 704
+      "gex_m": 503
     },
     {
       "strike": 7220.0,
-      "volume": 31677,
+      "volume": 33590,
       "oi": 373,
-      "gex_m": 123
+      "gex_m": 89
     },
     {
       "strike": 7230.0,
-      "volume": 31207,
+      "volume": 33553,
       "oi": 177,
-      "gex_m": 83
+      "gex_m": 63
     }
   ],
   "distance_from_spot": {
-    "call_wall": 22.6,
-    "put_wall": -282.4,
-    "gex_flip": -282.4,
-    "charm_pin": 22.6,
-    "bull_trigger": 82.6,
-    "bear_trigger": -282.4,
-    "control_low": 17.6,
-    "control_high": 22.6,
-    "control_mid": 20.1
+    "call_wall": 16.6,
+    "put_wall": -288.4,
+    "gex_flip": -288.4,
+    "charm_pin": 16.6,
+    "bull_trigger": 76.6,
+    "bear_trigger": -288.4,
+    "control_low": 11.6,
+    "control_high": 16.6,
+    "control_mid": 14.1
   },
   "control_low": 7275.0,
   "control_high": 7280.0,
@@ -127,13 +127,13 @@
     "width": 5.0,
     "spot_inside": false,
     "status": "below",
-    "distance_to_low": -17.6,
-    "distance_to_high": 22.6
+    "distance_to_low": -11.6,
+    "distance_to_high": 16.6
   },
   "derived_hints": {
     "nearest_control_point": "control_mid",
     "nearest_control_point_value": 7277.5,
-    "nearest_control_point_distance": 20.1,
+    "nearest_control_point_distance": 14.1,
     "is_near_pin": false,
     "is_near_flip": false,
     "is_above_flip": true,
@@ -144,13 +144,13 @@
     "control_zone": "7275\u20137280",
     "control_zone_low": 7275.0,
     "control_zone_high": 7280.0,
-    "distance_to_call_wall": 22.6,
-    "distance_to_put_wall": -282.4,
-    "distance_to_flip": -282.4,
-    "distance_to_pin": 22.6,
-    "is_call_wall_dominant": false,
+    "distance_to_call_wall": 16.6,
+    "distance_to_put_wall": -288.4,
+    "distance_to_flip": -288.4,
+    "distance_to_pin": 16.6,
+    "is_call_wall_dominant": true,
     "is_put_wall_dominant": false,
-    "is_pin_likely": false,
+    "is_pin_likely": true,
     "dominant_flow_zone": "7275\u20137280",
     "dealer_positioning": "long_gamma",
     "late_day_charm_bias": "secondary intraday factor",
