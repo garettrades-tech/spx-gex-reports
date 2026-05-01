@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-28 15:20:24",
-  "evaluated_row_count": 2,
+  "generated_at": "2026-05-01 16:40:20",
+  "evaluated_row_count": 3,
   "readiness": "insufficient_data",
   "thresholds": {
     "soft_adjustments_min_rows": 20,
@@ -9,9 +9,9 @@
   },
   "overall": {
     "win_rate": 0.0,
-    "avg_end_of_day_outcome": -1.305,
-    "avg_mfe_30m": 0.845,
-    "avg_mae_30m": 0.905
+    "avg_end_of_day_outcome": -1.0867,
+    "avg_mfe_30m": 0.9633,
+    "avg_mae_30m": 0.6533
   },
   "adjustments": {
     "signal_type": {
@@ -25,7 +25,7 @@
         "suggested_confidence_adjustment": -0.0,
         "reasoning": [
           "win_rate_edge=0.0",
-          "eod_edge=-0.605"
+          "eod_edge=-0.8233"
         ]
       },
       "CALL": {
@@ -38,7 +38,20 @@
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
           "win_rate_edge=0.0",
-          "eod_edge=0.605"
+          "eod_edge=0.3867"
+        ]
+      },
+      "unknown": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -0.65,
+        "avg_mfe_30m": 1.2,
+        "avg_mae_30m": 0.15,
+        "sample_scale": 0.0,
+        "suggested_confidence_adjustment": 0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=0.4367"
         ]
       }
     },
@@ -50,10 +63,23 @@
         "avg_mfe_30m": 0.845,
         "avg_mae_30m": 0.905,
         "sample_scale": 0.0,
+        "suggested_confidence_adjustment": -0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=-0.2183"
+        ]
+      },
+      "NEUTRAL": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -0.65,
+        "avg_mfe_30m": 1.2,
+        "avg_mae_30m": 0.15,
+        "sample_scale": 0.0,
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
           "win_rate_edge=0.0",
-          "eod_edge=0.0"
+          "eod_edge=0.4367"
         ]
       }
     },
@@ -65,25 +91,38 @@
         "avg_mfe_30m": 0.845,
         "avg_mae_30m": 0.905,
         "sample_scale": 0.0,
+        "suggested_confidence_adjustment": -0.0,
+        "reasoning": [
+          "win_rate_edge=0.0",
+          "eod_edge=-0.2183"
+        ]
+      },
+      "Friday": {
+        "count": 1,
+        "win_rate": 0.0,
+        "avg_end_of_day_outcome": -0.65,
+        "avg_mfe_30m": 1.2,
+        "avg_mae_30m": 0.15,
+        "sample_scale": 0.0,
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
           "win_rate_edge=0.0",
-          "eod_edge=0.0"
+          "eod_edge=0.4367"
         ]
       }
     },
     "selection_mode": {
       "fallback_regime_based": {
-        "count": 1,
+        "count": 2,
         "win_rate": 0.0,
-        "avg_end_of_day_outcome": -1.91,
-        "avg_mfe_30m": 0.99,
-        "avg_mae_30m": 0.86,
+        "avg_end_of_day_outcome": -1.28,
+        "avg_mfe_30m": 1.095,
+        "avg_mae_30m": 0.505,
         "sample_scale": 0.0,
         "suggested_confidence_adjustment": -0.0,
         "reasoning": [
           "win_rate_edge=0.0",
-          "eod_edge=-0.605"
+          "eod_edge=-0.1933"
         ]
       },
       "signal_based": {
@@ -96,17 +135,17 @@
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
           "win_rate_edge=0.0",
-          "eod_edge=0.605"
+          "eod_edge=0.3867"
         ]
       }
     },
     "macro_day": {
       "False": {
-        "count": 2,
+        "count": 3,
         "win_rate": 0.0,
-        "avg_end_of_day_outcome": -1.305,
-        "avg_mfe_30m": 0.845,
-        "avg_mae_30m": 0.905,
+        "avg_end_of_day_outcome": -1.0867,
+        "avg_mfe_30m": 0.9633,
+        "avg_mae_30m": 0.6533,
         "sample_scale": 0.0,
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
@@ -117,11 +156,11 @@
     },
     "expiration_day": {
       "False": {
-        "count": 2,
+        "count": 3,
         "win_rate": 0.0,
-        "avg_end_of_day_outcome": -1.305,
-        "avg_mfe_30m": 0.845,
-        "avg_mae_30m": 0.905,
+        "avg_end_of_day_outcome": -1.0867,
+        "avg_mfe_30m": 0.9633,
+        "avg_mae_30m": 0.6533,
         "sample_scale": 0.0,
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
@@ -132,11 +171,11 @@
     },
     "vix_expiration_day": {
       "False": {
-        "count": 2,
+        "count": 3,
         "win_rate": 0.0,
-        "avg_end_of_day_outcome": -1.305,
-        "avg_mfe_30m": 0.845,
-        "avg_mae_30m": 0.905,
+        "avg_end_of_day_outcome": -1.0867,
+        "avg_mfe_30m": 0.9633,
+        "avg_mae_30m": 0.6533,
         "sample_scale": 0.0,
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
@@ -147,11 +186,11 @@
     },
     "quad_witching_day": {
       "False": {
-        "count": 2,
+        "count": 3,
         "win_rate": 0.0,
-        "avg_end_of_day_outcome": -1.305,
-        "avg_mfe_30m": 0.845,
-        "avg_mae_30m": 0.905,
+        "avg_end_of_day_outcome": -1.0867,
+        "avg_mfe_30m": 0.9633,
+        "avg_mae_30m": 0.6533,
         "sample_scale": 0.0,
         "suggested_confidence_adjustment": 0.0,
         "reasoning": [
@@ -165,5 +204,6 @@
     "This version is advisory only and should not yet fully drive live confidence.",
     "Suggested adjustments are scaled down when sample size is small.",
     "Use evaluated rows only for calibration decisions."
-  ]
+  ],
+  "data_source": "csv"
 }

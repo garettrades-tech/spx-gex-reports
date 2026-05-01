@@ -1,710 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Signal Performance Summary</title>
-    <style>
-        :root {
-            --bg: #020817;
-            --panel: #0f172a;
-            --panel-2: #111827;
-            --border: #243047;
-            --text: #e5e7eb;
-            --muted: #94a3b8;
-            --accent: #60a5fa;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            background: var(--bg);
-            color: var(--text);
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .wrap {
-            max-width: 1600px;
-            margin: 0 auto;
-            padding: 24px;
-        }
-
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 44px;
-            letter-spacing: -1px;
-        }
-
-        .sub {
-            color: var(--muted);
-            margin-bottom: 24px;
-        }
-
-        .card {
-            background: var(--panel);
-            border: 1px solid var(--border);
-            border-radius: 18px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .card-header {
-            margin-bottom: 16px;
-        }
-
-        .metric-grid {
-            display: grid;
-            grid-template-columns: repeat(4, minmax(0, 1fr));
-            gap: 14px;
-        }
-
-        .metric {
-            background: var(--panel-2);
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 14px;
-        }
-
-        .metric-label {
-            color: var(--muted);
-            font-size: 11px;
-            text-transform: uppercase;
-            margin-bottom: 8px;
-        }
-
-        .metric-value {
-            font-size: 26px;
-            font-weight: 700;
-            color: var(--accent);
-        }
-
-        .table-wrap {
-            overflow-x: auto;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 10px 12px;
-            border-bottom: 1px solid var(--border);
-            white-space: nowrap;
-            font-size: 14px;
-        }
-
-        th {
-            color: var(--muted);
-            font-size: 12px;
-            text-transform: uppercase;
-        }
-
-        @media (max-width: 1000px) {
-            .metric-grid {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-        }
-
-        @media (max-width: 700px) {
-            .metric-grid {
-                grid-template-columns: 1fr;
-            }
-
-            h1 {
-                font-size: 34px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPX Signal Performance — 2026-05-01</title>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    background:#0d1117;
+    color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','SF Pro Text',sans-serif;
+    font-size:14px;
+    line-height:1.5;
+  }
+  a { color:#58a6ff; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .header {
+    background:#161b22;
+    border-bottom:1px solid #30363d;
+    padding:14px 28px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    z-index:100;
+  }
+  .content { max-width:1400px; margin:0 auto; padding:24px 28px; }
+  @media (max-width:768px) {
+    .header { flex-direction:column; gap:10px; align-items:flex-start; }
+    .content { padding:16px; }
+  }
+</style>
 </head>
 <body>
-    <div class="wrap">
-        <h1>Signal Performance Summary</h1>
-        <div class="sub">Generated 2026-05-01 16:40:15 | History rows: 295</div>
 
-        <section class="card">
-            <div class="card-header">
-                <h3>Dataset Quality</h3>
-            </div>
-            <div class="metric-grid">
-                
-        <div class="metric">
-            <div class="metric-label">Tracked Rows</div>
-            <div class="metric-value">295</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Evaluated Rows</div>
-            <div class="metric-value">3</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Pending Rows</div>
-            <div class="metric-value">292</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Partial Rows</div>
-            <div class="metric-value">0</div>
-        </div>
-        
-            </div>
-        </section>
+<div class="header">
+  <div style="display:flex;align-items:center;gap:16px">
+    <span style="font-size:16px;font-weight:700;color:#e6edf3;
+                 text-transform:uppercase;letter-spacing:0.04em">
+      📊 SPX Signal Performance
+    </span>
+    <span style="background:#0d1117;border:1px solid #30363d;border-radius:6px;
+                 padding:4px 12px;font-size:13px;font-family:'SF Mono',monospace">
+      3 evaluated signals
+    </span>
+  </div>
+  <div style="display:flex;align-items:center;gap:16px">
+    <span style="color:#8b949e;font-size:12px">As of 2026-05-01 21:40:18 UTC</span>
+    <a href="../../../../signals/0dte/latest/master_dashboard.html" style="font-size:13px">← Dashboard</a>
+  </div>
+</div>
 
-        <section class="card">
-            <div class="card-header">
-                <h3>Overall Evaluated</h3>
-            </div>
-            <div class="metric-grid">
-                
-        <div class="metric">
-            <div class="metric-label">Count</div>
-            <div class="metric-value">3</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg MFE 15m</div>
-            <div class="metric-value">0.58</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg MAE 15m</div>
-            <div class="metric-value">0.50</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg MFE 30m</div>
-            <div class="metric-value">0.96</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg MAE 30m</div>
-            <div class="metric-value">0.65</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg MFE 60m</div>
-            <div class="metric-value">1.42</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg MAE 60m</div>
-            <div class="metric-value">1.12</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Avg EOD</div>
-            <div class="metric-value">-1.09</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">EOD Win Rate %</div>
-            <div class="metric-value">0.00</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Trigger Hits</div>
-            <div class="metric-value">3</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Trigger Misses</div>
-            <div class="metric-value">0</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Invalidated First</div>
-            <div class="metric-value">1</div>
-        </div>
-        
-            </div>
-        </section>
+<div class="content">
 
-        <section class="card">
-            <div class="card-header">
-                <h3>Top Buckets</h3>
-            </div>
-            <div class="metric-grid">
-                
-        <div class="metric">
-            <div class="metric-label">Top Signal Type</div>
-            <div class="metric-value">unknown | -0.65</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Top Bias Label</div>
-            <div class="metric-value">NEUTRAL | -0.65</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Top Weekday</div>
-            <div class="metric-value">Friday | -0.65</div>
-        </div>
-        
-                
-        <div class="metric">
-            <div class="metric-label">Top Selection Mode</div>
-            <div class="metric-value">signal_based | -0.7</div>
-        </div>
-        
-            </div>
-        </section>
+  
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px">
+  <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px 18px;text-align:center;min-width:110px"><div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">Evaluated</div><div style="font-size:22px;font-weight:700;color:#e6edf3;font-family:'SF Mono',monospace">3</div></div>
+  <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px 18px;text-align:center;min-width:110px"><div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">Win Rate</div><div style="font-size:22px;font-weight:700;color:#f85149;font-family:'SF Mono',monospace">0.0%</div></div>
+  <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px 18px;text-align:center;min-width:110px"><div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">Avg EOD</div><div style="font-size:22px;font-weight:700;color:#f85149;font-family:'SF Mono',monospace">$-1.09</div></div>
+  <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px 18px;text-align:center;min-width:110px"><div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">Target Hits</div><div style="font-size:22px;font-weight:700;color:#39d353;font-family:'SF Mono',monospace">3</div></div>
+  <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px 18px;text-align:center;min-width:110px"><div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">Invalidated</div><div style="font-size:22px;font-weight:700;color:#f85149;font-family:'SF Mono',monospace">1</div></div>
+</div>
 
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Signal Type</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>CALL</td>
-                    <td>1</td>
-                    <td>0.50</td>
-                    <td>0.95</td>
-                    <td>0.70</td>
-                    <td>0.95</td>
-                    <td>1.00</td>
-                    <td>1.30</td>
-                    <td>-0.70</td>
-                    <td>0.00%</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                
-                <tr>
-                    <td>VOLATILITY WATCH</td>
-                    <td>1</td>
-                    <td>0.99</td>
-                    <td>0.39</td>
-                    <td>0.99</td>
-                    <td>0.86</td>
-                    <td>0.99</td>
-                    <td>1.91</td>
-                    <td>-1.91</td>
-                    <td>0.00%</td>
-                    <td>1</td>
-                    <td>1</td>
-                </tr>
-                
-                <tr>
-                    <td>unknown</td>
-                    <td>1</td>
-                    <td>0.25</td>
-                    <td>0.15</td>
-                    <td>1.20</td>
-                    <td>0.15</td>
-                    <td>2.27</td>
-                    <td>0.15</td>
-                    <td>-0.65</td>
-                    <td>0.00%</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Bias Label</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>BULLISH</td>
-                    <td>2</td>
-                    <td>0.74</td>
-                    <td>0.67</td>
-                    <td>0.84</td>
-                    <td>0.91</td>
-                    <td>0.99</td>
-                    <td>1.60</td>
-                    <td>-1.30</td>
-                    <td>0.00%</td>
-                    <td>2</td>
-                    <td>1</td>
-                </tr>
-                
-                <tr>
-                    <td>NEUTRAL</td>
-                    <td>1</td>
-                    <td>0.25</td>
-                    <td>0.15</td>
-                    <td>1.20</td>
-                    <td>0.15</td>
-                    <td>2.27</td>
-                    <td>0.15</td>
-                    <td>-0.65</td>
-                    <td>0.00%</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Weekday</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>Monday</td>
-                    <td>2</td>
-                    <td>0.74</td>
-                    <td>0.67</td>
-                    <td>0.84</td>
-                    <td>0.91</td>
-                    <td>0.99</td>
-                    <td>1.60</td>
-                    <td>-1.30</td>
-                    <td>0.00%</td>
-                    <td>2</td>
-                    <td>1</td>
-                </tr>
-                
-                <tr>
-                    <td>Friday</td>
-                    <td>1</td>
-                    <td>0.25</td>
-                    <td>0.15</td>
-                    <td>1.20</td>
-                    <td>0.15</td>
-                    <td>2.27</td>
-                    <td>0.15</td>
-                    <td>-0.65</td>
-                    <td>0.00%</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Selection Mode</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>fallback_regime_based</td>
-                    <td>2</td>
-                    <td>0.62</td>
-                    <td>0.27</td>
-                    <td>1.09</td>
-                    <td>0.51</td>
-                    <td>1.63</td>
-                    <td>1.03</td>
-                    <td>-1.28</td>
-                    <td>0.00%</td>
-                    <td>2</td>
-                    <td>1</td>
-                </tr>
-                
-                <tr>
-                    <td>signal_based</td>
-                    <td>1</td>
-                    <td>0.50</td>
-                    <td>0.95</td>
-                    <td>0.70</td>
-                    <td>0.95</td>
-                    <td>1.00</td>
-                    <td>1.30</td>
-                    <td>-0.70</td>
-                    <td>0.00%</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Macro Day</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>False</td>
-                    <td>3</td>
-                    <td>0.58</td>
-                    <td>0.50</td>
-                    <td>0.96</td>
-                    <td>0.65</td>
-                    <td>1.42</td>
-                    <td>1.12</td>
-                    <td>-1.09</td>
-                    <td>0.00%</td>
-                    <td>3</td>
-                    <td>1</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Expiration Day</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>False</td>
-                    <td>3</td>
-                    <td>0.58</td>
-                    <td>0.50</td>
-                    <td>0.96</td>
-                    <td>0.65</td>
-                    <td>1.42</td>
-                    <td>1.12</td>
-                    <td>-1.09</td>
-                    <td>0.00%</td>
-                    <td>3</td>
-                    <td>1</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By VIX Expiration Day</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>False</td>
-                    <td>3</td>
-                    <td>0.58</td>
-                    <td>0.50</td>
-                    <td>0.96</td>
-                    <td>0.65</td>
-                    <td>1.42</td>
-                    <td>1.12</td>
-                    <td>-1.09</td>
-                    <td>0.00%</td>
-                    <td>3</td>
-                    <td>1</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-        
-        <section class="card">
-            <div class="card-header">
-                <h3>By Quad Witching Day</h3>
-            </div>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Group</th>
-                            <th>Count</th>
-                            <th>Avg MFE 15m</th>
-                            <th>Avg MAE 15m</th>
-                            <th>Avg MFE 30m</th>
-                            <th>Avg MAE 30m</th>
-                            <th>Avg MFE 60m</th>
-                            <th>Avg MAE 60m</th>
-                            <th>Avg EOD</th>
-                            <th>Win Rate</th>
-                            <th>Trigger Hits</th>
-                            <th>Invalidated First</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                <tr>
-                    <td>False</td>
-                    <td>3</td>
-                    <td>0.58</td>
-                    <td>0.50</td>
-                    <td>0.96</td>
-                    <td>0.65</td>
-                    <td>1.42</td>
-                    <td>1.12</td>
-                    <td>-1.09</td>
-                    <td>0.00%</td>
-                    <td>3</td>
-                    <td>1</td>
-                </tr>
-                
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        
-    </div>
+  
+<div style="background:#161b22;border:1px solid #30363d;border-radius:8px;
+            padding:20px;margin-bottom:24px">
+  <div style="margin-bottom:14px">
+    <span style="font-size:15px;font-weight:600;color:#e6edf3;
+                 text-transform:uppercase;letter-spacing:0.06em">Weekly Win Rate</span>
+    <span style="color:#8b949e;font-size:12px;margin-left:10px">EOD outcome > 0 = win · green bars > 50% · red bars ≤ 50%</span>
+  </div>
+  
+<div id="weekly-chart" style="width:100%;height:320px"></div>
+<script>
+(function() {
+  var fig = {"data":[{"cliponaxis":false,"customdata":[1,2],"hovertemplate":"\u003cb\u003eWeek %{x}\u003c\u002fb\u003e\u003cbr\u003eWin Rate: %{y:.1f}%\u003cbr\u003eSignals: %{customdata}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#f85149","#f85149"],"line":{"width":0}},"text":["0%\u003cbr\u003e\u003cspan style='font-size:10px'\u003en=1\u003c\u002fspan\u003e","0%\u003cbr\u003e\u003cspan style='font-size:10px'\u003en=2\u003c\u002fspan\u003e"],"textfont":{"color":"#8b949e","size":11},"textposition":"outside","x":["2026-W17","2026-W18"],"y":[0.0,0.0],"type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"shapes":[{"line":{"color":"#e3b341","dash":"dash","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":50,"y1":50,"yref":"y"}],"annotations":[{"font":{"color":"#e3b341","size":10},"showarrow":false,"text":"  50%","x":1,"xanchor":"right","xref":"x domain","y":50,"yanchor":"bottom","yref":"y"}],"font":{"color":"#e6edf3","family":"'SF Mono','Consolas',monospace"},"margin":{"l":50,"r":30,"t":30,"b":60},"yaxis":{"title":{"text":"Win Rate %"},"range":[0,10.0],"gridcolor":"#30363d","ticksuffix":"%"},"xaxis":{"title":{"text":"ISO Week"},"gridcolor":"#30363d","tickangle":-30},"paper_bgcolor":"#161b22","plot_bgcolor":"#161b22","height":320}};
+  Plotly.newPlot('weekly-chart', fig.data, fig.layout, {responsive:true, displayModeBar:false});
+})();
+</script>
+</div>
+
+  
+<div style="background:#161b22;border:1px solid #30363d;border-radius:8px;
+            padding:20px;margin-bottom:24px">
+  <div style="margin-bottom:14px">
+    <span style="font-size:15px;font-weight:600;color:#e6edf3;
+                 text-transform:uppercase;letter-spacing:0.06em">Confidence × EOD Outcome</span>
+    <span style="color:#8b949e;font-size:12px;margin-left:10px">Each dot = one evaluated signal · dotted line = linear trend per signal type</span>
+  </div>
+  
+<div id="scatter-chart" style="width:100%;height:380px"></div>
+<script>
+(function() {
+  var fig = {"data":[{"hovertemplate":"\u003cb\u003eVOLATILITY WATCH\u003c\u002fb\u003e\u003cbr\u003eConfidence: %{x:.1f}%\u003cbr\u003eEOD Outcome: $%{y:.2f}\u003cbr\u003eDate: %{text}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#e3b341","line":{"color":"#161b22","width":1},"opacity":0.75,"size":9},"mode":"markers","name":"VOLATILITY WATCH","text":["2026-04-20"],"x":[70.0],"y":[-1.91],"type":"scatter"},{"hovertemplate":"\u003cb\u003eCALL\u003c\u002fb\u003e\u003cbr\u003eConfidence: %{x:.1f}%\u003cbr\u003eEOD Outcome: $%{y:.2f}\u003cbr\u003eDate: %{text}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#39d353","line":{"color":"#161b22","width":1},"opacity":0.75,"size":9},"mode":"markers","name":"CALL","text":["2026-04-27"],"x":[82.0],"y":[-0.7],"type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"shapes":[{"line":{"color":"#30363d","dash":"dash","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":0,"y1":0,"yref":"y"}],"annotations":[{"font":{"color":"#8b949e","size":10},"showarrow":false,"text":"  Break-even","x":1,"xanchor":"right","xref":"x domain","y":0,"yanchor":"bottom","yref":"y"}],"font":{"color":"#e6edf3","family":"'SF Mono','Consolas',monospace"},"margin":{"l":60,"r":30,"t":30,"b":60},"legend":{"bgcolor":"#0d1117","bordercolor":"#30363d"},"xaxis":{"title":{"text":"Signal Confidence %"},"gridcolor":"#30363d","ticksuffix":"%"},"yaxis":{"title":{"text":"EOD Outcome ($)"},"gridcolor":"#30363d","zeroline":true,"zerolinecolor":"#30363d"},"paper_bgcolor":"#161b22","plot_bgcolor":"#161b22","height":380}};
+  Plotly.newPlot('scatter-chart', fig.data, fig.layout, {responsive:true, displayModeBar:false});
+})();
+</script>
+</div>
+
+  
+<div style="background:#161b22;border:1px solid #30363d;border-radius:8px;
+            padding:20px;margin-bottom:24px">
+  <div style="margin-bottom:14px">
+    <span style="font-size:15px;font-weight:600;color:#e6edf3;
+                 text-transform:uppercase;letter-spacing:0.06em">Calibration: Confidence Bucket → Actual Win Rate</span>
+    <span style="color:#8b949e;font-size:12px;margin-left:10px">Blue dotted = perfect calibration diagonal · green bar = well-calibrated · red = over-confident</span>
+  </div>
+  
+<div id="calibration-chart" style="width:100%;height:340px"></div>
+<script>
+(function() {
+  var fig = {"data":[{"cliponaxis":false,"customdata":[0,0,1,1,0],"hovertemplate":"\u003cb\u003e%{x}\u003c\u002fb\u003e\u003cbr\u003eActual Win Rate: %{y:.1f}%\u003cbr\u003eSignals: %{customdata}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#8b949e","#8b949e","#f85149","#f85149","#8b949e"],"line":{"width":0}},"name":"Actual Win Rate","text":["n=0","n=0","0%\u003cbr\u003e\u003cspan style='font-size:10px'\u003en=1\u003c\u002fspan\u003e","0%\u003cbr\u003e\u003cspan style='font-size:10px'\u003en=1\u003c\u002fspan\u003e","n=0"],"textfont":{"color":"#8b949e","size":11},"textposition":"outside","x":["\u003c55%","55\u201365%","65\u201375%","75\u201385%","85%+"],"y":[0,0,0.0,0.0,0],"type":"bar"},{"hovertemplate":"Expected: %{y:.1f}%\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#58a6ff","dash":"dot","width":1},"marker":{"color":"#58a6ff","size":5},"mode":"lines+markers","name":"Expected (perfect calibration)","x":["\u003c55%","55\u201365%","65\u201375%","75\u201385%","85%+"],"y":[27.5,60.0,70.0,80.0,92.5],"type":"scatter"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"shapes":[{"line":{"color":"#e3b341","dash":"dash","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":50,"y1":50,"yref":"y"}],"annotations":[{"font":{"color":"#e3b341","size":10},"showarrow":false,"text":"  50%","x":1,"xanchor":"right","xref":"x domain","y":50,"yanchor":"bottom","yref":"y"}],"font":{"color":"#e6edf3","family":"'SF Mono','Consolas',monospace"},"margin":{"l":50,"r":30,"t":30,"b":60},"legend":{"bgcolor":"#0d1117","bordercolor":"#30363d"},"yaxis":{"title":{"text":"Win Rate %"},"range":[0,105],"gridcolor":"#30363d","ticksuffix":"%"},"xaxis":{"title":{"text":"Confidence Bucket"},"gridcolor":"#30363d"},"paper_bgcolor":"#161b22","plot_bgcolor":"#161b22","height":340}};
+  Plotly.newPlot('calibration-chart', fig.data, fig.layout, {responsive:true, displayModeBar:false});
+})();
+</script>
+</div>
+
+  
+<div style="background:#161b22;border:1px solid #30363d;border-radius:8px;
+            padding:20px;margin-bottom:24px">
+  <div style="margin-bottom:14px">
+    <span style="font-size:15px;font-weight:600;color:#e6edf3;
+                 text-transform:uppercase;letter-spacing:0.06em">Avg MFE / MAE by Time Window</span>
+    <span style="color:#8b949e;font-size:12px;margin-left:10px">MFE (max favourable excursion) positive · MAE (max adverse excursion) shown negative</span>
+  </div>
+  
+<div id="mfemae-chart" style="width:100%;height:300px"></div>
+<script>
+(function() {
+  var fig = {"data":[{"hovertemplate":"\u003cb\u003eVOLATILITY WATCH Avg MFE\u003c\u002fb\u003e\u003cbr\u003eWindow: %{x}\u003cbr\u003e$%{y:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#e3b341"},"name":"VOLATILITY WATCH MFE","opacity":0.85,"x":["15m","30m","60m"],"y":[0.99,0.99,0.99],"type":"bar"},{"hovertemplate":"\u003cb\u003eVOLATILITY WATCH Avg MAE\u003c\u002fb\u003e\u003cbr\u003eWindow: %{x}\u003cbr\u003e$%{y:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#e3b341"},"name":"VOLATILITY WATCH MAE","opacity":0.35,"x":["15m","30m","60m"],"y":[-0.39,-0.86,-1.91],"type":"bar"},{"hovertemplate":"\u003cb\u003eCALL Avg MFE\u003c\u002fb\u003e\u003cbr\u003eWindow: %{x}\u003cbr\u003e$%{y:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#39d353"},"name":"CALL MFE","opacity":0.85,"x":["15m","30m","60m"],"y":[0.5,0.7,1.0],"type":"bar"},{"hovertemplate":"\u003cb\u003eCALL Avg MAE\u003c\u002fb\u003e\u003cbr\u003eWindow: %{x}\u003cbr\u003e$%{y:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#39d353"},"name":"CALL MAE","opacity":0.35,"x":["15m","30m","60m"],"y":[-0.95,-0.95,-1.3],"type":"bar"},{"hovertemplate":"\u003cb\u003eUNKNOWN Avg MFE\u003c\u002fb\u003e\u003cbr\u003eWindow: %{x}\u003cbr\u003e$%{y:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#8b949e"},"name":"UNKNOWN MFE","opacity":0.85,"x":["15m","30m","60m"],"y":[0,0,0],"type":"bar"},{"hovertemplate":"\u003cb\u003eUNKNOWN Avg MAE\u003c\u002fb\u003e\u003cbr\u003eWindow: %{x}\u003cbr\u003e$%{y:.2f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#8b949e"},"name":"UNKNOWN MAE","opacity":0.35,"x":["15m","30m","60m"],"y":[0,0,0],"type":"bar"}],"layout":{"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"shapes":[{"line":{"color":"#30363d","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":0,"y1":0,"yref":"y"}],"font":{"color":"#e6edf3","family":"'SF Mono','Consolas',monospace"},"margin":{"l":60,"r":30,"t":30,"b":60},"legend":{"bgcolor":"#0d1117","bordercolor":"#30363d"},"xaxis":{"title":{"text":"Time Window"},"gridcolor":"#30363d"},"yaxis":{"title":{"text":"Avg $ (MFE positive, MAE negative)"},"gridcolor":"#30363d"},"paper_bgcolor":"#161b22","plot_bgcolor":"#161b22","height":300,"barmode":"group"}};
+  Plotly.newPlot('mfemae-chart', fig.data, fig.layout, {responsive:true, displayModeBar:false});
+})();
+</script>
+</div>
+
+  <div style="text-align:center;padding:20px 0;color:#8b949e;font-size:12px;
+              border-top:1px solid #30363d;margin-top:12px">
+    RazorTrades SPX Desk &nbsp;|&nbsp; 2026-05-01 &nbsp;|&nbsp;
+    <a href="../../../../signals/0dte/latest/master_dashboard.html">← Master Dashboard</a>
+  </div>
+
+</div>
 </body>
 </html>
