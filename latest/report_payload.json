@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
   "report_type": "SPX_0DTE_GEX",
-  "snapshot_label": "2026-05-01 10:15 ET",
+  "snapshot_label": "2026-05-01 10:30 ET",
   "ticker": "SPX",
   "model": "0dte",
   "expiration": "2026-05-01",
-  "spot": 7266.68,
-  "atm_iv_pct": 11.76,
-  "net_gex_b": 59.75,
-  "gamma_notional_b": 71.87,
+  "spot": 7265.75,
+  "atm_iv_pct": 11.01,
+  "net_gex_b": 63.42,
+  "gamma_notional_b": 74.88,
   "regime": "POSITIVE",
   "bias_line": "Mean-reversion / sell wings",
   "levels": {
@@ -33,89 +33,89 @@
   "top_call_flow": [
     {
       "strike": 7280.0,
-      "volume": 21831,
+      "volume": 40936,
       "oi": 19205,
-      "gex_m": 12822
-    },
-    {
-      "strike": 7260.0,
-      "volume": 18398,
-      "oi": 2507,
-      "gex_m": 4686
-    },
-    {
-      "strike": 7275.0,
-      "volume": 17864,
-      "oi": 8073,
-      "gex_m": 5927
-    },
-    {
-      "strike": 7250.0,
-      "volume": 16535,
-      "oi": 6813,
-      "gex_m": 5723
-    },
-    {
-      "strike": 7270.0,
-      "volume": 15531,
-      "oi": 2621,
-      "gex_m": 3514
+      "gex_m": 14770
     },
     {
       "strike": 7300.0,
-      "volume": 13849,
+      "volume": 39991,
       "oi": 8165,
-      "gex_m": 2555
+      "gex_m": 3037
+    },
+    {
+      "strike": 7275.0,
+      "volume": 27280,
+      "oi": 8073,
+      "gex_m": 6582
+    },
+    {
+      "strike": 7290.0,
+      "volume": 26136,
+      "oi": 13730,
+      "gex_m": 8024
+    },
+    {
+      "strike": 7270.0,
+      "volume": 25523,
+      "oi": 2621,
+      "gex_m": 2120
+    },
+    {
+      "strike": 7260.0,
+      "volume": 24056,
+      "oi": 2507,
+      "gex_m": 1807
     }
   ],
   "top_put_flow": [
     {
       "strike": 7200.0,
-      "volume": 12036,
+      "volume": 15292,
       "oi": 4225,
-      "gex_m": 702
-    },
-    {
-      "strike": 7240.0,
-      "volume": 10860,
-      "oi": 265,
-      "gex_m": 130
-    },
-    {
-      "strike": 7245.0,
-      "volume": 10169,
-      "oi": 74,
-      "gex_m": 31
+      "gex_m": 594
     },
     {
       "strike": 7250.0,
-      "volume": 8782,
+      "volume": 14952,
       "oi": 404,
-      "gex_m": 240
+      "gex_m": 239
+    },
+    {
+      "strike": 7240.0,
+      "volume": 14759,
+      "oi": 265,
+      "gex_m": 119
+    },
+    {
+      "strike": 7245.0,
+      "volume": 14445,
+      "oi": 74,
+      "gex_m": 36
     },
     {
       "strike": 7230.0,
-      "volume": 8485,
+      "volume": 13381,
       "oi": 177,
-      "gex_m": 61
+      "gex_m": 59
     },
     {
       "strike": 7220.0,
-      "volume": 7696,
+      "volume": 11383,
       "oi": 373,
-      "gex_m": 107
+      "gex_m": 95
     }
   ],
   "distance_from_spot": {
-    "call_wall": 13.3,
-    "put_wall": -291.7,
-    "gex_flip": -291.7,
-    "charm_pin": 13.3,
-    "bull_trigger": 73.3,
-    "bear_trigger": -291.7,
-    "control_low": 8.3,
-    "control_high": 23.3,
-    "control_mid": 15.8
+    "call_wall": 14.2,
+    "put_wall": -290.8,
+    "gex_flip": -290.8,
+    "charm_pin": 14.2,
+    "bull_trigger": 74.2,
+    "bear_trigger": -290.8,
+    "control_low": 9.2,
+    "control_high": 24.2,
+    "control_mid": 16.8
   },
   "control_low": 7275.0,
   "control_high": 7290.0,
@@ -127,13 +127,13 @@
     "width": 15.0,
     "spot_inside": false,
     "status": "below",
-    "distance_to_low": -8.3,
-    "distance_to_high": 23.3
+    "distance_to_low": -9.2,
+    "distance_to_high": 24.2
   },
   "derived_hints": {
     "nearest_control_point": "call_wall",
     "nearest_control_point_value": 7280.0,
-    "nearest_control_point_distance": 13.3,
+    "nearest_control_point_distance": 14.2,
     "is_near_pin": false,
     "is_near_flip": false,
     "is_above_flip": true,
@@ -144,10 +144,10 @@
     "control_zone": "7275\u20137290",
     "control_zone_low": 7275.0,
     "control_zone_high": 7290.0,
-    "distance_to_call_wall": 13.3,
-    "distance_to_put_wall": -291.7,
-    "distance_to_flip": -291.7,
-    "distance_to_pin": 13.3,
+    "distance_to_call_wall": 14.2,
+    "distance_to_put_wall": -290.8,
+    "distance_to_flip": -290.8,
+    "distance_to_pin": 14.2,
     "is_call_wall_dominant": true,
     "is_put_wall_dominant": false,
     "is_pin_likely": true,
