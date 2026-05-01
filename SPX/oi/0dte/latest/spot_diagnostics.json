@@ -1,42 +1,63 @@
 {
-  "atm_strike": 7250.0,
-  "atm_iv_pct": 12.23,
-  "spot": 7250.86,
+  "atm_strike": 7255.0,
+  "atm_iv_pct": 11.13,
+  "spot": 7253.89,
   "parity_estimates": [
     {
-      "strike": 7240.0,
-      "call_last": 18.3,
-      "put_last": 7.1,
-      "call_delta": 0.6464260525546297,
-      "estimate": 7251.2
-    },
-    {
       "strike": 7245.0,
-      "call_last": 14.5,
-      "put_last": 8.7,
-      "call_delta": 0.5853077127083944,
-      "estimate": 7250.8
+      "call_last": 15.6,
+      "put_last": 6.8,
+      "call_delta": 0.6453837619932721,
+      "estimate": 7253.8
     },
     {
       "strike": 7250.0,
-      "call_last": 11.3,
-      "put_last": 10.6,
-      "call_delta": 0.5164665328455584,
-      "estimate": 7250.7
+      "call_last": 12.4,
+      "put_last": 8.4,
+      "call_delta": 0.5740125440511058,
+      "estimate": 7254.0
     },
     {
       "strike": 7255.0,
-      "call_last": 8.65,
-      "put_last": 12.7,
-      "call_delta": 0.44328022553987545,
-      "estimate": 7250.95
+      "call_last": 9.6,
+      "put_last": 10.4,
+      "call_delta": 0.49650493706400683,
+      "estimate": 7254.2
     },
     {
       "strike": 7260.0,
-      "call_last": 6.4,
-      "put_last": 15.73,
-      "call_delta": 0.36755785265261515,
-      "estimate": 7250.67
+      "call_last": 7.1,
+      "put_last": 13.47,
+      "call_delta": 0.4137929598634643,
+      "estimate": 7253.63
+    },
+    {
+      "strike": 7265.0,
+      "call_last": 5.1,
+      "put_last": 16.3,
+      "call_delta": 0.3333708272855987,
+      "estimate": 7253.8
     }
-  ]
+  ],
+  "primary_spot_source": "massive_index_1m_aggregate",
+  "primary_spot": 7251.89,
+  "primary_spot_timestamp_et": "2026-05-01 11:16:00 ET",
+  "parity_fallback_spot": 7253.89,
+  "index_spot_raw": {
+    "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-28/2026-05-01",
+    "params": {
+      "adjusted": "true",
+      "sort": "desc",
+      "limit": 1
+    },
+    "result": {
+      "o": 7254.02,
+      "c": 7251.89,
+      "h": 7254.81,
+      "l": 7251.89,
+      "t": 1777648560000
+    },
+    "status": "DELAYED",
+    "resultsCount": null
+  }
 }
