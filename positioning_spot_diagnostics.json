@@ -1,14 +1,14 @@
 {
   "atm_strike": 7550.0,
-  "atm_iv_pct": 16.0,
-  "spot": 7457.17,
+  "atm_iv_pct": 15.99,
+  "spot": 7458.57,
   "parity_estimates": [
     {
       "strike": 7550.0,
       "call_last": 411.17,
-      "put_last": 504.0,
-      "call_delta": 0.5020689993520788,
-      "estimate": 7457.17
+      "put_last": 502.6,
+      "call_delta": 0.5030151696672299,
+      "estimate": 7458.57
     }
   ]
 }
