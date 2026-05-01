@@ -1,48 +1,48 @@
 {
-  "atm_strike": 7245.0,
-  "atm_iv_pct": 12.71,
-  "spot": 7245.58,
+  "atm_strike": 7265.0,
+  "atm_iv_pct": 11.43,
+  "spot": 7264.72,
   "parity_estimates": [
     {
-      "strike": 7235.0,
-      "call_last": 18.8,
-      "put_last": 8.6,
-      "call_delta": 0.6292809542358148,
-      "estimate": 7245.2
-    },
-    {
-      "strike": 7240.0,
-      "call_last": 15.5,
-      "put_last": 10.3,
-      "call_delta": 0.5625646874587572,
-      "estimate": 7245.2
-    },
-    {
-      "strike": 7245.0,
-      "call_last": 12.3,
-      "put_last": 12.4,
-      "call_delta": 0.5058062906318018,
-      "estimate": 7244.9
-    },
-    {
-      "strike": 7250.0,
-      "call_last": 9.8,
-      "put_last": 14.8,
-      "call_delta": 0.44168161040170684,
-      "estimate": 7245.0
-    },
-    {
       "strike": 7255.0,
-      "call_last": 7.7,
-      "put_last": 15.1,
-      "call_delta": 0.3717257411176596,
-      "estimate": 7247.6
+      "call_last": 17.3,
+      "put_last": 7.43,
+      "call_delta": 0.650904554023758,
+      "estimate": 7264.87
+    },
+    {
+      "strike": 7260.0,
+      "call_last": 14.3,
+      "put_last": 9.3,
+      "call_delta": 0.6535126797032115,
+      "estimate": 7265.0
+    },
+    {
+      "strike": 7265.0,
+      "call_last": 11.3,
+      "put_last": 11.06,
+      "call_delta": 0.519777487371973,
+      "estimate": 7265.24
+    },
+    {
+      "strike": 7270.0,
+      "call_last": 8.46,
+      "put_last": 14.06,
+      "call_delta": 0.40561674719847823,
+      "estimate": 7264.4
+    },
+    {
+      "strike": 7275.0,
+      "call_last": 6.41,
+      "put_last": 17.3,
+      "call_delta": 0.37275776462929316,
+      "estimate": 7264.11
     }
   ],
   "primary_spot_source": "massive_index_1m_aggregate",
-  "primary_spot": 7243.63,
-  "primary_spot_timestamp_et": "2026-05-01 09:46:00 ET",
-  "parity_fallback_spot": 7245.58,
+  "primary_spot": 7266.68,
+  "primary_spot_timestamp_et": "2026-05-01 10:00:00 ET",
+  "parity_fallback_spot": 7264.72,
   "index_spot_raw": {
     "url": "https://api.massive.com/v2/aggs/ticker/I:SPX/range/1/minute/2026-04-28/2026-05-01",
     "params": {
@@ -51,11 +51,11 @@
       "limit": 1
     },
     "result": {
-      "o": 7246.35,
-      "c": 7243.63,
-      "h": 7246.37,
-      "l": 7242.85,
-      "t": 1777643160000
+      "o": 7265.76,
+      "c": 7266.68,
+      "h": 7267.27,
+      "l": 7263.92,
+      "t": 1777644000000
     },
     "status": "DELAYED",
     "resultsCount": null
