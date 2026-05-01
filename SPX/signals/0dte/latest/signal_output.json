@@ -1,11 +1,11 @@
 {
-  "timestamp_et": "2026-05-01 12:45:43 PM ET",
-  "created_at_et": "2026-05-01T13:45:43.363410-04:00",
+  "timestamp_et": "2026-05-01 01:00:57 PM ET",
+  "created_at_et": "2026-05-01T14:00:57.962159-04:00",
   "ticker": "SPX",
   "mode": "0dte",
   "regime": "POSITIVE",
-  "spot": 7253.04,
-  "call_wall": 7280.0,
+  "spot": 7252.44,
+  "call_wall": 7340.0,
   "put_wall": 6975.0,
   "gex_flip": 6975.0,
   "signal_count": 0,
@@ -14,23 +14,23 @@
     "stance": "BULLISH WATCH",
     "bias": "Bullish-to-contained",
     "summary": "Positive regime favors contained bullish behavior, especially if price holds near supportive structure.",
-    "trigger_long": "Constructive above 7,260.00",
+    "trigger_long": "Constructive above 7,320.00",
     "trigger_short": "Risk rises if price drives toward 6,975.00",
     "avoid": "Avoid chasing extended upside far away from the call wall or after momentum is already spent.",
     "best_time_bucket": "power_hour",
     "best_reference_cluster": null,
     "best_call_cluster_avg_roi": 456.116,
     "best_put_cluster_avg_roi": 1169.84,
-    "distance_to_call_wall": 26.960000000000036,
-    "distance_to_put_wall": 278.03999999999996,
-    "distance_to_flip": 278.03999999999996
+    "distance_to_call_wall": 87.5600000000004,
+    "distance_to_put_wall": 277.4399999999996,
+    "distance_to_flip": 277.4399999999996
   },
   "trade_plan": {
     "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
     "secondary_setup": "Secondary setup: if no clean bullish confirmation appears, treat the market as contained and wait for a better level test.",
     "avoid_condition": "Avoid aggressive puts in a positive regime unless price materially deteriorates toward the flip or lower structure.",
     "trigger_levels": {
-      "bullish_trigger": 7280.0,
+      "bullish_trigger": 7340.0,
       "bearish_trigger": 6975.0,
       "volatility_trigger": null
     }
