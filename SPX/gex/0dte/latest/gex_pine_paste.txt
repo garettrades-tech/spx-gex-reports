@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════
 //  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
 //  Generated: 
-//  SPX Spot: ~7261.66  |  Regime: POSITIVE
+//  SPX Spot: ~7253.89  |  Regime: POSITIVE
 //  Expiry: 
 //  Strategy bias: 
 // ═══════════════════════════════════════════════════
@@ -15,9 +15,9 @@ NEG_TRANS    = 6975.0
 CHARM_PIN    = 7280.0
 BULL_TRIGGER = 7340.0
 BEAR_TRIGGER = 6975.0
-SPOT_REF     = 7261.66
+SPOT_REF     = 7253.89
 CONTROL_LOW  = 7275.0
-CONTROL_HIGH = 7290.0
+CONTROL_HIGH = 7280.0
 COTMC        = 7375.0
 COTMP        = 6975.0
 HARD_CAP     = float(na)

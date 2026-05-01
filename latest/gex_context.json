@@ -4,7 +4,7 @@
   "REPORT": "gex",
   "MODE": "0dte",
   "EXPIRATION": "2026-05-01",
-  "GENERATED_AT_ET": "2026-05-01 10:45 ET",
+  "GENERATED_AT_ET": "2026-05-01 11:00 ET",
   "CALL_WALL": 7280.0,
   "PUT_WALL": 6975.0,
   "GEX_FLIP": 6975.0,
@@ -12,15 +12,15 @@
   "BEAR_TRIGGER": 6975.0,
   "CHARM_PIN": 7280.0,
   "CONTROL_LOW": 7275.0,
-  "CONTROL_HIGH": 7290.0,
-  "CONTROL_MID": 7282.5,
+  "CONTROL_HIGH": 7280.0,
+  "CONTROL_MID": 7277.5,
   "control_zone": {
     "low": 7275.0,
-    "high": 7290.0,
-    "mid": 7282.5,
+    "high": 7280.0,
+    "mid": 7277.5,
     "spot_inside": false,
     "status": "below"
   },
-  "SPOT_REF": 7261.66,
+  "SPOT_REF": 7253.89,
   "REGIME_STR": "POSITIVE"
 }
