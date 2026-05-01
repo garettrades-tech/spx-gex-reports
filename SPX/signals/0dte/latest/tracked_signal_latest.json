@@ -1,12 +1,12 @@
 {
-  "tracked_at": "2026-05-01 09:45:56",
+  "tracked_at": "2026-05-01 10:01:28",
   "signal": {
-    "timestamp_et": "2026-05-01 09:45:44 AM ET",
-    "created_at_et": "2026-05-01T10:45:44.275139-04:00",
+    "timestamp_et": "2026-05-01 10:01:13 AM ET",
+    "created_at_et": "2026-05-01T11:01:13.869621-04:00",
     "ticker": "SPX",
     "mode": "0dte",
     "regime": "POSITIVE",
-    "spot": 7261.66,
+    "spot": 7253.89,
     "call_wall": 7280.0,
     "put_wall": 6975.0,
     "gex_flip": 6975.0,
@@ -16,16 +16,16 @@
       "stance": "BULLISH WATCH",
       "bias": "Bullish-to-contained",
       "summary": "Positive regime favors contained bullish behavior, especially if price holds near supportive structure.",
-      "trigger_long": "Constructive above 7,261.66",
+      "trigger_long": "Constructive above 7,260.00",
       "trigger_short": "Risk rises if price drives toward 6,975.00",
       "avoid": "Avoid chasing extended upside far away from the call wall or after momentum is already spent.",
       "best_time_bucket": "power_hour",
       "best_reference_cluster": null,
       "best_call_cluster_avg_roi": 456.116,
       "best_put_cluster_avg_roi": 1169.84,
-      "distance_to_call_wall": 18.340000000000146,
-      "distance_to_put_wall": 286.65999999999985,
-      "distance_to_flip": 286.65999999999985
+      "distance_to_call_wall": 26.109999999999673,
+      "distance_to_put_wall": 278.8900000000003,
+      "distance_to_flip": 278.8900000000003
     },
     "trade_plan": {
       "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
@@ -38,7 +38,7 @@
       }
     },
     "bias_score": {
-      "score": 1,
+      "score": 0,
       "label": "NEUTRAL",
       "zone_adjustment": -1,
       "structural_regime": "POSITIVE"
@@ -214,13 +214,13 @@
     "headline_commentary": "Need to verify whether any breaking macro or tariff-related headline was active."
   },
   "tracking_row": {
-    "tracked_at": "2026-05-01 09:45:56",
-    "signal_timestamp_et": "2026-05-01 09:45:44 AM ET",
+    "tracked_at": "2026-05-01 10:01:28",
+    "signal_timestamp_et": "2026-05-01 10:01:13 AM ET",
     "session_date": "2026-05-01",
     "ticker": "SPX",
     "mode": "0dte",
     "regime": "POSITIVE",
-    "spot": 7261.66,
+    "spot": 7253.89,
     "call_wall": 7280.0,
     "put_wall": 6975.0,
     "gex_flip": 6975.0,
@@ -232,12 +232,12 @@
     "ideal_strike_low": null,
     "ideal_strike_high": null,
     "target_reference": null,
-    "bias_score": 1,
+    "bias_score": 0,
     "bias_label": "NEUTRAL",
     "market_stance": "BULLISH WATCH",
     "market_bias": "Bullish-to-contained",
     "market_summary": "Positive regime favors contained bullish behavior, especially if price holds near supportive structure.",
-    "trigger_long": "Constructive above 7,261.66",
+    "trigger_long": "Constructive above 7,260.00",
     "trigger_short": "Risk rises if price drives toward 6,975.00",
     "avoid_text": "Avoid chasing extended upside far away from the call wall or after momentum is already spent.",
     "primary_setup": "Primary setup: look for conservative calls only if price is holding firm and interacting with the call-side structure. Historical playbook favors later-session put behavior.",
