@@ -1,24 +1,24 @@
 // ═══════════════════════════════════════════════════
 //  GEX LEVELS INDICATOR — PASTE INTO SPX LEVEL BLOCK
 //  Generated: 
-//  SPX Spot: ~7257.05  |  Regime: POSITIVE
+//  SPX Spot: ~7249.51  |  Regime: POSITIVE
 //  Expiry: 
 //  Strategy bias: 
 // ═══════════════════════════════════════════════════
-CALL_WALL    = 7280.0
-PUT_WALL     = 6985.0
-PLUS_GEX     = 7280.0
-MINUS_GEX    = 6985.0
-GEX_FLIP     = 6985.0
-POS_TRANS    = 7280.0
-NEG_TRANS    = 6985.0
-CHARM_PIN    = 7280.0
+CALL_WALL    = 7340.0
+PUT_WALL     = 6975.0
+PLUS_GEX     = 7340.0
+MINUS_GEX    = 6975.0
+GEX_FLIP     = 6975.0
+POS_TRANS    = 7340.0
+NEG_TRANS    = 6975.0
+CHARM_PIN    = 7340.0
 BULL_TRIGGER = 7340.0
-BEAR_TRIGGER = 6985.0
-SPOT_REF     = 7257.05
-CONTROL_LOW  = 7275.0
-CONTROL_HIGH = 7280.0
-COTMC        = 7375.0
+BEAR_TRIGGER = 6975.0
+SPOT_REF     = 7249.51
+CONTROL_LOW  = 7245.0
+CONTROL_HIGH = 7255.0
+COTMC        = 7350.0
 COTMP        = 6975.0
 HARD_CAP     = float(na)
 PUT_FLOOR    = float(na)
